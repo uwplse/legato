@@ -1,0 +1,699 @@
+- classification: fp
+  f1:
+    '*':
+    - !!python/tuple [CR, 19949, 0, 0]
+    - !!python/tuple [CR, 19648, 0, 0]
+    - !!python/tuple [CR, 19540, 0, 0]
+    - !!python/tuple
+      - P
+      - - !!python/tuple [19948, 1]
+  f2:
+    '*':
+    - !!python/tuple [CR, 19949, 0, 0]
+    - !!python/tuple [CR, 19648, 0, 0]
+    - !!python/tuple [CR, 19540, 0, 0]
+    - !!python/tuple
+      - P
+      - - !!python/tuple [19948, 1]
+  key: !!python/tuple ['<com.mvnforum.admin.CategoryXML: void exportCategory(com.mvnforum.admin.importexport.XMLWriter,int)>',
+    'r0(com.mvnforum.admin.importexport.XMLWriter)[outWriter(java.io.OutputStreamWriter)]',
+    'staticinvoke <com.mvnforum.admin.ForumXML: void exportForumList(com.mvnforum.admin.importexport.XMLWriter,int)>(r0,
+      i0)|0', 'r0(com.mvnforum.admin.importexport.XMLWriter)[outWriter(java.io.OutputStreamWriter)]']
+  tag: bug
+- classification: fp
+  f1:
+    '*':
+    - !!python/tuple [CR, 20021, 0, 0]
+    - !!python/tuple [CR, 19648, 0, 0]
+    - !!python/tuple [CR, 19540, 0, 0]
+    - !!python/tuple
+      - P
+      - - !!python/tuple [20020, 1]
+  f2:
+    '*':
+    - !!python/tuple [CR, 20021, 0, 0]
+    - !!python/tuple [CR, 19648, 0, 0]
+    - !!python/tuple [CR, 19540, 0, 0]
+    - !!python/tuple
+      - P
+      - - !!python/tuple [20020, 1]
+  key: !!python/tuple ['<com.mvnforum.admin.ForumXML: void exportForum(com.mvnforum.admin.importexport.XMLWriter,int)>',
+    'r0(com.mvnforum.admin.importexport.XMLWriter)[outWriter(java.io.OutputStreamWriter)]',
+    'staticinvoke <com.mvnforum.admin.ForumXML: void exportGroupForumPermissionsForForum(com.mvnforum.admin.importexport.XMLWriter,int)>(r0,
+      i0)|0', 'r0(com.mvnforum.admin.importexport.XMLWriter)[outWriter(java.io.OutputStreamWriter)]']
+  tag: other
+- classification: tp
+  f1:
+    webMasterEmail:
+    - !!python/tuple [CR, 14165, 0, 1]
+    - !!python/tuple [C, 3198, 0]
+  f2:
+    webMasterEmail:
+    - !!python/tuple [CR, 14165, 0, 0]
+    - !!python/tuple [C, 3198, 0]
+  key: !!python/tuple ['<com.mvnforum.admin.GeneralAdminTasksWebHandler: void sendActivateMailToAll(net.myvietnam.mvncore.web.GenericRequest)>',
+    <<zero>>(null_type), 'goto [?= $z0 = interfaceinvoke r20.<java.util.Iterator:
+      boolean hasNext()>()]|0', 'r5(java.util.ArrayList)[<<contents>>(net.myvietnam.mvncore.util.MailMessageStruct),
+      from(java.lang.String)]']
+  tag: loop
+- classification: b
+  f1:
+    '*':
+    - !!python/tuple [CR, 19829, 0, 0]
+    - !!python/tuple [CR, 19648, 0, 0]
+    - !!python/tuple [CR, 19540, 0, 0]
+    - !!python/tuple
+      - P
+      - - !!python/tuple [19826, 1]
+  f2:
+    '*':
+    - !!python/tuple [CR, 19828, 0, 0]
+    - !!python/tuple [CR, 19648, 0, 0]
+    - !!python/tuple [CR, 19540, 0, 0]
+    - !!python/tuple
+      - P
+      - - !!python/tuple [19826, 1]
+  key: !!python/tuple ['<com.mvnforum.admin.GroupXML: void exportGroup(com.mvnforum.admin.importexport.XMLWriter,int)>',
+    'r0(com.mvnforum.admin.importexport.XMLWriter)[outWriter(java.io.OutputStreamWriter)]',
+    '$r15 = r36[2]|0', 'r0(com.mvnforum.admin.importexport.XMLWriter)[outWriter(java.io.OutputStreamWriter)]']
+- classification: fp
+  key: !!python/tuple
+  - '<com.mvnforum.admin.ImportWebHelper: void createDefaultGuestMember(java.lang.String)>'
+  - !!python/tuple ['staticinvoke <com.mvnforum.admin.ImportWebHelper: void createDefaultGuestMember(java.lang.String)>($r0)|0']
+  - r1(java.lang.String)
+  tag: path
+  units: [$r2 = new java.lang.StringBuilder|0]
+  value:
+    $r2 = new java.lang.StringBuilder|0:
+      defaultGuestName:
+        ? '[staticinvoke <com.mvnforum.admin.ImportWebHelper: void createDefaultGuestMember(java.lang.String)>($r0)]|<<zero>>(null_type)'
+        : - !!python/tuple [C, 66, 0]
+        ? '[staticinvoke <com.mvnforum.admin.ImportWebHelper: void createDefaultGuestMember(java.lang.String)>($r0)]|r1(java.lang.String)'
+        : - !!python/tuple [C, 3232, 0]
+- classification: fp
+  key: !!python/tuple
+  - '<com.mvnforum.admin.ImportWebHelper: void createDefaultGuestMember(java.lang.String)>'
+  - !!python/tuple ['staticinvoke <com.mvnforum.admin.ImportWebHelper: void createDefaultGuestMember(java.lang.String)>($r3)|0']
+  - r1(java.lang.String)
+  tag: path
+  units: [$r2 = new java.lang.StringBuilder|0]
+  value:
+    $r2 = new java.lang.StringBuilder|0:
+      defaultGuestName:
+        ? '[staticinvoke <com.mvnforum.admin.ImportWebHelper: void createDefaultGuestMember(java.lang.String)>($r3)]|<<zero>>(null_type)'
+        : - !!python/tuple [C, 66, 0]
+        ? '[staticinvoke <com.mvnforum.admin.ImportWebHelper: void createDefaultGuestMember(java.lang.String)>($r3)]|r1(java.lang.String)'
+        : - !!python/tuple [C, 61, 0]
+- classification: b
+  f1:
+    '*':
+    - !!python/tuple [CR, 19658, 0, 0]
+    - !!python/tuple [CR, 19648, 0, 0]
+    - !!python/tuple [CR, 19540, 0, 0]
+    - !!python/tuple
+      - P
+      - - !!python/tuple [19654, 1]
+  f2:
+    '*':
+    - !!python/tuple [CR, 19658, 0, 0]
+    - !!python/tuple [CR, 19648, 0, 0]
+    - !!python/tuple [CR, 19540, 0, 0]
+    - !!python/tuple
+      - P
+      - - !!python/tuple [19654, 1]
+  key: !!python/tuple ['<com.mvnforum.admin.MemberXML: void exportMember(com.mvnforum.admin.importexport.XMLWriter,int)>',
+    'r0(com.mvnforum.admin.importexport.XMLWriter)[outWriter(java.io.OutputStreamWriter)]',
+    'staticinvoke <com.mvnforum.admin.MemberXML: void exportMessageFoldersForMember(com.mvnforum.admin.importexport.XMLWriter,int)>(r0,
+      i0)|0', 'r0(com.mvnforum.admin.importexport.XMLWriter)[outWriter(java.io.OutputStreamWriter)]']
+- classification: fp
+  f1:
+    '*':
+    - !!python/tuple [CR, 20266, 0, 0]
+    - !!python/tuple [CR, 19648, 0, 0]
+    - !!python/tuple [CR, 19540, 0, 0]
+    - !!python/tuple
+      - P
+      - - !!python/tuple [20265, 1]
+  f2:
+    '*':
+    - !!python/tuple [CR, 20266, 0, 0]
+    - !!python/tuple [CR, 19648, 0, 0]
+    - !!python/tuple [CR, 19540, 0, 0]
+    - !!python/tuple
+      - P
+      - - !!python/tuple [20265, 1]
+  key: !!python/tuple ['<com.mvnforum.admin.PostXML: void exportPost(com.mvnforum.admin.importexport.XMLWriter,int)>',
+    'r0(com.mvnforum.admin.importexport.XMLWriter)[outWriter(java.io.OutputStreamWriter)]',
+    'staticinvoke <com.mvnforum.admin.PostXML: void exportPostList_Replies(com.mvnforum.admin.importexport.XMLWriter,int)>(r0,
+      i0)|0', 'r0(com.mvnforum.admin.importexport.XMLWriter)[outWriter(java.io.OutputStreamWriter)]']
+  tag: other
+- classification: fp
+  f1:
+    '*':
+    - !!python/tuple [CR, 20144, 0, 0]
+    - !!python/tuple [CR, 19648, 0, 0]
+    - !!python/tuple [CR, 19540, 0, 0]
+    - !!python/tuple
+      - P
+      - - !!python/tuple [20143, 1]
+  f2:
+    '*':
+    - !!python/tuple [CR, 20144, 0, 0]
+    - !!python/tuple [CR, 19648, 0, 0]
+    - !!python/tuple [CR, 19540, 0, 0]
+    - !!python/tuple
+      - P
+      - - !!python/tuple [20143, 1]
+  key: !!python/tuple ['<com.mvnforum.admin.ThreadXML: void exportThread(com.mvnforum.admin.importexport.XMLWriter,int)>',
+    'r0(com.mvnforum.admin.importexport.XMLWriter)[outWriter(java.io.OutputStreamWriter)]',
+    'staticinvoke <com.mvnforum.admin.ThreadXML: void exportFavoriteThreadsForThread(com.mvnforum.admin.importexport.XMLWriter,int)>(r0,
+      i0)|0', 'r0(com.mvnforum.admin.importexport.XMLWriter)[outWriter(java.io.OutputStreamWriter)]']
+  tag: other
+- classification: fp
+  f1:
+    defaultLocale:
+    - !!python/tuple [CR, 10648, 0, 0]
+    - !!python/tuple [CR, 12411, 0, 0]
+    - !!python/tuple [C, 3042, 0]
+  f2:
+    defaultLocale:
+    - !!python/tuple [CR, 10648, 0, 0]
+    - !!python/tuple [CR, 12405, 0, 0]
+    - !!python/tuple [C, 3042, 0]
+  key: !!python/tuple ['<com.mvnforum.auth.OnlineUserFactoryImpl: com.mvnforum.auth.OnlineUser
+      getAnonymousUser(javax.servlet.http.HttpServletRequest)>', <<zero>>(null_type),
+    return $r4|0, '$r4(com.mvnforum.auth.OnlineUserImpl)[dateFormatter(java.text.DateFormat),
+      *(Any_subtype_of_java.lang.Object)]']
+  tag: path
+- classification: fp
+  f1:
+    defaultGuestName:
+    - !!python/tuple [CR, 10648, 0, 0]
+    - !!python/tuple [CR, 12406, 0, 0]
+    - !!python/tuple [CR, 151, 0, 0]
+    - !!python/tuple [C, 74, 0]
+  f2:
+    defaultGuestName:
+    - !!python/tuple [CR, 10648, 0, 0]
+    - !!python/tuple [CR, 12409, 0, 0]
+    - !!python/tuple [CR, 151, 0, 0]
+    - !!python/tuple [C, 74, 0]
+  key: !!python/tuple ['<com.mvnforum.auth.OnlineUserFactoryImpl: com.mvnforum.auth.OnlineUser
+      getAnonymousUser(javax.servlet.http.HttpServletRequest)>', <<zero>>(null_type),
+    return $r4|0, '$r4(com.mvnforum.auth.OnlineUserImpl)[memberName(java.lang.String)]']
+  tag: path
+- classification: fp
+  f1:
+    defaultGuestName:
+    - !!python/tuple [CR, 10648, 0, 0]
+    - !!python/tuple [CR, 12409, 0, 0]
+    - !!python/tuple [CR, 151, 0, 0]
+    - !!python/tuple [C, 74, 0]
+  f2:
+    defaultGuestName:
+    - !!python/tuple [CR, 10648, 0, 0]
+    - !!python/tuple [CR, 12406, 0, 0]
+    - !!python/tuple [CR, 151, 0, 0]
+    - !!python/tuple [C, 74, 0]
+  key: !!python/tuple ['<com.mvnforum.auth.OnlineUserFactoryImpl: com.mvnforum.auth.OnlineUser
+      getAnonymousUser(javax.servlet.http.HttpServletRequest)>', <<zero>>(null_type),
+    return $r4|0, '$r4(com.mvnforum.auth.OnlineUserImpl)[onlineUserAction(com.mvnforum.auth.OnlineUserAction),
+      memberName(java.lang.String)]']
+  tag: path
+- classification: fp
+  f1:
+    defaultLocale:
+    - !!python/tuple [CR, 12612, 0, 0]
+    - !!python/tuple [C, 3042, 0]
+  f2:
+    defaultLocale:
+    - !!python/tuple [CR, 12606, 0, 0]
+    - !!python/tuple [C, 3042, 0]
+  key: !!python/tuple ['<com.mvnforum.auth.OnlineUserFactoryImpl: com.mvnforum.auth.OnlineUser
+      getAnonymousUser(net.myvietnam.mvncore.web.GenericRequest)>', <<zero>>(null_type),
+    return $r0|0, '$r0(com.mvnforum.auth.OnlineUserImpl)[dateFormatter(java.text.DateFormat),
+      *(Any_subtype_of_java.lang.Object)]']
+  tag: copy-paste
+- classification: fp
+  f1:
+    defaultLocale:
+    - !!python/tuple [CR, 12612, 0, 0]
+    - !!python/tuple [C, 3042, 0]
+  f2:
+    defaultLocale:
+    - !!python/tuple [CR, 12606, 0, 0]
+    - !!python/tuple [C, 3042, 0]
+  key: !!python/tuple ['<com.mvnforum.auth.OnlineUserFactoryImpl: com.mvnforum.auth.OnlineUser
+      getAnonymousUser(net.myvietnam.mvncore.web.GenericRequest)>', <<zero>>(null_type),
+    return $r0|0, '$r0(com.mvnforum.auth.OnlineUserImpl)[locale(java.util.Locale)]']
+  tag: copy-paste
+- classification: fp
+  f1:
+    defaultLocaleName:
+    - !!python/tuple [CR, 12612, 0, 0]
+    - !!python/tuple [C, 3041, 0]
+  f2:
+    defaultLocaleName:
+    - !!python/tuple [CR, 12606, 0, 0]
+    - !!python/tuple [C, 3041, 0]
+  key: !!python/tuple ['<com.mvnforum.auth.OnlineUserFactoryImpl: com.mvnforum.auth.OnlineUser
+      getAnonymousUser(net.myvietnam.mvncore.web.GenericRequest)>', <<zero>>(null_type),
+    return $r0|0, '$r0(com.mvnforum.auth.OnlineUserImpl)[localeName(java.lang.String)]']
+  tag: copy-paste
+- classification: fp
+  f1:
+    defaultGuestName:
+    - !!python/tuple [CR, 12607, 0, 0]
+    - !!python/tuple [CR, 150, 0, 0]
+    - !!python/tuple [C, 73, 0]
+  f2:
+    defaultGuestName:
+    - !!python/tuple [CR, 12610, 0, 0]
+    - !!python/tuple [CR, 150, 0, 0]
+    - !!python/tuple [C, 73, 0]
+  key: !!python/tuple ['<com.mvnforum.auth.OnlineUserFactoryImpl: com.mvnforum.auth.OnlineUser
+      getAnonymousUser(net.myvietnam.mvncore.web.GenericRequest)>', <<zero>>(null_type),
+    return $r0|0, '$r0(com.mvnforum.auth.OnlineUserImpl)[memberName(java.lang.String)]']
+  tag: copy-paste
+- classification: fp
+  f1:
+    defaultGuestName:
+    - !!python/tuple [CR, 12607, 0, 0]
+    - !!python/tuple [CR, 150, 0, 0]
+    - !!python/tuple [C, 73, 0]
+  f2:
+    defaultGuestName:
+    - !!python/tuple [CR, 12610, 0, 0]
+    - !!python/tuple [CR, 150, 0, 0]
+    - !!python/tuple [C, 73, 0]
+  key: !!python/tuple ['<com.mvnforum.auth.OnlineUserFactoryImpl: com.mvnforum.auth.OnlineUser
+      getAnonymousUser(net.myvietnam.mvncore.web.GenericRequest)>', <<zero>>(null_type),
+    return $r0|0, '$r0(com.mvnforum.auth.OnlineUserImpl)[onlineUserAction(com.mvnforum.auth.OnlineUserAction),
+      memberName(java.lang.String)]']
+  tag: copy-paste
+- classification: fp
+  f1:
+    defaultLocale:
+    - !!python/tuple [CR, 12612, 0, 0]
+    - !!python/tuple [C, 3042, 0]
+  f2:
+    defaultLocale:
+    - !!python/tuple [CR, 12606, 0, 0]
+    - !!python/tuple [C, 3042, 0]
+  key: !!python/tuple ['<com.mvnforum.auth.OnlineUserFactoryImpl: com.mvnforum.auth.OnlineUser
+      getAnonymousUser(net.myvietnam.mvncore.web.GenericRequest)>', <<zero>>(null_type),
+    return $r0|0, '$r0(com.mvnforum.auth.OnlineUserImpl)[timestampFormatter(java.text.DateFormat),
+      *(Any_subtype_of_java.lang.Object)]']
+  tag: copy-paste
+- classification: fp
+  f1:
+    defaultLocale:
+    - !!python/tuple [CR, 13018, 0, 0]
+    - !!python/tuple [CR, 12411, 0, 0]
+    - !!python/tuple [C, 3042, 0]
+  f2:
+    defaultLocale:
+    - !!python/tuple [CR, 13018, 0, 0]
+    - !!python/tuple [CR, 12405, 0, 0]
+    - !!python/tuple [C, 3042, 0]
+  key: !!python/tuple ['<com.mvnforum.auth.OnlineUserManager: com.mvnforum.auth.OnlineUser
+      getOnlineUser(net.myvietnam.mvncore.web.GenericRequest)>', <<zero>>(null_type),
+    'specialinvoke r0.<com.mvnforum.auth.OnlineUserManager: void setOnlineUser(java.lang.String,com.mvnforum.auth.OnlineUser)>(r2,
+      r46)|0', 'r46(com.mvnforum.auth.OnlineUserImpl)[dateFormatter(java.text.DateFormat),
+      *(Any_subtype_of_java.lang.Object)]']
+  tag: path
+- classification: fp
+  f1:
+    defaultLocaleName:
+    - !!python/tuple [CR, 13018, 0, 0]
+    - !!python/tuple [CR, 12411, 0, 0]
+    - !!python/tuple [C, 3041, 0]
+  f2:
+    defaultLocaleName:
+    - !!python/tuple [CR, 13018, 0, 0]
+    - !!python/tuple [CR, 12405, 0, 0]
+    - !!python/tuple [C, 3041, 0]
+  key: !!python/tuple ['<com.mvnforum.auth.OnlineUserManager: com.mvnforum.auth.OnlineUser
+      getOnlineUser(net.myvietnam.mvncore.web.GenericRequest)>', <<zero>>(null_type),
+    'specialinvoke r0.<com.mvnforum.auth.OnlineUserManager: void setOnlineUser(java.lang.String,com.mvnforum.auth.OnlineUser)>(r2,
+      r46)|0', 'r46(com.mvnforum.auth.OnlineUserImpl)[localeName(java.lang.String)]']
+  tag: path
+- classification: fp
+  f1:
+    defaultGuestName:
+    - !!python/tuple [CR, 13018, 0, 0]
+    - !!python/tuple [CR, 12406, 0, 0]
+    - !!python/tuple [CR, 151, 0, 0]
+    - !!python/tuple [C, 74, 0]
+  f2:
+    defaultGuestName:
+    - !!python/tuple [CR, 13018, 0, 0]
+    - !!python/tuple [CR, 12409, 0, 0]
+    - !!python/tuple [CR, 151, 0, 0]
+    - !!python/tuple [C, 74, 0]
+  key: !!python/tuple ['<com.mvnforum.auth.OnlineUserManager: com.mvnforum.auth.OnlineUser
+      getOnlineUser(net.myvietnam.mvncore.web.GenericRequest)>', <<zero>>(null_type),
+    'specialinvoke r0.<com.mvnforum.auth.OnlineUserManager: void setOnlineUser(java.lang.String,com.mvnforum.auth.OnlineUser)>(r2,
+      r46)|0', 'r46(com.mvnforum.auth.OnlineUserImpl)[memberName(java.lang.String)]']
+  tag: path
+- classification: fp
+  f1:
+    defaultLocale:
+    - !!python/tuple [CR, 10853, 0, 0]
+    - !!python/tuple [CR, 12621, 0, 0]
+    - !!python/tuple [CR, 13242, 0, 0]
+    - !!python/tuple [C, 3042, 0]
+  f2:
+    defaultLocale:
+    - !!python/tuple [CR, 10857, 0, 0]
+    - !!python/tuple [CR, 12621, 0, 0]
+    - !!python/tuple [CR, 13242, 0, 0]
+    - !!python/tuple [C, 3042, 0]
+  key: !!python/tuple ['<com.mvnforum.auth.OnlineUserManager: com.mvnforum.auth.OnlineUser
+      login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,boolean)>',
+    <<zero>>(null_type), 'r5 = interfaceinvoke r1.<javax.servlet.http.HttpServletRequest:
+      javax.servlet.http.HttpSession getSession()>()|0', 'r15(com.mvnforum.auth.OnlineUserImpl)[dateFormatter(java.text.DateFormat),
+      *(Any_subtype_of_java.lang.Object)]']
+  tag: copy-paste
+- classification: fp
+  f1:
+    defaultLocale:
+    - !!python/tuple [CR, 10853, 0, 0]
+    - !!python/tuple [CR, 12621, 0, 0]
+    - !!python/tuple [CR, 13242, 0, 0]
+    - !!python/tuple [C, 3042, 0]
+  f2:
+    defaultLocale:
+    - !!python/tuple [CR, 10857, 0, 0]
+    - !!python/tuple [CR, 12621, 0, 0]
+    - !!python/tuple [CR, 13242, 0, 0]
+    - !!python/tuple [C, 3042, 0]
+  key: !!python/tuple ['<com.mvnforum.auth.OnlineUserManager: com.mvnforum.auth.OnlineUser
+      login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,boolean)>',
+    <<zero>>(null_type), 'r5 = interfaceinvoke r1.<javax.servlet.http.HttpServletRequest:
+      javax.servlet.http.HttpSession getSession()>()|0', 'r15(com.mvnforum.auth.OnlineUserImpl)[locale(java.util.Locale)]']
+  tag: copy-paste
+- classification: fp
+  f1:
+    defaultLocaleName:
+    - !!python/tuple [CR, 10853, 0, 0]
+    - !!python/tuple [CR, 12621, 0, 0]
+    - !!python/tuple [CR, 13242, 0, 0]
+    - !!python/tuple [C, 3041, 0]
+  f2:
+    defaultLocaleName:
+    - !!python/tuple [CR, 10857, 0, 0]
+    - !!python/tuple [CR, 12621, 0, 0]
+    - !!python/tuple [CR, 13242, 0, 0]
+    - !!python/tuple [C, 3041, 0]
+  key: !!python/tuple ['<com.mvnforum.auth.OnlineUserManager: com.mvnforum.auth.OnlineUser
+      login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,boolean)>',
+    <<zero>>(null_type), 'r5 = interfaceinvoke r1.<javax.servlet.http.HttpServletRequest:
+      javax.servlet.http.HttpSession getSession()>()|0', 'r15(com.mvnforum.auth.OnlineUserImpl)[localeName(java.lang.String)]']
+  tag: copy-paste
+- classification: fp
+  f1:
+    defaultGuestName:
+    - !!python/tuple [CR, 10853, 0, 0]
+    - !!python/tuple [CR, 12621, 0, 0]
+    - !!python/tuple [CR, 13240, 0, 0]
+    - !!python/tuple [CR, 150, 0, 0]
+    - !!python/tuple [C, 73, 0]
+  f2:
+    defaultGuestName:
+    - !!python/tuple [CR, 10857, 0, 0]
+    - !!python/tuple [CR, 12621, 0, 0]
+    - !!python/tuple [CR, 13240, 0, 0]
+    - !!python/tuple [CR, 150, 0, 0]
+    - !!python/tuple [C, 73, 0]
+  key: !!python/tuple ['<com.mvnforum.auth.OnlineUserManager: com.mvnforum.auth.OnlineUser
+      login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,boolean)>',
+    <<zero>>(null_type), 'r5 = interfaceinvoke r1.<javax.servlet.http.HttpServletRequest:
+      javax.servlet.http.HttpSession getSession()>()|0', 'r15(com.mvnforum.auth.OnlineUserImpl)[onlineUserAction(com.mvnforum.auth.OnlineUserAction),
+      memberName(java.lang.String)]']
+  tag: copy-paste
+- classification: fp
+  f1:
+    defaultLocale:
+    - !!python/tuple [CR, 10853, 0, 0]
+    - !!python/tuple [CR, 12621, 0, 0]
+    - !!python/tuple [CR, 13242, 0, 0]
+    - !!python/tuple [C, 3042, 0]
+  f2:
+    defaultLocale:
+    - !!python/tuple [CR, 10857, 0, 0]
+    - !!python/tuple [CR, 12621, 0, 0]
+    - !!python/tuple [CR, 13242, 0, 0]
+    - !!python/tuple [C, 3042, 0]
+  key: !!python/tuple ['<com.mvnforum.auth.OnlineUserManager: com.mvnforum.auth.OnlineUser
+      login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,boolean)>',
+    <<zero>>(null_type), 'r5 = interfaceinvoke r1.<javax.servlet.http.HttpServletRequest:
+      javax.servlet.http.HttpSession getSession()>()|0', 'r15(com.mvnforum.auth.OnlineUserImpl)[timestampFormatter(java.text.DateFormat),
+      *(Any_subtype_of_java.lang.Object)]']
+  tag: copy-paste
+- classification: fp
+  f1:
+    defaultLocale:
+    - !!python/tuple [CR, 16024, 0, 0]
+    - !!python/tuple [CR, 13242, 0, 0]
+    - !!python/tuple [C, 3042, 0]
+  f2:
+    defaultLocale:
+    - !!python/tuple [CR, 16028, 0, 0]
+    - !!python/tuple [CR, 13242, 0, 0]
+    - !!python/tuple [C, 3042, 0]
+  key: !!python/tuple ['<com.mvnforum.auth.OnlineUserManager: com.mvnforum.auth.OnlineUser
+      login(net.myvietnam.mvncore.web.GenericRequest,net.myvietnam.mvncore.web.GenericResponse,java.lang.String,java.lang.String,boolean)>',
+    <<zero>>(null_type), 'r5 = interfaceinvoke r1.<net.myvietnam.mvncore.web.GenericRequest:
+      java.lang.String getSessionId()>()|0', 'r15(com.mvnforum.auth.OnlineUserImpl)[dateFormatter(java.text.DateFormat),
+      *(Any_subtype_of_java.lang.Object)]']
+  tag: copy-paste
+- classification: fp
+  f1:
+    defaultLocale:
+    - !!python/tuple [CR, 16024, 0, 0]
+    - !!python/tuple [CR, 13242, 0, 0]
+    - !!python/tuple [C, 3042, 0]
+  f2:
+    defaultLocale:
+    - !!python/tuple [CR, 16028, 0, 0]
+    - !!python/tuple [CR, 13242, 0, 0]
+    - !!python/tuple [C, 3042, 0]
+  key: !!python/tuple ['<com.mvnforum.auth.OnlineUserManager: com.mvnforum.auth.OnlineUser
+      login(net.myvietnam.mvncore.web.GenericRequest,net.myvietnam.mvncore.web.GenericResponse,java.lang.String,java.lang.String,boolean)>',
+    <<zero>>(null_type), 'r5 = interfaceinvoke r1.<net.myvietnam.mvncore.web.GenericRequest:
+      java.lang.String getSessionId()>()|0', 'r15(com.mvnforum.auth.OnlineUserImpl)[locale(java.util.Locale)]']
+  tag: copy-paste
+- classification: fp
+  f1:
+    defaultLocaleName:
+    - !!python/tuple [CR, 16024, 0, 0]
+    - !!python/tuple [CR, 13242, 0, 0]
+    - !!python/tuple [C, 3041, 0]
+  f2:
+    defaultLocaleName:
+    - !!python/tuple [CR, 16028, 0, 0]
+    - !!python/tuple [CR, 13242, 0, 0]
+    - !!python/tuple [C, 3041, 0]
+  key: !!python/tuple ['<com.mvnforum.auth.OnlineUserManager: com.mvnforum.auth.OnlineUser
+      login(net.myvietnam.mvncore.web.GenericRequest,net.myvietnam.mvncore.web.GenericResponse,java.lang.String,java.lang.String,boolean)>',
+    <<zero>>(null_type), 'r5 = interfaceinvoke r1.<net.myvietnam.mvncore.web.GenericRequest:
+      java.lang.String getSessionId()>()|0', 'r15(com.mvnforum.auth.OnlineUserImpl)[localeName(java.lang.String)]']
+  tag: copy-paste
+- classification: fp
+  f1:
+    defaultGuestName:
+    - !!python/tuple [CR, 16024, 0, 0]
+    - !!python/tuple [CR, 13240, 0, 0]
+    - !!python/tuple [CR, 150, 0, 0]
+    - !!python/tuple [C, 73, 0]
+  f2:
+    defaultGuestName:
+    - !!python/tuple [CR, 16028, 0, 0]
+    - !!python/tuple [CR, 13240, 0, 0]
+    - !!python/tuple [CR, 150, 0, 0]
+    - !!python/tuple [C, 73, 0]
+  key: !!python/tuple ['<com.mvnforum.auth.OnlineUserManager: com.mvnforum.auth.OnlineUser
+      login(net.myvietnam.mvncore.web.GenericRequest,net.myvietnam.mvncore.web.GenericResponse,java.lang.String,java.lang.String,boolean)>',
+    <<zero>>(null_type), 'r5 = interfaceinvoke r1.<net.myvietnam.mvncore.web.GenericRequest:
+      java.lang.String getSessionId()>()|0', 'r15(com.mvnforum.auth.OnlineUserImpl)[onlineUserAction(com.mvnforum.auth.OnlineUserAction),
+      memberName(java.lang.String)]']
+  tag: copy-paste
+- classification: fp
+  f1:
+    defaultLocale:
+    - !!python/tuple [CR, 16024, 0, 0]
+    - !!python/tuple [CR, 13242, 0, 0]
+    - !!python/tuple [C, 3042, 0]
+  f2:
+    defaultLocale:
+    - !!python/tuple [CR, 16028, 0, 0]
+    - !!python/tuple [CR, 13242, 0, 0]
+    - !!python/tuple [C, 3042, 0]
+  key: !!python/tuple ['<com.mvnforum.auth.OnlineUserManager: com.mvnforum.auth.OnlineUser
+      login(net.myvietnam.mvncore.web.GenericRequest,net.myvietnam.mvncore.web.GenericResponse,java.lang.String,java.lang.String,boolean)>',
+    <<zero>>(null_type), 'r5 = interfaceinvoke r1.<net.myvietnam.mvncore.web.GenericRequest:
+      java.lang.String getSessionId()>()|0', 'r15(com.mvnforum.auth.OnlineUserImpl)[timestampFormatter(java.text.DateFormat),
+      *(Any_subtype_of_java.lang.Object)]']
+  tag: copy-paste
+- classification: fp
+  f1:
+    defaultLocale:
+    - !!python/tuple [CR, 12415, 0, 0]
+    - !!python/tuple [CR, 12411, 0, 0]
+    - !!python/tuple [C, 3042, 0]
+  f2:
+    defaultLocale:
+    - !!python/tuple [CR, 12415, 0, 0]
+    - !!python/tuple [CR, 12405, 0, 0]
+    - !!python/tuple [C, 3042, 0]
+  key: !!python/tuple ['<com.mvnforum.auth.OnlineUserManager: void logout(net.myvietnam.mvncore.web.GenericRequest,net.myvietnam.mvncore.web.GenericResponse)>',
+    <<zero>>(null_type), 'interfaceinvoke r10.<com.mvnforum.auth.OnlineUser: void
+      setCssPath(java.lang.String)>(r5)|0', 'r10(com.mvnforum.auth.OnlineUserImpl)[dateFormatter(java.text.DateFormat),
+      *(Any_subtype_of_java.lang.Object)]']
+  tag: path
+- classification: fp
+  f1:
+    defaultLocaleName:
+    - !!python/tuple [CR, 12415, 0, 0]
+    - !!python/tuple [CR, 12411, 0, 0]
+    - !!python/tuple [C, 3041, 0]
+  f2:
+    defaultLocaleName:
+    - !!python/tuple [CR, 12415, 0, 0]
+    - !!python/tuple [CR, 12405, 0, 0]
+    - !!python/tuple [C, 3041, 0]
+  key: !!python/tuple ['<com.mvnforum.auth.OnlineUserManager: void logout(net.myvietnam.mvncore.web.GenericRequest,net.myvietnam.mvncore.web.GenericResponse)>',
+    <<zero>>(null_type), 'interfaceinvoke r10.<com.mvnforum.auth.OnlineUser: void
+      setCssPath(java.lang.String)>(r5)|0', 'r10(com.mvnforum.auth.OnlineUserImpl)[localeName(java.lang.String)]']
+  tag: path
+- classification: fp
+  f1:
+    defaultGuestName:
+    - !!python/tuple [CR, 12415, 0, 0]
+    - !!python/tuple [CR, 12406, 0, 0]
+    - !!python/tuple [CR, 151, 0, 0]
+    - !!python/tuple [C, 74, 0]
+  f2:
+    defaultGuestName:
+    - !!python/tuple [CR, 12415, 0, 0]
+    - !!python/tuple [CR, 12409, 0, 0]
+    - !!python/tuple [CR, 151, 0, 0]
+    - !!python/tuple [C, 74, 0]
+  key: !!python/tuple ['<com.mvnforum.auth.OnlineUserManager: void logout(net.myvietnam.mvncore.web.GenericRequest,net.myvietnam.mvncore.web.GenericResponse)>',
+    <<zero>>(null_type), 'interfaceinvoke r10.<com.mvnforum.auth.OnlineUser: void
+      setCssPath(java.lang.String)>(r5)|0', 'r10(com.mvnforum.auth.OnlineUserImpl)[memberName(java.lang.String)]']
+  tag: path
+- classification: fp
+  f1:
+    defaultGuestName:
+    - !!python/tuple [CR, 12415, 0, 0]
+    - !!python/tuple [CR, 12409, 0, 0]
+    - !!python/tuple [CR, 151, 0, 0]
+    - !!python/tuple [C, 74, 0]
+  f2:
+    defaultGuestName:
+    - !!python/tuple [CR, 12415, 0, 0]
+    - !!python/tuple [CR, 12406, 0, 0]
+    - !!python/tuple [CR, 151, 0, 0]
+    - !!python/tuple [C, 74, 0]
+  key: !!python/tuple ['<com.mvnforum.auth.OnlineUserManager: void logout(net.myvietnam.mvncore.web.GenericRequest,net.myvietnam.mvncore.web.GenericResponse)>',
+    <<zero>>(null_type), 'interfaceinvoke r10.<com.mvnforum.auth.OnlineUser: void
+      setCssPath(java.lang.String)>(r5)|0', 'r10(com.mvnforum.auth.OnlineUserImpl)[onlineUserAction(com.mvnforum.auth.OnlineUserAction),
+      memberName(java.lang.String)]']
+  tag: path
+- classification: fp
+  f1:
+    defaultLocale:
+    - !!python/tuple [CR, 12415, 0, 0]
+    - !!python/tuple [CR, 12411, 0, 0]
+    - !!python/tuple [C, 3042, 0]
+  f2:
+    defaultLocale:
+    - !!python/tuple [CR, 12415, 0, 0]
+    - !!python/tuple [CR, 12405, 0, 0]
+    - !!python/tuple [C, 3042, 0]
+  key: !!python/tuple ['<com.mvnforum.auth.OnlineUserManager: void logout(net.myvietnam.mvncore.web.GenericRequest,net.myvietnam.mvncore.web.GenericResponse)>',
+    <<zero>>(null_type), 'interfaceinvoke r10.<com.mvnforum.auth.OnlineUser: void
+      setCssPath(java.lang.String)>(r5)|0', 'r10(com.mvnforum.auth.OnlineUserImpl)[timestampFormatter(java.text.DateFormat),
+      *(Any_subtype_of_java.lang.Object)]']
+  tag: path
+- classification: fp
+  f1:
+    rowsPerRSS:
+    - !!python/tuple [C, 3171, 0]
+  f2:
+    rowsPerRSS:
+    - !!python/tuple [C, 3170, 0]
+  key: !!python/tuple ['<com.mvnforum.user.ThreadWebHandler: void prepareListRSS(javax.servlet.http.HttpServletRequest)>',
+    <<zero>>(null_type), '$r12 := @caughtexception|0', i5(int)]
+  tag: path
+- classification: fp
+  f1:
+    defaultGuestName:
+    - !!python/tuple [CR, 68, 192, 0]
+    - - - !!python/tuple [TR, 68, 54, 0]
+        - !!python/tuple [CR, 63, 0, 0]
+        - !!python/tuple [C, 61, 0]
+      - - !!python/tuple [TR, 68, 192, 0]
+        - !!python/tuple [CR, 68, 54, 0]
+        - !!python/tuple [CR, 63, 0, 0]
+        - !!python/tuple [C, 61, 0]
+  f2:
+    defaultGuestName:
+    - - !!python/tuple [TR, 68, 54, 0]
+      - !!python/tuple [CR, 63, 0, 0]
+      - !!python/tuple [C, 61, 0]
+    - - !!python/tuple [TR, 68, 192, 0]
+      - !!python/tuple [CR, 68, 54, 0]
+      - !!python/tuple [CR, 63, 0, 0]
+      - !!python/tuple [C, 61, 0]
+  key: !!python/tuple ['<net.myvietnam.mvncore.db.DBConnectionManager: void <init>()>',
+    <<zero>>(null_type), '$r7 := @caughtexception|0', '[guestName(java.lang.String)]']
+  tag: reflection
+- classification: fp
+  f1:
+    defaultGuestName:
+    - !!python/tuple [CR, 68, 192, 0]
+    - - - !!python/tuple [TR, 68, 54, 0]
+        - !!python/tuple [CR, 63, 0, 0]
+        - !!python/tuple [C, 61, 0]
+      - - !!python/tuple [TR, 68, 192, 0]
+        - !!python/tuple [CR, 68, 54, 0]
+        - !!python/tuple [CR, 63, 0, 0]
+        - !!python/tuple [C, 61, 0]
+  f2:
+    defaultGuestName:
+    - - !!python/tuple [TR, 68, 54, 0]
+      - !!python/tuple [CR, 63, 0, 0]
+      - !!python/tuple [C, 61, 0]
+    - - !!python/tuple [TR, 68, 192, 0]
+      - !!python/tuple [CR, 68, 54, 0]
+      - !!python/tuple [CR, 63, 0, 0]
+      - !!python/tuple [C, 61, 0]
+  key: !!python/tuple ['<net.myvietnam.mvncore.db.DBConnectionManager: void <init>()>',
+    <<zero>>(null_type), 'goto [?= r14 = staticinvoke <net.myvietnam.mvncore.MVNCoreConfig:
+      java.lang.String getDatabaseURL()>()]|0', '[guestName(java.lang.String)]']
+  tag: reflection
+- classification: tp
+  fields:
+    defaultGuestTimeZone: !!set {? '[instance(com.mvnforum.auth.OnlineUserManager),
+        userMap(java.util.Map), <<contents>>(com.mvnforum.auth.OnlineUserImpl), hourOffset(double)]'
+      : null}
+    defaultLocale: !!set {? '[instance(com.mvnforum.auth.OnlineUserManager), userMap(java.util.Map),
+        <<contents>>(com.mvnforum.auth.OnlineUserImpl), dateFormatter(java.text.DateFormat),
+        *(Any_subtype_of_java.lang.Object)]' : null, ? '[instance(com.mvnforum.auth.OnlineUserManager),
+        userMap(java.util.Map), <<contents>>(com.mvnforum.auth.OnlineUserImpl), locale(java.util.Locale)]'
+      : null, ? '[instance(com.mvnforum.auth.OnlineUserManager), userMap(java.util.Map),
+        <<contents>>(com.mvnforum.auth.OnlineUserImpl), timestampFormatter(java.text.DateFormat),
+        *(Any_subtype_of_java.lang.Object)]' : null}
+    defaultLocaleName: !!set {? '[instance(com.mvnforum.auth.OnlineUserManager), userMap(java.util.Map),
+        <<contents>>(com.mvnforum.auth.OnlineUserImpl), localeName(java.lang.String)]'
+      : null}
+    rowsPerPage: !!set {? '[instance(com.mvnforum.auth.OnlineUserManager), userMap(java.util.Map),
+        <<contents>>(com.mvnforum.auth.OnlineUserImpl), memberPostsPerPage(int)]'
+      : null}
+  key: !!python/tuple [instance, com.mvnforum.auth.OnlineUserManager]
+  props: !!set {defaultGuestTimeZone: null, defaultLocale: null, defaultLocaleName: null,
+    rowsPerPage: null}
+  tag: static

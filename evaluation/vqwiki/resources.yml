@@ -1,0 +1,105 @@
+- sig: "<vqwiki.Environment: boolean getBooleanSetting(java.lang.String)>"
+  pos: 0
+- sig: "<vqwiki.Environment: int getIntSetting(java.lang.String)>"
+  pos: 0
+- sig: "<vqwiki.Environment: java.lang.String getStringSetting(java.lang.String)>"
+  pos: 0
+- access-sigs: ['<vqwiki.Environment: boolean getForceUsername()>', '<vqwiki.Environment:
+      java.lang.String getHomeDir()>', '<vqwiki.Environment: java.lang.String getUploadDir()>',
+    '<vqwiki.Environment: int getIndexRefreshInterval()>', '<vqwiki.Environment: int
+      getRecentChangesRefreshInterval()>', '<vqwiki.Environment: boolean getAllowHTML()>',
+    '<vqwiki.Environment: boolean isVersioningOn()>', '<vqwiki.Environment: int getEditTimeout()>',
+    '<vqwiki.Environment: java.lang.String getBaseContext()>', '<vqwiki.Environment:
+      boolean isAllowBackTick()>', '<vqwiki.Environment: java.lang.String getDriver()>',
+    '<vqwiki.Environment: java.lang.String getUrl()>', '<vqwiki.Environment: java.lang.String
+      getUsername()>', '<vqwiki.Environment: java.lang.String getPassword()>', '<vqwiki.Environment: java.lang.String getAdminPassword()>', '<vqwiki.Environment: java.lang.String getSmtpPassword()>', '<vqwiki.Environment: java.lang.String getUserGroupPassword()>',
+      '<vqwiki.Environment: boolean isForceUsername()>', '<vqwiki.Environment:
+      boolean isAllowVirtualWikiList()>', '<vqwiki.Environment: boolean isTemplatesAvailable()>',
+    '<vqwiki.Environment: boolean isPreviewAvailable()>', '<vqwiki.Environment: boolean
+      isConvertTabs()>', '<vqwiki.Environment: java.lang.String getDefaultTopic()>',
+    '<vqwiki.Environment: java.lang.String getDefaultTopicEncoded()>', '<vqwiki.Environment:
+      boolean isFirstUse()>', '<vqwiki.Environment: java.lang.String getDatabaseType()>',
+    '<vqwiki.Environment: java.lang.String getFileEncoding()>', '<vqwiki.Environment:
+      java.lang.String getForceEncoding()>', '<vqwiki.Environment: boolean isTocInsert()>',
+    '<vqwiki.Environment: int getTocMinimumHeaders()>', '<vqwiki.Environment: boolean
+      isFranzNewTopicStyle()>', '<vqwiki.Environment: boolean isOpenExtLinkInNewWindow()>',
+    '<vqwiki.Environment: boolean isAttachmentIndexingEnabled()>', '<vqwiki.Environment:
+      boolean isAttachmentTimestamp()>', '<vqwiki.Environment: boolean isExtLinksIndexingEnabled()>',
+    '<vqwiki.Environment: boolean isSeparateWikiTitleWords()>', '<vqwiki.Environment:
+      boolean getEncodePasswords()>', '<vqwiki.Environment: java.lang.String getAdminErrorMessage()>']
+- resources: [force-username]
+  sig: '<vqwiki.Environment: boolean getForceUsername()>'
+- resources: [homeDir]
+  sig: '<vqwiki.Environment: java.lang.String getHomeDir()>'
+- resources: [uploadDir]
+  sig: '<vqwiki.Environment: java.lang.String getUploadDir()>'
+- resources: [indexRefreshInterval]
+  sig: '<vqwiki.Environment: int getIndexRefreshInterval()>'
+- resources: [recentChangesRefreshInterval]
+  sig: '<vqwiki.Environment: int getRecentChangesRefreshInterval()>'
+- resources: [allowHTML]
+  sig: '<vqwiki.Environment: boolean getAllowHTML()>'
+- resources: [versioningOn]
+  sig: '<vqwiki.Environment: boolean isVersioningOn()>'
+- resources: [editTimeout]
+  sig: '<vqwiki.Environment: int getEditTimeout()>'
+- resources: [base-context]
+  sig: '<vqwiki.Environment: java.lang.String getBaseContext()>'
+- resources: [allowBackTick]
+  sig: '<vqwiki.Environment: boolean isAllowBackTick()>'
+- resources: [driver]
+  sig: '<vqwiki.Environment: java.lang.String getDriver()>'
+- resources: [url]
+  sig: '<vqwiki.Environment: java.lang.String getUrl()>'
+- resources: [username]
+  sig: '<vqwiki.Environment: java.lang.String getUsername()>'
+- resources: [password]
+  sig: '<vqwiki.Environment: java.lang.String getPassword()>'
+- resources: [adminPassword]
+  sig: '<vqwiki.Environment: java.lang.String getAdminPassword()>'
+- resources: [smtp-password]
+  sig: '<vqwiki.Environment: java.lang.String getSmtpPassword()>'
+- resources: [usergroupPassword]
+  sig: '<vqwiki.Environment: java.lang.String getUserGroupPassword()>'
+- resources: [force-username]
+  sig: '<vqwiki.Environment: boolean isForceUsername()>'
+- resources: [allow-vqwiki-list]
+  sig: '<vqwiki.Environment: boolean isAllowVirtualWikiList()>'
+- resources: [allow-templates]
+  sig: '<vqwiki.Environment: boolean isTemplatesAvailable()>'
+- resources: [use-preview]
+  sig: '<vqwiki.Environment: boolean isPreviewAvailable()>'
+- resources: [convert-tabs]
+  sig: '<vqwiki.Environment: boolean isConvertTabs()>'
+- resources: [default-topic]
+  sig: '<vqwiki.Environment: java.lang.String getDefaultTopic()>'
+- resources: [default-topic]
+  sig: '<vqwiki.Environment: java.lang.String getDefaultTopicEncoded()>'
+- resources: [firstUse]
+  sig: '<vqwiki.Environment: boolean isFirstUse()>'
+- resources: [database-type]
+  sig: '<vqwiki.Environment: java.lang.String getDatabaseType()>'
+- resources: [file-encoding]
+  sig: '<vqwiki.Environment: java.lang.String getFileEncoding()>'
+- resources: [force-encoding]
+  sig: '<vqwiki.Environment: java.lang.String getForceEncoding()>'
+- resources: [toc-make]
+  sig: '<vqwiki.Environment: boolean isTocInsert()>'
+- resources: [toc-minimum-headers]
+  sig: '<vqwiki.Environment: int getTocMinimumHeaders()>'
+- resources: [franz-newtopic-style]
+  sig: '<vqwiki.Environment: boolean isFranzNewTopicStyle()>'
+- resources: [externalLinkInNewWindow]
+  sig: '<vqwiki.Environment: boolean isOpenExtLinkInNewWindow()>'
+- resources: [attachment-indexing]
+  sig: '<vqwiki.Environment: boolean isAttachmentIndexingEnabled()>'
+- resources: [attachment-timestamp]
+  sig: '<vqwiki.Environment: boolean isAttachmentTimestamp()>'
+- resources: [extlinks-indexing]
+  sig: '<vqwiki.Environment: boolean isExtLinksIndexingEnabled()>'
+- resources: [separate-wiki-title-words]
+  sig: '<vqwiki.Environment: boolean isSeparateWikiTitleWords()>'
+- resources: [encode-passwords]
+  sig: '<vqwiki.Environment: boolean getEncodePasswords()>'
+- resources: [error.admin.message]
+  sig: '<vqwiki.Environment: java.lang.String getAdminErrorMessage()>'

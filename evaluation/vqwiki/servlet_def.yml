@@ -1,0 +1,14 @@
+app_classes: "${source_dir}/veryquickwiki-code-1305-tags-vqwiki-2.8.1/build/classes"
+web_xml: ${source_dir}/veryquickwiki-code-1305-tags-vqwiki-2.8.1/web/WEB-INF/web.xml
+jsp_dir: ${source_dir}/veryquickwiki-code-1305-tags-vqwiki-2.8.1/build/generated
+
+jsp-mapping: ${source_dir}/veryquickwiki-code-1305-tags-vqwiki-2.8.1/build/web-fragment.xml
+
+output_package: vqwiki
+
+error_pages: [ "/jsp/error.jsp" ]
+
+app_source_dir:
+  - "${source_dir}/veryquickwiki-code-1305-tags-vqwiki-2.8.1/src"
+  - "${source_dir}/veryquickwiki-code-1305-tags-vqwiki-2.8.1/build/generated/vqwiki/jsp"
+  - "${source_dir}veryquickwiki-code-1305-tags-vqwiki-2.8.1/build/generated"

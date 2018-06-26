@@ -1,0 +1,43 @@
+- access-sigs: ['<org.blojsom.blog.Blog: java.lang.Boolean getXmlrpcEnabled()>', '<org.blojsom.blog.Blog: java.lang.String getBlogBaseAdminURL()>', '<org.blojsom.blog.Blog: java.lang.String getBlogLanguage()>', '<org.blojsom.blog.Blog: java.lang.String getBlogBaseURL()>', '<org.blojsom.blog.Blog: java.lang.String getBlogCountry()>', '<org.blojsom.blog.Blog: java.util.Locale getBlogLocale()>', '<org.blojsom.blog.Blog: java.lang.String getBlogName()>', '<org.blojsom.blog.Blog: java.lang.Boolean getLinearNavigationEnabled()>', '<org.blojsom.blog.Blog: java.lang.Boolean getBlogPingbacksEnabled()>', '<org.blojsom.blog.Blog: java.lang.Boolean getBlogTrackbacksEnabled()>', '<org.blojsom.blog.Blog: java.lang.String getBlogDefaultFlavor()>', '<org.blojsom.blog.Blog: java.lang.String getBlogURL()>', '<org.blojsom.blog.Blog: java.lang.Boolean getBlogCommentsEnabled()>', '<org.blojsom.blog.Blog: java.util.Locale getBlogAdministrationLocale()>', '<org.blojsom.blog.Blog: java.lang.String getBlogDescription()>', '<org.blojsom.blog.Blog: java.lang.String getBlogOwnerEmail()>', '<org.blojsom.blog.Blog: java.lang.String getBlogOwner()>', '<org.blojsom.blog.Blog: java.lang.String getBlogAdministrationLocaleAsString()>', '<org.blojsom.blog.Blog: java.lang.Boolean getBlogEmailEnabled()>']
+- resources: [blogName]
+  sig: '<org.blojsom.blog.Blog: java.lang.String getBlogName()>'
+- resources: [blogDescription]
+  sig: '<org.blojsom.blog.Blog: java.lang.String getBlogDescription()>'
+- resources: [blogURL]
+  sig: '<org.blojsom.blog.Blog: java.lang.String getBlogBaseAdminURL()>'
+- resources: [blogBaseURL]
+  sig: '<org.blojsom.blog.Blog: java.lang.String getBlogBaseURL()>'
+- resources: [blogLanguage]
+  sig: '<org.blojsom.blog.Blog: java.lang.String getBlogLanguage()>'
+- resources: [blogCountry]
+  sig: '<org.blojsom.blog.Blog: java.lang.String getBlogCountry()>'
+- resources: [blogOwnerEmail]
+  sig: '<org.blojsom.blog.Blog: java.lang.String getBlogOwnerEmail()>'
+- resources: [blogOwner]
+  sig: '<org.blojsom.blog.Blog: java.lang.String getBlogOwner()>'
+- resources: [blogCommentsEnabled]
+  sig: '<org.blojsom.blog.Blog: java.lang.Boolean getBlogCommentsEnabled()>'
+- resources: [blogTrackbacksEnabled]
+  sig: '<org.blojsom.blog.Blog: java.lang.Boolean getBlogTrackbacksEnabled()>'
+- resources: [blogPingbacksEnabled]
+  sig: '<org.blojsom.blog.Blog: java.lang.Boolean getBlogPingbacksEnabled()>'
+- resources: [blogEmailEnabled]
+  sig: '<org.blojsom.blog.Blog: java.lang.Boolean getBlogEmailEnabled()>'
+- resources: [blogDefaultFlavor]
+  sig: '<org.blojsom.blog.Blog: java.lang.String getBlogDefaultFlavor()>'
+- resources: [linearNavigationEnabled]
+  sig: '<org.blojsom.blog.Blog: java.lang.Boolean getLinearNavigationEnabled()>'
+- resources: [xmlrpcEnabled]
+  sig: '<org.blojsom.blog.Blog: java.lang.Boolean getXmlrpcEnabled()>'
+- resources: [blogAdministrationLocale]
+  sig: '<org.blojsom.blog.Blog: java.util.Locale getBlogAdministrationLocale()>'
+- resources: [blogAdministrationLocale]
+  sig: '<org.blojsom.blog.Blog: java.lang.String getBlogAdministrationLocaleAsString()>'
+
+- resources: [blogLocale]
+  sig: '<org.blojsom.blog.Blog: java.util.Locale getBlogLocale()>'
+
+- sig: "<org.blojsom.blog.Blog: java.lang.String getProperty(java.lang.String)>"
+  pos: 0
+- sig: "<org.blojsom.blog.Blog: java.lang.String getProperty(java.lang.String,java.lang.String,boolean)>"
+  pos: 0

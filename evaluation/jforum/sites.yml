@@ -1,0 +1,1401 @@
+- {containing-method: '<net.jforum.Command: freemarker.template.Template process(net.jforum.context.RequestContext,net.jforum.context.ResponseContext,freemarker.template.SimpleHash)>',
+  containing-type: net.jforum.Command, line: '114', method: '<java.lang.reflect.Method:
+    java.lang.Object invoke(java.lang.Object,java.lang.Object[])>', source-file: Command.java,
+  tag: 299, unit-string: '$r30 = virtualinvoke $r25.<java.lang.reflect.Method: java.lang.Object
+    invoke(java.lang.Object,java.lang.Object[])>(r0, $r29)'}
+- {containing-method: '<net.jforum.view.forum.AjaxAction: void savePost()>', containing-type: net.jforum.view.forum.AjaxAction,
+  line: '205', method: '<net.jforum.search.SearchFacade: void update(net.jforum.entities.Post)>',
+  source-file: AjaxAction.java, tag: 1432, unit-string: 'staticinvoke <net.jforum.search.SearchFacade:
+    void update(net.jforum.entities.Post)>(r19)'}
+- {containing-method: '<net.jforum.util.I18n: java.lang.String getMessage(java.lang.String)>',
+  containing-type: net.jforum.util.I18n, line: '320', method: '<net.jforum.util.I18n:
+    java.lang.String getUserLanguage()>', source-file: I18n.java, tag: 2320, unit-string: '$r1
+    = staticinvoke <net.jforum.util.I18n: java.lang.String getUserLanguage()>()'}
+- {containing-method: '<net.jforum.view.forum.common.ForumCommon: void notifyUsers(net.jforum.entities.Forum,net.jforum.entities.Topic,net.jforum.entities.Post)>',
+  containing-type: net.jforum.view.forum.common.ForumCommon, line: '190', method: '<net.jforum.util.mail.ForumNewTopicSpammer:
+    void <init>(net.jforum.entities.Forum,net.jforum.entities.Topic,net.jforum.entities.Post,java.util.List)>',
+  source-file: ForumCommon.java, tag: 3118, unit-string: 'specialinvoke $r6.<net.jforum.util.mail.ForumNewTopicSpammer:
+    void <init>(net.jforum.entities.Forum,net.jforum.entities.Topic,net.jforum.entities.Post,java.util.List)>(r0,
+    r1, r2, r3)'}
+- {containing-method: '<net.jforum.util.mail.ActivationKeySpammer: void <init>(net.jforum.entities.User)>',
+  containing-type: net.jforum.util.mail.ActivationKeySpammer, line: '90', method: '<net.jforum.util.mail.Spammer:
+    void prepareMessage(java.lang.String,java.lang.String)>', source-file: ActivationKeySpammer.java,
+  tag: 3818, unit-string: 'virtualinvoke r0.<net.jforum.util.mail.ActivationKeySpammer:
+    void prepareMessage(java.lang.String,java.lang.String)>($r24, $r23)'}
+- {containing-method: '<net.jforum.view.forum.ModerationHelper: java.lang.String moderationDone(java.lang.String)>',
+  containing-type: net.jforum.view.forum.ModerationHelper, line: '336', method: '<net.jforum.util.I18n:
+    java.lang.String getMessage(java.lang.String,java.lang.Object[])>', source-file: ModerationHelper.java,
+  tag: 4008, unit-string: '$r5 = staticinvoke <net.jforum.util.I18n: java.lang.String
+    getMessage(java.lang.String,java.lang.Object[])>("Moderation.ModerationDone",
+    $r4)'}
+- {containing-method: '<net.jforum.util.I18n: void watchForChanges(java.lang.String)>',
+  containing-type: net.jforum.util.I18n, line: '229', method: '<net.jforum.util.preferences.SystemGlobals:
+    int getIntValue(java.lang.String)>', source-file: I18n.java, tag: 5564, unit-string: 'i0
+    = staticinvoke <net.jforum.util.preferences.SystemGlobals: int getIntValue(java.lang.String)>("file.changes.delay")'}
+- {containing-method: '<net.jforum.JForumExecutionContext: void setRedirect(java.lang.String)>',
+  containing-type: net.jforum.JForumExecutionContext, line: '216', source-file: JForumExecutionContext.java,
+  tag: 6291, unit-string: return}
+- {containing-method: '<net.jforum.view.forum.PostAction: void edit(boolean,net.jforum.entities.Post)>',
+  containing-type: net.jforum.view.forum.PostAction, line: '611', method: '<net.jforum.context.RequestContext:
+    int getIntParameter(java.lang.String)>', source-file: PostAction.java, tag: 3164,
+  unit-string: '$i14 = interfaceinvoke $r42.<net.jforum.context.RequestContext: int
+    getIntParameter(java.lang.String)>("topic_type")'}
+- {containing-method: '<net.jforum.search.LuceneManager: net.jforum.search.SearchResult
+    search(net.jforum.search.SearchArgs)>', containing-type: net.jforum.search.LuceneManager,
+  line: '139', method: '<net.jforum.search.LuceneSearch: net.jforum.search.SearchResult
+    search(net.jforum.search.SearchArgs)>', source-file: LuceneManager.java, tag: 5547,
+  unit-string: '$r3 = virtualinvoke $r2.<net.jforum.search.LuceneSearch: net.jforum.search.SearchResult
+    search(net.jforum.search.SearchArgs)>(r1)'}
+- {containing-method: '<net.jforum.view.forum.PostAction: boolean ensurePollMinimumOptions(net.jforum.entities.Post,net.jforum.entities.Poll)>',
+  containing-type: net.jforum.view.forum.PostAction, line: '911', method: '<net.jforum.view.forum.PostAction:
+    void edit()>', source-file: PostAction.java, tag: 3149, unit-string: 'virtualinvoke
+    r0.<net.jforum.view.forum.PostAction: void edit()>()'}
+- {containing-method: '<net.jforum.search.ContentSearchOperation: net.jforum.search.SearchResult
+    performSearch(net.jforum.search.SearchArgs)>', containing-type: net.jforum.search.ContentSearchOperation,
+  line: '70', method: '<net.jforum.search.SearchFacade: net.jforum.search.SearchResult
+    search(net.jforum.search.SearchArgs)>', source-file: ContentSearchOperation.java,
+  tag: 4742, unit-string: '$r6 = staticinvoke <net.jforum.search.SearchFacade: net.jforum.search.SearchResult
+    search(net.jforum.search.SearchArgs)>(r1)'}
+- {containing-method: '<net.jforum.search.ContentSearchOperation: net.jforum.search.SearchResult
+    performSearch(net.jforum.search.SearchArgs)>', containing-type: net.jforum.search.ContentSearchOperation,
+  line: '64', method: '<net.jforum.search.SearchArgs: java.lang.String[] getKeywords()>',
+  source-file: ContentSearchOperation.java, tag: 4741, unit-string: '$r3 = virtualinvoke
+    r1.<net.jforum.search.SearchArgs: java.lang.String[] getKeywords()>()'}
+- {containing-method: '<net.jforum.repository.PostRepository: void append(int,net.jforum.entities.Post)>',
+  containing-type: net.jforum.repository.PostRepository, line: '172', method: '<net.jforum.cache.CacheEngine:
+    void add(java.lang.String,java.lang.String,java.lang.Object)>', source-file: PostRepository.java,
+  tag: 3146, unit-string: 'interfaceinvoke $r5.<net.jforum.cache.CacheEngine: void
+    add(java.lang.String,java.lang.String,java.lang.Object)>("posts", r1, r2)'}
+- {containing-method: '<net.jforum.repository.ForumRepository: void addForum(net.jforum.entities.Forum)>',
+  containing-type: net.jforum.repository.ForumRepository, line: '463', source-file: ForumRepository.java,
+  tag: 6333, unit-string: '$r14 = <net.jforum.repository.ForumRepository: net.jforum.cache.CacheEngine
+    cache>'}
+- {containing-method: '<net.jforum.SessionFacade: void add(net.jforum.entities.UserSession,java.lang.String)>',
+  containing-type: net.jforum.SessionFacade, line: '126', source-file: SessionFacade.java,
+  tag: 6332, unit-string: '$r11 := @caughtexception'}
+- {containing-method: '<net.jforum.view.forum.HottestTopicsAction: java.util.List
+    topics()>', containing-type: net.jforum.view.forum.HottestTopicsAction, line: '116',
+  source-file: HottestTopicsAction.java, tag: 6331, unit-string: return $r7}
+- {containing-method: '<net.jforum.view.admin.CategoryAction: void editSave()>', containing-type: net.jforum.view.admin.CategoryAction,
+  line: '103', method: '<net.jforum.context.RequestContext: int getIntParameter(java.lang.String)>',
+  source-file: CategoryAction.java, tag: 837, unit-string: '$i0 = interfaceinvoke
+    $r3.<net.jforum.context.RequestContext: int getIntParameter(java.lang.String)>("categories_id")'}
+- {containing-method: '<net.jforum.repository.ForumRepository: void addForum(net.jforum.entities.Forum)>',
+  containing-type: net.jforum.repository.ForumRepository, line: '465', source-file: ForumRepository.java,
+  tag: 22, unit-string: nop}
+- {containing-method: '<net.jforum.repository.PostRepository: void append(int,net.jforum.entities.Post)>',
+  containing-type: net.jforum.repository.PostRepository, line: '172', source-file: PostRepository.java,
+  tag: 6328, unit-string: '$r5 = <net.jforum.repository.PostRepository: net.jforum.cache.CacheEngine
+    cache>'}
+- {containing-method: '<net.jforum.repository.PostRepository: void update(int,net.jforum.entities.Post)>',
+  containing-type: net.jforum.repository.PostRepository, line: '164', source-file: PostRepository.java,
+  tag: 6327, unit-string: return}
+- {containing-method: '<net.jforum.view.forum.RecentTopicsAction: java.util.List topics()>',
+  containing-type: net.jforum.view.forum.RecentTopicsAction, line: '114', method: '<net.jforum.view.forum.common.TopicsCommon:
+    java.util.List prepareTopics(java.util.List)>', source-file: RecentTopicsAction.java,
+  tag: 2341, unit-string: '$r7 = staticinvoke <net.jforum.view.forum.common.TopicsCommon:
+    java.util.List prepareTopics(java.util.List)>(r1)'}
+- {containing-method: '<net.jforum.repository.ForumRepository: net.jforum.entities.Category
+    getCategory(int)>', containing-type: net.jforum.repository.ForumRepository, line: '156',
+  source-file: ForumRepository.java, tag: 6325, unit-string: return $r1}
+- {containing-method: '<net.jforum.view.forum.PostAction: void insertSave()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '1097', method: '<net.jforum.entities.Topic: void setModerated(boolean)>',
+  source-file: PostAction.java, tag: 6324, unit-string: 'virtualinvoke r120.<net.jforum.entities.Topic:
+    void setModerated(boolean)>(z26)'}
+- {containing-method: '<net.jforum.repository.ForumRepository: void reloadCategory(net.jforum.entities.Category)>',
+  containing-type: net.jforum.repository.ForumRepository, line: '322', source-file: ForumRepository.java,
+  tag: 6323, unit-string: 'if r2 == null goto $r18 = <net.jforum.repository.ForumRepository:
+    net.jforum.cache.CacheEngine cache>'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void insertSave()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '1003', method: '<net.jforum.entities.Topic: int getType()>', source-file: PostAction.java,
+  tag: 6322, unit-string: '$i36 = virtualinvoke r120.<net.jforum.entities.Topic: int
+    getType()>()'}
+- {containing-method: '<net.jforum.JForum: void service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.jforum.JForum, line: '184', method: '<net.jforum.context.RequestContext:
+    java.lang.String getAction()>', source-file: JForum.java, tag: 6321, unit-string: '$r20
+    = interfaceinvoke r25.<net.jforum.context.RequestContext: java.lang.String getAction()>()'}
+- {containing-method: '<net.jforum.view.forum.common.TopicsCommon: void updateBoardStatus(net.jforum.entities.Topic,int,boolean,net.jforum.dao.TopicDAO,net.jforum.dao.ForumDAO)>',
+  containing-type: net.jforum.view.forum.common.TopicsCommon, line: '283', method: '<net.jforum.repository.TopicRepository:
+    void addTopic(net.jforum.entities.Topic)>', source-file: TopicsCommon.java, tag: 3132,
+  unit-string: 'staticinvoke <net.jforum.repository.TopicRepository: void addTopic(net.jforum.entities.Topic)>(r0)'}
+- {containing-method: '<net.jforum.view.forum.ForumAction: void list()>', containing-type: net.jforum.view.forum.ForumAction,
+  line: '122', method: '<java.util.List: int size()>', source-file: ForumAction.java,
+  tag: 6319, unit-string: '$i9 = interfaceinvoke r3.<java.util.List: int size()>()'}
+- {containing-method: '<net.jforum.view.admin.UserAction: int preparePagination(int)>',
+  containing-type: net.jforum.view.admin.UserAction, line: '109', method: '<net.jforum.view.forum.common.ViewCommon:
+    void contextToPagination(int,int,int)>', source-file: UserAction.java, tag: 3927,
+  unit-string: 'staticinvoke <net.jforum.view.forum.common.ViewCommon: void contextToPagination(int,int,int)>(i1,
+    i0, i2)'}
+- {containing-method: '<net.jforum.view.forum.common.ViewCommon: void contextToPagination(int,int,int)>',
+  containing-type: net.jforum.view.forum.common.ViewCommon, line: '91', source-file: ViewCommon.java,
+  tag: 6317, unit-string: $r4 = new java.lang.Double}
+- {containing-method: '<net.jforum.repository.TopicRepository: void addTopic(net.jforum.entities.Topic)>',
+  containing-type: net.jforum.repository.TopicRepository, line: '260', source-file: TopicRepository.java,
+  tag: 6316, unit-string: '$r15 = <net.jforum.repository.TopicRepository: java.util.Comparator
+    TYPE_COMPARATOR>'}
+- {containing-method: '<net.jforum.util.rss.GenericRSS: java.lang.String createRSS()>',
+  containing-type: net.jforum.util.rss.GenericRSS, line: '78', source-file: GenericRSS.java,
+  tag: 6315, unit-string: '$r11 = r0.<net.jforum.util.rss.GenericRSS: net.jforum.util.rss.RSS
+    rss>'}
+- {containing-method: '<net.jforum.view.admin.ModerationAction: void doSave()>', containing-type: net.jforum.view.admin.ModerationAction,
+  line: '145', method: '<net.jforum.entities.Topic: void setLastPostBy(net.jforum.entities.User)>',
+  source-file: ModerationAction.java, tag: 6314, unit-string: 'virtualinvoke r29.<net.jforum.entities.Topic:
+    void setLastPostBy(net.jforum.entities.User)>(r28)'}
+- {containing-method: '<net.jforum.view.forum.common.TopicsCommon: void notifyUsers(net.jforum.entities.Topic,net.jforum.entities.Post)>',
+  containing-type: net.jforum.view.forum.common.TopicsCommon, line: '249', method: '<net.jforum.util.mail.TopicReplySpammer:
+    void <init>(net.jforum.entities.Topic,net.jforum.entities.Post,java.util.List)>',
+  source-file: TopicsCommon.java, tag: 3125, unit-string: 'specialinvoke $r6.<net.jforum.util.mail.TopicReplySpammer:
+    void <init>(net.jforum.entities.Topic,net.jforum.entities.Post,java.util.List)>(r0,
+    r1, r3)'}
+- {containing-method: '<net.jforum.repository.TopicRepository: void addAll(int,java.util.List)>',
+  containing-type: net.jforum.repository.TopicRepository, line: '203', source-file: TopicRepository.java,
+  tag: 6312, unit-string: '$r19 := @caughtexception'}
+- {containing-method: '<net.jforum.repository.ForumRepository: void addCategory(net.jforum.entities.Category)>',
+  containing-type: net.jforum.repository.ForumRepository, line: '395', source-file: ForumRepository.java,
+  tag: 6311, unit-string: '$r8 = <net.jforum.repository.ForumRepository: net.jforum.cache.CacheEngine
+    cache>'}
+- {containing-method: '<net.jforum.repository.PostRepository: void append(int,net.jforum.entities.Post)>',
+  containing-type: net.jforum.repository.PostRepository, line: '174', source-file: PostRepository.java,
+  tag: 6310, unit-string: return}
+- {containing-method: '<net.jforum.repository.ForumRepository: void addCategory(net.jforum.entities.Category)>',
+  containing-type: net.jforum.repository.ForumRepository, line: '386', source-file: ForumRepository.java,
+  tag: 6309, unit-string: '$r5 = <net.jforum.repository.ForumRepository: net.jforum.cache.CacheEngine
+    cache>'}
+- {containing-method: '<net.jforum.repository.ForumRepository: void reloadCategory(net.jforum.entities.Category)>',
+  containing-type: net.jforum.repository.ForumRepository, line: '331', source-file: ForumRepository.java,
+  tag: 6308, unit-string: return}
+- {containing-method: '<net.jforum.repository.ForumRepository: void addCategory(net.jforum.entities.Category)>',
+  containing-type: net.jforum.repository.ForumRepository, line: '393', source-file: ForumRepository.java,
+  tag: 6307, unit-string: '$r7 = <net.jforum.repository.ForumRepository: net.jforum.cache.CacheEngine
+    cache>'}
+- {containing-method: '<net.jforum.util.rss.GenericRSS: java.lang.String createRSS()>',
+  containing-type: net.jforum.util.rss.GenericRSS, line: '81', source-file: GenericRSS.java,
+  tag: 6306, unit-string: '$r12 := @caughtexception'}
+- {containing-method: '<net.jforum.repository.ForumRepository: void addForum(net.jforum.entities.Forum)>',
+  containing-type: net.jforum.repository.ForumRepository, line: '459', source-file: ForumRepository.java,
+  tag: 6305, unit-string: '$r8 = <net.jforum.repository.ForumRepository: net.jforum.cache.CacheEngine
+    cache>'}
+- {containing-method: '<net.jforum.JForum: void service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.jforum.JForum, line: '184', source-file: JForum.java, tag: 6304,
+  unit-string: 'goto [?= (branch)]'}
+- {containing-method: '<net.jforum.repository.SmiliesRepository: java.util.List getSmilies()>',
+  containing-type: net.jforum.repository.SmiliesRepository, line: '96', source-file: SmiliesRepository.java,
+  tag: 6303, unit-string: 'goto [?= $z2 = interfaceinvoke r2.<java.util.Iterator:
+    boolean hasNext()>()]'}
+- {containing-method: '<net.jforum.JForum: void service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.jforum.JForum, line: '153', method: '<net.jforum.JForumExecutionContext:
+    void set(net.jforum.JForumExecutionContext)>', source-file: JForum.java, tag: 6302,
+  unit-string: 'staticinvoke <net.jforum.JForumExecutionContext: void set(net.jforum.JForumExecutionContext)>(r27)'}
+- {containing-method: '<net.jforum.JForumExecutionContext: void set(net.jforum.JForumExecutionContext)>',
+  containing-type: net.jforum.JForumExecutionContext, line: '134', source-file: JForumExecutionContext.java,
+  tag: 6301, unit-string: return}
+- {containing-method: '<net.jforum.view.forum.common.TopicsCommon: void topicListingBase()>',
+  containing-type: net.jforum.view.forum.common.TopicsCommon, line: '211', source-file: TopicsCommon.java,
+  tag: 6300, unit-string: return}
+- {containing-method: '<net.jforum.JForum: void service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.jforum.JForum, line: '211', source-file: JForum.java, tag: 6299,
+  unit-string: '$r22 := @caughtexception'}
+- {containing-method: '<net.jforum.repository.TopicRepository: void addAll(int,java.util.List)>',
+  containing-type: net.jforum.repository.TopicRepository, line: '207', source-file: TopicRepository.java,
+  tag: 6298, unit-string: 'goto [?= $z1 = interfaceinvoke r3.<java.util.Iterator:
+    boolean hasNext()>()]'}
+- {containing-method: '<net.jforum.repository.PostRepository: void update(int,net.jforum.entities.Post)>',
+  containing-type: net.jforum.repository.PostRepository, line: '162', source-file: PostRepository.java,
+  tag: 6297, unit-string: '$r6 = <net.jforum.repository.PostRepository: net.jforum.cache.CacheEngine
+    cache>'}
+- {containing-method: '<net.jforum.view.admin.UserAction: void delete()>', containing-type: net.jforum.view.admin.UserAction,
+  line: '209', source-file: UserAction.java, tag: 6296, unit-string: 'if r3 == null
+    goto interfaceinvoke r2.<net.jforum.dao.UserDAO: void delete(int)>(i0)'}
+- {containing-method: '<net.jforum.view.forum.ModerationHelper: java.lang.String moderationDone(java.lang.String)>',
+  containing-type: net.jforum.view.forum.ModerationHelper, line: '338', source-file: ModerationHelper.java,
+  tag: 6295, unit-string: return "moderation.done"}
+- {containing-method: '<net.jforum.JForum: void service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.jforum.JForum, line: '175', source-file: JForum.java, tag: 6294,
+  unit-string: '$r21 := @caughtexception'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void edit(boolean,net.jforum.entities.Post)>',
+  containing-type: net.jforum.view.forum.PostAction, line: '614', method: '<net.jforum.entities.Post:
+    boolean hasAttachments()>', source-file: PostAction.java, tag: 6293, unit-string: '$z10
+    = virtualinvoke r53.<net.jforum.entities.Post: boolean hasAttachments()>()'}
+- {containing-method: '<net.jforum.view.forum.ForumAction: void show()>', containing-type: net.jforum.view.forum.ForumAction,
+  line: '203', method: '<freemarker.template.SimpleHash: void put(java.lang.String,java.lang.Object)>',
+  source-file: ForumAction.java, tag: 6292, unit-string: 'virtualinvoke $r12.<freemarker.template.SimpleHash:
+    void put(java.lang.String,java.lang.Object)>("topics", $r15)'}
+- {containing-method: '<net.jforum.view.admin.BanlistAction: void insertSave()>',
+  containing-type: net.jforum.view.admin.BanlistAction, line: '91', method: '<net.jforum.repository.BanlistRepository:
+    void add(net.jforum.entities.Banlist)>', source-file: BanlistAction.java, tag: 1509,
+  unit-string: 'staticinvoke <net.jforum.repository.BanlistRepository: void add(net.jforum.entities.Banlist)>(r3)'}
+- {containing-method: '<net.jforum.repository.BanlistRepository: void add(net.jforum.entities.Banlist)>',
+  containing-type: net.jforum.repository.BanlistRepository, line: '95', source-file: BanlistRepository.java,
+  tag: 6290, unit-string: return}
+- {containing-method: '<net.jforum.view.forum.common.ViewCommon: void contextToPagination(int,int,int)>',
+  containing-type: net.jforum.view.forum.common.ViewCommon, line: '92', source-file: ViewCommon.java,
+  tag: 6289, unit-string: $r5 = new java.lang.Integer}
+- {containing-method: '<net.jforum.repository.ForumRepository: void addForum(net.jforum.entities.Forum)>',
+  containing-type: net.jforum.repository.ForumRepository, line: '457', source-file: ForumRepository.java,
+  tag: 6288, unit-string: '$r7 = <net.jforum.repository.ForumRepository: net.jforum.cache.CacheEngine
+    cache>'}
+- {containing-method: '<net.jforum.repository.BanlistRepository: void add(net.jforum.entities.Banlist)>',
+  containing-type: net.jforum.repository.BanlistRepository, line: '94', source-file: BanlistRepository.java,
+  tag: 6287, unit-string: '$r4 = <net.jforum.repository.BanlistRepository: net.jforum.cache.CacheEngine
+    cache>'}
+- {containing-method: '<net.jforum.SessionFacade: void add(net.jforum.entities.UserSession,java.lang.String)>',
+  containing-type: net.jforum.SessionFacade, line: '130', source-file: SessionFacade.java,
+  tag: 6286, unit-string: '$r7 = <net.jforum.SessionFacade: net.jforum.cache.CacheEngine
+    cache>'}
+- {containing-method: '<net.jforum.repository.ForumRepository: void addForum(net.jforum.entities.Forum)>',
+  containing-type: net.jforum.repository.ForumRepository, line: '461', source-file: ForumRepository.java,
+  tag: 6285, unit-string: '$r12 = <net.jforum.repository.ForumRepository: net.jforum.cache.CacheEngine
+    cache>'}
+- {containing-method: '<net.jforum.view.forum.common.ViewCommon: void contextToPagination(int,int,int)>',
+  containing-type: net.jforum.view.forum.common.ViewCommon, line: '89', source-file: ViewCommon.java,
+  tag: 6284, unit-string: $r2 = new java.lang.Integer}
+- {containing-method: '<net.jforum.view.forum.common.ViewCommon: void contextToPagination(int,int,int)>',
+  containing-type: net.jforum.view.forum.common.ViewCommon, line: '90', source-file: ViewCommon.java,
+  tag: 6283, unit-string: $r3 = new java.lang.Integer}
+- {containing-method: '<net.jforum.view.forum.HottestTopicsAction: void list()>',
+  containing-type: net.jforum.view.forum.HottestTopicsAction, line: '86', source-file: HottestTopicsAction.java,
+  tag: 6282, unit-string: '$r3 = r0.<net.jforum.view.forum.HottestTopicsAction: freemarker.template.SimpleHash
+    context>'}
+- {containing-method: '<net.jforum.view.forum.ForumAction: void list()>', containing-type: net.jforum.view.forum.ForumAction,
+  line: '89', source-file: ForumAction.java, tag: 6281, unit-string: '$r10 = r0.<net.jforum.view.forum.ForumAction:
+    freemarker.template.SimpleHash context>'}
+- {containing-method: '<net.jforum.util.mail.Spammer: boolean dispatchMessages()>',
+  containing-type: net.jforum.util.mail.Spammer, line: '147', method: '<javax.mail.Transport:
+    boolean isConnected()>', source-file: Spammer.java, tag: 6280, unit-string: '$z6
+    = virtualinvoke r63.<javax.mail.Transport: boolean isConnected()>()'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void list()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '213', source-file: PostAction.java, tag: 6279, unit-string: '$r47 = r0.<net.jforum.view.forum.PostAction:
+    freemarker.template.SimpleHash context>'}
+- {containing-method: '<net.jforum.view.admin.AttachmentsAction: void configurations()>',
+  containing-type: net.jforum.view.admin.AttachmentsAction, line: '68', source-file: AttachmentsAction.java,
+  tag: 6278, unit-string: '$r3 = r0.<net.jforum.view.admin.AttachmentsAction: freemarker.template.SimpleHash
+    context>'}
+- {containing-method: '<net.jforum.view.forum.RecentTopicsAction: void list()>', containing-type: net.jforum.view.forum.RecentTopicsAction,
+  line: '85', source-file: RecentTopicsAction.java, tag: 6277, unit-string: '$r3 =
+    r0.<net.jforum.view.forum.RecentTopicsAction: freemarker.template.SimpleHash context>'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void list()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '233', method: '<java.util.Iterator: boolean hasNext()>', source-file: PostAction.java,
+  tag: 6276, unit-string: '$z27 = interfaceinvoke r10.<java.util.Iterator: boolean
+    hasNext()>()'}
+- {containing-method: '<net.jforum.util.mail.Spammer: boolean dispatchMessages()>',
+  containing-type: net.jforum.util.mail.Spammer, line: '147', source-file: Spammer.java,
+  tag: 6275, unit-string: '$r43 := @caughtexception'}
+- {containing-method: '<net.jforum.util.mail.Spammer: boolean dispatchMessages()>',
+  containing-type: net.jforum.util.mail.Spammer, line: '148', method: '<java.util.Iterator:
+    boolean hasNext()>', source-file: Spammer.java, tag: 6274, unit-string: '$z5 =
+    interfaceinvoke r65.<java.util.Iterator: boolean hasNext()>()'}
+- {containing-method: '<net.jforum.repository.TopicRepository: void addTopic(net.jforum.entities.Topic)>',
+  containing-type: net.jforum.repository.TopicRepository, line: '236', source-file: TopicRepository.java,
+  tag: 6273, unit-string: '$r13 := @caughtexception'}
+- {containing-method: '<net.jforum.Command: freemarker.template.Template process(net.jforum.context.RequestContext,net.jforum.context.ResponseContext,freemarker.template.SimpleHash)>',
+  containing-type: net.jforum.Command, line: '122', source-file: Command.java, tag: 6272,
+  unit-string: 'goto [?= $r36 = staticinvoke <net.jforum.JForumExecutionContext: java.lang.String
+    getRedirectTo()>()]'}
+- {containing-method: '<net.jforum.util.I18n: void load()>', containing-type: net.jforum.util.I18n,
+  line: '122', method: '<net.jforum.util.preferences.SystemGlobals: java.lang.String
+    getValue(java.lang.String)>', source-file: I18n.java, tag: 104, unit-string: 'r0
+    = staticinvoke <net.jforum.util.preferences.SystemGlobals: java.lang.String getValue(java.lang.String)>("i18n.board.default")'}
+- {containing-method: '<net.jforum.view.admin.ForumAction: void insertSave()>', containing-type: net.jforum.view.admin.ForumAction,
+  line: '266', method: '<net.jforum.repository.ForumRepository: void addForum(net.jforum.entities.Forum)>',
+  source-file: ForumAction.java, tag: 688, unit-string: 'staticinvoke <net.jforum.repository.ForumRepository:
+    void addForum(net.jforum.entities.Forum)>(r1)'}
+- {containing-method: '<net.jforum.view.admin.ForumAction: void insertSave()>', containing-type: net.jforum.view.admin.ForumAction,
+  line: '263', method: '<net.jforum.dao.ForumDAO: int addNew(net.jforum.entities.Forum)>',
+  source-file: ForumAction.java, tag: 687, unit-string: 'i0 = interfaceinvoke $r14.<net.jforum.dao.ForumDAO:
+    int addNew(net.jforum.entities.Forum)>(r1)'}
+- {containing-method: '<net.jforum.view.forum.UserAction: void validateLogin()>',
+  containing-type: net.jforum.view.forum.UserAction, line: '416', method: '<net.jforum.view.forum.UserAction:
+    boolean parseBasicAuthentication()>', source-file: UserAction.java, tag: 1695,
+  unit-string: '$z0 = specialinvoke r0.<net.jforum.view.forum.UserAction: boolean
+    parseBasicAuthentication()>()'}
+- {containing-method: '<net.jforum.view.forum.HottestTopicsAction: void list()>',
+  containing-type: net.jforum.view.forum.HottestTopicsAction, line: '90', method: '<net.jforum.view.forum.common.TopicsCommon:
+    void topicListingBase()>', source-file: HottestTopicsAction.java, tag: 1482, unit-string: 'staticinvoke
+    <net.jforum.view.forum.common.TopicsCommon: void topicListingBase()>()'}
+- {containing-method: '<net.jforum.view.forum.HottestTopicsAction: void list()>',
+  containing-type: net.jforum.view.forum.HottestTopicsAction, line: '86', method: '<net.jforum.view.forum.HottestTopicsAction:
+    java.util.List topics()>', source-file: HottestTopicsAction.java, tag: 1480, unit-string: '$r4
+    = virtualinvoke r0.<net.jforum.view.forum.HottestTopicsAction: java.util.List
+    topics()>()'}
+- {containing-method: '<net.jforum.view.forum.HottestTopicsAction: void list()>',
+  containing-type: net.jforum.view.forum.HottestTopicsAction, line: '83', method: '<net.jforum.Command:
+    void setTemplateName(java.lang.String)>', source-file: HottestTopicsAction.java,
+  tag: 1479, unit-string: 'virtualinvoke r0.<net.jforum.view.forum.HottestTopicsAction:
+    void setTemplateName(java.lang.String)>("hottest.list")'}
+- {containing-method: '<net.jforum.view.forum.HottestTopicsAction: void showTopicsByUser()>',
+  containing-type: net.jforum.view.forum.HottestTopicsAction, line: '169', method: '<net.jforum.view.forum.common.ViewCommon:
+    void contextToPagination(int,int,int)>', source-file: HottestTopicsAction.java,
+  tag: 1478, unit-string: 'staticinvoke <net.jforum.view.forum.common.ViewCommon:
+    void contextToPagination(int,int,int)>(i0, i9, i1)'}
+- {containing-method: '<net.jforum.view.forum.ForumAction: void list()>', containing-type: net.jforum.view.forum.ForumAction,
+  line: '85', method: '<net.jforum.Command: void setTemplateName(java.lang.String)>',
+  source-file: ForumAction.java, tag: 668, unit-string: 'virtualinvoke r0.<net.jforum.view.forum.ForumAction:
+    void setTemplateName(java.lang.String)>("forums.list")'}
+- {containing-method: '<net.jforum.view.forum.ForumAction: void moderation()>', containing-type: net.jforum.view.forum.ForumAction,
+  line: '156', method: '<net.jforum.view.forum.ForumAction: void show()>', source-file: ForumAction.java,
+  tag: 667, unit-string: 'virtualinvoke r0.<net.jforum.view.forum.ForumAction: void
+    show()>()'}
+- {containing-method: '<net.jforum.view.forum.ForumAction: void show()>', containing-type: net.jforum.view.forum.ForumAction,
+  line: '225', method: '<net.jforum.view.forum.common.TopicsCommon: void topicListingBase()>',
+  source-file: ForumAction.java, tag: 666, unit-string: 'staticinvoke <net.jforum.view.forum.common.TopicsCommon:
+    void topicListingBase()>()'}
+- {containing-method: '<net.jforum.view.forum.ForumAction: void show()>', containing-type: net.jforum.view.forum.ForumAction,
+  line: '222', method: '<net.jforum.view.forum.common.ViewCommon: void contextToPagination(int,int,int)>',
+  source-file: ForumAction.java, tag: 665, unit-string: 'staticinvoke <net.jforum.view.forum.common.ViewCommon:
+    void contextToPagination(int,int,int)>(i1, i3, i7)'}
+- {containing-method: '<net.jforum.view.forum.ModerationHelper: int doModeration(java.lang.String)>',
+  containing-type: net.jforum.view.forum.ModerationHelper, line: '126', method: '<net.jforum.JForumExecutionContext:
+    void setRedirect(java.lang.String)>', source-file: ModerationHelper.java, tag: 4037,
+  unit-string: 'staticinvoke <net.jforum.JForumExecutionContext: void setRedirect(java.lang.String)>(r1)'}
+- {containing-method: '<net.jforum.view.forum.ForumAction: void show()>', containing-type: net.jforum.view.forum.ForumAction,
+  line: '203', method: '<net.jforum.view.forum.common.TopicsCommon: java.util.List
+    prepareTopics(java.util.List)>', source-file: ForumAction.java, tag: 658, unit-string: '$r15
+    = staticinvoke <net.jforum.view.forum.common.TopicsCommon: java.util.List prepareTopics(java.util.List)>(r3)'}
+- {containing-method: '<net.jforum.view.forum.AjaxAction: void sendTestMail()>', containing-type: net.jforum.view.forum.AjaxAction,
+  line: '150', method: '<net.jforum.util.mail.Spammer: boolean dispatchMessages()>',
+  source-file: AjaxAction.java, tag: 1454, unit-string: '$z0 = virtualinvoke r16.<net.jforum.util.mail.Spammer:
+    boolean dispatchMessages()>()'}
+- {containing-method: '<net.jforum.view.forum.AjaxAction: void sendTestMail()>', containing-type: net.jforum.view.forum.AjaxAction,
+  line: '147', method: '<net.jforum.view.forum.AjaxAction$1TestSpammer: void <init>(net.jforum.view.forum.AjaxAction,java.lang.String)>',
+  source-file: AjaxAction.java, tag: 1453, unit-string: 'specialinvoke $r27.<net.jforum.view.forum.AjaxAction$1TestSpammer:
+    void <init>(net.jforum.view.forum.AjaxAction,java.lang.String)>(r0, r8)'}
+- {containing-method: '<net.jforum.view.forum.PostAction: boolean isForumReadonly(int,boolean)>',
+  containing-type: net.jforum.view.forum.PostAction, line: '1505', method: '<net.jforum.JForumExecutionContext:
+    void setRedirect(java.lang.String)>', source-file: PostAction.java, tag: 3041,
+  unit-string: 'staticinvoke <net.jforum.JForumExecutionContext: void setRedirect(java.lang.String)>($r10)'}
+- {containing-method: '<net.jforum.view.forum.AjaxAction: void savePost()>', containing-type: net.jforum.view.forum.AjaxAction,
+  line: '226', method: '<net.jforum.repository.PostRepository: void update(int,net.jforum.entities.Post)>',
+  source-file: AjaxAction.java, tag: 1442, unit-string: 'staticinvoke <net.jforum.repository.PostRepository:
+    void update(int,net.jforum.entities.Post)>($i1, $r10)'}
+- {containing-method: '<net.jforum.view.forum.AjaxAction: void savePost()>', containing-type: net.jforum.view.forum.AjaxAction,
+  line: '226', method: '<net.jforum.view.forum.common.PostCommon: net.jforum.entities.Post
+    preparePostForDisplay(net.jforum.entities.Post)>', source-file: AjaxAction.java,
+  tag: 1441, unit-string: '$r10 = staticinvoke <net.jforum.view.forum.common.PostCommon:
+    net.jforum.entities.Post preparePostForDisplay(net.jforum.entities.Post)>(r20)'}
+- {containing-method: '<net.jforum.view.forum.PostAction: boolean isForumReadonly(int,boolean)>',
+  containing-type: net.jforum.view.forum.PostAction, line: '1502', method: '<net.jforum.view.forum.PostAction:
+    void list()>', source-file: PostAction.java, tag: 3033, unit-string: 'virtualinvoke
+    r0.<net.jforum.view.forum.PostAction: void list()>()'}
+- {containing-method: '<net.jforum.view.forum.ForumAction: void show()>', containing-type: net.jforum.view.forum.ForumAction,
+  line: '164', method: '<net.jforum.context.RequestContext: int getIntParameter(java.lang.String)>',
+  source-file: ForumAction.java, tag: 640, unit-string: 'i0 = interfaceinvoke $r5.<net.jforum.context.RequestContext:
+    int getIntParameter(java.lang.String)>("forum_id")'}
+- {containing-method: '<net.jforum.view.forum.AjaxAction: void savePost()>', containing-type: net.jforum.view.forum.AjaxAction,
+  line: '206', method: '<net.jforum.view.forum.common.PostCommon: net.jforum.entities.Post
+    preparePostForDisplay(net.jforum.entities.Post)>', source-file: AjaxAction.java,
+  tag: 1433, unit-string: 'r20 = staticinvoke <net.jforum.view.forum.common.PostCommon:
+    net.jforum.entities.Post preparePostForDisplay(net.jforum.entities.Post)>(r19)'}
+- {containing-method: '<net.jforum.util.mail.TopicReplySpammer: void <init>(net.jforum.entities.Topic,net.jforum.entities.Post,java.util.List)>',
+  containing-type: net.jforum.util.mail.TopicReplySpammer, line: '109', method: '<net.jforum.util.mail.Spammer:
+    void prepareMessage(java.lang.String,java.lang.String)>', source-file: TopicReplySpammer.java,
+  tag: 4620, unit-string: 'virtualinvoke r0.<net.jforum.util.mail.TopicReplySpammer:
+    void prepareMessage(java.lang.String,java.lang.String)>($r14, $r13)'}
+- {containing-method: '<net.jforum.view.forum.AjaxAction: void savePost()>', containing-type: net.jforum.view.forum.AjaxAction,
+  line: '204', method: '<net.jforum.dao.PostDAO: void update(net.jforum.entities.Post)>',
+  source-file: AjaxAction.java, tag: 1431, unit-string: 'interfaceinvoke r1.<net.jforum.dao.PostDAO:
+    void update(net.jforum.entities.Post)>(r19)'}
+- {containing-method: '<net.jforum.view.forum.ForumAction: void readAll()>', containing-type: net.jforum.view.forum.ForumAction,
+  line: '267', method: '<net.jforum.JForumExecutionContext: void setRedirect(java.lang.String)>',
+  source-file: ForumAction.java, tag: 632, unit-string: 'staticinvoke <net.jforum.JForumExecutionContext:
+    void setRedirect(java.lang.String)>($r11)'}
+- {containing-method: '<net.jforum.util.mail.TopicReplySpammer: void <init>(net.jforum.entities.Topic,net.jforum.entities.Post,java.util.List)>',
+  containing-type: net.jforum.util.mail.TopicReplySpammer, line: '84', method: '<net.jforum.util.mail.TopicReplySpammer:
+    java.lang.String unwatchLink(net.jforum.entities.Topic,java.lang.String)>', source-file: TopicReplySpammer.java,
+  tag: 4616, unit-string: 'r6 = specialinvoke r0.<net.jforum.util.mail.TopicReplySpammer:
+    java.lang.String unwatchLink(net.jforum.entities.Topic,java.lang.String)>(r1,
+    r4)'}
+- {containing-method: '<net.jforum.util.mail.TopicReplySpammer: void <init>(net.jforum.entities.Topic,net.jforum.entities.Post,java.util.List)>',
+  containing-type: net.jforum.util.mail.TopicReplySpammer, line: '83', method: '<net.jforum.util.mail.TopicReplySpammer:
+    java.lang.String messageLink(net.jforum.entities.Topic,java.lang.StringBuffer,java.lang.String)>',
+  source-file: TopicReplySpammer.java, tag: 4615, unit-string: 'r5 = specialinvoke
+    r0.<net.jforum.util.mail.TopicReplySpammer: java.lang.String messageLink(net.jforum.entities.Topic,java.lang.StringBuffer,java.lang.String)>(r1,
+    r3, r4)'}
+- {containing-method: '<net.jforum.view.forum.SearchAction: void search(net.jforum.search.SearchOperation)>',
+  containing-type: net.jforum.view.forum.SearchAction, line: '103', method: '<net.jforum.search.SearchOperation:
+    net.jforum.search.SearchResult performSearch(net.jforum.search.SearchArgs)>',
+  source-file: SearchAction.java, tag: 3339, unit-string: 'r3 = virtualinvoke r1.<net.jforum.search.SearchOperation:
+    net.jforum.search.SearchResult performSearch(net.jforum.search.SearchArgs)>(r2)'}
+- {containing-method: '<net.jforum.view.forum.ForumAction: void newMessages()>', containing-type: net.jforum.view.forum.ForumAction,
+  line: '284', method: '<net.jforum.Command: void setTemplateName(java.lang.String)>',
+  source-file: ForumAction.java, tag: 627, unit-string: 'virtualinvoke r0.<net.jforum.view.forum.ForumAction:
+    void setTemplateName(java.lang.String)>("search.new.messages")'}
+- {containing-method: '<net.jforum.util.mail.TopicReplySpammer: void <init>(net.jforum.entities.Topic,net.jforum.entities.Post,java.util.List)>',
+  containing-type: net.jforum.util.mail.TopicReplySpammer, line: '72', method: '<net.jforum.util.mail.Spammer:
+    void <init>()>', source-file: TopicReplySpammer.java, tag: 4611, unit-string: 'specialinvoke
+    r0.<net.jforum.util.mail.Spammer: void <init>()>()'}
+- {containing-method: '<net.jforum.view.forum.ForumAction: void approveMessages()>',
+  containing-type: net.jforum.view.forum.ForumAction, line: '293', method: '<net.jforum.JForumExecutionContext:
+    void setRedirect(java.lang.String)>', source-file: ForumAction.java, tag: 624,
+  unit-string: 'staticinvoke <net.jforum.JForumExecutionContext: void setRedirect(java.lang.String)>($r13)'}
+- {containing-method: '<net.jforum.view.forum.SearchAction: void newMessages()>',
+  containing-type: net.jforum.view.forum.SearchAction, line: '88', method: '<net.jforum.view.forum.SearchAction:
+    void search(net.jforum.search.SearchOperation)>', source-file: SearchAction.java,
+  tag: 1418, unit-string: 'specialinvoke r0.<net.jforum.view.forum.SearchAction: void
+    search(net.jforum.search.SearchOperation)>($r1)'}
+- {containing-method: '<net.jforum.util.mail.ForumNewTopicSpammer: void <init>(net.jforum.entities.Forum,net.jforum.entities.Topic,net.jforum.entities.Post,java.util.List)>',
+  containing-type: net.jforum.util.mail.ForumNewTopicSpammer, line: '86', method: '<net.jforum.util.mail.Spammer:
+    void prepareMessage(java.lang.String,java.lang.String)>', source-file: ForumNewTopicSpammer.java,
+  tag: 4605, unit-string: 'specialinvoke r0.<net.jforum.util.mail.Spammer: void prepareMessage(java.lang.String,java.lang.String)>($r13,
+    $r12)'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void list()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '252', method: '<net.jforum.view.forum.common.TopicsCommon: void topicListingBase()>',
+  source-file: PostAction.java, tag: 1414, unit-string: 'staticinvoke <net.jforum.view.forum.common.TopicsCommon:
+    void topicListingBase()>()'}
+- {containing-method: '<net.jforum.util.mail.ForumNewTopicSpammer: void <init>(net.jforum.entities.Forum,net.jforum.entities.Topic,net.jforum.entities.Post,java.util.List)>',
+  containing-type: net.jforum.util.mail.ForumNewTopicSpammer, line: '67', method: '<net.jforum.util.mail.ForumNewTopicSpammer:
+    java.lang.String unwatchLink(net.jforum.entities.Forum,java.lang.String)>', source-file: ForumNewTopicSpammer.java,
+  tag: 4601, unit-string: 'r6 = specialinvoke r0.<net.jforum.util.mail.ForumNewTopicSpammer:
+    java.lang.String unwatchLink(net.jforum.entities.Forum,java.lang.String)>(r1,
+    r4)'}
+- {containing-method: '<net.jforum.util.mail.ForumNewTopicSpammer: void <init>(net.jforum.entities.Forum,net.jforum.entities.Topic,net.jforum.entities.Post,java.util.List)>',
+  containing-type: net.jforum.util.mail.ForumNewTopicSpammer, line: '66', method: '<net.jforum.util.mail.ForumNewTopicSpammer:
+    java.lang.String postLink(net.jforum.entities.Topic,java.lang.String)>', source-file: ForumNewTopicSpammer.java,
+  tag: 4600, unit-string: 'r5 = specialinvoke r0.<net.jforum.util.mail.ForumNewTopicSpammer:
+    java.lang.String postLink(net.jforum.entities.Topic,java.lang.String)>(r2, r4)'}
+- {containing-method: '<net.jforum.util.mail.ForumNewTopicSpammer: void <init>(net.jforum.entities.Forum,net.jforum.entities.Topic,net.jforum.entities.Post,java.util.List)>',
+  containing-type: net.jforum.util.mail.ForumNewTopicSpammer, line: '64', method: '<net.jforum.util.mail.Spammer:
+    void <init>()>', source-file: ForumNewTopicSpammer.java, tag: 4598, unit-string: 'specialinvoke
+    r0.<net.jforum.util.mail.Spammer: void <init>()>()'}
+- {containing-method: '<net.jforum.view.forum.ForumAction: void watchForum()>', containing-type: net.jforum.view.forum.ForumAction,
+  line: '308', method: '<net.jforum.JForumExecutionContext: void setRedirect(java.lang.String)>',
+  source-file: ForumAction.java, tag: 612, unit-string: 'staticinvoke <net.jforum.JForumExecutionContext:
+    void setRedirect(java.lang.String)>($r5)'}
+- {containing-method: '<net.jforum.view.forum.ForumAction: void watchForum()>', containing-type: net.jforum.view.forum.ForumAction,
+  line: '308', method: '<net.jforum.view.forum.ForumAction: java.lang.String redirectLinkToShowAction(int)>',
+  source-file: ForumAction.java, tag: 611, unit-string: '$r5 = specialinvoke r0.<net.jforum.view.forum.ForumAction:
+    java.lang.String redirectLinkToShowAction(int)>(i0)'}
+- {containing-method: '<net.jforum.repository.TopicRepository: void addTopic(net.jforum.entities.Topic)>',
+  containing-type: net.jforum.repository.TopicRepository, line: '241', method: '<net.jforum.cache.CacheEngine:
+    java.lang.Object get(java.lang.String,java.lang.String)>', source-file: TopicRepository.java,
+  tag: 3239, unit-string: '$r5 = interfaceinvoke $r4.<net.jforum.cache.CacheEngine:
+    java.lang.Object get(java.lang.String,java.lang.String)>("topics/byforum", r2)'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void list()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '207', method: '<net.jforum.Command: void setTemplateName(java.lang.String)>',
+  source-file: PostAction.java, tag: 1394, unit-string: 'virtualinvoke r0.<net.jforum.view.forum.PostAction:
+    void setTemplateName(java.lang.String)>("posts.list")'}
+- {containing-method: '<net.jforum.view.admin.AttachmentsAction: void configurations()>',
+  containing-type: net.jforum.view.admin.AttachmentsAction, line: '74', method: '<net.jforum.Command:
+    void setTemplateName(java.lang.String)>', source-file: AttachmentsAction.java,
+  tag: 596, unit-string: 'virtualinvoke r0.<net.jforum.view.admin.AttachmentsAction:
+    void setTemplateName(java.lang.String)>("attachments.config")'}
+- {containing-method: '<net.jforum.view.admin.AttachmentsAction: void configurationsSave()>',
+  containing-type: net.jforum.view.admin.AttachmentsAction, line: '82', method: '<net.jforum.view.admin.AttachmentsAction:
+    void configurations()>', source-file: AttachmentsAction.java, tag: 595, unit-string: 'virtualinvoke
+    r0.<net.jforum.view.admin.AttachmentsAction: void configurations()>()'}
+- {containing-method: '<net.jforum.view.forum.HottestTopicsAction: java.util.List
+    topics()>', containing-type: net.jforum.view.forum.HottestTopicsAction, line: '116',
+  method: '<net.jforum.view.forum.common.TopicsCommon: java.util.List prepareTopics(java.util.List)>',
+  source-file: HottestTopicsAction.java, tag: 3379, unit-string: '$r7 = staticinvoke
+    <net.jforum.view.forum.common.TopicsCommon: java.util.List prepareTopics(java.util.List)>(r1)'}
+- {containing-method: '<net.jforum.util.I18n: void load(java.lang.String,java.lang.String,boolean)>',
+  containing-type: net.jforum.util.I18n, line: '202', method: '<net.jforum.util.I18n:
+    void watchForChanges(java.lang.String)>', source-file: I18n.java, tag: 5365, unit-string: 'staticinvoke
+    <net.jforum.util.I18n: void watchForChanges(java.lang.String)>(r0)'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void delete()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '1308', method: '<net.jforum.JForumExecutionContext: void setRedirect(java.lang.String)>',
+  source-file: PostAction.java, tag: 1014, unit-string: 'staticinvoke <net.jforum.JForumExecutionContext:
+    void setRedirect(java.lang.String)>($r48)'}
+- {containing-method: '<net.jforum.SessionFacade: java.lang.String isUserInSession(int)>',
+  containing-type: net.jforum.SessionFacade, line: '356', method: '<net.jforum.cache.CacheEngine:
+    java.lang.Object get(java.lang.String,java.lang.String)>', source-file: SessionFacade.java,
+  tag: 3760, unit-string: '$r2 = interfaceinvoke $r0.<net.jforum.cache.CacheEngine:
+    java.lang.Object get(java.lang.String,java.lang.String)>("sessions/userId", $r1)'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void preList()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '285', method: '<net.jforum.JForumExecutionContext: void setRedirect(java.lang.String)>',
+  source-file: PostAction.java, tag: 1365, unit-string: 'staticinvoke <net.jforum.JForumExecutionContext:
+    void setRedirect(java.lang.String)>($r18)'}
+- {containing-method: '<net.jforum.view.forum.SearchAction: void search(net.jforum.search.SearchOperation)>',
+  containing-type: net.jforum.view.forum.SearchAction, line: '101', method: '<net.jforum.util.preferences.SystemGlobals:
+    int getIntValue(java.lang.String)>', source-file: SearchAction.java, tag: 239,
+  unit-string: 'i1 = staticinvoke <net.jforum.util.preferences.SystemGlobals: int
+    getIntValue(java.lang.String)>("topicsPerPage")'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void insertSave()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '947', method: '<net.jforum.view.forum.PostAction: boolean anonymousPost(int)>',
+  source-file: PostAction.java, tag: 1034, unit-string: '$z1 = specialinvoke r0.<net.jforum.view.forum.PostAction:
+    boolean anonymousPost(int)>(i0)'}
+- {containing-method: '<net.jforum.JForum: void service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.jforum.JForum, line: '146', method: '<net.jforum.context.JForumContext:
+    void <init>(java.lang.String,java.lang.String,net.jforum.context.RequestContext,net.jforum.context.ResponseContext)>',
+  source-file: JForum.java, tag: 80, unit-string: 'specialinvoke $r9.<net.jforum.context.JForumContext:
+    void <init>(java.lang.String,java.lang.String,net.jforum.context.RequestContext,net.jforum.context.ResponseContext)>($r12,
+    $r11, r25, r26)'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void vote()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '321', method: '<net.jforum.JForumExecutionContext: void setRedirect(java.lang.String)>',
+  source-file: PostAction.java, tag: 1344, unit-string: 'staticinvoke <net.jforum.JForumExecutionContext:
+    void setRedirect(java.lang.String)>($r23)'}
+- {containing-method: '<net.jforum.search.SearchFacade: net.jforum.search.SearchResult
+    search(net.jforum.search.SearchArgs)>', containing-type: net.jforum.search.SearchFacade,
+  line: '104', method: '<net.jforum.search.SearchManager: net.jforum.search.SearchResult
+    search(net.jforum.search.SearchArgs)>', source-file: SearchFacade.java, tag: 5323,
+  unit-string: '$r3 = interfaceinvoke $r2.<net.jforum.search.SearchManager: net.jforum.search.SearchResult
+    search(net.jforum.search.SearchArgs)>(r0)'}
+- {containing-method: '<net.jforum.view.forum.PrivateMessageAction: void sendSave()>',
+  containing-type: net.jforum.view.forum.PrivateMessageAction, line: '245', method: '<net.jforum.util.mail.PrivateMessageSpammer:
+    void <init>(net.jforum.entities.User)>', source-file: PrivateMessageAction.java,
+  tag: 2134, unit-string: 'specialinvoke $r40.<net.jforum.util.mail.PrivateMessageSpammer:
+    void <init>(net.jforum.entities.User)>(r4)'}
+- {containing-method: '<net.jforum.view.forum.PrivateMessageAction: void sendSave()>',
+  containing-type: net.jforum.view.forum.PrivateMessageAction, line: '236', method: '<net.jforum.SessionFacade:
+    java.lang.String isUserInSession(int)>', source-file: PrivateMessageAction.java,
+  tag: 2132, unit-string: 'r52 = staticinvoke <net.jforum.SessionFacade: java.lang.String
+    isUserInSession(int)>(i5)'}
+- {containing-method: '<net.jforum.SessionFacade: void add(net.jforum.entities.UserSession)>',
+  containing-type: net.jforum.SessionFacade, line: '97', method: '<net.jforum.SessionFacade:
+    void add(net.jforum.entities.UserSession,java.lang.String)>', source-file: SessionFacade.java,
+  tag: 3723, unit-string: 'staticinvoke <net.jforum.SessionFacade: void add(net.jforum.entities.UserSession,java.lang.String)>(r0,
+    $r3)'}
+- {containing-method: '<net.jforum.view.forum.common.ViewCommon: java.lang.String
+    getForumLink()>', containing-type: net.jforum.view.forum.common.ViewCommon, line: '181',
+  method: '<net.jforum.util.preferences.SystemGlobals: java.lang.String getValue(java.lang.String)>',
+  source-file: ViewCommon.java, tag: 261, unit-string: 'r3 = staticinvoke <net.jforum.util.preferences.SystemGlobals:
+    java.lang.String getValue(java.lang.String)>("forum.link")'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void vote()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '297', method: '<net.jforum.context.RequestContext: int getIntParameter(java.lang.String)>',
+  source-file: PostAction.java, tag: 1328, unit-string: 'i1 = interfaceinvoke $r4.<net.jforum.context.RequestContext:
+    int getIntParameter(java.lang.String)>("topic_id")'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void listByUser()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '399', method: '<net.jforum.view.forum.common.ViewCommon: void contextToPagination(int,int,int)>',
+  source-file: PostAction.java, tag: 1326, unit-string: 'staticinvoke <net.jforum.view.forum.common.ViewCommon:
+    void contextToPagination(int,int,int)>(i1, i15, i0)'}
+- {containing-method: '<net.jforum.view.forum.common.PostCommon: java.lang.String
+    processSmilies(java.lang.StringBuffer)>', containing-type: net.jforum.view.forum.common.PostCommon,
+  line: '265', method: '<net.jforum.repository.SmiliesRepository: java.util.List getSmilies()>',
+  source-file: PostCommon.java, tag: 5307, unit-string: 'r1 = staticinvoke <net.jforum.repository.SmiliesRepository:
+    java.util.List getSmilies()>()'}
+- {containing-method: '<net.jforum.view.forum.common.ViewCommon: java.lang.String
+    contextToLogin(java.lang.String)>', containing-type: net.jforum.view.forum.common.ViewCommon,
+  line: '143', method: '<net.jforum.JForumExecutionContext: void setRedirect(java.lang.String)>',
+  source-file: ViewCommon.java, tag: 2913, unit-string: 'staticinvoke <net.jforum.JForumExecutionContext:
+    void setRedirect(java.lang.String)>(r25)'}
+- {containing-method: '<net.jforum.util.mail.LostPasswordSpammer: void <init>(net.jforum.entities.User,java.lang.String)>',
+  containing-type: net.jforum.util.mail.LostPasswordSpammer, line: '81', method: '<net.jforum.util.mail.Spammer:
+    void prepareMessage(java.lang.String,java.lang.String)>', source-file: LostPasswordSpammer.java,
+  tag: 3699, unit-string: 'specialinvoke r0.<net.jforum.util.mail.Spammer: void prepareMessage(java.lang.String,java.lang.String)>(r2,
+    $r16)'}
+- {containing-method: '<net.jforum.view.forum.common.ViewCommon: java.lang.String
+    contextToLogin(java.lang.String)>', containing-type: net.jforum.view.forum.common.ViewCommon,
+  line: '130', method: '<net.jforum.view.forum.common.ViewCommon: java.lang.String
+    getForumLink()>', source-file: ViewCommon.java, tag: 2898, unit-string: '$r6 =
+    staticinvoke <net.jforum.view.forum.common.ViewCommon: java.lang.String getForumLink()>()'}
+- {containing-method: '<net.jforum.util.mail.LostPasswordSpammer: void <init>(net.jforum.entities.User,java.lang.String)>',
+  containing-type: net.jforum.util.mail.LostPasswordSpammer, line: '61', method: '<net.jforum.util.mail.Spammer:
+    void <init>()>', source-file: LostPasswordSpammer.java, tag: 3691, unit-string: 'specialinvoke
+    r0.<net.jforum.util.mail.Spammer: void <init>()>()'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void insertSave()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '1186', method: '<net.jforum.repository.ForumRepository: void updateForumStats(net.jforum.entities.Topic,net.jforum.entities.User,net.jforum.entities.Post)>',
+  source-file: PostAction.java, tag: 1102, unit-string: 'staticinvoke <net.jforum.repository.ForumRepository:
+    void updateForumStats(net.jforum.entities.Topic,net.jforum.entities.User,net.jforum.entities.Post)>(r120,
+    r5, r6)'}
+- {containing-method: '<net.jforum.view.admin.AttachmentsAction: void list()>', containing-type: net.jforum.view.admin.AttachmentsAction,
+  line: '277', method: '<net.jforum.view.admin.AttachmentsAction: void configurations()>',
+  source-file: AttachmentsAction.java, tag: 478, unit-string: 'virtualinvoke r0.<net.jforum.view.admin.AttachmentsAction:
+    void configurations()>()'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void insert()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '544', method: '<net.jforum.repository.SmiliesRepository: java.util.List getSmilies()>',
+  source-file: PostAction.java, tag: 1270, unit-string: '$r53 = staticinvoke <net.jforum.repository.SmiliesRepository:
+    java.util.List getSmilies()>()'}
+- {containing-method: '<net.jforum.view.forum.RecentTopicsAction: void showTopicsByUser()>',
+  containing-type: net.jforum.view.forum.RecentTopicsAction, line: '133', method: '<net.jforum.util.preferences.SystemGlobals:
+    int getIntValue(java.lang.String)>', source-file: RecentTopicsAction.java, tag: 164,
+  unit-string: 'i1 = staticinvoke <net.jforum.util.preferences.SystemGlobals: int
+    getIntValue(java.lang.String)>("topicsPerPage")'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void insert()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '515', method: '<net.jforum.view.forum.PostAction: boolean anonymousPost(int)>',
+  source-file: PostAction.java, tag: 1258, unit-string: '$z2 = specialinvoke r0.<net.jforum.view.forum.PostAction:
+    boolean anonymousPost(int)>(i5)'}
+- {containing-method: '<net.jforum.view.admin.AttachmentsAction: void configurations()>',
+  containing-type: net.jforum.view.admin.AttachmentsAction, line: '69', method: '<net.jforum.util.preferences.SystemGlobals:
+    java.lang.String getValue(java.lang.String)>', source-file: AttachmentsAction.java,
+  tag: 169, unit-string: '$r5 = staticinvoke <net.jforum.util.preferences.SystemGlobals:
+    java.lang.String getValue(java.lang.String)>("attachments.images.thumb.maxsize.h")'}
+- {containing-method: '<net.jforum.view.forum.ForumAction: void show()>', containing-type: net.jforum.view.forum.ForumAction,
+  line: '219', method: '<net.jforum.util.preferences.SystemGlobals: int getIntValue(java.lang.String)>',
+  source-file: ForumAction.java, tag: 175, unit-string: 'i2 = staticinvoke <net.jforum.util.preferences.SystemGlobals:
+    int getIntValue(java.lang.String)>("postsPerPage")'}
+- {containing-method: '<net.jforum.repository.ForumRepository: net.jforum.entities.Category
+    getCategory(int,int)>', containing-type: net.jforum.repository.ForumRepository,
+  line: '174', method: '<net.jforum.cache.CacheEngine: java.lang.Object get(java.lang.String,java.lang.String)>',
+  source-file: ForumRepository.java, tag: 4428, unit-string: '$r2 = interfaceinvoke
+    $r0.<net.jforum.cache.CacheEngine: java.lang.Object get(java.lang.String,java.lang.String)>("forumRepository",
+    $r1)'}
+- {containing-method: '<net.jforum.repository.ForumRepository: void reloadCategory(net.jforum.entities.Category)>',
+  containing-type: net.jforum.repository.ForumRepository, line: '330', method: '<net.jforum.cache.CacheEngine:
+    void add(java.lang.String,java.lang.String,java.lang.Object)>', source-file: ForumRepository.java,
+  tag: 2832, unit-string: 'interfaceinvoke $r18.<net.jforum.cache.CacheEngine: void
+    add(java.lang.String,java.lang.String,java.lang.Object)>("forumRepository", "categoriesSet",
+    r3)'}
+- {containing-method: '<net.jforum.repository.ForumRepository: void reloadCategory(net.jforum.entities.Category)>',
+  containing-type: net.jforum.repository.ForumRepository, line: '320', method: '<net.jforum.cache.CacheEngine:
+    void add(java.lang.String,java.lang.String,java.lang.Object)>', source-file: ForumRepository.java,
+  tag: 2829, unit-string: 'interfaceinvoke $r12.<net.jforum.cache.CacheEngine: void
+    add(java.lang.String,java.lang.String,java.lang.Object)>("forumRepository", $r13,
+    r0)'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void edit()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '569', method: '<net.jforum.view.forum.PostAction: void edit(boolean,net.jforum.entities.Post)>',
+  source-file: PostAction.java, tag: 1234, unit-string: 'specialinvoke r0.<net.jforum.view.forum.PostAction:
+    void edit(boolean,net.jforum.entities.Post)>(0, null)'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void quote()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '737', method: '<net.jforum.repository.SmiliesRepository: java.util.List getSmilies()>',
+  source-file: PostAction.java, tag: 1230, unit-string: '$r49 = staticinvoke <net.jforum.repository.SmiliesRepository:
+    java.util.List getSmilies()>()'}
+- {containing-method: '<net.jforum.repository.ForumRepository: net.jforum.entities.Category
+    getCategory(int)>', containing-type: net.jforum.repository.ForumRepository, line: '156',
+  method: '<net.jforum.repository.ForumRepository: net.jforum.entities.Category getCategory(int,int)>',
+  source-file: ForumRepository.java, tag: 2821, unit-string: '$r1 = staticinvoke <net.jforum.repository.ForumRepository:
+    net.jforum.entities.Category getCategory(int,int)>($i1, i0)'}
+- {containing-method: '<net.jforum.view.forum.RecentTopicsAction: void list()>', containing-type: net.jforum.view.forum.RecentTopicsAction,
+  line: '89', method: '<net.jforum.view.forum.common.TopicsCommon: void topicListingBase()>',
+  source-file: RecentTopicsAction.java, tag: 427, unit-string: 'staticinvoke <net.jforum.view.forum.common.TopicsCommon:
+    void topicListingBase()>()'}
+- {containing-method: '<net.jforum.view.forum.RecentTopicsAction: void list()>', containing-type: net.jforum.view.forum.RecentTopicsAction,
+  line: '85', method: '<net.jforum.view.forum.RecentTopicsAction: java.util.List topics()>',
+  source-file: RecentTopicsAction.java, tag: 425, unit-string: '$r4 = specialinvoke
+    r0.<net.jforum.view.forum.RecentTopicsAction: java.util.List topics()>()'}
+- {containing-method: '<net.jforum.view.forum.RecentTopicsAction: void list()>', containing-type: net.jforum.view.forum.RecentTopicsAction,
+  line: '82', method: '<net.jforum.Command: void setTemplateName(java.lang.String)>',
+  source-file: RecentTopicsAction.java, tag: 424, unit-string: 'virtualinvoke r0.<net.jforum.view.forum.RecentTopicsAction:
+    void setTemplateName(java.lang.String)>("recent.list")'}
+- {containing-method: '<net.jforum.view.forum.RecentTopicsAction: void showTopicsByUser()>',
+  containing-type: net.jforum.view.forum.RecentTopicsAction, line: '167', method: '<net.jforum.view.forum.common.ViewCommon:
+    void contextToPagination(int,int,int)>', source-file: RecentTopicsAction.java,
+  tag: 423, unit-string: 'staticinvoke <net.jforum.view.forum.common.ViewCommon: void
+    contextToPagination(int,int,int)>(i0, i9, i1)'}
+- {containing-method: '<net.jforum.view.forum.RecentTopicsAction: void showTopicsByUser()>',
+  containing-type: net.jforum.view.forum.RecentTopicsAction, line: '130', method: '<net.jforum.view.forum.common.TopicsCommon:
+    void topicListingBase()>', source-file: RecentTopicsAction.java, tag: 409, unit-string: 'staticinvoke
+    <net.jforum.view.forum.common.TopicsCommon: void topicListingBase()>()'}
+- {containing-method: '<net.jforum.view.forum.UserAction: int preparePagination(int)>',
+  containing-type: net.jforum.view.forum.UserAction, line: '812', method: '<net.jforum.view.forum.common.ViewCommon:
+    void contextToPagination(int,int,int)>', source-file: UserAction.java, tag: 3594,
+  unit-string: 'staticinvoke <net.jforum.view.forum.common.ViewCommon: void contextToPagination(int,int,int)>(i1,
+    i0, i2)'}
+- {containing-method: '<net.jforum.view.admin.ModerationAction: void save()>', containing-type: net.jforum.view.admin.ModerationAction,
+  line: '191', method: '<net.jforum.view.admin.ModerationAction: void doSave()>',
+  source-file: ModerationAction.java, tag: 1999, unit-string: 'virtualinvoke r0.<net.jforum.view.admin.ModerationAction:
+    void doSave()>()'}
+- {containing-method: '<net.jforum.view.forum.ModerationAction: void showActivityLog()>',
+  containing-type: net.jforum.view.forum.ModerationAction, line: '134', method: '<net.jforum.view.forum.common.ViewCommon:
+    void contextToPagination(int,int,int)>', source-file: ModerationAction.java, tag: 1998,
+  unit-string: 'staticinvoke <net.jforum.view.forum.common.ViewCommon: void contextToPagination(int,int,int)>(i0,
+    i10, i1)'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void editSave()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '896', method: '<net.jforum.repository.PostRepository: void update(int,net.jforum.entities.Post)>',
+  source-file: PostAction.java, tag: 1198, unit-string: 'staticinvoke <net.jforum.repository.PostRepository:
+    void update(int,net.jforum.entities.Post)>($i11, $r33)'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void editSave()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '896', method: '<net.jforum.view.forum.common.PostCommon: net.jforum.entities.Post
+    preparePostForDisplay(net.jforum.entities.Post)>', source-file: PostAction.java,
+  tag: 1197, unit-string: '$r33 = staticinvoke <net.jforum.view.forum.common.PostCommon:
+    net.jforum.entities.Post preparePostForDisplay(net.jforum.entities.Post)>(r54)'}
+- {containing-method: '<net.jforum.repository.ForumRepository: void addCategory(net.jforum.entities.Category)>',
+  containing-type: net.jforum.repository.ForumRepository, line: '393', method: '<net.jforum.cache.CacheEngine:
+    void add(java.lang.String,java.lang.String,java.lang.Object)>', source-file: ForumRepository.java,
+  tag: 2787, unit-string: 'interfaceinvoke $r7.<net.jforum.cache.CacheEngine: void
+    add(java.lang.String,java.lang.String,java.lang.Object)>("forumRepository", "categoriesSet",
+    r18)'}
+- {containing-method: '<net.jforum.repository.ForumRepository: void addCategory(net.jforum.entities.Category)>',
+  containing-type: net.jforum.repository.ForumRepository, line: '384', method: '<net.jforum.cache.CacheEngine:
+    void add(java.lang.String,java.lang.String,java.lang.Object)>', source-file: ForumRepository.java,
+  tag: 2785, unit-string: 'interfaceinvoke $r4.<net.jforum.cache.CacheEngine: void
+    add(java.lang.String,java.lang.String,java.lang.Object)>("forumRepository", r1,
+    r0)'}
+- {containing-method: '<net.jforum.view.forum.ModerationAction: void moderationDone()>',
+  containing-type: net.jforum.view.forum.ModerationAction, line: '162', method: '<net.jforum.view.forum.ModerationHelper:
+    java.lang.String moderationDone(java.lang.String)>', source-file: ModerationAction.java,
+  tag: 1977, unit-string: '$r4 = virtualinvoke $r1.<net.jforum.view.forum.ModerationHelper:
+    java.lang.String moderationDone(java.lang.String)>($r3)'}
+- {containing-method: '<net.jforum.view.admin.CategoryAction: void processOrdering(boolean)>',
+  containing-type: net.jforum.view.admin.CategoryAction, line: '196', method: '<net.jforum.repository.ForumRepository:
+    net.jforum.entities.Category getCategory(int)>', source-file: CategoryAction.java,
+  tag: 2767, unit-string: '$r6 = staticinvoke <net.jforum.repository.ForumRepository:
+    net.jforum.entities.Category getCategory(int)>($i1)'}
+- {containing-method: '<net.jforum.view.forum.ForumAction: void watchForum()>', containing-type: net.jforum.view.forum.ForumAction,
+  line: '303', method: '<net.jforum.context.RequestContext: int getIntParameter(java.lang.String)>',
+  source-file: ForumAction.java, tag: 608, unit-string: 'i0 = interfaceinvoke $r1.<net.jforum.context.RequestContext:
+    int getIntParameter(java.lang.String)>("forum_id")'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void editSave()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '862', method: '<net.jforum.dao.TopicDAO: void update(net.jforum.entities.Topic)>',
+  source-file: PostAction.java, tag: 1171, unit-string: 'interfaceinvoke r3.<net.jforum.dao.TopicDAO:
+    void update(net.jforum.entities.Topic)>(r58)'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void editSave()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '841', method: '<net.jforum.view.forum.PostAction: boolean ensurePollMinimumOptions(net.jforum.entities.Post,net.jforum.entities.Poll)>',
+  source-file: PostAction.java, tag: 1167, unit-string: '$z8 = specialinvoke r0.<net.jforum.view.forum.PostAction:
+    boolean ensurePollMinimumOptions(net.jforum.entities.Post,net.jforum.entities.Poll)>(r54,
+    r5)'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void editSave()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '832', method: '<net.jforum.view.forum.PostAction: boolean ensurePollMinimumOptions(net.jforum.entities.Post,net.jforum.entities.Poll)>',
+  source-file: PostAction.java, tag: 1165, unit-string: '$z9 = specialinvoke r0.<net.jforum.view.forum.PostAction:
+    boolean ensurePollMinimumOptions(net.jforum.entities.Post,net.jforum.entities.Poll)>(r54,
+    r5)'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void editSave()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '826', method: '<net.jforum.view.forum.common.PollCommon: net.jforum.entities.Poll
+    fillPollFromRequest()>', source-file: PostAction.java, tag: 1164, unit-string: 'r5
+    = staticinvoke <net.jforum.view.forum.common.PollCommon: net.jforum.entities.Poll
+    fillPollFromRequest()>()'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void editSave()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '817', method: '<net.jforum.context.RequestContext: int getIntParameter(java.lang.String)>',
+  source-file: PostAction.java, tag: 1162, unit-string: 'i25 = interfaceinvoke $r41.<net.jforum.context.RequestContext:
+    int getIntParameter(java.lang.String)>("topic_type")'}
+- {containing-method: '<net.jforum.view.forum.RSSAction: void forumTopics()>', containing-type: net.jforum.view.forum.RSSAction,
+  line: '99', method: '<net.jforum.util.rss.RSSAware: java.lang.String createRSS()>',
+  source-file: RSSAction.java, tag: 1952, unit-string: '$r14 = interfaceinvoke r4.<net.jforum.util.rss.RSSAware:
+    java.lang.String createRSS()>()'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void editSave()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '787', method: '<net.jforum.view.forum.PostAction: void edit(boolean,net.jforum.entities.Post)>',
+  source-file: PostAction.java, tag: 1153, unit-string: 'specialinvoke r0.<net.jforum.view.forum.PostAction:
+    void edit(boolean,net.jforum.entities.Post)>(0, r54)'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void editSave()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '774', method: '<net.jforum.view.forum.PostAction: void edit(boolean,net.jforum.entities.Post)>',
+  source-file: PostAction.java, tag: 1149, unit-string: 'specialinvoke r0.<net.jforum.view.forum.PostAction:
+    void edit(boolean,net.jforum.entities.Post)>(1, r54)'}
+- {containing-method: '<net.jforum.repository.PostRepository: void update(int,net.jforum.entities.Post)>',
+  containing-type: net.jforum.repository.PostRepository, line: '162', method: '<net.jforum.cache.CacheEngine:
+    void add(java.lang.String,java.lang.String,java.lang.Object)>', source-file: PostRepository.java,
+  tag: 2741, unit-string: 'interfaceinvoke $r6.<net.jforum.cache.CacheEngine: void
+    add(java.lang.String,java.lang.String,java.lang.Object)>("posts", r1, r2)'}
+- {containing-method: '<net.jforum.view.forum.RSSAction: void topicPosts()>', containing-type: net.jforum.view.forum.RSSAction,
+  line: '129', method: '<net.jforum.util.rss.RSSAware: java.lang.String createRSS()>',
+  source-file: RSSAction.java, tag: 1942, unit-string: '$r16 = interfaceinvoke r8.<net.jforum.util.rss.RSSAware:
+    java.lang.String createRSS()>()'}
+- {containing-method: '<net.jforum.view.forum.RSSAction: void recentTopics()>', containing-type: net.jforum.view.forum.RSSAction,
+  line: '142', method: '<net.jforum.util.rss.RSSAware: java.lang.String createRSS()>',
+  source-file: RSSAction.java, tag: 1929, unit-string: '$r11 = interfaceinvoke r4.<net.jforum.util.rss.RSSAware:
+    java.lang.String createRSS()>()'}
+- {containing-method: '<net.jforum.view.forum.ForumAction: void readAll()>', containing-type: net.jforum.view.forum.ForumAction,
+  line: '267', method: '<net.jforum.view.forum.ForumAction: java.lang.String makeRedirect(java.lang.String)>',
+  source-file: ForumAction.java, tag: 631, unit-string: '$r11 = specialinvoke r0.<net.jforum.view.forum.ForumAction:
+    java.lang.String makeRedirect(java.lang.String)>("show")'}
+- {containing-method: '<net.jforum.repository.TopicRepository: void addAll(int,java.util.List)>',
+  containing-type: net.jforum.repository.TopicRepository, line: '209', method: '<net.jforum.cache.CacheEngine:
+    void add(java.lang.String,java.lang.String,java.lang.Object)>', source-file: TopicRepository.java,
+  tag: 4310, unit-string: 'interfaceinvoke $r13.<net.jforum.cache.CacheEngine: void
+    add(java.lang.String,java.lang.String,java.lang.Object)>("topics", "relation",
+    r20)'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void insertSave()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '1203', method: '<net.jforum.JForumExecutionContext: void setRedirect(java.lang.String)>',
+  source-file: PostAction.java, tag: 1117, unit-string: 'staticinvoke <net.jforum.JForumExecutionContext:
+    void setRedirect(java.lang.String)>($r39)'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void insertSave()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '1199', method: '<net.jforum.repository.PostRepository: void append(int,net.jforum.entities.Post)>',
+  source-file: PostAction.java, tag: 1107, unit-string: 'staticinvoke <net.jforum.repository.PostRepository:
+    void append(int,net.jforum.entities.Post)>($i16, $r63)'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void insertSave()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '1199', method: '<net.jforum.view.forum.common.PostCommon: net.jforum.entities.Post
+    preparePostForDisplay(net.jforum.entities.Post)>', source-file: PostAction.java,
+  tag: 1106, unit-string: '$r63 = staticinvoke <net.jforum.view.forum.common.PostCommon:
+    net.jforum.entities.Post preparePostForDisplay(net.jforum.entities.Post)>(r6)'}
+- {containing-method: '<net.jforum.JForumBaseServlet: void service(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>',
+  containing-type: net.jforum.JForumBaseServlet, line: null, method: '<net.jforum.JForumBaseServlet:
+    void service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  source-file: JForumBaseServlet.java, tag: 5885, unit-string: 'virtualinvoke this.<net.jforum.JForumBaseServlet:
+    void service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>(t1,
+    t2)'}
+- {containing-method: '<net.jforum.JForum: void service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.jforum.JForum, line: '146', method: '<net.jforum.context.RequestContext:
+    java.lang.String getContextPath()>', source-file: JForum.java, tag: 5884, unit-string: '$r12
+    = interfaceinvoke r25.<net.jforum.context.RequestContext: java.lang.String getContextPath()>()'}
+- {containing-method: '<net.jforum.Command: freemarker.template.Template process(net.jforum.context.RequestContext,net.jforum.context.ResponseContext,freemarker.template.SimpleHash)>',
+  containing-type: net.jforum.Command, line: '117', method: '<net.jforum.Command:
+    void list()>', source-file: Command.java, tag: 300, unit-string: 'virtualinvoke
+    r0.<net.jforum.Command: void list()>()'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void insertSave()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '1169', method: '<net.jforum.JForumExecutionContext: void setRedirect(java.lang.String)>',
+  source-file: PostAction.java, tag: 1096, unit-string: 'staticinvoke <net.jforum.JForumExecutionContext:
+    void setRedirect(java.lang.String)>($r53)'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void insertSave()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '1165', method: '<net.jforum.view.forum.PostAction: int startPage(net.jforum.entities.Topic,int)>',
+  source-file: PostAction.java, tag: 1087, unit-string: '$i13 = specialinvoke r0.<net.jforum.view.forum.PostAction:
+    int startPage(net.jforum.entities.Topic,int)>(r120, i4)'}
+- {containing-method: '<net.jforum.view.admin.UserAction: void delete()>', containing-type: net.jforum.view.admin.UserAction,
+  line: '207', method: '<net.jforum.SessionFacade: java.lang.String isUserInSession(int)>',
+  source-file: UserAction.java, tag: 1880, unit-string: 'r3 = staticinvoke <net.jforum.SessionFacade:
+    java.lang.String isUserInSession(int)>(i0)'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void insertSave()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '1157', method: '<net.jforum.view.forum.common.AttachmentCommon: void insertAttachments(net.jforum.entities.Post)>',
+  source-file: PostAction.java, tag: 1082, unit-string: 'virtualinvoke r133.<net.jforum.view.forum.common.AttachmentCommon:
+    void insertAttachments(net.jforum.entities.Post)>(r6)'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void insertSave()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '1155', method: '<net.jforum.dao.TopicDAO: void update(net.jforum.entities.Topic)>',
+  source-file: PostAction.java, tag: 1081, unit-string: 'interfaceinvoke r1.<net.jforum.dao.TopicDAO:
+    void update(net.jforum.entities.Topic)>(r120)'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void insertSave()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '1142', method: '<net.jforum.dao.PostDAO: int addNew(net.jforum.entities.Post)>',
+  source-file: PostAction.java, tag: 1079, unit-string: 'i2 = interfaceinvoke r2.<net.jforum.dao.PostDAO:
+    int addNew(net.jforum.entities.Post)>(r6)'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void insertSave()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '1047', method: '<net.jforum.context.RequestContext: int getIntParameter(java.lang.String)>',
+  source-file: PostAction.java, tag: 1058, unit-string: '$i42 = interfaceinvoke $r131.<net.jforum.context.RequestContext:
+    int getIntParameter(java.lang.String)>("forum_id")'}
+- {containing-method: '<net.jforum.util.rss.GenericRSS: java.lang.String createRSS()>',
+  containing-type: net.jforum.util.rss.GenericRSS, line: '77', method: '<net.jforum.util.preferences.SystemGlobals:
+    java.lang.String getValue(java.lang.String)>', source-file: GenericRSS.java, tag: 255,
+  unit-string: '$r10 = staticinvoke <net.jforum.util.preferences.SystemGlobals: java.lang.String
+    getValue(java.lang.String)>("encoding")'}
+- {containing-method: '<net.jforum.view.admin.UserAction: int preparePagination(int)>',
+  containing-type: net.jforum.view.admin.UserAction, line: '107', method: '<net.jforum.util.preferences.SystemGlobals:
+    int getIntValue(java.lang.String)>', source-file: UserAction.java, tag: 253, unit-string: 'i2
+    = staticinvoke <net.jforum.util.preferences.SystemGlobals: int getIntValue(java.lang.String)>("usersPerPage")'}
+- {containing-method: '<net.jforum.view.forum.HottestTopicsAction: void showTopicsByUser()>',
+  containing-type: net.jforum.view.forum.HottestTopicsAction, line: '132', method: '<net.jforum.view.forum.common.TopicsCommon:
+    void topicListingBase()>', source-file: HottestTopicsAction.java, tag: 1464, unit-string: 'staticinvoke
+    <net.jforum.view.forum.common.TopicsCommon: void topicListingBase()>()'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void insertSave()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '1001', method: '<net.jforum.context.RequestContext: int getIntParameter(java.lang.String)>',
+  source-file: PostAction.java, tag: 1046, unit-string: '$i35 = interfaceinvoke $r105.<net.jforum.context.RequestContext:
+    int getIntParameter(java.lang.String)>("topic_type")'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void insertSave()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '995', method: '<net.jforum.view.forum.PostAction: boolean isReplyOnly(int)>',
+  source-file: PostAction.java, tag: 1044, unit-string: '$z17 = specialinvoke r0.<net.jforum.view.forum.PostAction:
+    boolean isReplyOnly(int)>(i0)'}
+- {containing-method: '<net.jforum.view.forum.UserAction: int preparePagination(int)>',
+  containing-type: net.jforum.view.forum.UserAction, line: '810', method: '<net.jforum.util.preferences.SystemGlobals:
+    int getIntValue(java.lang.String)>', source-file: UserAction.java, tag: 245, unit-string: 'i2
+    = staticinvoke <net.jforum.util.preferences.SystemGlobals: int getIntValue(java.lang.String)>("usersPerPage")'}
+- {containing-method: '<net.jforum.util.mail.Spammer: boolean dispatchMessages()>',
+  containing-type: net.jforum.util.mail.Spammer, line: '144', method: '<net.jforum.util.preferences.SystemGlobals:
+    java.lang.String getValue(java.lang.String)>', source-file: Spammer.java, tag: 243,
+  unit-string: 'r64 = staticinvoke <net.jforum.util.preferences.SystemGlobals: java.lang.String
+    getValue(java.lang.String)>("mail.smtp.host")'}
+- {containing-method: '<net.jforum.view.forum.SearchAction: void search(net.jforum.search.SearchOperation)>',
+  containing-type: net.jforum.view.forum.SearchAction, line: '114', method: '<net.jforum.util.preferences.SystemGlobals:
+    int getIntValue(java.lang.String)>', source-file: SearchAction.java, tag: 240,
+  unit-string: '$i2 = staticinvoke <net.jforum.util.preferences.SystemGlobals: int
+    getIntValue(java.lang.String)>("postsPerPage")'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void insertSave()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '958', method: '<net.jforum.view.forum.PostAction: boolean isForumReadonly(int,boolean)>',
+  source-file: PostAction.java, tag: 1036, unit-string: '$z2 = specialinvoke r0.<net.jforum.view.forum.PostAction:
+    boolean isForumReadonly(int,boolean)>($i6, z20)'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void edit(boolean,net.jforum.entities.Post)>',
+  containing-type: net.jforum.view.forum.PostAction, line: '637', method: '<net.jforum.util.preferences.SystemGlobals:
+    java.lang.String getValue(java.lang.String)>', source-file: PostAction.java, tag: 237,
+  unit-string: '$r9 = staticinvoke <net.jforum.util.preferences.SystemGlobals: java.lang.String
+    getValue(java.lang.String)>("attachments.max.post")'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void insertSave()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '944', method: '<net.jforum.context.RequestContext: int getIntParameter(java.lang.String)>',
+  source-file: PostAction.java, tag: 1033, unit-string: 'i0 = interfaceinvoke $r9.<net.jforum.context.RequestContext:
+    int getIntParameter(java.lang.String)>("forum_id")'}
+- {containing-method: '<net.jforum.view.forum.PostAction: int startPage(net.jforum.entities.Topic,int)>',
+  containing-type: net.jforum.view.forum.PostAction, line: '1227', method: '<net.jforum.util.preferences.SystemGlobals:
+    int getIntValue(java.lang.String)>', source-file: PostAction.java, tag: 231, unit-string: 'i1
+    = staticinvoke <net.jforum.util.preferences.SystemGlobals: int getIntValue(java.lang.String)>("postsPerPage")'}
+- {containing-method: '<net.jforum.view.forum.UserAction: void editSave()>', containing-type: net.jforum.view.forum.UserAction,
+  line: '138', method: '<net.jforum.JForumExecutionContext: void setRedirect(java.lang.String)>',
+  source-file: UserAction.java, tag: 1824, unit-string: 'staticinvoke <net.jforum.JForumExecutionContext:
+    void setRedirect(java.lang.String)>($r12)'}
+- {containing-method: '<net.jforum.repository.SmiliesRepository: java.util.List getSmilies()>',
+  containing-type: net.jforum.repository.SmiliesRepository, line: '91', method: '<net.jforum.util.preferences.SystemGlobals:
+    java.lang.String getValue(java.lang.String)>', source-file: SmiliesRepository.java,
+  tag: 229, unit-string: 'r1 = staticinvoke <net.jforum.util.preferences.SystemGlobals:
+    java.lang.String getValue(java.lang.String)>("forum.link")'}
+- {containing-method: '<net.jforum.view.forum.common.TopicsCommon: java.util.List
+    prepareTopics(java.util.List)>', containing-type: net.jforum.view.forum.common.TopicsCommon,
+  line: '133', method: '<net.jforum.util.preferences.SystemGlobals: int getIntValue(java.lang.String)>',
+  source-file: TopicsCommon.java, tag: 223, unit-string: 'i2 = staticinvoke <net.jforum.util.preferences.SystemGlobals:
+    int getIntValue(java.lang.String)>("postsPerPage")'}
+- {containing-method: '<net.jforum.view.forum.common.TopicsCommon: void topicListingBase()>',
+  containing-type: net.jforum.view.forum.common.TopicsCommon, line: '210', method: '<net.jforum.util.preferences.SystemGlobals:
+    boolean getBoolValue(java.lang.String)>', source-file: TopicsCommon.java, tag: 221,
+  unit-string: '$z4 = staticinvoke <net.jforum.util.preferences.SystemGlobals: boolean
+    getBoolValue(java.lang.String)>("rss.enabled")'}
+- {containing-method: '<net.jforum.view.forum.UserAction: void editSave()>', containing-type: net.jforum.view.forum.UserAction,
+  line: '130', method: '<net.jforum.context.RequestContext: int getIntParameter(java.lang.String)>',
+  source-file: UserAction.java, tag: 1814, unit-string: 'i0 = interfaceinvoke $r2.<net.jforum.context.RequestContext:
+    int getIntParameter(java.lang.String)>("user_id")'}
+- {containing-method: '<net.jforum.view.forum.UserAction: void editSave()>', containing-type: net.jforum.view.forum.UserAction,
+  line: '129', method: '<net.jforum.view.forum.UserAction: boolean canEdit()>', source-file: UserAction.java,
+  tag: 1813, unit-string: '$z0 = specialinvoke r0.<net.jforum.view.forum.UserAction:
+    boolean canEdit()>()'}
+- {containing-method: '<net.jforum.view.forum.ModerationAction: void showActivityLog()>',
+  containing-type: net.jforum.view.forum.ModerationAction, line: '92', method: '<net.jforum.util.preferences.SystemGlobals:
+    int getIntValue(java.lang.String)>', source-file: ModerationAction.java, tag: 217,
+  unit-string: 'i1 = staticinvoke <net.jforum.util.preferences.SystemGlobals: int
+    getIntValue(java.lang.String)>("topicsPerPage")'}
+- {containing-method: '<net.jforum.repository.BanlistRepository: void add(net.jforum.entities.Banlist)>',
+  containing-type: net.jforum.repository.BanlistRepository, line: '94', method: '<net.jforum.cache.CacheEngine:
+    void add(java.lang.String,java.lang.String,java.lang.Object)>', source-file: BanlistRepository.java,
+  tag: 3398, unit-string: 'interfaceinvoke $r4.<net.jforum.cache.CacheEngine: void
+    add(java.lang.String,java.lang.String,java.lang.Object)>("banlist", "banlistCollection",
+    r1)'}
+- {containing-method: '<net.jforum.view.forum.HottestTopicsAction: void list()>',
+  containing-type: net.jforum.view.forum.HottestTopicsAction, line: '81', method: '<net.jforum.util.preferences.SystemGlobals:
+    int getIntValue(java.lang.String)>', source-file: HottestTopicsAction.java, tag: 204,
+  unit-string: 'i0 = staticinvoke <net.jforum.util.preferences.SystemGlobals: int
+    getIntValue(java.lang.String)>("postsPerPage")'}
+- {containing-method: '<net.jforum.view.forum.HottestTopicsAction: void showTopicsByUser()>',
+  containing-type: net.jforum.view.forum.HottestTopicsAction, line: '136', method: '<net.jforum.util.preferences.SystemGlobals:
+    int getIntValue(java.lang.String)>', source-file: HottestTopicsAction.java, tag: 203,
+  unit-string: 'i2 = staticinvoke <net.jforum.util.preferences.SystemGlobals: int
+    getIntValue(java.lang.String)>("postsPerPage")'}
+- {containing-method: '<net.jforum.view.forum.HottestTopicsAction: void showTopicsByUser()>',
+  containing-type: net.jforum.view.forum.HottestTopicsAction, line: '135', method: '<net.jforum.util.preferences.SystemGlobals:
+    int getIntValue(java.lang.String)>', source-file: HottestTopicsAction.java, tag: 202,
+  unit-string: 'i1 = staticinvoke <net.jforum.util.preferences.SystemGlobals: int
+    getIntValue(java.lang.String)>("topicsPerPage")'}
+- {containing-method: '<net.jforum.repository.ForumRepository: void addForum(net.jforum.entities.Forum)>',
+  containing-type: net.jforum.repository.ForumRepository, line: '461', method: '<net.jforum.cache.CacheEngine:
+    void add(java.lang.String,java.lang.String,java.lang.Object)>', source-file: ForumRepository.java,
+  tag: 2592, unit-string: 'interfaceinvoke $r12.<net.jforum.cache.CacheEngine: void
+    add(java.lang.String,java.lang.String,java.lang.Object)>("forumRepository", "relationForums",
+    r3)'}
+- {containing-method: '<net.jforum.view.forum.RecentTopicsAction: java.util.List topics()>',
+  containing-type: net.jforum.view.forum.RecentTopicsAction, line: '114', source-file: RecentTopicsAction.java,
+  tag: 6318, unit-string: return $r7}
+- {containing-method: '<net.jforum.repository.ForumRepository: void addForum(net.jforum.entities.Forum)>',
+  containing-type: net.jforum.repository.ForumRepository, line: '457', method: '<net.jforum.cache.CacheEngine:
+    void add(java.lang.String,java.lang.String,java.lang.Object)>', source-file: ForumRepository.java,
+  tag: 2589, unit-string: 'interfaceinvoke $r7.<net.jforum.cache.CacheEngine: void
+    add(java.lang.String,java.lang.String,java.lang.Object)>("forumRepository", r1,
+    r2)'}
+- {containing-method: '<net.jforum.repository.ForumRepository: void addForum(net.jforum.entities.Forum)>',
+  containing-type: net.jforum.repository.ForumRepository, line: '455', method: '<net.jforum.cache.CacheEngine:
+    java.lang.Object get(java.lang.String,java.lang.String)>', source-file: ForumRepository.java,
+  tag: 2588, unit-string: '$r6 = interfaceinvoke $r5.<net.jforum.cache.CacheEngine:
+    java.lang.Object get(java.lang.String,java.lang.String)>("forumRepository", r1)'}
+- {containing-method: '<net.jforum.view.forum.UserAction: void insertSave()>', containing-type: net.jforum.view.forum.UserAction,
+  line: '324', method: '<net.jforum.util.mail.ActivationKeySpammer: void <init>(net.jforum.entities.User)>',
+  source-file: UserAction.java, tag: 1790, unit-string: 'specialinvoke $r28.<net.jforum.util.mail.ActivationKeySpammer:
+    void <init>(net.jforum.entities.User)>(r2)'}
+- {containing-method: '<net.jforum.view.forum.UserAction: void insertSave()>', containing-type: net.jforum.view.forum.UserAction,
+  line: '321', method: '<net.jforum.dao.UserDAO: int addNew(net.jforum.entities.User)>',
+  source-file: UserAction.java, tag: 1789, unit-string: 'i1 = interfaceinvoke r3.<net.jforum.dao.UserDAO:
+    int addNew(net.jforum.entities.User)>(r2)'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void list()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '215', method: '<net.jforum.util.preferences.SystemGlobals: boolean getBoolValue(java.lang.String)>',
+  source-file: PostAction.java, tag: 193, unit-string: '$z22 = staticinvoke <net.jforum.util.preferences.SystemGlobals:
+    boolean getBoolValue(java.lang.String)>("rss.enabled")'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void list()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '212', method: '<net.jforum.util.preferences.SystemGlobals: boolean getBoolValue(java.lang.String)>',
+  source-file: PostAction.java, tag: 192, unit-string: '$z21 = staticinvoke <net.jforum.util.preferences.SystemGlobals:
+    boolean getBoolValue(java.lang.String)>("attachments.images.thumb.box.show")'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void list()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '156', method: '<net.jforum.util.preferences.SystemGlobals: int getIntValue(java.lang.String)>',
+  source-file: PostAction.java, tag: 191, unit-string: 'i2 = staticinvoke <net.jforum.util.preferences.SystemGlobals:
+    int getIntValue(java.lang.String)>("postsPerPage")'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void preList()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '266', method: '<net.jforum.util.preferences.SystemGlobals: int getIntValue(java.lang.String)>',
+  source-file: PostAction.java, tag: 190, unit-string: 'i2 = staticinvoke <net.jforum.util.preferences.SystemGlobals:
+    int getIntValue(java.lang.String)>("postsPerPage")'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void listByUser()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '341', method: '<net.jforum.util.preferences.SystemGlobals: int getIntValue(java.lang.String)>',
+  source-file: PostAction.java, tag: 187, unit-string: 'i0 = staticinvoke <net.jforum.util.preferences.SystemGlobals:
+    int getIntValue(java.lang.String)>("postsPerPage")'}
+- {containing-method: '<net.jforum.view.forum.AjaxAction$1TestSpammer: void <init>(net.jforum.view.forum.AjaxAction,java.lang.String)>',
+  containing-type: net.jforum.view.forum.AjaxAction$1TestSpammer, line: '137', method: '<net.jforum.util.mail.Spammer:
+    void prepareMessage(java.lang.String,java.lang.String)>', source-file: AjaxAction.java,
+  tag: 3374, unit-string: 'virtualinvoke r0.<net.jforum.view.forum.AjaxAction$1TestSpammer:
+    void prepareMessage(java.lang.String,java.lang.String)>("JForum Test Mail", null)'}
+- {containing-method: '<net.jforum.view.forum.AjaxAction$1TestSpammer: void <init>(net.jforum.view.forum.AjaxAction,java.lang.String)>',
+  containing-type: net.jforum.view.forum.AjaxAction$1TestSpammer, line: '126', method: '<net.jforum.util.mail.Spammer:
+    void <init>()>', source-file: AjaxAction.java, tag: 3373, unit-string: 'specialinvoke
+    r0.<net.jforum.util.mail.Spammer: void <init>()>()'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void delete()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '1299', method: '<net.jforum.util.preferences.SystemGlobals: int getIntValue(java.lang.String)>',
+  source-file: PostAction.java, tag: 180, unit-string: 'i1 = staticinvoke <net.jforum.util.preferences.SystemGlobals:
+    int getIntValue(java.lang.String)>("postsPerPage")'}
+- {containing-method: '<net.jforum.view.forum.ForumAction: void approveMessages()>',
+  containing-type: net.jforum.view.forum.ForumAction, line: '290', method: '<net.jforum.view.admin.ModerationAction:
+    void doSave()>', source-file: ForumAction.java, tag: 616, unit-string: 'virtualinvoke
+    $r15.<net.jforum.view.admin.ModerationAction: void doSave()>()'}
+- {containing-method: '<net.jforum.view.forum.ForumAction: void list()>', containing-type: net.jforum.view.forum.ForumAction,
+  line: '89', method: '<net.jforum.util.preferences.SystemGlobals: boolean getBoolValue(java.lang.String)>',
+  source-file: ForumAction.java, tag: 177, unit-string: '$z0 = staticinvoke <net.jforum.util.preferences.SystemGlobals:
+    boolean getBoolValue(java.lang.String)>("rss.enabled")'}
+- {containing-method: '<net.jforum.view.forum.ForumAction: void list()>', containing-type: net.jforum.view.forum.ForumAction,
+  line: '88', method: '<net.jforum.util.preferences.SystemGlobals: int getIntValue(java.lang.String)>',
+  source-file: ForumAction.java, tag: 176, unit-string: '$i3 = staticinvoke <net.jforum.util.preferences.SystemGlobals:
+    int getIntValue(java.lang.String)>("topicsPerPage")'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void list()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '250', method: '<net.jforum.view.forum.common.ViewCommon: void contextToPagination(int,int,int)>',
+  source-file: PostAction.java, tag: 1413, unit-string: 'staticinvoke <net.jforum.view.forum.common.ViewCommon:
+    void contextToPagination(int,int,int)>(i3, $i16, i2)'}
+- {containing-method: '<net.jforum.view.forum.ForumAction: void show()>', containing-type: net.jforum.view.forum.ForumAction,
+  line: '218', method: '<net.jforum.util.preferences.SystemGlobals: int getIntValue(java.lang.String)>',
+  source-file: ForumAction.java, tag: 174, unit-string: 'i7 = staticinvoke <net.jforum.util.preferences.SystemGlobals:
+    int getIntValue(java.lang.String)>("topicsPerPage")'}
+- {containing-method: '<net.jforum.view.forum.ForumAction: void show()>', containing-type: net.jforum.view.forum.ForumAction,
+  line: '206', method: '<net.jforum.util.preferences.SystemGlobals: boolean getBoolValue(java.lang.String)>',
+  source-file: ForumAction.java, tag: 173, unit-string: '$z5 = staticinvoke <net.jforum.util.preferences.SystemGlobals:
+    boolean getBoolValue(java.lang.String)>("rss.enabled")'}
+- {containing-method: '<net.jforum.view.admin.AttachmentsAction: void configurations()>',
+  containing-type: net.jforum.view.admin.AttachmentsAction, line: '72', method: '<net.jforum.util.preferences.SystemGlobals:
+    boolean getBoolValue(java.lang.String)>', source-file: AttachmentsAction.java,
+  tag: 172, unit-string: '$z1 = staticinvoke <net.jforum.util.preferences.SystemGlobals:
+    boolean getBoolValue(java.lang.String)>("attachments.images.thumb.box.show")'}
+- {containing-method: '<net.jforum.view.admin.AttachmentsAction: void configurations()>',
+  containing-type: net.jforum.view.admin.AttachmentsAction, line: '71', method: '<net.jforum.util.preferences.SystemGlobals:
+    java.lang.String getValue(java.lang.String)>', source-file: AttachmentsAction.java,
+  tag: 171, unit-string: '$r9 = staticinvoke <net.jforum.util.preferences.SystemGlobals:
+    java.lang.String getValue(java.lang.String)>("attachments.max.post")'}
+- {containing-method: '<net.jforum.view.admin.AttachmentsAction: void configurations()>',
+  containing-type: net.jforum.view.admin.AttachmentsAction, line: '70', method: '<net.jforum.util.preferences.SystemGlobals:
+    java.lang.String getValue(java.lang.String)>', source-file: AttachmentsAction.java,
+  tag: 170, unit-string: '$r7 = staticinvoke <net.jforum.util.preferences.SystemGlobals:
+    java.lang.String getValue(java.lang.String)>("attachments.images.thumb.maxsize.w")'}
+- {containing-method: '<net.jforum.view.forum.ForumAction: void newMessages()>', containing-type: net.jforum.view.forum.ForumAction,
+  line: '282', method: '<net.jforum.view.forum.SearchAction: void newMessages()>',
+  source-file: ForumAction.java, tag: 626, unit-string: 'virtualinvoke r1.<net.jforum.view.forum.SearchAction:
+    void newMessages()>()'}
+- {containing-method: '<net.jforum.view.admin.AttachmentsAction: void configurations()>',
+  containing-type: net.jforum.view.admin.AttachmentsAction, line: '68', method: '<net.jforum.util.preferences.SystemGlobals:
+    boolean getBoolValue(java.lang.String)>', source-file: AttachmentsAction.java,
+  tag: 168, unit-string: '$z0 = staticinvoke <net.jforum.util.preferences.SystemGlobals:
+    boolean getBoolValue(java.lang.String)>("attachments.images.createthumb")'}
+- {containing-method: '<net.jforum.view.admin.AttachmentsAction: void configurations()>',
+  containing-type: net.jforum.view.admin.AttachmentsAction, line: '67', method: '<net.jforum.util.preferences.SystemGlobals:
+    java.lang.String getValue(java.lang.String)>', source-file: AttachmentsAction.java,
+  tag: 167, unit-string: '$r2 = staticinvoke <net.jforum.util.preferences.SystemGlobals:
+    java.lang.String getValue(java.lang.String)>("attachments.icon")'}
+- {containing-method: '<net.jforum.view.forum.RecentTopicsAction: void list()>', containing-type: net.jforum.view.forum.RecentTopicsAction,
+  line: '80', method: '<net.jforum.util.preferences.SystemGlobals: int getIntValue(java.lang.String)>',
+  source-file: RecentTopicsAction.java, tag: 166, unit-string: 'i0 = staticinvoke
+    <net.jforum.util.preferences.SystemGlobals: int getIntValue(java.lang.String)>("postsPerPage")'}
+- {containing-method: '<net.jforum.view.forum.RecentTopicsAction: void showTopicsByUser()>',
+  containing-type: net.jforum.view.forum.RecentTopicsAction, line: '134', method: '<net.jforum.util.preferences.SystemGlobals:
+    int getIntValue(java.lang.String)>', source-file: RecentTopicsAction.java, tag: 165,
+  unit-string: 'i2 = staticinvoke <net.jforum.util.preferences.SystemGlobals: int
+    getIntValue(java.lang.String)>("postsPerPage")'}
+- {containing-method: '<net.jforum.util.mail.ActivationKeySpammer: void <init>(net.jforum.entities.User)>',
+  containing-type: net.jforum.util.mail.ActivationKeySpammer, line: '60', method: '<net.jforum.util.mail.Spammer:
+    void <init>()>', source-file: ActivationKeySpammer.java, tag: 3803, unit-string: 'specialinvoke
+    r0.<net.jforum.util.mail.Spammer: void <init>()>()'}
+- {containing-method: '<net.jforum.view.forum.SearchAction: void search(net.jforum.search.SearchOperation)>',
+  containing-type: net.jforum.view.forum.SearchAction, line: '117', method: '<net.jforum.view.forum.common.TopicsCommon:
+    void topicListingBase()>', source-file: SearchAction.java, tag: 3348, unit-string: 'staticinvoke
+    <net.jforum.view.forum.common.TopicsCommon: void topicListingBase()>()'}
+- {containing-method: '<net.jforum.view.forum.SearchAction: void search(net.jforum.search.SearchOperation)>',
+  containing-type: net.jforum.view.forum.SearchAction, line: '116', method: '<net.jforum.view.forum.common.ViewCommon:
+    void contextToPagination(int,int,int)>', source-file: SearchAction.java, tag: 3347,
+  unit-string: 'staticinvoke <net.jforum.view.forum.common.ViewCommon: void contextToPagination(int,int,int)>(i0,
+    $i3, i1)'}
+- {containing-method: '<net.jforum.PseudoMain: void main(java.lang.String[])>', containing-type: net.jforum.PseudoMain,
+  line: '120', method: '<net.jforum.JForum: void init(javax.servlet.ServletConfig)>',
+  source-file: PseudoMain.java, tag: 157, unit-string: 'virtualinvoke r2.<net.jforum.JForum:
+    void init(javax.servlet.ServletConfig)>($r12)'}
+- {containing-method: '<net.jforum.view.forum.common.TopicsCommon: java.util.List
+    topicsByForum(int,int)>', containing-type: net.jforum.view.forum.common.TopicsCommon,
+  line: '106', method: '<net.jforum.repository.TopicRepository: void addAll(int,java.util.List)>',
+  source-file: TopicsCommon.java, tag: 2547, unit-string: 'staticinvoke <net.jforum.repository.TopicRepository:
+    void addAll(int,java.util.List)>(i0, r6)'}
+- {containing-method: '<net.jforum.view.admin.ForumAction: void editSave()>', containing-type: net.jforum.view.admin.ForumAction,
+  line: '134', method: '<net.jforum.repository.ForumRepository: void removeForum(net.jforum.entities.Forum)>',
+  source-file: ForumAction.java, tag: 720, unit-string: 'staticinvoke <net.jforum.repository.ForumRepository:
+    void removeForum(net.jforum.entities.Forum)>(r2)'}
+- {containing-method: '<net.jforum.view.forum.SearchAction: void search(net.jforum.search.SearchOperation)>',
+  containing-type: net.jforum.view.forum.SearchAction, line: '98', method: '<net.jforum.view.forum.SearchAction:
+    net.jforum.search.SearchArgs buildSearchArgs()>', source-file: SearchAction.java,
+  tag: 3338, unit-string: 'r2 = specialinvoke r0.<net.jforum.view.forum.SearchAction:
+    net.jforum.search.SearchArgs buildSearchArgs()>()'}
+- {containing-method: '<net.jforum.util.I18n: void load(java.lang.String)>', containing-type: net.jforum.util.I18n,
+  line: '214', method: '<net.jforum.util.I18n: void load(java.lang.String,java.lang.String)>',
+  source-file: I18n.java, tag: 149, unit-string: 'staticinvoke <net.jforum.util.I18n:
+    void load(java.lang.String,java.lang.String)>(r0, $r1)'}
+- {containing-method: '<net.jforum.view.admin.ForumAction: void editSave()>', containing-type: net.jforum.view.admin.ForumAction,
+  line: '137', method: '<net.jforum.repository.ForumRepository: void addForum(net.jforum.entities.Forum)>',
+  source-file: ForumAction.java, tag: 722, unit-string: 'staticinvoke <net.jforum.repository.ForumRepository:
+    void addForum(net.jforum.entities.Forum)>(r2)'}
+- {containing-method: '<net.jforum.util.I18n: void load(java.lang.String)>', containing-type: net.jforum.util.I18n,
+  line: '214', method: '<net.jforum.util.preferences.SystemGlobals: java.lang.String
+    getValue(java.lang.String)>', source-file: I18n.java, tag: 146, unit-string: '$r1
+    = staticinvoke <net.jforum.util.preferences.SystemGlobals: java.lang.String getValue(java.lang.String)>("i18n.board.default")'}
+- {containing-method: '<net.jforum.view.forum.UserAction: void validateLogin()>',
+  containing-type: net.jforum.view.forum.UserAction, line: '516', method: '<net.jforum.JForumExecutionContext:
+    void setRedirect(java.lang.String)>', source-file: UserAction.java, tag: 1739,
+  unit-string: 'staticinvoke <net.jforum.JForumExecutionContext: void setRedirect(java.lang.String)>($r11)'}
+- {containing-method: '<net.jforum.util.I18n: void load(java.lang.String,java.lang.String,boolean)>',
+  containing-type: net.jforum.util.I18n, line: '172', method: '<net.jforum.util.I18n:
+    void load(java.lang.String,java.lang.String)>', source-file: I18n.java, tag: 140,
+  unit-string: 'staticinvoke <net.jforum.util.I18n: void load(java.lang.String,java.lang.String)>(r1,
+    null)'}
+- {containing-method: '<net.jforum.ControllerUtils: void prepareTemplateContext(freemarker.template.SimpleHash,net.jforum.context.ForumContext)>',
+  containing-type: net.jforum.ControllerUtils, line: '101', method: '<net.jforum.util.preferences.SystemGlobals:
+    java.lang.String getValue(java.lang.String)>', source-file: ControllerUtils.java,
+  tag: 138, unit-string: '$r15 = staticinvoke <net.jforum.util.preferences.SystemGlobals:
+    java.lang.String getValue(java.lang.String)>("forum.page.metatag.keywords")'}
+- {containing-method: '<net.jforum.JForum: void init(javax.servlet.ServletConfig)>',
+  containing-type: net.jforum.JForum, line: '91', method: '<net.jforum.JForumBaseServlet:
+    void init(javax.servlet.ServletConfig)>', source-file: JForum.java, tag: 136,
+  unit-string: 'specialinvoke r0.<net.jforum.JForumBaseServlet: void init(javax.servlet.ServletConfig)>(r1)'}
+- {containing-method: '<net.jforum.ControllerUtils: void prepareTemplateContext(freemarker.template.SimpleHash,net.jforum.context.ForumContext)>',
+  containing-type: net.jforum.ControllerUtils, line: '100', method: '<net.jforum.util.preferences.SystemGlobals:
+    java.lang.String getValue(java.lang.String)>', source-file: ControllerUtils.java,
+  tag: 133, unit-string: '$r16 = staticinvoke <net.jforum.util.preferences.SystemGlobals:
+    java.lang.String getValue(java.lang.String)>("forum.page.title")'}
+- {containing-method: '<net.jforum.ControllerUtils: void prepareTemplateContext(freemarker.template.SimpleHash,net.jforum.context.ForumContext)>',
+  containing-type: net.jforum.ControllerUtils, line: '99', method: '<net.jforum.util.preferences.SystemGlobals:
+    java.lang.String getValue(java.lang.String)>', source-file: ControllerUtils.java,
+  tag: 128, unit-string: '$r14 = staticinvoke <net.jforum.util.preferences.SystemGlobals:
+    java.lang.String getValue(java.lang.String)>("forum.page.title")'}
+- {containing-method: '<net.jforum.JForum: java.io.Writer processCommand(java.io.Writer,net.jforum.context.RequestContext,net.jforum.context.ResponseContext,java.lang.String,freemarker.template.SimpleHash,java.lang.String)>',
+  containing-type: net.jforum.JForum, line: '218', method: '<net.jforum.Command: freemarker.template.Template
+    process(net.jforum.context.RequestContext,net.jforum.context.ResponseContext,freemarker.template.SimpleHash)>',
+  source-file: JForum.java, tag: 127, unit-string: 'r7 = virtualinvoke r6.<net.jforum.Command:
+    freemarker.template.Template process(net.jforum.context.RequestContext,net.jforum.context.ResponseContext,freemarker.template.SimpleHash)>(r1,
+    r2, r4)'}
+- {containing-method: '<net.jforum.util.mail.Spammer: void <init>()>', containing-type: net.jforum.util.mail.Spammer,
+  line: '122', method: '<net.jforum.util.preferences.SystemGlobals: java.lang.String
+    getValue(java.lang.String)>', source-file: Spammer.java, tag: 126, unit-string: '$r24
+    = staticinvoke <net.jforum.util.preferences.SystemGlobals: java.lang.String getValue(java.lang.String)>("mail.smtp.password")'}
+- {containing-method: '<net.jforum.JForumBaseServlet: void init(javax.servlet.ServletConfig)>',
+  containing-type: net.jforum.JForumBaseServlet, line: '141', method: '<net.jforum.JForumBaseServlet:
+    void loadConfigStuff()>', source-file: JForumBaseServlet.java, tag: 124, unit-string: 'virtualinvoke
+    r0.<net.jforum.JForumBaseServlet: void loadConfigStuff()>()'}
+- {containing-method: '<net.jforum.util.mail.Spammer: void <init>()>', containing-type: net.jforum.util.mail.Spammer,
+  line: '121', method: '<net.jforum.util.preferences.SystemGlobals: java.lang.String
+    getValue(java.lang.String)>', source-file: Spammer.java, tag: 122, unit-string: '$r21
+    = staticinvoke <net.jforum.util.preferences.SystemGlobals: java.lang.String getValue(java.lang.String)>("mail.smtp.username")'}
+- {containing-method: '<net.jforum.util.mail.Spammer: void <init>()>', containing-type: net.jforum.util.mail.Spammer,
+  line: '119', method: '<net.jforum.util.preferences.SystemGlobals: java.lang.String
+    getValue(java.lang.String)>', source-file: Spammer.java, tag: 120, unit-string: '$r19
+    = staticinvoke <net.jforum.util.preferences.SystemGlobals: java.lang.String getValue(java.lang.String)>("mail.smtp.auth")'}
+- {containing-method: '<net.jforum.util.I18n: void load(java.lang.String,java.lang.String)>',
+  containing-type: net.jforum.util.I18n, line: '155', method: '<net.jforum.util.I18n:
+    void load(java.lang.String,java.lang.String,boolean)>', source-file: I18n.java,
+  tag: 118, unit-string: 'staticinvoke <net.jforum.util.I18n: void load(java.lang.String,java.lang.String,boolean)>(r0,
+    r1, 0)'}
+- {containing-method: '<net.jforum.util.mail.Spammer: void <init>()>', containing-type: net.jforum.util.mail.Spammer,
+  line: '118', method: '<net.jforum.util.preferences.SystemGlobals: java.lang.String
+    getValue(java.lang.String)>', source-file: Spammer.java, tag: 116, unit-string: '$r18
+    = staticinvoke <net.jforum.util.preferences.SystemGlobals: java.lang.String getValue(java.lang.String)>("mail.charset")'}
+- {containing-method: '<net.jforum.JForumBaseServlet: void loadConfigStuff()>', containing-type: net.jforum.JForumBaseServlet,
+  line: '157', method: '<net.jforum.util.I18n: void load()>', source-file: JForumBaseServlet.java,
+  tag: 114, unit-string: 'staticinvoke <net.jforum.util.I18n: void load()>()'}
+- {containing-method: '<net.jforum.JForum: void service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.jforum.JForum, line: '201', method: '<net.jforum.JForum: java.io.Writer
+    processCommand(java.io.Writer,net.jforum.context.RequestContext,net.jforum.context.ResponseContext,java.lang.String,freemarker.template.SimpleHash,java.lang.String)>',
+  source-file: JForum.java, tag: 113, unit-string: 'r23 = specialinvoke r0.<net.jforum.JForum:
+    java.io.Writer processCommand(java.io.Writer,net.jforum.context.RequestContext,net.jforum.context.ResponseContext,java.lang.String,freemarker.template.SimpleHash,java.lang.String)>(r23,
+    r25, r26, r3, r4, r29)'}
+- {containing-method: '<net.jforum.util.I18n: void load()>', containing-type: net.jforum.util.I18n,
+  line: '124', method: '<net.jforum.util.I18n: void load(java.lang.String,java.lang.String)>',
+  source-file: I18n.java, tag: 112, unit-string: 'staticinvoke <net.jforum.util.I18n:
+    void load(java.lang.String,java.lang.String)>(r0, $r11)'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void listSmilies()>', containing-type: net.jforum.view.forum.PostAction,
+  line: '1496', method: '<net.jforum.repository.SmiliesRepository: java.util.List
+    getSmilies()>', source-file: PostAction.java, tag: 906, unit-string: '$r7 = staticinvoke
+    <net.jforum.repository.SmiliesRepository: java.util.List getSmilies()>()'}
+- {containing-method: '<net.jforum.SessionFacade: void add(net.jforum.entities.UserSession,java.lang.String)>',
+  containing-type: net.jforum.SessionFacade, line: '129', method: '<net.jforum.cache.CacheEngine:
+    void add(java.lang.String,java.lang.String,java.lang.Object)>', source-file: SessionFacade.java,
+  tag: 4890, unit-string: 'interfaceinvoke $r5.<net.jforum.cache.CacheEngine: void
+    add(java.lang.String,java.lang.String,java.lang.Object)>("sessions/logged", $r6,
+    r0)'}
+- {containing-method: '<net.jforum.JForum: void service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.jforum.JForum, line: '197', method: '<net.jforum.SessionFacade:
+    net.jforum.entities.UserSession getUserSession()>', source-file: JForum.java,
+  tag: 106, unit-string: '$r19 = staticinvoke <net.jforum.SessionFacade: net.jforum.entities.UserSession
+    getUserSession()>()'}
+- {containing-method: '<net.jforum.SessionFacade: void add(net.jforum.entities.UserSession,java.lang.String)>',
+  containing-type: net.jforum.SessionFacade, line: '126', method: '<net.jforum.JForumExecutionContext:
+    net.jforum.context.ForumContext getForumContext()>', source-file: SessionFacade.java,
+  tag: 4887, unit-string: '$r15 = staticinvoke <net.jforum.JForumExecutionContext:
+    net.jforum.context.ForumContext getForumContext()>()'}
+- {containing-method: '<net.jforum.SessionFacade: void add(net.jforum.entities.UserSession,java.lang.String)>',
+  containing-type: net.jforum.SessionFacade, line: '124', method: '<net.jforum.cache.CacheEngine:
+    void add(java.lang.String,java.lang.String,java.lang.Object)>', source-file: SessionFacade.java,
+  tag: 4886, unit-string: 'interfaceinvoke $r13.<net.jforum.cache.CacheEngine: void
+    add(java.lang.String,java.lang.String,java.lang.Object)>("sessions", $r14, r0)'}
+- {containing-method: '<net.jforum.util.mail.Spammer: void <init>()>', containing-type: net.jforum.util.mail.Spammer,
+  line: '109', method: '<net.jforum.util.preferences.SystemGlobals: java.lang.String
+    getValue(java.lang.String)>', source-file: Spammer.java, tag: 103, unit-string: '$r13
+    = staticinvoke <net.jforum.util.preferences.SystemGlobals: java.lang.String getValue(java.lang.String)>("mail.smtp.port")'}
+- {containing-method: '<net.jforum.JForum: void service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.jforum.JForum, line: '196', method: '<net.jforum.util.I18n:
+    java.lang.String getUserLanguage()>', source-file: JForum.java, tag: 101, unit-string: '$r17
+    = staticinvoke <net.jforum.util.I18n: java.lang.String getUserLanguage()>()'}
+- {containing-method: '<net.jforum.util.mail.Spammer: void <init>()>', containing-type: net.jforum.util.mail.Spammer,
+  line: '108', method: '<net.jforum.util.preferences.SystemGlobals: java.lang.String
+    getValue(java.lang.String)>', source-file: Spammer.java, tag: 100, unit-string: '$r9
+    = staticinvoke <net.jforum.util.preferences.SystemGlobals: java.lang.String getValue(java.lang.String)>("mail.smtp.host")'}
+- {containing-method: '<net.jforum.util.mail.PrivateMessageSpammer: void <init>(net.jforum.entities.User)>',
+  containing-type: net.jforum.util.mail.PrivateMessageSpammer, line: '61', method: '<net.jforum.util.mail.Spammer:
+    void <init>()>', source-file: PrivateMessageSpammer.java, tag: 4084, unit-string: 'specialinvoke
+    r0.<net.jforum.util.mail.Spammer: void <init>()>()'}
+- {containing-method: '<net.jforum.JForum: void service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.jforum.JForum, line: '209', method: '<net.jforum.JForum: void
+    handleFinally(java.io.Writer,net.jforum.context.JForumContext,net.jforum.context.ResponseContext)>',
+  source-file: JForum.java, tag: 95, unit-string: 'specialinvoke r0.<net.jforum.JForum:
+    void handleFinally(java.io.Writer,net.jforum.context.JForumContext,net.jforum.context.ResponseContext)>(r23,
+    r24, r26)'}
+- {containing-method: '<net.jforum.search.LuceneSearch: net.jforum.search.SearchResult
+    performSearch(net.jforum.search.SearchArgs,net.jforum.search.LuceneResultCollector,org.apache.lucene.search.Filter)>',
+  containing-type: net.jforum.search.LuceneSearch, line: '151', method: '<net.jforum.search.LuceneResultCollector:
+    java.util.List collect(net.jforum.search.SearchArgs,org.apache.lucene.search.Hits,org.apache.lucene.search.Query)>',
+  source-file: LuceneSearch.java, tag: 5671, unit-string: '$r16 = interfaceinvoke
+    r2.<net.jforum.search.LuceneResultCollector: java.util.List collect(net.jforum.search.SearchArgs,org.apache.lucene.search.Hits,org.apache.lucene.search.Query)>(r1,
+    r5, r4)'}
+- {containing-method: '<net.jforum.util.mail.EmailSenderTask: void run()>', containing-type: net.jforum.util.mail.EmailSenderTask,
+  line: '63', method: '<net.jforum.util.mail.Spammer: boolean dispatchMessages()>',
+  source-file: EmailSenderTask.java, tag: 4873, unit-string: '$z0 = virtualinvoke
+    $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()'}
+- {containing-method: '<net.jforum.search.LuceneSearch: net.jforum.search.SearchResult
+    performSearch(net.jforum.search.SearchArgs,net.jforum.search.LuceneResultCollector,org.apache.lucene.search.Filter)>',
+  containing-type: net.jforum.search.LuceneSearch, line: '138', method: '<net.jforum.search.LuceneSearch:
+    void filterByDateRange(net.jforum.search.SearchArgs,java.lang.StringBuffer)>',
+  source-file: LuceneSearch.java, tag: 5666, unit-string: 'specialinvoke r0.<net.jforum.search.LuceneSearch:
+    void filterByDateRange(net.jforum.search.SearchArgs,java.lang.StringBuffer)>(r1,
+    r26)'}
+- {containing-method: '<net.jforum.search.LuceneSearch: net.jforum.search.SearchResult
+    performSearch(net.jforum.search.SearchArgs,net.jforum.search.LuceneResultCollector,org.apache.lucene.search.Filter)>',
+  containing-type: net.jforum.search.LuceneSearch, line: '137', method: '<net.jforum.search.LuceneSearch:
+    void filterByKeywords(net.jforum.search.SearchArgs,java.lang.StringBuffer)>',
+  source-file: LuceneSearch.java, tag: 5665, unit-string: 'specialinvoke r0.<net.jforum.search.LuceneSearch:
+    void filterByKeywords(net.jforum.search.SearchArgs,java.lang.StringBuffer)>(r1,
+    r26)'}
+- {containing-method: '<net.jforum.search.LuceneSearch: net.jforum.search.SearchResult
+    performSearch(net.jforum.search.SearchArgs,net.jforum.search.LuceneResultCollector,org.apache.lucene.search.Filter)>',
+  containing-type: net.jforum.search.LuceneSearch, line: '136', method: '<net.jforum.search.LuceneSearch:
+    void filterByForum(net.jforum.search.SearchArgs,java.lang.StringBuffer)>', source-file: LuceneSearch.java,
+  tag: 5664, unit-string: 'specialinvoke r0.<net.jforum.search.LuceneSearch: void
+    filterByForum(net.jforum.search.SearchArgs,java.lang.StringBuffer)>(r1, r26)'}
+- {containing-method: '<net.jforum.JForum: void service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.jforum.JForum, line: '159', method: '<net.jforum.ControllerUtils:
+    void refreshSession()>', source-file: JForum.java, tag: 83, unit-string: 'virtualinvoke
+    r5.<net.jforum.ControllerUtils: void refreshSession()>()'}
+- {containing-method: '<net.jforum.context.web.WebRequestContext: void <init>(javax.servlet.http.HttpServletRequest)>',
+  containing-type: net.jforum.context.web.WebRequestContext, line: '98', method: '<net.jforum.util.preferences.SystemGlobals:
+    java.lang.String getValue(java.lang.String)>', source-file: WebRequestContext.java,
+  tag: 81, unit-string: 'r4 = staticinvoke <net.jforum.util.preferences.SystemGlobals:
+    java.lang.String getValue(java.lang.String)>("encoding")'}
+- {containing-method: '<net.jforum.view.admin.BanlistAction: void insertSave()>',
+  containing-type: net.jforum.view.admin.BanlistAction, line: '89', method: '<net.jforum.dao.BanlistDAO:
+    void insert(net.jforum.entities.Banlist)>', source-file: BanlistAction.java, tag: 1508,
+  unit-string: 'interfaceinvoke r4.<net.jforum.dao.BanlistDAO: void insert(net.jforum.entities.Banlist)>(r3)'}
+- {containing-method: '<net.jforum.view.forum.PrivateMessageAction: void sendFormCommon(net.jforum.entities.User)>',
+  containing-type: net.jforum.view.forum.PrivateMessageAction, line: '173', method: '<net.jforum.repository.SmiliesRepository:
+    java.util.List getSmilies()>', source-file: PrivateMessageAction.java, tag: 4064,
+  unit-string: '$r14 = staticinvoke <net.jforum.repository.SmiliesRepository: java.util.List
+    getSmilies()>()'}
+- {containing-method: '<net.jforum.view.admin.ForumAction: void editSave()>', containing-type: net.jforum.view.admin.ForumAction,
+  line: '126', method: '<net.jforum.dao.ForumDAO: void update(net.jforum.entities.Forum)>',
+  source-file: ForumAction.java, tag: 718, unit-string: 'interfaceinvoke r1.<net.jforum.dao.ForumDAO:
+    void update(net.jforum.entities.Forum)>(r2)'}
+- {containing-method: '<net.jforum.JForum: void service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.jforum.JForum, line: '209', method: '<net.jforum.JForum: void
+    handleFinally(java.io.Writer,net.jforum.context.JForumContext,net.jforum.context.ResponseContext)>',
+  source-file: JForum.java, tag: 76, unit-string: 'specialinvoke r0.<net.jforum.JForum:
+    void handleFinally(java.io.Writer,net.jforum.context.JForumContext,net.jforum.context.ResponseContext)>(r23,
+    r24, r26)'}
+- {containing-method: '<net.jforum.JForum: void service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.jforum.JForum, line: '206', method: '<net.jforum.JForum: void
+    handleException(java.io.Writer,net.jforum.context.ResponseContext,java.lang.String,java.lang.Exception,net.jforum.context.RequestContext)>',
+  source-file: JForum.java, tag: 75, unit-string: 'specialinvoke r0.<net.jforum.JForum:
+    void handleException(java.io.Writer,net.jforum.context.ResponseContext,java.lang.String,java.lang.Exception,net.jforum.context.RequestContext)>(r23,
+    r26, r3, r30, r25)'}
+- {containing-method: '<net.jforum.JForum: void service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.jforum.JForum, line: '141', method: '<net.jforum.context.web.WebRequestContext:
+    void <init>(javax.servlet.http.HttpServletRequest)>', source-file: JForum.java,
+  tag: 73, unit-string: 'specialinvoke $r8.<net.jforum.context.web.WebRequestContext:
+    void <init>(javax.servlet.http.HttpServletRequest)>(r1)'}
+- {containing-method: '<net.jforum.JForum: void service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.jforum.JForum, line: '135', method: '<net.jforum.util.preferences.SystemGlobals:
+    java.lang.String getValue(java.lang.String)>', source-file: JForum.java, tag: 71,
+  unit-string: 'r3 = staticinvoke <net.jforum.util.preferences.SystemGlobals: java.lang.String
+    getValue(java.lang.String)>("encoding")'}
+- {containing-method: '<net.jforum.view.forum.common.PostCommon: java.lang.String
+    prepareTextForDisplayExceptCodeTag(java.lang.String,boolean,boolean)>', containing-type: net.jforum.view.forum.common.PostCommon,
+  line: '227', method: '<net.jforum.view.forum.common.PostCommon: java.lang.String
+    processSmilies(java.lang.StringBuffer)>', source-file: PostCommon.java, tag: 4690,
+  unit-string: 'r9 = staticinvoke <net.jforum.view.forum.common.PostCommon: java.lang.String
+    processSmilies(java.lang.StringBuffer)>($r8)'}
+- {containing-method: '<net.jforum.search.LuceneSearch: net.jforum.search.SearchResult
+    search(net.jforum.search.SearchArgs)>', containing-type: net.jforum.search.LuceneSearch,
+  line: '107', method: '<net.jforum.search.LuceneSearch: net.jforum.search.SearchResult
+    performSearch(net.jforum.search.SearchArgs,net.jforum.search.LuceneResultCollector,org.apache.lucene.search.Filter)>',
+  source-file: LuceneSearch.java, tag: 5642, unit-string: '$r3 = specialinvoke r0.<net.jforum.search.LuceneSearch:
+    net.jforum.search.SearchResult performSearch(net.jforum.search.SearchArgs,net.jforum.search.LuceneResultCollector,org.apache.lucene.search.Filter)>(r1,
+    $r2, null)'}
+- {containing-method: '<net.jforum.repository.TopicRepository: void addTopic(net.jforum.entities.Topic)>',
+  containing-type: net.jforum.repository.TopicRepository, line: '239', source-file: TopicRepository.java,
+  tag: 62, unit-string: entermonitor "topics/byforum"}
+- {containing-method: '<net.jforum.view.admin.SmiliesAction: void list()>', containing-type: net.jforum.view.admin.SmiliesAction,
+  line: '174', method: '<net.jforum.repository.SmiliesRepository: java.util.List getSmilies()>',
+  source-file: SmiliesAction.java, tag: 737, unit-string: '$r2 = staticinvoke <net.jforum.repository.SmiliesRepository:
+    java.util.List getSmilies()>()'}
+- {containing-method: '<net.jforum.repository.TopicRepository: void addTopic(net.jforum.entities.Topic)>',
+  containing-type: net.jforum.repository.TopicRepository, line: '273', method: '<net.jforum.cache.CacheEngine:
+    void add(java.lang.String,java.lang.String,java.lang.Object)>', source-file: TopicRepository.java,
+  tag: 3243, unit-string: 'interfaceinvoke $r8.<net.jforum.cache.CacheEngine: void
+    add(java.lang.String,java.lang.String,java.lang.Object)>("topics", "relation",
+    r19)'}
+- {containing-method: '<net.jforum.repository.TopicRepository: void addTopic(net.jforum.entities.Topic)>',
+  containing-type: net.jforum.repository.TopicRepository, line: '263', method: '<net.jforum.cache.CacheEngine:
+    void add(java.lang.String,java.lang.String,java.lang.Object)>', source-file: TopicRepository.java,
+  tag: 3240, unit-string: 'interfaceinvoke $r16.<net.jforum.cache.CacheEngine: void
+    add(java.lang.String,java.lang.String,java.lang.Object)>("topics/byforum", r2,
+    r14)'}
+- {containing-method: '<net.jforum.view.forum.UserAction: void lostPasswordSend()>',
+  containing-type: net.jforum.view.forum.UserAction, line: '719', method: '<net.jforum.util.mail.LostPasswordSpammer:
+    void <init>(net.jforum.entities.User,java.lang.String)>', source-file: UserAction.java,
+  tag: 1645, unit-string: 'specialinvoke $r7.<net.jforum.util.mail.LostPasswordSpammer:
+    void <init>(net.jforum.entities.User,java.lang.String)>(r3, $r8)'}
+- {containing-method: '<net.jforum.repository.TopicRepository: void addAll(int,java.util.List)>',
+  containing-type: net.jforum.repository.TopicRepository, line: '210', source-file: TopicRepository.java,
+  tag: 6329, unit-string: '$r12 = <net.jforum.repository.TopicRepository: net.jforum.cache.CacheEngine
+    cache>'}
+- {containing-method: '<net.jforum.repository.TopicRepository: void addTopic(net.jforum.entities.Topic)>',
+  containing-type: net.jforum.repository.TopicRepository, line: '274', source-file: TopicRepository.java,
+  tag: 6330, unit-string: exitmonitor r1}
+- {containing-method: '<net.jforum.repository.ForumRepository: void addCategory(net.jforum.entities.Category)>',
+  containing-type: net.jforum.repository.ForumRepository, line: '406', source-file: ForumRepository.java,
+  tag: 46, unit-string: nop}
+- {containing-method: '<net.jforum.view.admin.CategoryAction: void editSave()>', containing-type: net.jforum.view.admin.CategoryAction,
+  line: '109', method: '<net.jforum.repository.ForumRepository: void reloadCategory(net.jforum.entities.Category)>',
+  source-file: CategoryAction.java, tag: 841, unit-string: 'staticinvoke <net.jforum.repository.ForumRepository:
+    void reloadCategory(net.jforum.entities.Category)>(r1)'}
+- {containing-method: '<net.jforum.view.admin.CategoryAction: void editSave()>', containing-type: net.jforum.view.admin.CategoryAction,
+  line: '108', method: '<net.jforum.dao.CategoryDAO: void update(net.jforum.entities.Category)>',
+  source-file: CategoryAction.java, tag: 840, unit-string: 'interfaceinvoke $r10.<net.jforum.dao.CategoryDAO:
+    void update(net.jforum.entities.Category)>(r1)'}
+- {containing-method: '<net.jforum.view.admin.CategoryAction: void editSave()>', containing-type: net.jforum.view.admin.CategoryAction,
+  line: '103', method: '<net.jforum.repository.ForumRepository: net.jforum.entities.Category
+    getCategory(int)>', source-file: CategoryAction.java, tag: 838, unit-string: '$r4
+    = staticinvoke <net.jforum.repository.ForumRepository: net.jforum.entities.Category
+    getCategory(int)>($i0)'}
+- {containing-method: '<net.jforum.view.forum.ModerationHelper: int moveTopicsSave(java.lang.String)>',
+  containing-type: net.jforum.view.forum.ModerationHelper, line: '327', method: '<net.jforum.view.forum.ModerationHelper:
+    java.lang.String moderationDone(java.lang.String)>', source-file: ModerationHelper.java,
+  tag: 4025, unit-string: '$r6 = virtualinvoke r0.<net.jforum.view.forum.ModerationHelper:
+    java.lang.String moderationDone(java.lang.String)>(r1)'}
+- {containing-method: '<net.jforum.repository.TopicRepository: void addTopic(net.jforum.entities.Topic)>',
+  containing-type: net.jforum.repository.TopicRepository, line: '265', source-file: TopicRepository.java,
+  tag: 6313, unit-string: '$r17 = <net.jforum.repository.TopicRepository: net.jforum.cache.CacheEngine
+    cache>'}
+- {containing-method: '<net.jforum.repository.ForumRepository: void reloadCategory(net.jforum.entities.Category)>',
+  containing-type: net.jforum.repository.ForumRepository, line: '331', source-file: ForumRepository.java,
+  tag: 28, unit-string: nop}
+- {containing-method: '<net.jforum.view.forum.PrivateMessageAction: void sendSave()>',
+  containing-type: net.jforum.view.forum.PrivateMessageAction, line: '237', source-file: PrivateMessageAction.java,
+  tag: 6320, unit-string: 'if r52 == null goto $r39 = virtualinvoke r4.<net.jforum.entities.User:
+    java.lang.String getEmail()>()'}
+- {containing-method: '<net.jforum.view.admin.CategoryAction: void insertSave()>',
+  containing-type: net.jforum.view.admin.CategoryAction, line: '154', method: '<net.jforum.repository.ForumRepository:
+    void addCategory(net.jforum.entities.Category)>', source-file: CategoryAction.java,
+  tag: 820, unit-string: 'staticinvoke <net.jforum.repository.ForumRepository: void
+    addCategory(net.jforum.entities.Category)>(r1)'}
+- {containing-method: '<net.jforum.view.admin.CategoryAction: void insertSave()>',
+  containing-type: net.jforum.view.admin.CategoryAction, line: '151', method: '<net.jforum.dao.CategoryDAO:
+    int addNew(net.jforum.entities.Category)>', source-file: CategoryAction.java,
+  tag: 819, unit-string: 'i0 = interfaceinvoke $r14.<net.jforum.dao.CategoryDAO: int
+    addNew(net.jforum.entities.Category)>(r1)'}
+- {containing-method: '<net.jforum.repository.TopicRepository: void addTopic(net.jforum.entities.Topic)>',
+  containing-type: net.jforum.repository.TopicRepository, line: '273', source-file: TopicRepository.java,
+  tag: 6326, unit-string: '$r8 = <net.jforum.repository.TopicRepository: net.jforum.cache.CacheEngine
+    cache>'}
+- {containing-method: '<net.jforum.dao.generic.GenericPostDAO: void update(net.jforum.entities.Post)>',
+  containing-type: net.jforum.dao.generic.GenericPostDAO, line: '233', method: '<net.jforum.search.SearchFacade:
+    void update(net.jforum.entities.Post)>', source-file: GenericPostDAO.java, tag: 3206,
+  unit-string: 'staticinvoke <net.jforum.search.SearchFacade: void update(net.jforum.entities.Post)>(r1)'}
+- {containing-method: '<net.jforum.dao.generic.GenericPostDAO: void update(net.jforum.entities.Post)>',
+  containing-type: net.jforum.dao.generic.GenericPostDAO, line: '231', method: '<net.jforum.dao.generic.GenericPostDAO:
+    void updatePostsTextTable(net.jforum.entities.Post)>', source-file: GenericPostDAO.java,
+  tag: 3205, unit-string: 'virtualinvoke r0.<net.jforum.dao.generic.GenericPostDAO:
+    void updatePostsTextTable(net.jforum.entities.Post)>(r1)'}
+- {containing-method: '<net.jforum.dao.generic.GenericPostDAO: void update(net.jforum.entities.Post)>',
+  containing-type: net.jforum.dao.generic.GenericPostDAO, line: '230', method: '<net.jforum.dao.generic.GenericPostDAO:
+    void updatePostsTable(net.jforum.entities.Post)>', source-file: GenericPostDAO.java,
+  tag: 3204, unit-string: 'virtualinvoke r0.<net.jforum.dao.generic.GenericPostDAO:
+    void updatePostsTable(net.jforum.entities.Post)>(r1)'}
+- {containing-method: '<net.jforum.view.forum.PostAction: void edit(boolean,net.jforum.entities.Post)>',
+  containing-type: net.jforum.view.forum.PostAction, line: '638', method: '<net.jforum.repository.SmiliesRepository:
+    java.util.List getSmilies()>', source-file: PostAction.java, tag: 3173, unit-string: '$r8
+    = staticinvoke <net.jforum.repository.SmiliesRepository: java.util.List getSmilies()>()'}

@@ -1,0 +1,6 @@
+- rule: "=<java.io.PrintStream: println>"
+- rule: "=<java.lang.StringBuilder,java.lang.StringBuilder>"
+- sig: "<java.lang.Integer: java.lang.Integer valueOf(int)>"
+  target: IDENTITY
+- rule: "==java.util:*"
+

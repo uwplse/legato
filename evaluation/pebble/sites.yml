@@ -1,0 +1,135 @@
+- {containing-method: '<org.apache.jsp.themes.template.jsp.printableTemplate_jsp:
+    void _jspService(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: org.apache.jsp.themes.template.jsp.printableTemplate_jsp, line: '99',
+  method: '<pebble.blog.Blog: java.lang.String getCharacterEncoding()>', source-file: printableTemplate_jsp.java,
+  tag: 94, unit-string: '$r8 = virtualinvoke r39.<pebble.blog.Blog: java.lang.String
+    getCharacterEncoding()>()'}
+- {containing-method: '<pebble.controller.action.SendTrackBackAction: java.lang.String
+    process(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: pebble.controller.action.SendTrackBackAction, line: '90', method: '<pebble.blog.Blog:
+    java.lang.String getCharacterEncoding()>', source-file: SendTrackBackAction.java,
+  tag: 184, unit-string: '$r21 = virtualinvoke r3.<pebble.blog.SimpleBlog: java.lang.String
+    getCharacterEncoding()>()'}
+- {containing-method: '<pebble.controller.action.SendTrackBackAction: java.lang.String
+    process(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: pebble.controller.action.SendTrackBackAction, line: '83', method: '<pebble.blog.Blog:
+    java.lang.String getName()>', source-file: SendTrackBackAction.java, tag: 183,
+  unit-string: 'r10 = virtualinvoke $r15.<pebble.blog.SimpleBlog: java.lang.String
+    getName()>()'}
+- {containing-method: '<pebble.controller.FrontController: void processRequest(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: pebble.controller.FrontController, line: '118', method: '<pebble.blog.Blog:
+    java.lang.String getName()>', source-file: FrontController.java, tag: 173, unit-string: '$r10
+    = virtualinvoke r22.<pebble.blog.Blog: java.lang.String getName()>()'}
+- {containing-method: '<org.apache.jsp.index_jsp: void service(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>',
+  containing-type: org.apache.jsp.index_jsp, line: null, method: '<org.apache.jsp.index_jsp:
+    void _jspService(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  source-file: index_jsp.java, tag: 168, unit-string: 'virtualinvoke this.<org.apache.jsp.index_jsp:
+    void _jspService(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>(t1,
+    t2)'}
+- {containing-method: '<org.apache.jsp.index_jsp: void _jspService(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: org.apache.jsp.index_jsp, line: null, method: '<edu.washington.cse.servlet.jsp.SimplePageContext:
+    void legatoInline0()>', source-file: index_jsp.java, tag: 166, unit-string: 'virtualinvoke
+    $r0.<edu.washington.cse.servlet.jsp.SimplePageContext: void legatoInline0()>()'}
+- {containing-method: '<edu.washington.cse.servlet.jsp.SimplePageContext: void legatoInline0()>',
+  containing-type: edu.washington.cse.servlet.jsp.SimplePageContext, line: null, method: '<javax.servlet.RequestDispatcher:
+    void forward(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>', source-file: SimplePageContext.java,
+  tag: 164, unit-string: 'interfaceinvoke $r1.<javax.servlet.RequestDispatcher: void
+    forward(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>($r2, $r3)'}
+- {containing-method: '<pebble.PseudoMain$Dispatcher_31: void forward(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>',
+  containing-type: pebble.PseudoMain$Dispatcher_31, line: '884', method: '<org.apache.jsp.common.jsp.template_jsp:
+    void service(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>', source-file: PseudoMain.java,
+  tag: 163, unit-string: 'virtualinvoke $r3.<org.apache.jsp.common.jsp.template_jsp:
+    void service(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>(r1,
+    r2)'}
+- {containing-method: '<pebble.PseudoMain$Dispatcher_28: void forward(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>',
+  containing-type: pebble.PseudoMain$Dispatcher_28, line: '851', method: '<org.apache.jsp.themes.template.jsp.printableTemplate_jsp:
+    void service(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>', source-file: PseudoMain.java,
+  tag: 743, unit-string: 'virtualinvoke $r3.<org.apache.jsp.themes.template.jsp.printableTemplate_jsp:
+    void service(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>(r1,
+    r2)'}
+- {containing-method: '<pebble.PseudoMain$Dispatcher_70: void forward(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>',
+  containing-type: pebble.PseudoMain$Dispatcher_70, line: '1313', method: '<org.apache.jsp.index_jsp:
+    void service(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>', source-file: PseudoMain.java,
+  tag: 739, unit-string: 'virtualinvoke $r3.<org.apache.jsp.index_jsp: void service(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>(r1,
+    r2)'}
+- {containing-method: '<pebble.controller.FrontController: void processRequest(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: pebble.controller.FrontController, line: '104', source-file: FrontController.java,
+  tag: 2173, unit-string: '$r19 := @caughtexception'}
+- {containing-method: '<pebble.AllServletsHandlers: void doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>',
+  containing-type: pebble.AllServletsHandlers, line: '2029', method: '<org.apache.jsp.themes.default_.jsp.printableTemplate_jsp:
+    void service(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>', source-file: PseudoMain.java,
+  tag: 47, unit-string: 'virtualinvoke $r64.<org.apache.jsp.themes.default_.jsp.printableTemplate_jsp:
+    void service(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>(r1,
+    r2)'}
+- {containing-method: '<org.apache.jsp.themes.default_.jsp.printableTemplate_jsp:
+    void service(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>', containing-type: org.apache.jsp.themes.default_.jsp.printableTemplate_jsp,
+  line: null, method: '<org.apache.jsp.themes.default_.jsp.printableTemplate_jsp:
+    void _jspService(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  source-file: printableTemplate_jsp.java, tag: 45, unit-string: 'virtualinvoke this.<org.apache.jsp.themes.default_.jsp.printableTemplate_jsp:
+    void _jspService(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>(t1,
+    t2)'}
+- {containing-method: '<pebble.AllServletsHandlers: void doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>',
+  containing-type: pebble.AllServletsHandlers, line: '2005', method: '<org.apache.jsp.themes.default_.jsp.template_jsp:
+    void service(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>', source-file: PseudoMain.java,
+  tag: 44, unit-string: 'virtualinvoke $r72.<org.apache.jsp.themes.default_.jsp.template_jsp:
+    void service(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>(r1,
+    r2)'}
+- {containing-method: '<org.apache.jsp.themes.default_.jsp.template_jsp: void service(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>',
+  containing-type: org.apache.jsp.themes.default_.jsp.template_jsp, line: null, method: '<org.apache.jsp.themes.default_.jsp.template_jsp:
+    void _jspService(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  source-file: template_jsp.java, tag: 43, unit-string: 'virtualinvoke this.<org.apache.jsp.themes.default_.jsp.template_jsp:
+    void _jspService(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>(t1,
+    t2)'}
+- {containing-method: '<org.apache.jsp.themes.default_.jsp.printableTemplate_jsp:
+    void _jspService(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: org.apache.jsp.themes.default_.jsp.printableTemplate_jsp, line: '98',
+  method: '<pebble.blog.Blog: java.lang.String getCharacterEncoding()>', source-file: printableTemplate_jsp.java,
+  tag: 40, unit-string: '$r8 = virtualinvoke r39.<pebble.blog.Blog: java.lang.String
+    getCharacterEncoding()>()'}
+- {containing-method: '<org.apache.jsp.themes.default_.jsp.template_jsp: void _jspService(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: org.apache.jsp.themes.default_.jsp.template_jsp, line: '110', method: '<pebble.blog.Blog:
+    java.lang.String getCharacterEncoding()>', source-file: template_jsp.java, tag: 39,
+  unit-string: '$r10 = virtualinvoke r54.<pebble.blog.Blog: java.lang.String getCharacterEncoding()>()'}
+- {containing-method: '<pebble.AllServletsHandlers: void doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>',
+  containing-type: pebble.AllServletsHandlers, line: '2226', source-file: PseudoMain.java,
+  tag: 2172, unit-string: return}
+- {containing-method: '<pebble.controller.FrontController: void processRequest(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: pebble.controller.FrontController, line: '126', source-file: FrontController.java,
+  tag: 2171, unit-string: nop}
+- {containing-method: '<pebble.controller.FrontController: void processRequest(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: pebble.controller.FrontController, line: null, method: '<pebble.PseudoMain$Dispatcher_28:
+    void forward(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>', source-file: FrontController.java,
+  tag: 224, unit-string: 'virtualinvoke $r4.<pebble.PseudoMain$Dispatcher_28: void
+    forward(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>(r1, r2)'}
+- {containing-method: '<pebble.controller.FrontController: void processRequest(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: pebble.controller.FrontController, line: null, method: '<pebble.PseudoMain$Dispatcher_70:
+    void forward(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>', source-file: FrontController.java,
+  tag: 220, unit-string: 'virtualinvoke $r0.<pebble.PseudoMain$Dispatcher_70: void
+    forward(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>(r1, r2)'}
+- {containing-method: '<pebble.controller.FrontController: void processRequest(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: pebble.controller.FrontController, line: '118', method: '<java.lang.StringBuffer:
+    java.lang.String toString()>', source-file: FrontController.java, tag: 218, unit-string: 'r27
+    = virtualinvoke $r12.<java.lang.StringBuffer: java.lang.String toString()>()'}
+- {containing-method: '<pebble.controller.FrontController: void processRequest(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: pebble.controller.FrontController, line: '112', method: '<pebble.controller.Action:
+    java.lang.String process(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  source-file: FrontController.java, tag: 214, unit-string: 'r4 = virtualinvoke r3.<pebble.controller.Action:
+    java.lang.String process(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>(r1,
+    r2)'}
+- {containing-method: '<org.apache.jsp.common.jsp.template_jsp: void service(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>',
+  containing-type: org.apache.jsp.common.jsp.template_jsp, line: null, method: '<org.apache.jsp.common.jsp.template_jsp:
+    void _jspService(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  source-file: template_jsp.java, tag: 109, unit-string: 'virtualinvoke this.<org.apache.jsp.common.jsp.template_jsp:
+    void _jspService(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>(t1,
+    t2)'}
+- {containing-method: '<org.apache.jsp.themes.template.jsp.printableTemplate_jsp:
+    void service(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>', containing-type: org.apache.jsp.themes.template.jsp.printableTemplate_jsp,
+  line: null, method: '<org.apache.jsp.themes.template.jsp.printableTemplate_jsp:
+    void _jspService(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  source-file: printableTemplate_jsp.java, tag: 101, unit-string: 'virtualinvoke this.<org.apache.jsp.themes.template.jsp.printableTemplate_jsp:
+    void _jspService(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>(t1,
+    t2)'}
+- {containing-method: '<org.apache.jsp.common.jsp.template_jsp: void _jspService(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: org.apache.jsp.common.jsp.template_jsp, line: '101', method: '<pebble.blog.Blog:
+    java.lang.String getCharacterEncoding()>', source-file: template_jsp.java, tag: 99,
+  unit-string: '$r8 = virtualinvoke r35.<pebble.blog.Blog: java.lang.String getCharacterEncoding()>()'}

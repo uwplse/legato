@@ -1,0 +1,523 @@
+- classification: fp
+  key: !!python/tuple
+  - '<edu.washington.cse.servlet.SimpleHttpRequest: void setAttribute(java.lang.String,java.lang.Object)>'
+  - !!python/tuple ['interfaceinvoke $r3.<javax.servlet.ServletRequest: void setAttribute(java.lang.String,java.lang.Object)>(r1,
+      r2)|0']
+  - r2(java.lang.String)
+  tag: cs
+  units: [nop|0]
+  value:
+    nop|0:
+      startSnip:
+        ? '[interfaceinvoke r1.<javax.servlet.http.HttpServletRequest: void setAttribute(java.lang.String,java.lang.Object)>("filename",
+          r47)]|r2(java.lang.String)'
+        : - !!python/tuple [C, 132, 0]
+        ? '[interfaceinvoke r32.<javax.servlet.http.HttpServletRequest: void setAttribute(java.lang.String,java.lang.Object)>("param.name",
+          r36)]|r2(java.lang.String)'
+        : - !!python/tuple [C, 355, 0]
+        ? '[interfaceinvoke r91.<javax.servlet.http.HttpServletRequest: void setAttribute(java.lang.String,java.lang.Object)>("prefix",
+          r96)]|r2(java.lang.String)'
+        : - !!python/tuple [CR, 185, 0, 1, 0]
+          - !!python/tuple [C, 132, 0]
+      url:
+        ? '[interfaceinvoke r1.<javax.servlet.http.HttpServletRequest: void setAttribute(java.lang.String,java.lang.Object)>("baseurl",
+          $r12)]|r2(java.lang.String)'
+        : - !!python/tuple [C, 214, 0]
+        ? '[interfaceinvoke r1.<javax.servlet.http.HttpServletRequest: void setAttribute(java.lang.String,java.lang.Object)>("url",
+          $r10)]|r2(java.lang.String)'
+        : - !!python/tuple [C, 205, 0]
+        ? '[interfaceinvoke r1.<javax.servlet.http.HttpServletRequest: void setAttribute(java.lang.String,java.lang.Object)>("url",
+          $r32)]|r2(java.lang.String)'
+        : - !!python/tuple [C, 197, 0]
+        ? '[interfaceinvoke r91.<javax.servlet.http.HttpServletRequest: void setAttribute(java.lang.String,java.lang.Object)>("prefix",
+          r96)]|r2(java.lang.String)'
+        : - !!python/tuple [CR, 201, 0, 1, 0]
+          - !!python/tuple [C, 197, 0]
+- classification: tp
+  key: !!python/tuple
+  - '<edu.washington.cse.servlet.SimpleHttpRequest: void setAttribute(java.lang.String,java.lang.Object)>'
+  - !!python/tuple ['interfaceinvoke r1.<javax.servlet.http.HttpServletRequest: void
+      setAttribute(java.lang.String,java.lang.Object)>("url", $r10)|0']
+  - r0(edu.washington.cse.servlet.SimpleHttpRequest)[attributes(java.util.Map), <<contents>>(java.lang.String)]
+  units: ['$r5 = r0.<edu.washington.cse.servlet.SimpleHttpRequest: edu.washington.cse.servlet.SimpleContext
+      context>|0']
+  value:
+    '$r5 = r0.<edu.washington.cse.servlet.SimpleHttpRequest: edu.washington.cse.servlet.SimpleContext context>|0':
+      url:
+        ? '[interfaceinvoke r1.<javax.servlet.http.HttpServletRequest: void setAttribute(java.lang.String,java.lang.Object)>("url",
+          $r10)]|r0(edu.washington.cse.servlet.SimpleHttpRequest)[attributes(java.util.Map),
+          <<contents>>(java.lang.String)]'
+        : - !!python/tuple [CR, 201, 0, 1, 0]
+          - !!python/tuple [C, 197, 0]
+        ? '[interfaceinvoke r1.<javax.servlet.http.HttpServletRequest: void setAttribute(java.lang.String,java.lang.Object)>("url",
+          $r10)]|r2(java.lang.String)'
+        : - !!python/tuple [C, 205, 0]
+- classification: fp
+  key: !!python/tuple
+  - '<edu.washington.cse.servlet.SimpleHttpRequest: void setAttribute(java.lang.String,java.lang.Object)>'
+  - !!python/tuple ['interfaceinvoke r32.<javax.servlet.http.HttpServletRequest: void
+      setAttribute(java.lang.String,java.lang.Object)>("param.name", r36)|0']
+  - r0(edu.washington.cse.servlet.SimpleHttpRequest)[attributes(java.util.Map), <<contents>>(java.lang.String)]
+  tag: cs
+  units: ['$r5 = r0.<edu.washington.cse.servlet.SimpleHttpRequest: edu.washington.cse.servlet.SimpleContext
+      context>|0']
+  value:
+    '$r5 = r0.<edu.washington.cse.servlet.SimpleHttpRequest: edu.washington.cse.servlet.SimpleContext context>|0':
+      startSnip:
+        ? '[interfaceinvoke r32.<javax.servlet.http.HttpServletRequest: void setAttribute(java.lang.String,java.lang.Object)>("param.name",
+          r36)]|r0(edu.washington.cse.servlet.SimpleHttpRequest)[attributes(java.util.Map),
+          <<contents>>(java.lang.String)]'
+        : - !!python/tuple [CR, 185, 0, 1, 0]
+          - !!python/tuple [C, 132, 0]
+        ? '[interfaceinvoke r32.<javax.servlet.http.HttpServletRequest: void setAttribute(java.lang.String,java.lang.Object)>("param.name",
+          r36)]|r2(java.lang.String)'
+        : - !!python/tuple [C, 355, 0]
+- classification: fp
+  key: !!python/tuple ['<javax.servlet.ServletRequestWrapper: javax.servlet.ServletInputStream
+      getInputStream()>', '$r2(edu.washington.cse.servlet.SimpleHttpRequest$1)[this$0(javax.servlet.http.HttpServletRequest)]']
+  tag: heap
+- classification: fp
+  key: !!python/tuple
+  - '<javax.servlet.ServletRequestWrapper: void setAttribute(java.lang.String,java.lang.Object)>'
+  - !!python/tuple ['interfaceinvoke $r3.<javax.servlet.ServletRequest: void setAttribute(java.lang.String,java.lang.Object)>(r1,
+      r2)|0']
+  - r2(java.lang.String)
+  tag: cs
+  units: [nop|0]
+  value:
+    nop|0:
+      startSnip:
+        ? '[interfaceinvoke r1.<javax.servlet.http.HttpServletRequest: void setAttribute(java.lang.String,java.lang.Object)>("filename",
+          r47)]|r2(java.lang.String)'
+        : - !!python/tuple [C, 132, 0]
+        ? '[interfaceinvoke r32.<javax.servlet.http.HttpServletRequest: void setAttribute(java.lang.String,java.lang.Object)>("param.name",
+          r36)]|r2(java.lang.String)'
+        : - !!python/tuple [C, 355, 0]
+        ? '[interfaceinvoke r91.<javax.servlet.http.HttpServletRequest: void setAttribute(java.lang.String,java.lang.Object)>("prefix",
+          r96)]|r2(java.lang.String)'
+        : - !!python/tuple [CR, 185, 0, 1, 0]
+          - !!python/tuple [C, 132, 0]
+      url:
+        ? '[interfaceinvoke r1.<javax.servlet.http.HttpServletRequest: void setAttribute(java.lang.String,java.lang.Object)>("baseurl",
+          $r12)]|r2(java.lang.String)'
+        : - !!python/tuple [C, 214, 0]
+        ? '[interfaceinvoke r1.<javax.servlet.http.HttpServletRequest: void setAttribute(java.lang.String,java.lang.Object)>("url",
+          $r10)]|r2(java.lang.String)'
+        : - !!python/tuple [C, 205, 0]
+        ? '[interfaceinvoke r1.<javax.servlet.http.HttpServletRequest: void setAttribute(java.lang.String,java.lang.Object)>("url",
+          $r32)]|r2(java.lang.String)'
+        : - !!python/tuple [C, 197, 0]
+        ? '[interfaceinvoke r91.<javax.servlet.http.HttpServletRequest: void setAttribute(java.lang.String,java.lang.Object)>("prefix",
+          r96)]|r2(java.lang.String)'
+        : - !!python/tuple [CR, 201, 0, 1, 0]
+          - !!python/tuple [C, 197, 0]
+- classification: fp
+  key: !!python/tuple
+  - '<javax.servlet.jsp.tagext.TagSupport: int doStartTag()>'
+  - !!python/tuple ['$i0 = specialinvoke r0.<javax.servlet.jsp.tagext.TagSupport:
+      int doStartTag()>()|0']
+  - r0(org.snipsnap.jsp.DublinCoreTag)[pageContext(edu.washington.cse.servlet.jsp.SimplePageContext),
+    request(edu.washington.cse.servlet.SimpleHttpRequest), attributes(java.util.Map),
+    <<contents>>(java.lang.String)]
+  tag: cs
+  units: [nop|0]
+  value:
+    nop|0: {}
+- classification: fp
+  key: !!python/tuple
+  - '<javax.servlet.jsp.tagext.TagSupport: int doStartTag()>'
+  - !!python/tuple ['$i0 = specialinvoke r0.<javax.servlet.jsp.tagext.TagSupport:
+      int doStartTag()>()|0']
+  - r0(org.snipsnap.jsp.DublinCoreTag)[snip(org.snipsnap.snip.Snip), *(Any_subtype_of_java.lang.Object)]
+  tag: cs
+  units: [nop|0]
+  value:
+    nop|0: {}
+- classification: fp
+  key: !!python/tuple
+  - '<org.snipsnap.PseudoMain$MyContext: void notifyRequestAttributeAdded(edu.washington.cse.servlet.SimpleHttpRequest,java.lang.String,java.lang.Object)>'
+  - !!python/tuple ['virtualinvoke $r5.<edu.washington.cse.servlet.SimpleContext:
+      void notifyRequestAttributeAdded(edu.washington.cse.servlet.SimpleHttpRequest,java.lang.String,java.lang.Object)>(r0,
+      r1, r2)|0']
+  - r1(edu.washington.cse.servlet.SimpleHttpRequest)[attributes(java.util.Map), <<contents>>(java.lang.String)]
+  tag: cs
+  units: [nop|0]
+  value:
+    nop|0: {}
+- classification: fp
+  key: !!python/tuple
+  - '<org.snipsnap.PseudoMain$MyContext: void notifyRequestAttributeAdded(edu.washington.cse.servlet.SimpleHttpRequest,java.lang.String,java.lang.Object)>'
+  - !!python/tuple ['virtualinvoke $r5.<edu.washington.cse.servlet.SimpleContext:
+      void notifyRequestAttributeAdded(edu.washington.cse.servlet.SimpleHttpRequest,java.lang.String,java.lang.Object)>(r0,
+      r1, r2)|0']
+  - r3(java.lang.String)
+  tag: cs
+  units: [nop|0]
+  value:
+    nop|0:
+      startSnip:
+        ? '[interfaceinvoke r1.<javax.servlet.http.HttpServletRequest: void setAttribute(java.lang.String,java.lang.Object)>("filename",
+          r47)]|r2(java.lang.String)'
+        : - !!python/tuple [C, 132, 0]
+        ? '[interfaceinvoke r32.<javax.servlet.http.HttpServletRequest: void setAttribute(java.lang.String,java.lang.Object)>("param.name",
+          r36)]|r2(java.lang.String)'
+        : - !!python/tuple [C, 355, 0]
+        ? '[interfaceinvoke r91.<javax.servlet.http.HttpServletRequest: void setAttribute(java.lang.String,java.lang.Object)>("prefix",
+          r96)]|r2(java.lang.String)'
+        : - !!python/tuple [CR, 185, 0, 1, 0]
+          - !!python/tuple [C, 132, 0]
+      url:
+        ? '[interfaceinvoke r1.<javax.servlet.http.HttpServletRequest: void setAttribute(java.lang.String,java.lang.Object)>("baseurl",
+          $r12)]|r2(java.lang.String)'
+        : - !!python/tuple [C, 214, 0]
+        ? '[interfaceinvoke r1.<javax.servlet.http.HttpServletRequest: void setAttribute(java.lang.String,java.lang.Object)>("url",
+          $r10)]|r2(java.lang.String)'
+        : - !!python/tuple [C, 205, 0]
+        ? '[interfaceinvoke r1.<javax.servlet.http.HttpServletRequest: void setAttribute(java.lang.String,java.lang.Object)>("url",
+          $r32)]|r2(java.lang.String)'
+        : - !!python/tuple [C, 197, 0]
+        ? '[interfaceinvoke r91.<javax.servlet.http.HttpServletRequest: void setAttribute(java.lang.String,java.lang.Object)>("prefix",
+          r96)]|r2(java.lang.String)'
+        : - !!python/tuple [CR, 201, 0, 1, 0]
+          - !!python/tuple [C, 197, 0]
+- classification: fp
+  key: !!python/tuple
+  - '<org.snipsnap.PseudoMain$MyContext: void notifyRequestAttributeReplaced(edu.washington.cse.servlet.SimpleHttpRequest,java.lang.String,java.lang.Object)>'
+  - !!python/tuple ['virtualinvoke $r6.<edu.washington.cse.servlet.SimpleContext:
+      void notifyRequestAttributeReplaced(edu.washington.cse.servlet.SimpleHttpRequest,java.lang.String,java.lang.Object)>(r0,
+      r1, r3)|0']
+  - r1(edu.washington.cse.servlet.SimpleHttpRequest)[attributes(java.util.Map), <<contents>>(java.lang.String)]
+  tag: cs
+  units: [nop|0]
+  value:
+    nop|0: {}
+- classification: fp
+  key: !!python/tuple
+  - '<org.snipsnap.jsp.DublinCoreTag: java.lang.String capitalize(java.lang.String)>'
+  - !!python/tuple ['$r9 = specialinvoke r0.<org.snipsnap.jsp.DublinCoreTag: java.lang.String
+      capitalize(java.lang.String)>(r23)|0']
+  - r0(org.snipsnap.jsp.DublinCoreTag)[pageContext(edu.washington.cse.servlet.jsp.SimplePageContext),
+    request(edu.washington.cse.servlet.SimpleHttpRequest), attributes(java.util.Map),
+    <<contents>>(java.lang.String)]
+  tag: cs
+  units: [nop|0]
+  value:
+    nop|0: {}
+- classification: fp
+  key: !!python/tuple
+  - '<org.snipsnap.jsp.DublinCoreTag: java.lang.String capitalize(java.lang.String)>'
+  - !!python/tuple ['$r9 = specialinvoke r0.<org.snipsnap.jsp.DublinCoreTag: java.lang.String
+      capitalize(java.lang.String)>(r23)|0']
+  - r0(org.snipsnap.jsp.DublinCoreTag)[snip(org.snipsnap.snip.Snip), *(Any_subtype_of_java.lang.Object)]
+  tag: cs
+  units: [nop|0]
+  value:
+    nop|0: {}
+- classification: fp
+  key: !!python/tuple
+  - '<org.snipsnap.net.PostStoreServlet: void doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+  - !!python/tuple ['virtualinvoke this.<org.snipsnap.net.PostStoreServlet: void doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>(req,
+      resp)|0']
+  - r32(edu.washington.cse.servlet.SimpleHttpRequest)[attributes(java.util.Map), <<contents>>(java.lang.String)]
+  tag: servlet
+  units: ['_legato_internal_2 = interfaceinvoke r32.<javax.servlet.http.HttpServletRequest:
+      javax.servlet.RequestDispatcher getRequestDispatcher(java.lang.String)>("/exec/post.jsp")|0']
+  value:
+    ? '_legato_internal_2 = interfaceinvoke r32.<javax.servlet.http.HttpServletRequest:
+      javax.servlet.RequestDispatcher getRequestDispatcher(java.lang.String)>("/exec/post.jsp")|0'
+    : startSnip:
+        ? '[virtualinvoke this.<org.snipsnap.net.PostStoreServlet: void doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>(req,
+          resp)]|<<zero>>(null_type)'
+        : - !!python/tuple [CR, 453, 0, 0]
+          - !!python/tuple [C, 355, 0]
+        ? '[virtualinvoke this.<org.snipsnap.net.PostStoreServlet: void doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>(req,
+          resp)]|r32(javax.servlet.http.HttpServletRequest)[attributes(java.util.Map),
+          <<contents>>(java.lang.String)]'
+        : - !!python/tuple [CR, 185, 0, 1, 0]
+          - !!python/tuple [C, 132, 0]
+- classification: tp
+  key: !!python/tuple
+  - '<org.snipsnap.net.PostStoreServlet: void service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+  - !!python/tuple ['virtualinvoke this.<org.snipsnap.net.PostStoreServlet: void service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>(t1,
+      t2)|0']
+  - req(edu.washington.cse.servlet.SimpleHttpRequest)[attributes(java.util.Map), <<contents>>(java.lang.String)]
+  units: [return|0]
+  value:
+    return|0:
+      startSnip:
+        ? '[virtualinvoke this.<org.snipsnap.net.PostStoreServlet: void service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>(t1,
+          t2)]|<<zero>>(null_type)'
+        : - !!python/tuple [CR, 1067, 0, 0]
+          - !!python/tuple [CR, 453, 0, 0]
+          - !!python/tuple [C, 355, 0]
+        ? '[virtualinvoke this.<org.snipsnap.net.PostStoreServlet: void service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>(t1,
+          t2)]|req(javax.servlet.http.HttpServletRequest)[attributes(java.util.Map),
+          <<contents>>(java.lang.String)]'
+        : - !!python/tuple [CR, 185, 0, 1, 0]
+          - !!python/tuple [C, 132, 0]
+- classification: tp
+  f1:
+    url:
+    - !!python/tuple [C, 101, 0]
+  f2:
+    url:
+    - !!python/tuple [C, 120, 0]
+  key: !!python/tuple ['<org.snipsnap.net.RsdServlet: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+    <<zero>>(null_type), '_legato_internal_16 = interfaceinvoke r1.<javax.servlet.http.HttpServletRequest:
+      javax.servlet.RequestDispatcher getRequestDispatcher(java.lang.String)>("/rsd.jsp")|0',
+    '[$INSTANCE(edu.washington.cse.servlet.RequestAttributes), <<contents>>(java.lang.String)]']
+  tag: double
+- classification: tp
+  f1:
+    url:
+    - !!python/tuple [CR, 209, 0, 0]
+    - !!python/tuple [C, 205, 0]
+  f2:
+    url:
+    - - !!python/tuple [TR, 219, 0, 0]
+      - !!python/tuple [C, 214, 0]
+    - - !!python/tuple [TR, 219, 1, 0]
+      - !!python/tuple [CR, 209, 0, 0]
+      - !!python/tuple [C, 205, 0]
+  key: !!python/tuple ['<org.snipsnap.net.RsdServlet: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+    <<zero>>(null_type), '_legato_internal_5 = interfaceinvoke r1.<javax.servlet.http.HttpServletRequest:
+      javax.servlet.RequestDispatcher getRequestDispatcher(java.lang.String)>("/rsd.jsp")|0',
+    'r1(edu.washington.cse.servlet.SimpleHttpRequest)[attributes(java.util.Map), <<contents>>(java.lang.String)]']
+- classification: tp
+  key: !!python/tuple
+  - '<org.snipsnap.net.RsdServlet: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+  - !!python/tuple ['virtualinvoke this.<org.snipsnap.net.RsdServlet: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>(req,
+      resp)|0']
+  - r1(edu.washington.cse.servlet.SimpleHttpRequest)[attributes(java.util.Map), <<contents>>(java.lang.String)]
+  units: ['$r11 = r0.<org.snipsnap.net.RsdServlet: org.snipsnap.config.Configuration
+      config>|0']
+  value:
+    '$r11 = r0.<org.snipsnap.net.RsdServlet: org.snipsnap.config.Configuration config>|0':
+      url:
+        ? '[virtualinvoke this.<org.snipsnap.net.RsdServlet: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>(req,
+          resp)]|<<zero>>(null_type)'
+        : - !!python/tuple [CR, 209, 0, 0]
+          - !!python/tuple [C, 205, 0]
+        ? '[virtualinvoke this.<org.snipsnap.net.RsdServlet: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>(req,
+          resp)]|r1(javax.servlet.http.HttpServletRequest)[attributes(java.util.Map),
+          <<contents>>(java.lang.String)]'
+        : - !!python/tuple [CR, 201, 0, 1, 0]
+          - !!python/tuple [C, 197, 0]
+- classification: fp
+  f1:
+    url:
+    - !!python/tuple [CR, 1413, 0, 0]
+    - !!python/tuple [CR, 645, 0, 0]
+    - !!python/tuple [CR, 201, 0, 0]
+    - !!python/tuple [C, 197, 0]
+  f2:
+    url:
+    - !!python/tuple [CR, 201, 0, 0]
+    - !!python/tuple [C, 197, 0]
+  key: !!python/tuple ['<org.snipsnap.net.RssServlet: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+    <<zero>>(null_type), nop|1, 'r1(edu.washington.cse.servlet.SimpleHttpRequest)[attributes(java.util.Map),
+      <<contents>>(java.lang.String)]']
+  tag: path
+- classification: fp
+  f1:
+    encodedSpace:
+    - !!python/tuple [CR, 468, 0, 0]
+    - !!python/tuple [CR, 461, 0, 0]
+    - !!python/tuple [CR, 185, 0, 0]
+    - !!python/tuple [C, 142, 0]
+    startSnip:
+    - !!python/tuple [CR, 468, 0, 0]
+    - !!python/tuple [CR, 461, 0, 0]
+    - !!python/tuple [CR, 185, 0, 0]
+    - !!python/tuple [C, 132, 0]
+  f2:
+    encodedSpace:
+    - !!python/tuple [CR, 185, 0, 0]
+    - !!python/tuple [C, 142, 0]
+    startSnip:
+    - !!python/tuple [CR, 185, 0, 0]
+    - !!python/tuple [C, 132, 0]
+  key: !!python/tuple ['<org.snipsnap.net.SnipViewServlet: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+    <<zero>>(null_type), '$r39 := @caughtexception|0', 'r1(edu.washington.cse.servlet.SimpleHttpRequest)[attributes(java.util.Map),
+      <<contents>>(java.lang.String)]']
+  tag: path
+- classification: fp
+  key: !!python/tuple ['<org.snipsnap.net.SnipViewServlet: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+    'r1(edu.washington.cse.servlet.SimpleHttpRequest)[attributes(java.util.Map), <<contents>>(java.lang.String)]']
+  tag: heap
+- classification: b
+  key: !!python/tuple
+  - '<org.snipsnap.net.SnipViewServlet: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+  - !!python/tuple ['virtualinvoke r0.<org.snipsnap.net.SnipViewServlet: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>(r1,
+      r2)|0']
+  - r1(edu.washington.cse.servlet.SimpleHttpRequest)[attributes(java.util.Map), <<contents>>(java.lang.String)]
+  units: ['$r39 := @caughtexception|0']
+  value:
+    $r39 := @caughtexception|0: {}
+- classification: b
+  key: !!python/tuple
+  - '<org.snipsnap.net.SnipViewServlet: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+  - !!python/tuple ['virtualinvoke this.<org.snipsnap.net.SnipViewServlet: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>(req,
+      resp)|0']
+  - r1(edu.washington.cse.servlet.SimpleHttpRequest)[attributes(java.util.Map), <<contents>>(java.lang.String)]
+  units: ['$r39 := @caughtexception|0']
+  value:
+    $r39 := @caughtexception|0: {}
+- classification: fp
+  key: !!python/tuple ['<org.snipsnap.net.XmlRpcServlet: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+    '$r11(edu.washington.cse.servlet.SimpleHttpRequest$1)[this$0(javax.servlet.http.HttpServletRequest)]']
+  tag: heap
+- classification: fp
+  key: !!python/tuple ['<org.snipsnap.net.XmlRpcServlet: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+    '$r6(edu.washington.cse.servlet.SimpleHttpRequest$1)[this$0(javax.servlet.http.HttpServletRequest)]']
+  tag: heap
+- classification: fp
+  key: !!python/tuple ['<org.snipsnap.net.admin.ConfigureServlet: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+    'r91(edu.washington.cse.servlet.SimpleHttpRequest)[attributes(java.util.Map),
+      <<contents>>(java.lang.String)]']
+  tag: heap
+- classification: fp
+  key: !!python/tuple ['<org.snipsnap.net.admin.ConfigureServlet: void doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+    'r1(edu.washington.cse.servlet.SimpleHttpRequest)[attributes(java.util.Map), <<contents>>(java.lang.String)]']
+  tag: heap
+- classification: fp
+  key: !!python/tuple ['<org.snipsnap.net.admin.ConfigureServlet: void service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+    'req(edu.washington.cse.servlet.SimpleHttpRequest)[attributes(java.util.Map),
+      <<contents>>(java.lang.String)]']
+  tag: heap
+- classification: fp
+  f1:
+    url:
+    - !!python/tuple [C, 137, 0]
+  f2:
+    url:
+    - !!python/tuple [C, 58, 0]
+  key: !!python/tuple ['<org.snipsnap.net.filter.InitFilter: void doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain)>',
+    <<zero>>(null_type), '$r97 = interfaceinvoke r73.<org.snipsnap.config.Configuration:
+      java.lang.String getUrl(java.lang.String)>("/exec/rss")|0', 'r91(java.util.HashMap)[<<contents>>(java.lang.String)]']
+  tag: path
+- classification: fp
+  key: !!python/tuple ['<org.snipsnap.net.filter.MultipartWrapper: void <init>(javax.servlet.http.HttpServletRequest,java.lang.String)>',
+    '$r13(edu.washington.cse.servlet.SimpleHttpRequest$1)[this$0(javax.servlet.http.HttpServletRequest)]']
+  tag: heap
+- classification: fp
+  key: !!python/tuple
+  - '<org.snipsnap.semanticweb.DublinCore: java.util.Map generate(org.snipsnap.snip.Snip)>'
+  - !!python/tuple ['r1 = staticinvoke <org.snipsnap.semanticweb.DublinCore: java.util.Map
+      generate(org.snipsnap.snip.Snip)>($r3)|0']
+  - r0(org.snipsnap.snip.Snip)[*(Any_subtype_of_java.lang.Object)]
+  tag: cs
+  units: [nop|0]
+  value:
+    nop|0: {}
+- classification: tp
+  f1:
+    encodedSpace:
+    - !!python/tuple [CR, 494, 0, 0]
+    - !!python/tuple [C, 93, 0]
+  f2:
+    encodedSpace:
+    - !!python/tuple [CR, 495, 0, 0]
+    - !!python/tuple [C, 93, 0]
+  key: !!python/tuple ['<org.snipsnap.serialization.rdf.RDFSerializerBase: java.lang.String
+      getAttachmentURL(org.snipsnap.snip.attachment.Attachment,org.snipsnap.snip.Snip)>',
+    <<zero>>(null_type), '$r14 = virtualinvoke $r12.<java.lang.StringBuilder: java.lang.String
+      toString()>()|0', $r12(java.lang.StringBuilder)]
+  tag: double
+- classification: fp
+  key: !!python/tuple
+  - '<org.snipsnap.snip.SnipLink: java.io.Writer appendImage(java.io.Writer,java.lang.String,java.lang.String,java.lang.String)>'
+  - !!python/tuple ['$r25 = staticinvoke <org.snipsnap.snip.SnipLink: java.io.Writer
+      appendImage(java.io.Writer,java.lang.String,java.lang.String,java.lang.String)>(r41,
+      $r22, $r23, $r20)|0']
+  - r1(java.lang.String)[*(Any_subtype_of_java.lang.Object)]
+  tag: cs
+  units: [nop|0]
+  value:
+    nop|0: {}
+- classification: fp
+  key: !!python/tuple
+  - '<org.snipsnap.snip.SnipLink: java.io.Writer appendImage(java.io.Writer,java.lang.String,java.lang.String,java.lang.String)>'
+  - !!python/tuple ['$r25 = staticinvoke <org.snipsnap.snip.SnipLink: java.io.Writer
+      appendImage(java.io.Writer,java.lang.String,java.lang.String,java.lang.String)>(r41,
+      $r22, $r23, $r20)|0']
+  - r2(java.lang.String)[*(Any_subtype_of_java.lang.Object)]
+  tag: cs
+  units: [nop|0]
+  value:
+    nop|0: {}
+- classification: fp
+  key: !!python/tuple
+  - '<org.snipsnap.snip.SnipLink: java.io.Writer appendImage(java.io.Writer,java.lang.String,java.lang.String,java.lang.String)>'
+  - !!python/tuple ['$r25 = staticinvoke <org.snipsnap.snip.SnipLink: java.io.Writer
+      appendImage(java.io.Writer,java.lang.String,java.lang.String,java.lang.String)>(r41,
+      $r22, $r23, $r20)|0']
+  - r3(java.lang.String)[*(Any_subtype_of_java.lang.Object)]
+  tag: cs
+  units: [nop|0]
+  value:
+    nop|0: {}
+- classification: fp
+  key: !!python/tuple
+  - '<org.snipsnap.snip.SnipLink: java.io.Writer appendImageWithRoot(java.io.Writer,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>'
+  - !!python/tuple ['$r21 = staticinvoke <org.snipsnap.snip.SnipLink: java.io.Writer
+      appendImageWithRoot(java.io.Writer,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>(r41,
+      $r17, $r18, $r19, $r16, null)|0']
+  - r2(java.lang.String)[*(Any_subtype_of_java.lang.Object)]
+  tag: cs
+  units: [nop|0]
+  value:
+    nop|0: {}
+- classification: fp
+  key: !!python/tuple
+  - '<org.snipsnap.snip.SnipLink: java.io.Writer appendImageWithRoot(java.io.Writer,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>'
+  - !!python/tuple ['$r21 = staticinvoke <org.snipsnap.snip.SnipLink: java.io.Writer
+      appendImageWithRoot(java.io.Writer,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>(r41,
+      $r17, $r18, $r19, $r16, null)|0']
+  - r7(java.lang.String)[*(Any_subtype_of_java.lang.Object)]
+  tag: cs
+  units: [nop|0]
+  value:
+    nop|0: {}
+- classification: fp
+  key: !!python/tuple
+  - '<org.snipsnap.snip.SnipLink: java.io.Writer appendImageWithRoot(java.io.Writer,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>'
+  - !!python/tuple ['$r21 = staticinvoke <org.snipsnap.snip.SnipLink: java.io.Writer
+      appendImageWithRoot(java.io.Writer,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>(r41,
+      $r17, $r18, $r19, $r16, null)|0']
+  - r8(java.lang.String)[*(Any_subtype_of_java.lang.Object)]
+  tag: cs
+  units: [nop|0]
+  value:
+    nop|0: {}
+- classification: fp
+  key: !!python/tuple ['<org.snipsnap.snip.SnipLink: java.lang.StringBuffer appendLink(java.lang.StringBuffer,java.lang.String,java.lang.String)>',
+    $r5(java.lang.StringBuffer)]
+  tag: heap
+- classification: fp
+  key: !!python/tuple ['<org.snipsnap.snip.SnipLink: java.lang.StringBuffer appendLink(java.lang.StringBuffer,java.lang.String,java.lang.String)>',
+    r0(java.lang.StringBuffer)]
+  tag: heap
+- classification: fp
+  key: !!python/tuple
+  - '<org.snipsnap.util.mail.Mail: void sendMail(java.lang.String,java.util.Collection,java.lang.String,java.lang.String)>'
+  - !!python/tuple ['virtualinvoke r0.<org.snipsnap.util.mail.Mail: void sendMail(java.lang.String,java.util.Collection,java.lang.String,java.lang.String)>($r16,
+      r4, r2, r3)|0']
+  - r17(javax.mail.internet.MimeMessage)[*(Any_subtype_of_java.lang.Object)]
+  tag: path
+  units: ['staticinvoke <javax.mail.Transport: void send(javax.mail.Message)>(r17)|0']
+  value:
+    'staticinvoke <javax.mail.Transport: void send(javax.mail.Message)>(r17)|0':
+      url:
+        ? '[virtualinvoke r0.<org.snipsnap.util.mail.Mail: void sendMail(java.lang.String,java.util.Collection,java.lang.String,java.lang.String)>($r16,
+          r4, r2, r3)]|r1(java.lang.String)'
+        : - !!python/tuple [C, 302, 0]
+        ? '[virtualinvoke r0.<org.snipsnap.util.mail.Mail: void sendMail(java.lang.String,java.util.Collection,java.lang.String,java.lang.String)>($r16,
+          r4, r2, r3)]|r4(java.lang.String)'
+        : - !!python/tuple [C, 121, 0]
+- classification: fp
+  fields:
+    mailHost: !!set {'[instance(org.snipsnap.util.mail.Mail), session(javax.mail.Session), *(Any_subtype_of_java.lang.Object)]': null}
+  key: !!python/tuple [instance, org.snipsnap.util.mail.Mail]
+  props: !!set {mailHost: null}
+  tag: static

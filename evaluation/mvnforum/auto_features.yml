@@ -1,0 +1,133 @@
+? !!python/tuple
+- <<zero>>(null_type)
+- '<com.mvnforum.admin.GeneralAdminTasksWebHandler: void sendActivateMailToAll(net.myvietnam.mvncore.web.GenericRequest)>'
+- !!python/tuple [webMasterEmail]
+- 'goto [?= $z = interfaceinvoke r.<java.util.Iterator: boolean hasNext()>()]'
+: !!python/tuple [tp, loop]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<com.mvnforum.auth.OnlineUserFactoryImpl: com.mvnforum.auth.OnlineUser getAnonymousUser(net.myvietnam.mvncore.web.GenericRequest)>'
+- !!python/tuple [defaultGuestName]
+- return $r
+: !!python/tuple [fp, copy-paste]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<com.mvnforum.auth.OnlineUserFactoryImpl: com.mvnforum.auth.OnlineUser getAnonymousUser(net.myvietnam.mvncore.web.GenericRequest)>'
+- !!python/tuple [defaultLocale]
+- return $r
+: !!python/tuple [fp, copy-paste]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<com.mvnforum.auth.OnlineUserFactoryImpl: com.mvnforum.auth.OnlineUser getAnonymousUser(net.myvietnam.mvncore.web.GenericRequest)>'
+- !!python/tuple [defaultLocaleName]
+- return $r
+: !!python/tuple [fp, copy-paste]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<com.mvnforum.auth.OnlineUserManager: com.mvnforum.auth.OnlineUser login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,boolean)>'
+- !!python/tuple [defaultGuestName]
+- 'r = interfaceinvoke r.<javax.servlet.http.HttpServletRequest: javax.servlet.http.HttpSession
+  getSession()>()'
+: !!python/tuple [fp, copy-paste]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<com.mvnforum.auth.OnlineUserManager: com.mvnforum.auth.OnlineUser login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,boolean)>'
+- !!python/tuple [defaultLocale]
+- 'r = interfaceinvoke r.<javax.servlet.http.HttpServletRequest: javax.servlet.http.HttpSession
+  getSession()>()'
+: !!python/tuple [fp, copy-paste]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<com.mvnforum.auth.OnlineUserManager: com.mvnforum.auth.OnlineUser login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,boolean)>'
+- !!python/tuple [defaultLocaleName]
+- 'r = interfaceinvoke r.<javax.servlet.http.HttpServletRequest: javax.servlet.http.HttpSession
+  getSession()>()'
+: !!python/tuple [fp, copy-paste]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<com.mvnforum.auth.OnlineUserManager: com.mvnforum.auth.OnlineUser login(net.myvietnam.mvncore.web.GenericRequest,net.myvietnam.mvncore.web.GenericResponse,java.lang.String,java.lang.String,boolean)>'
+- !!python/tuple [defaultGuestName]
+- 'r = interfaceinvoke r.<net.myvietnam.mvncore.web.GenericRequest: java.lang.String
+  getSessionId()>()'
+: !!python/tuple [fp, copy-paste]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<com.mvnforum.auth.OnlineUserManager: com.mvnforum.auth.OnlineUser login(net.myvietnam.mvncore.web.GenericRequest,net.myvietnam.mvncore.web.GenericResponse,java.lang.String,java.lang.String,boolean)>'
+- !!python/tuple [defaultLocale]
+- 'r = interfaceinvoke r.<net.myvietnam.mvncore.web.GenericRequest: java.lang.String
+  getSessionId()>()'
+: !!python/tuple [fp, copy-paste]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<com.mvnforum.auth.OnlineUserManager: com.mvnforum.auth.OnlineUser login(net.myvietnam.mvncore.web.GenericRequest,net.myvietnam.mvncore.web.GenericResponse,java.lang.String,java.lang.String,boolean)>'
+- !!python/tuple [defaultLocaleName]
+- 'r = interfaceinvoke r.<net.myvietnam.mvncore.web.GenericRequest: java.lang.String
+  getSessionId()>()'
+: !!python/tuple [fp, copy-paste]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<com.mvnforum.user.ThreadWebHandler: void prepareListRSS(javax.servlet.http.HttpServletRequest)>'
+- !!python/tuple [rowsPerRSS]
+- $r := @caughtexception
+: !!python/tuple [fp, path]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<net.myvietnam.mvncore.db.DBConnectionManager: void <init>()>'
+- !!python/tuple []
+- $r := @caughtexception
+: !!python/tuple [fp, reflection]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<net.myvietnam.mvncore.db.DBConnectionManager: void <init>()>'
+- !!python/tuple []
+- 'goto [?= r = staticinvoke <net.myvietnam.mvncore.MVNCoreConfig: java.lang.String
+  getDatabaseURL()>()]'
+: !!python/tuple [fp, reflection]
+? !!python/tuple
+- '<com.mvnforum.admin.ImportWebHelper: void createDefaultGuestMember(java.lang.String)>'
+- 1
+- !!python/tuple [defaultGuestName]
+: !!python/tuple [fp, path]
+? !!python/tuple [instance, com.mvnforum.auth.OnlineUserManager]
+: !!python/tuple [tp, static]
+? !!python/tuple
+- r0(com.mvnforum.admin.importexport.XMLWriter)[outWriter(java.io.OutputStreamWriter)]
+- '<com.mvnforum.admin.CategoryXML: void exportCategory(com.mvnforum.admin.importexport.XMLWriter,int)>'
+- !!python/tuple ['*']
+- 'staticinvoke <com.mvnforum.admin.ForumXML: void exportForumList(com.mvnforum.admin.importexport.XMLWriter,int)>(r,
+  i)'
+: !!python/tuple [fp, bug]
+? !!python/tuple
+- r0(com.mvnforum.admin.importexport.XMLWriter)[outWriter(java.io.OutputStreamWriter)]
+- '<com.mvnforum.admin.ForumXML: void exportForum(com.mvnforum.admin.importexport.XMLWriter,int)>'
+- !!python/tuple ['*']
+- 'staticinvoke <com.mvnforum.admin.ForumXML: void exportGroupForumPermissionsForForum(com.mvnforum.admin.importexport.XMLWriter,int)>(r,
+  i)'
+: !!python/tuple [fp, other]
+? !!python/tuple
+- r0(com.mvnforum.admin.importexport.XMLWriter)[outWriter(java.io.OutputStreamWriter)]
+- '<com.mvnforum.admin.GroupXML: void exportGroup(com.mvnforum.admin.importexport.XMLWriter,int)>'
+- !!python/tuple ['*']
+- $r = r[]
+: !!python/tuple [b, null]
+? !!python/tuple
+- r0(com.mvnforum.admin.importexport.XMLWriter)[outWriter(java.io.OutputStreamWriter)]
+- '<com.mvnforum.admin.MemberXML: void exportMember(com.mvnforum.admin.importexport.XMLWriter,int)>'
+- !!python/tuple ['*']
+- 'staticinvoke <com.mvnforum.admin.MemberXML: void exportMessageFoldersForMember(com.mvnforum.admin.importexport.XMLWriter,int)>(r,
+  i)'
+: !!python/tuple [b, null]
+? !!python/tuple
+- r0(com.mvnforum.admin.importexport.XMLWriter)[outWriter(java.io.OutputStreamWriter)]
+- '<com.mvnforum.admin.PostXML: void exportPost(com.mvnforum.admin.importexport.XMLWriter,int)>'
+- !!python/tuple ['*']
+- 'staticinvoke <com.mvnforum.admin.PostXML: void exportPostList_Replies(com.mvnforum.admin.importexport.XMLWriter,int)>(r,
+  i)'
+: !!python/tuple [fp, other]
+? !!python/tuple
+- r0(com.mvnforum.admin.importexport.XMLWriter)[outWriter(java.io.OutputStreamWriter)]
+- '<com.mvnforum.admin.ThreadXML: void exportThread(com.mvnforum.admin.importexport.XMLWriter,int)>'
+- !!python/tuple ['*']
+- 'staticinvoke <com.mvnforum.admin.ThreadXML: void exportFavoriteThreadsForThread(com.mvnforum.admin.importexport.XMLWriter,int)>(r,
+  i)'
+: !!python/tuple [fp, other]

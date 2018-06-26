@@ -1,0 +1,9 @@
+app_classes: ${source_dir}/pebble/pebble-core/build/classes
+web_xml: ${source_dir}/pebble/pebble-web/WEB-INF/web.xml
+jsp_dir: ${source_dir}/pebble/pebble-web/WEB-INF/classes
+
+jsp-mapping: ${source_dir}/pebble/pebble-web/WEB-INF/generated_web.xml
+
+output_package: pebble
+
+app_source_dir: [ "${source_dir}/pebble/pebble-core/src" ]

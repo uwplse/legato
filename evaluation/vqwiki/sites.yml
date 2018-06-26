@@ -1,0 +1,386 @@
+- {containing-method: '<vqwiki.servlets.PrintableServlet: java.util.Collection parsePage(java.util.ResourceBundle,vqwiki.Environment,java.lang.String,java.lang.String,int,java.util.Vector)>',
+  containing-type: vqwiki.servlets.PrintableServlet, line: '130', method: '<vqwiki.utils.JSPUtils:
+    java.lang.String decodeURL(java.lang.String)>', source-file: PrintableServlet.java,
+  tag: 10440, unit-string: 'r18 = staticinvoke <vqwiki.utils.JSPUtils: java.lang.String
+    decodeURL(java.lang.String)>(r17)'}
+- {containing-method: '<vqwiki.lex.LinkLexConvertHtml: boolean exists(java.lang.String)>',
+  containing-type: vqwiki.lex.LinkLexConvertHtml, line: '43', method: '<vqwiki.WikiBase:
+    vqwiki.WikiBase getInstance()>', source-file: LinkLexConvertHtml.java, tag: 787,
+  unit-string: '$r3 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()'}
+- {containing-method: '<vqwiki.WikiBase: java.lang.String cook(java.io.BufferedReader,java.lang.String)>',
+  containing-type: vqwiki.WikiBase, line: '360', method: '<vqwiki.WikiBase: java.lang.String
+    cook(java.io.BufferedReader,java.lang.String,boolean)>', source-file: WikiBase.java,
+  tag: 2153, unit-string: '$r3 = virtualinvoke r0.<vqwiki.WikiBase: java.lang.String
+    cook(java.io.BufferedReader,java.lang.String,boolean)>(r1, r2, 0)'}
+- {containing-method: '<vqwiki.file.FileVersionManager: java.lang.String getVersionContents(java.lang.String,java.lang.String,int)>',
+  containing-type: vqwiki.file.FileVersionManager, line: '181', method: '<vqwiki.WikiBase:
+    vqwiki.WikiBase getInstance()>', source-file: FileVersionManager.java, tag: 2149,
+  unit-string: '$r12 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()'}
+- {containing-method: '<vqwiki.servlets.AdministrationServlet$AddVirtualWikiAction:
+    void doAction(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: vqwiki.servlets.AdministrationServlet$AddVirtualWikiAction, line: '298',
+  method: '<vqwiki.WikiBase: void initialise()>', source-file: AdministrationServlet.java,
+  tag: 9634, unit-string: 'staticinvoke <vqwiki.WikiBase: void initialise()>()'}
+- {containing-method: '<vqwiki.file.FileReminders: boolean sendReminders(java.util.Date)>',
+  containing-type: vqwiki.file.FileReminders, line: '197', method: '<vqwiki.WikiBase:
+    vqwiki.WikiBase getInstance()>', source-file: FileReminders.java, tag: 2203, unit-string: '$r8
+    = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()'}
+- {containing-method: '<vqwiki.lex.MediaWikiUtil: boolean exists(java.lang.String,java.lang.String)>',
+  containing-type: vqwiki.lex.MediaWikiUtil, line: '146', method: '<vqwiki.WikiBase:
+    vqwiki.WikiBase getInstance()>', source-file: MediaWikiUtil.java, tag: 2560, unit-string: '$r3
+    = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()'}
+- {containing-method: '<vqwiki.lex.MediaWikiParser: java.lang.StringBuffer parseSyntax(java.io.Reader,java.lang.String)>',
+  containing-type: vqwiki.lex.MediaWikiParser, line: '76', method: '<vqwiki.lex.DefaultWikiParser:
+    java.lang.StringBuffer lex(vqwiki.lex.Lexer)>', source-file: MediaWikiParser.java,
+  tag: 3030, unit-string: '$r6 = virtualinvoke r0.<vqwiki.lex.MediaWikiParser: java.lang.StringBuffer
+    lex(vqwiki.lex.Lexer)>(r3)'}
+- {containing-method: '<vqwiki.utils.JSPUtils: java.lang.String encodeURL(java.lang.String)>',
+  containing-type: vqwiki.utils.JSPUtils, line: '54', method: '<vqwiki.Environment:
+    java.lang.String getForceEncoding()>', source-file: JSPUtils.java, tag: 362, unit-string: '$r5
+    = virtualinvoke $r4.<vqwiki.Environment: java.lang.String getForceEncoding()>()'}
+- {containing-method: '<vqwiki.file.FileVersionManager: java.lang.String diff(java.lang.String,java.lang.String,int,int,boolean)>',
+  containing-type: vqwiki.file.FileVersionManager, line: '115', method: '<java.lang.StringBuffer:
+    java.lang.String toString()>', source-file: FileVersionManager.java, tag: 12772,
+  unit-string: '$r50 = virtualinvoke $r51.<java.lang.StringBuffer: java.lang.String
+    toString()>()'}
+- {containing-method: '<vqwiki.servlets.SearchServlet: void doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: vqwiki.servlets.SearchServlet, line: '82', method: '<vqwiki.utils.JSPUtils:
+    java.lang.String encodeURL(java.lang.String)>', source-file: SearchServlet.java,
+  tag: 3545, unit-string: '$r68 = staticinvoke <vqwiki.utils.JSPUtils: java.lang.String
+    encodeURL(java.lang.String)>($r67)'}
+- {containing-method: '<vqwiki.file.FileVersionManager: java.lang.String diff(java.lang.String,java.lang.String,int,int,boolean)>',
+  containing-type: vqwiki.file.FileVersionManager, line: '114', method: '<vqwiki.file.FileHandler:
+    java.io.File getPathFor(java.lang.String,java.lang.String)>', source-file: FileVersionManager.java,
+  tag: 12767, unit-string: '$r43 = staticinvoke <vqwiki.file.FileHandler: java.io.File
+    getPathFor(java.lang.String,java.lang.String)>(r1, $r44)'}
+- {containing-method: '<vqwiki.servlets.AdministrationServlet$PropertiesAction: void
+    doAction(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: vqwiki.servlets.AdministrationServlet$PropertiesAction, line: '255',
+  method: '<vqwiki.WikiBase: void initialise()>', source-file: AdministrationServlet.java,
+  tag: 9614, unit-string: 'staticinvoke <vqwiki.WikiBase: void initialise()>()'}
+- {containing-method: '<vqwiki.servlets.SitemapThread: void onRun()>', containing-type: vqwiki.servlets.SitemapThread,
+  line: '97', method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>', source-file: SitemapThread.java,
+  tag: 2323, unit-string: '$r17 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()'}
+- {containing-method: '<vqwiki.lex.DefaultWikiParser: java.lang.StringBuffer lex(vqwiki.lex.Lexer)>',
+  containing-type: vqwiki.lex.DefaultWikiParser, line: '214', method: '<vqwiki.lex.Lexer:
+    java.lang.String yylex()>', source-file: DefaultWikiParser.java, tag: 3108, unit-string: 'r3
+    = interfaceinvoke r1.<vqwiki.lex.Lexer: java.lang.String yylex()>()'}
+- {containing-method: '<vqwiki.servlets.SitemapThread: void onRun()>', containing-type: vqwiki.servlets.SitemapThread,
+  line: '78', method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>', source-file: SitemapThread.java,
+  tag: 2319, unit-string: '$r12 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()'}
+- {containing-method: '<vqwiki.lex.MediaWikiUtil: java.lang.String buildWikiLink(java.lang.String,java.lang.String)>',
+  containing-type: vqwiki.lex.MediaWikiUtil, line: '113', method: '<vqwiki.utils.JSPUtils:
+    java.lang.String encodeURL(java.lang.String)>', source-file: MediaWikiUtil.java,
+  tag: 2121, unit-string: '$r20 = staticinvoke <vqwiki.utils.JSPUtils: java.lang.String
+    encodeURL(java.lang.String)>(r33)'}
+- {containing-method: '<vqwiki.file.FileVersionManager: java.lang.String diff(java.lang.String,java.lang.String,int,int,boolean)>',
+  containing-type: vqwiki.file.FileVersionManager, line: '108', method: '<vqwiki.file.FileHandler:
+    java.io.File getPathFor(java.lang.String,java.lang.String)>', source-file: FileVersionManager.java,
+  tag: 12758, unit-string: '$r34 = staticinvoke <vqwiki.file.FileHandler: java.io.File
+    getPathFor(java.lang.String,java.lang.String)>(r1, $r33)'}
+- {containing-method: '<vqwiki.AbstractServletSearchEngine: void rebuild()>', containing-type: vqwiki.AbstractServletSearchEngine,
+  line: '257', method: '<vqwiki.AbstractServletSearchEngine: org.apache.lucene.document.Document
+    createDocument(java.lang.String,java.lang.String)>', source-file: AbstractServletSearchEngine.java,
+  tag: 346, unit-string: 'r7 = virtualinvoke r0.<vqwiki.AbstractServletSearchEngine:
+    org.apache.lucene.document.Document createDocument(java.lang.String,java.lang.String)>(r55,
+    r6)'}
+- {containing-method: '<vqwiki.AbstractServletSearchEngine: org.apache.lucene.document.Document
+    createDocument(java.lang.String,java.lang.String)>', containing-type: vqwiki.AbstractServletSearchEngine,
+  line: '337', method: '<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>',
+  source-file: AbstractServletSearchEngine.java, tag: 344, unit-string: '$r77 = virtualinvoke
+    r119.<java.lang.reflect.Method: java.lang.Object invoke(java.lang.Object,java.lang.Object[])>(r118,
+    $r76)'}
+- {containing-method: '<vqwiki.lex.MediaWikiUtil: java.lang.String buildWikiLink(java.lang.String,java.lang.String)>',
+  containing-type: vqwiki.lex.MediaWikiUtil, line: '111', method: '<vqwiki.utils.JSPUtils:
+    java.lang.String encodeURL(java.lang.String)>', source-file: MediaWikiUtil.java,
+  tag: 2116, unit-string: '$r4 = staticinvoke <vqwiki.utils.JSPUtils: java.lang.String
+    encodeURL(java.lang.String)>(r33)'}
+- {containing-method: '<vqwiki.taglib.MemberTag: int doEndTag()>', containing-type: vqwiki.taglib.MemberTag,
+  line: '48', method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>', source-file: MemberTag.java,
+  tag: 1918, unit-string: '$r8 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()'}
+- {containing-method: '<vqwiki.servlets.SitemapThread: void parsePages(java.lang.String,java.lang.String,java.util.List,java.lang.String,java.util.List,java.util.Vector,java.lang.String)>',
+  containing-type: vqwiki.servlets.SitemapThread, line: '153', method: '<vqwiki.WikiBase:
+    vqwiki.WikiBase getInstance()>', source-file: SitemapThread.java, tag: 2701, unit-string: 'r39
+    = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()'}
+- {containing-method: '<vqwiki.servlets.StatisticThread: void onRun()>', containing-type: vqwiki.servlets.StatisticThread,
+  line: '139', method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>', source-file: StatisticThread.java,
+  tag: 2304, unit-string: '$r112 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase
+    getInstance()>()'}
+- {containing-method: '<vqwiki.servlets.StatisticThread: void onRun()>', containing-type: vqwiki.servlets.StatisticThread,
+  line: '102', method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>', source-file: StatisticThread.java,
+  tag: 2302, unit-string: '$r66 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()'}
+- {containing-method: '<vqwiki.file.FileSearchEngine: java.lang.String getFilename(java.lang.String,java.lang.String)>',
+  containing-type: vqwiki.file.FileSearchEngine, line: '88', method: '<vqwiki.file.FileHandler:
+    java.io.File getPathFor(java.lang.String,java.lang.String)>', source-file: FileSearchEngine.java,
+  tag: 331, unit-string: '$r7 = staticinvoke <vqwiki.file.FileHandler: java.io.File
+    getPathFor(java.lang.String,java.lang.String)>(r1, $r6)'}
+- {containing-method: '<vqwiki.file.FileHandler: java.io.File getPathFor(java.lang.String,java.lang.String)>',
+  containing-type: vqwiki.file.FileHandler, line: '189', method: '<vqwiki.file.FileHandler:
+    java.io.File getPathFor(java.lang.String,java.lang.String,java.lang.String)>',
+  source-file: FileHandler.java, tag: 133, unit-string: '$r2 = staticinvoke <vqwiki.file.FileHandler:
+    java.io.File getPathFor(java.lang.String,java.lang.String,java.lang.String)>(r0,
+    null, r1)'}
+- {containing-method: '<vqwiki.servlets.StatisticThread: void onRun()>', containing-type: vqwiki.servlets.StatisticThread,
+  line: '95', method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>', source-file: StatisticThread.java,
+  tag: 2299, unit-string: '$r29 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()'}
+- {containing-method: '<vqwiki.db.DatabaseChangeLog: void logChange(vqwiki.Change,javax.servlet.http.HttpServletRequest)>',
+  containing-type: vqwiki.db.DatabaseChangeLog, line: '117', method: '<vqwiki.WikiBase:
+    vqwiki.WikiBase getInstance()>', source-file: DatabaseChangeLog.java, tag: 9784,
+  unit-string: '$r26 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()'}
+- {containing-method: '<vqwiki.servlets.StatisticThread: void onRun()>', containing-type: vqwiki.servlets.StatisticThread,
+  line: '65', method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>', source-file: StatisticThread.java,
+  tag: 2297, unit-string: '$r18 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()'}
+- {containing-method: '<vqwiki.file.FileHandler: java.io.File getPathForTopic(java.lang.String,java.lang.String)>',
+  containing-type: vqwiki.file.FileHandler, line: '676', method: '<vqwiki.file.FileHandler:
+    java.io.File getPathFor(java.lang.String,java.lang.String)>', source-file: FileHandler.java,
+  tag: 323, unit-string: '$r8 = staticinvoke <vqwiki.file.FileHandler: java.io.File
+    getPathFor(java.lang.String,java.lang.String)>(r1, $r7)'}
+- {containing-method: '<vqwiki.AbstractServletSearchEngine: org.apache.lucene.document.Document
+    createDocument(java.lang.String,java.lang.String)>', containing-type: vqwiki.AbstractServletSearchEngine,
+  line: '398', method: '<vqwiki.AbstractSearchEngine: java.lang.String getFilename(java.lang.String,java.lang.String)>',
+  source-file: AbstractServletSearchEngine.java, tag: 321, unit-string: 'r133 = virtualinvoke
+    r0.<vqwiki.AbstractServletSearchEngine: java.lang.String getFilename(java.lang.String,java.lang.String)>(r1,
+    r2)'}
+- {containing-method: '<vqwiki.Topic: java.lang.String getMostRecentAuthor(java.lang.String)>',
+  containing-type: vqwiki.Topic, line: '139', method: '<vqwiki.WikiBase: vqwiki.WikiBase
+    getInstance()>', source-file: Topic.java, tag: 3078, unit-string: '$r31 = staticinvoke
+    <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()'}
+- {containing-method: '<vqwiki.file.FileHandler: java.io.File getPathFor(java.lang.String,java.lang.String,java.lang.String)>',
+  containing-type: vqwiki.file.FileHandler, line: '173', method: '<vqwiki.file.FileHandler:
+    java.lang.String fileBase(java.lang.String)>', source-file: FileHandler.java,
+  tag: 121, unit-string: '$r14 = staticinvoke <vqwiki.file.FileHandler: java.lang.String
+    fileBase(java.lang.String)>(r13)'}
+- {containing-method: '<vqwiki.file.FileHandler: void rename(java.lang.String,java.lang.String,java.lang.String)>',
+  containing-type: vqwiki.file.FileHandler, line: '641', method: '<vqwiki.file.FileHandler:
+    java.io.File getPathForTopic(java.lang.String,java.lang.String)>', source-file: FileHandler.java,
+  tag: 3469, unit-string: '$r5 = specialinvoke r0.<vqwiki.file.FileHandler: java.io.File
+    getPathForTopic(java.lang.String,java.lang.String)>(r1, r3)'}
+- {containing-method: '<vqwiki.lex.MediaWikiParser: java.lang.String parseHTML(java.lang.String,java.lang.String)>',
+  containing-type: vqwiki.lex.MediaWikiParser, line: '51', method: '<vqwiki.lex.MediaWikiParser:
+    java.lang.StringBuffer parseParagraphs(java.io.Reader,java.lang.String)>', source-file: MediaWikiParser.java,
+  tag: 2875, unit-string: 'r13 = specialinvoke r0.<vqwiki.lex.MediaWikiParser: java.lang.StringBuffer
+    parseParagraphs(java.io.Reader,java.lang.String)>(r12, r2)'}
+- {containing-method: '<vqwiki.file.FileHandler: void rename(java.lang.String,java.lang.String,java.lang.String)>',
+  containing-type: vqwiki.file.FileHandler, line: '639', method: '<vqwiki.file.FileHandler:
+    java.io.File getPathForTopic(java.lang.String,java.lang.String)>', source-file: FileHandler.java,
+  tag: 3465, unit-string: 'r4 = specialinvoke r0.<vqwiki.file.FileHandler: java.io.File
+    getPathForTopic(java.lang.String,java.lang.String)>(r1, r2)'}
+- {containing-method: '<vqwiki.lex.MediaWikiParser: java.lang.String parseHTML(java.lang.String,java.lang.String)>',
+  containing-type: vqwiki.lex.MediaWikiParser, line: '49', method: '<vqwiki.lex.MediaWikiParser:
+    java.lang.StringBuffer parseSyntax(java.io.Reader,java.lang.String)>', source-file: MediaWikiParser.java,
+  tag: 2873, unit-string: 'r11 = specialinvoke r0.<vqwiki.lex.MediaWikiParser: java.lang.StringBuffer
+    parseSyntax(java.io.Reader,java.lang.String)>(r10, r2)'}
+- {containing-method: '<vqwiki.lex.LinkLexConvertOnlineHTML: java.lang.String getTopicLink(java.lang.String,java.lang.String)>',
+  containing-type: vqwiki.lex.LinkLexConvertOnlineHTML, line: '44', method: '<vqwiki.utils.JSPUtils:
+    java.lang.String encodeURL(java.lang.String)>', source-file: LinkLexConvertOnlineHTML.java,
+  tag: 704, unit-string: '$r39 = staticinvoke <vqwiki.utils.JSPUtils: java.lang.String
+    encodeURL(java.lang.String)>(r53)'}
+- {containing-method: '<vqwiki.WikiBase: void <init>(vqwiki.Environment)>', containing-type: vqwiki.WikiBase,
+  line: '144', method: '<vqwiki.Environment: int getIndexRefreshInterval()>', source-file: WikiBase.java,
+  tag: 83, unit-string: '$i1 = virtualinvoke r1.<vqwiki.Environment: int getIndexRefreshInterval()>()'}
+- {containing-method: '<vqwiki.WikiBase: void <init>(vqwiki.Environment)>', containing-type: vqwiki.WikiBase,
+  line: '144', method: '<vqwiki.SearchRefreshThread: void <init>(vqwiki.SearchEngine,int)>',
+  source-file: WikiBase.java, tag: 84, unit-string: 'specialinvoke $r14.<vqwiki.SearchRefreshThread:
+    void <init>(vqwiki.SearchEngine,int)>($r15, $i1)'}
+- {containing-method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>', containing-type: vqwiki.WikiBase,
+  line: '159', method: '<vqwiki.WikiBase: void <init>(vqwiki.Environment)>', source-file: WikiBase.java,
+  tag: 108, unit-string: 'specialinvoke $r2.<vqwiki.WikiBase: void <init>(vqwiki.Environment)>($r3)'}
+- {containing-method: '<vqwiki.servlets.SearchServlet: void doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: vqwiki.servlets.SearchServlet, line: '101', method: '<java.lang.StringBuffer:
+    java.lang.StringBuffer append(java.lang.String)>', source-file: SearchServlet.java,
+  tag: 7593, unit-string: '$r59 = virtualinvoke r7.<java.lang.StringBuffer: java.lang.StringBuffer
+    append(java.lang.String)>("</p>")'}
+- {containing-method: '<vqwiki.WikiBase: void panic()>', containing-type: vqwiki.WikiBase,
+  line: '699', method: '<vqwiki.file.FileHandler: java.io.File getPathFor(java.lang.String,java.lang.String)>',
+  source-file: WikiBase.java, tag: 1879, unit-string: 'r32 = staticinvoke <vqwiki.file.FileHandler:
+    java.io.File getPathFor(java.lang.String,java.lang.String)>(r1, null)'}
+- {containing-method: '<vqwiki.lex.LinkLexConvertOnlineHTML: java.lang.String getTopicLink(java.lang.String,java.lang.String)>',
+  containing-type: vqwiki.lex.LinkLexConvertOnlineHTML, line: '39', method: '<vqwiki.utils.JSPUtils:
+    java.lang.String encodeURL(java.lang.String)>', source-file: LinkLexConvertOnlineHTML.java,
+  tag: 695, unit-string: '$r46 = staticinvoke <vqwiki.utils.JSPUtils: java.lang.String
+    encodeURL(java.lang.String)>(r53)'}
+- {containing-method: '<vqwiki.servlets.SearchServlet: void doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: vqwiki.servlets.SearchServlet, line: '96', method: '<java.lang.StringBuffer:
+    java.lang.StringBuffer append(java.lang.String)>', source-file: SearchServlet.java,
+  tag: 7589, unit-string: '$r63 = virtualinvoke r7.<java.lang.StringBuffer: java.lang.StringBuffer
+    append(java.lang.String)>("\">")'}
+- {containing-method: '<vqwiki.servlets.SearchServlet: void doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: vqwiki.servlets.SearchServlet, line: '95', method: '<vqwiki.utils.JSPUtils:
+    java.lang.String encodeURL(java.lang.String)>', source-file: SearchServlet.java,
+  tag: 7587, unit-string: '$r79 = staticinvoke <vqwiki.utils.JSPUtils: java.lang.String
+    encodeURL(java.lang.String)>($r78)'}
+- {containing-method: '<vqwiki.SearchRefreshThread: void <init>(vqwiki.SearchEngine,int)>',
+  containing-type: vqwiki.SearchRefreshThread, line: '48', method: '<java.lang.Thread:
+    void setDaemon(boolean)>', source-file: SearchRefreshThread.java, tag: 13495,
+  unit-string: 'virtualinvoke r0.<vqwiki.SearchRefreshThread: void setDaemon(boolean)>(1)'}
+- {containing-method: '<vqwiki.servlets.ConfigServlet: void init(javax.servlet.ServletConfig)>',
+  containing-type: vqwiki.servlets.ConfigServlet, line: '51', method: '<vqwiki.WikiBase:
+    vqwiki.WikiBase getInstance()>', source-file: ConfigServlet.java, tag: 13494,
+  unit-string: 'r10 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()'}
+- {containing-method: '<vqwiki.WikiBase: void initialise()>', containing-type: vqwiki.WikiBase,
+  line: '528', source-file: WikiBase.java, tag: 13493, unit-string: return}
+- {containing-method: '<vqwiki.file.FileHandler: java.lang.String fileBase(java.lang.String)>',
+  containing-type: vqwiki.file.FileHandler, line: '477', method: '<vqwiki.Environment:
+    java.lang.String getHomeDir()>', source-file: FileHandler.java, tag: 96, unit-string: '$r3
+    = virtualinvoke $r2.<vqwiki.Environment: java.lang.String getHomeDir()>()'}
+- {containing-method: '<vqwiki.AbstractNotify: boolean sendNotifications(java.lang.String,java.util.Locale)>',
+  containing-type: vqwiki.AbstractNotify, line: '119', source-file: AbstractNotify.java,
+  tag: 13491, unit-string: $r99 = new java.lang.StringBuffer}
+- {containing-method: '<vqwiki.servlets.PrintableServlet: java.util.Collection parsePage(java.util.ResourceBundle,vqwiki.Environment,java.lang.String,java.lang.String,int,java.util.Vector)>',
+  containing-type: vqwiki.servlets.PrintableServlet, line: '136', method: '<java.util.Collection:
+    boolean addAll(java.util.Collection)>', source-file: PrintableServlet.java, tag: 13490,
+  unit-string: '$z6 = interfaceinvoke r7.<java.util.Collection: boolean addAll(java.util.Collection)>($r16)'}
+- {containing-method: '<vqwiki.lex.LinkLexConvertOnlineHTML: java.lang.String getTopicLink(java.lang.String,java.lang.String)>',
+  containing-type: vqwiki.lex.LinkLexConvertOnlineHTML, line: null, source-file: LinkLexConvertOnlineHTML.java,
+  tag: 13489, unit-string: return $r0}
+- {containing-method: '<vqwiki.file.FileNotify: java.util.Collection getAll(java.lang.String)>',
+  containing-type: vqwiki.file.FileNotify, line: '193', source-file: FileNotify.java,
+  tag: 13488, unit-string: i3 = i3 + 1}
+- {containing-method: '<vqwiki.file.FileHandler: void rename(java.lang.String,java.lang.String,java.lang.String)>',
+  containing-type: vqwiki.file.FileHandler, line: '641', source-file: FileHandler.java,
+  tag: 13487, unit-string: 'if $z0 != 0 goto specialinvoke r0.<vqwiki.file.FileHandler:
+    void renameHistoryFiles(java.lang.String,java.lang.String,java.lang.String)>(r1,
+    r2, r3)'}
+- {containing-method: '<vqwiki.AbstractServletSearchEngine: void rebuild()>', containing-type: vqwiki.AbstractServletSearchEngine,
+  line: '259', source-file: AbstractServletSearchEngine.java, tag: 13486, unit-string: 'goto
+    [?= $z3 = interfaceinvoke r5.<java.util.Iterator: boolean hasNext()>()]'}
+- {containing-method: '<vqwiki.servlets.SearchServlet: void doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: vqwiki.servlets.SearchServlet, line: '84', source-file: SearchServlet.java,
+  tag: 13485, unit-string: r88 = new java.lang.StringBuffer}
+- {containing-method: '<vqwiki.AbstractServletSearchEngine: void rebuild()>', containing-type: vqwiki.AbstractServletSearchEngine,
+  line: '238', source-file: AbstractServletSearchEngine.java, tag: 13484, unit-string: '$r29
+    := @caughtexception'}
+- {containing-method: '<vqwiki.AbstractServletSearchEngine: void rebuild()>', containing-type: vqwiki.AbstractServletSearchEngine,
+  line: '279', source-file: AbstractServletSearchEngine.java, tag: 13483, unit-string: '$r46
+    := @caughtexception'}
+- {containing-method: '<vqwiki.WikiBase: void panic()>', containing-type: vqwiki.WikiBase,
+  line: '701', source-file: WikiBase.java, tag: 13482, unit-string: i3 = 0}
+- {containing-method: '<vqwiki.lex.MediaWikiUtil: java.lang.String buildWikiLink(java.lang.String,java.lang.String)>',
+  containing-type: vqwiki.lex.MediaWikiUtil, line: null, source-file: MediaWikiUtil.java,
+  tag: 13481, unit-string: return $r0}
+- {containing-method: '<vqwiki.AbstractServletSearchEngine: org.apache.lucene.document.Document
+    createDocument(java.lang.String,java.lang.String)>', containing-type: vqwiki.AbstractServletSearchEngine,
+  line: '308', source-file: AbstractServletSearchEngine.java, tag: 13480, unit-string: '$r84
+    := @caughtexception'}
+- {containing-method: '<vqwiki.AbstractServletSearchEngine: void rebuild()>', containing-type: vqwiki.AbstractServletSearchEngine,
+  line: '255', method: '<java.util.Iterator: boolean hasNext()>', source-file: AbstractServletSearchEngine.java,
+  tag: 13479, unit-string: '$z3 = interfaceinvoke r5.<java.util.Iterator: boolean
+    hasNext()>()'}
+- {containing-method: '<vqwiki.WikiMail: void <init>()>', containing-type: vqwiki.WikiMail,
+  line: '53', method: '<vqwiki.Environment: java.lang.String getStringSetting(java.lang.String)>',
+  source-file: WikiMail.java, tag: 82, unit-string: '$r3 = virtualinvoke r1.<vqwiki.Environment:
+    java.lang.String getStringSetting(java.lang.String)>("smtp-host")'}
+- {containing-method: '<vqwiki.Topic: void <init>(java.lang.String)>', containing-type: vqwiki.Topic,
+  line: '62', method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>', source-file: Topic.java,
+  tag: 2047, unit-string: '$r2 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()'}
+- {containing-method: '<vqwiki.utils.JSPUtils: java.lang.String decodeURL(java.lang.String)>',
+  containing-type: vqwiki.utils.JSPUtils, line: '81', method: '<vqwiki.Environment:
+    java.lang.String getStringSetting(java.lang.String)>', source-file: JSPUtils.java,
+  tag: 3818, unit-string: '$r4 = virtualinvoke $r3.<vqwiki.Environment: java.lang.String
+    getStringSetting(java.lang.String)>("file-encoding")'}
+- {containing-method: '<vqwiki.lex.MediaWikiParser: java.lang.StringBuffer parseParagraphs(java.io.Reader,java.lang.String)>',
+  containing-type: vqwiki.lex.MediaWikiParser, line: '85', method: '<vqwiki.lex.DefaultWikiParser:
+    java.lang.StringBuffer lex(vqwiki.lex.Lexer)>', source-file: MediaWikiParser.java,
+  tag: 3028, unit-string: '$r5 = virtualinvoke r0.<vqwiki.lex.MediaWikiParser: java.lang.StringBuffer
+    lex(vqwiki.lex.Lexer)>(r3)'}
+- {containing-method: '<vqwiki.AbstractNotify: boolean sendNotifications(java.lang.String,java.util.Locale)>',
+  containing-type: vqwiki.AbstractNotify, line: '89', method: '<vqwiki.utils.JSPUtils:
+    java.lang.String encodeURL(java.lang.String)>', source-file: AbstractNotify.java,
+  tag: 12286, unit-string: '$r55 = staticinvoke <vqwiki.utils.JSPUtils: java.lang.String
+    encodeURL(java.lang.String)>($r47)'}
+- {containing-method: '<vqwiki.AbstractNotify: boolean sendNotifications(java.lang.String,java.util.Locale)>',
+  containing-type: vqwiki.AbstractNotify, line: '118', method: '<vqwiki.utils.JSPUtils:
+    java.lang.String encodeURL(java.lang.String)>', source-file: AbstractNotify.java,
+  tag: 12331, unit-string: '$r103 = staticinvoke <vqwiki.utils.JSPUtils: java.lang.String
+    encodeURL(java.lang.String)>($r104)'}
+- {containing-method: '<vqwiki.file.FileNotify: void <init>(java.lang.String,java.lang.String)>',
+  containing-type: vqwiki.file.FileNotify, line: '71', method: '<vqwiki.file.FileHandler:
+    java.io.File getPathFor(java.lang.String,java.lang.String)>', source-file: FileNotify.java,
+  tag: 2035, unit-string: '$r9 = staticinvoke <vqwiki.file.FileHandler: java.io.File
+    getPathFor(java.lang.String,java.lang.String)>(r1, $r8)'}
+- {containing-method: '<vqwiki.lex.FritzLex: boolean exists(java.lang.String)>', containing-type: vqwiki.lex.FritzLex,
+  line: '356', method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>', source-file: FritzLex.java,
+  tag: 2229, unit-string: '$r3 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()'}
+- {containing-method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>', containing-type: vqwiki.WikiBase,
+  line: '161', source-file: WikiBase.java, tag: 13492, unit-string: '$r1 = <vqwiki.WikiBase:
+    vqwiki.WikiBase instance>'}
+- {containing-method: '<vqwiki.AbstractNotify: boolean sendNotifications(java.lang.String,java.util.Locale)>',
+  containing-type: vqwiki.AbstractNotify, line: '72', method: '<vqwiki.WikiBase: vqwiki.WikiBase
+    getInstance()>', source-file: AbstractNotify.java, tag: 12271, unit-string: '$r29
+    = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()'}
+- {containing-method: '<vqwiki.AbstractNotify: boolean sendNotifications(java.lang.String,java.util.Locale)>',
+  containing-type: vqwiki.AbstractNotify, line: '97', method: '<vqwiki.WikiBase: vqwiki.WikiBase
+    getInstance()>', source-file: AbstractNotify.java, tag: 12300, unit-string: '$r156
+    = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()'}
+- {containing-method: '<vqwiki.WikiBase: java.lang.String cook(java.io.BufferedReader,java.lang.String,boolean)>',
+  containing-type: vqwiki.WikiBase, line: '389', method: '<vqwiki.lex.AbstractParser:
+    java.lang.String parseHTML(java.lang.String,java.lang.String)>', source-file: WikiBase.java,
+  tag: 2614, unit-string: '$r22 = virtualinvoke r7.<vqwiki.lex.AbstractParser: java.lang.String
+    parseHTML(java.lang.String,java.lang.String)>(r10, r2)'}
+- {containing-method: '<vqwiki.AbstractNotify: boolean sendNotifications(java.lang.String,java.util.Locale)>',
+  containing-type: vqwiki.AbstractNotify, line: '70', method: '<vqwiki.WikiBase: vqwiki.WikiBase
+    getInstance()>', source-file: AbstractNotify.java, tag: 12265, unit-string: '$r20
+    = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()'}
+- {containing-method: '<vqwiki.file.FileNotify: java.util.Collection getAll(java.lang.String)>',
+  containing-type: vqwiki.file.FileNotify, line: '196', method: '<vqwiki.file.FileNotify:
+    void <init>(java.lang.String,java.lang.String)>', source-file: FileNotify.java,
+  tag: 12854, unit-string: 'specialinvoke $r8.<vqwiki.file.FileNotify: void <init>(java.lang.String,java.lang.String)>(r0,
+    $r9)'}
+- {containing-method: '<vqwiki.TopicVersion: java.lang.String getRawContents()>',
+  containing-type: vqwiki.TopicVersion, line: '108', method: '<vqwiki.WikiBase: vqwiki.WikiBase
+    getInstance()>', source-file: TopicVersion.java, tag: 1623, unit-string: '$r1
+    = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()'}
+- {containing-method: '<vqwiki.TopicVersion: java.lang.String getCookedContents()>',
+  containing-type: vqwiki.TopicVersion, line: '120', method: '<vqwiki.WikiBase: java.lang.String
+    cook(java.io.BufferedReader,java.lang.String)>', source-file: TopicVersion.java,
+  tag: 1622, unit-string: '$r9 = virtualinvoke r1.<vqwiki.WikiBase: java.lang.String
+    cook(java.io.BufferedReader,java.lang.String)>($r2, $r8)'}
+- {containing-method: '<vqwiki.TopicVersion: java.lang.String getCookedContents()>',
+  containing-type: vqwiki.TopicVersion, line: '119', method: '<vqwiki.WikiBase: vqwiki.WikiBase
+    getInstance()>', source-file: TopicVersion.java, tag: 1620, unit-string: 'r1 =
+    staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()'}
+- {containing-method: '<vqwiki.AbstractServletSearchEngine: void rebuild()>', containing-type: vqwiki.AbstractServletSearchEngine,
+  line: '285', source-file: AbstractServletSearchEngine.java, tag: 41, unit-string: nop}
+- {containing-method: '<vqwiki.file.FileReminders: boolean sendReminders(java.util.Date)>',
+  containing-type: vqwiki.file.FileReminders, line: '198', method: '<vqwiki.WikiBase:
+    vqwiki.WikiBase getInstance()>', source-file: FileReminders.java, tag: 2205, unit-string: '$r9
+    = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()'}
+- {containing-method: '<vqwiki.Change: java.lang.String getUsername()>', containing-type: vqwiki.Change,
+  line: '81', method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>', source-file: Change.java,
+  tag: 1613, unit-string: '$r2 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()'}
+- {containing-method: '<vqwiki.taglib.WikiBaseTag: int doEndTag()>', containing-type: vqwiki.taglib.WikiBaseTag,
+  line: '38', method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>', source-file: WikiBaseTag.java,
+  tag: 1612, unit-string: '$r4 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()'}
+- {containing-method: '<vqwiki.PseudoTopicHandler: void setAttributes(java.lang.String,javax.servlet.http.HttpServletRequest)>',
+  containing-type: vqwiki.PseudoTopicHandler, line: '170', method: '<vqwiki.WikiBase:
+    vqwiki.WikiBase getInstance()>', source-file: PseudoTopicHandler.java, tag: 9688,
+  unit-string: '$r21 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()'}
+- {containing-method: '<vqwiki.WikiBase: void initialise()>', containing-type: vqwiki.WikiBase,
+  line: '527', method: '<vqwiki.WikiBase: void <init>(vqwiki.Environment)>', source-file: WikiBase.java,
+  tag: 12244, unit-string: 'specialinvoke $r0.<vqwiki.WikiBase: void <init>(vqwiki.Environment)>($r1)'}
+- {containing-method: '<vqwiki.WikiBase: java.lang.String cook(java.io.BufferedReader,java.lang.String,boolean)>',
+  containing-type: vqwiki.WikiBase, line: '389', source-file: WikiBase.java, tag: 25,
+  unit-string: nop}
+- {containing-method: '<vqwiki.taglib.VirtualWikiListTag: int doEndTag()>', containing-type: vqwiki.taglib.VirtualWikiListTag,
+  line: '46', method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>', source-file: VirtualWikiListTag.java,
+  tag: 1796, unit-string: '$r1 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()'}
+- {containing-method: '<vqwiki.PluginManager: void install(java.lang.String,java.io.File)>',
+  containing-type: vqwiki.PluginManager, line: '205', method: '<vqwiki.WikiBase: vqwiki.WikiBase
+    getInstance()>', source-file: PluginManager.java, tag: 2188, unit-string: '$r32
+    = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()'}
+- {containing-method: '<vqwiki.WikiBase: void <init>(vqwiki.Environment)>', containing-type: vqwiki.WikiBase,
+  line: '127', method: '<vqwiki.WikiMail: void <init>()>', source-file: WikiBase.java,
+  tag: 87, unit-string: 'specialinvoke $r5.<vqwiki.WikiMail: void <init>()>()'}
+- {containing-method: '<vqwiki.AbstractWikiMembers: void mailMember(java.lang.String,javax.servlet.http.HttpServletRequest,vqwiki.WikiMember,java.lang.String)>',
+  containing-type: vqwiki.AbstractWikiMembers, line: '92', method: '<vqwiki.WikiBase:
+    vqwiki.WikiBase getInstance()>', source-file: AbstractWikiMembers.java, tag: 12816,
+  unit-string: '$r33 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()'}
+- {containing-method: '<vqwiki.taglib.NotificationTag: int doEndTag()>', containing-type: vqwiki.taglib.NotificationTag,
+  line: '52', method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>', source-file: NotificationTag.java,
+  tag: 1925, unit-string: '$r12 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()'}
+- {containing-method: '<vqwiki.servlets.PrintableServlet: java.util.Collection parsePage(java.util.ResourceBundle,vqwiki.Environment,java.lang.String,java.lang.String,int,java.util.Vector)>',
+  containing-type: vqwiki.servlets.PrintableServlet, line: '136', method: '<vqwiki.servlets.PrintableServlet:
+    java.util.Collection parsePage(java.util.ResourceBundle,vqwiki.Environment,java.lang.String,java.lang.String,int,java.util.Vector)>',
+  source-file: PrintableServlet.java, tag: 10442, unit-string: '$r16 = specialinvoke
+    r0.<vqwiki.servlets.PrintableServlet: java.util.Collection parsePage(java.util.ResourceBundle,vqwiki.Environment,java.lang.String,java.lang.String,int,java.util.Vector)>(r1,
+    r2, r3, r18, $i8, r5)'}

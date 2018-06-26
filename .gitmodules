@@ -1,0 +1,3 @@
+[submodule "simple-servlet"]
+	path = simple-servlet
+	url = git@github.com:uwplse/simple-servlet.git

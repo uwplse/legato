@@ -1,0 +1,472 @@
+- sig: '<java.util.concurrent.BlockingQueue: void put(java.lang.Object)>'
+  target: CONTAINER_PUT
+- sig: '<java.util.concurrent.BlockingQueue: java.lang.Object take()>'
+  target: CONTAINER_GET
+- sig: '<java.util.concurrent.BlockingQueue: int drainTo(java.util.Collection)>'
+  target: CONTAINER_MOVE
+- sig: '<java.util.concurrent.BlockingQueue: int remainingCapacity()>'
+  target: RETURN
+- sig: '<java.util.concurrent.BlockingQueue: boolean offer(java.lang.Object,long,java.util.concurrent.TimeUnit)>'
+  target: CONTAINER_PUT
+- sig: '<java.util.concurrent.BlockingQueue: java.lang.Object poll(long,java.util.concurrent.TimeUnit)>'
+  target: CONTAINER_GET
+- sig: '<java.util.concurrent.BlockingQueue: int drainTo(java.util.Collection,int)>'
+  target: CONTAINER_MOVE
+- sig: '<java.util.concurrent.TransferQueue: boolean tryTransfer(java.lang.Object,long,java.util.concurrent.TimeUnit)>'
+  target: CONTAINER_PUT
+- sig: '<java.util.concurrent.TransferQueue: void transfer(java.lang.Object)>'
+  target: CONTAINER_PUT
+- sig: '<java.util.concurrent.TransferQueue: int getWaitingConsumerCount()>'
+  target: RETURN
+- sig: '<java.util.concurrent.TransferQueue: boolean hasWaitingConsumer()>'
+  target: RETURN
+- sig: '<java.util.concurrent.TransferQueue: boolean tryTransfer(java.lang.Object)>'
+  target: CONTAINER_PUT
+
+- sig: '<com.sun.org.apache.xerces.internal.xs.LSInputList: int getLength()>'
+  target: RETURN
+- sig: '<com.sun.org.apache.xerces.internal.xs.LSInputList: org.w3c.dom.ls.LSInput item(int)>'
+  target: CONTAINER_GET
+
+- sig: '<java.util.List: java.lang.Object remove(int)>'
+  target: CONTAINER_GET
+- sig: '<java.util.List: boolean addAll(int,java.util.Collection)>'
+  target: CONTAINER_ADDALL
+- sig: '<java.util.List: java.util.ListIterator listIterator(int)>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.List: java.util.List subList(int,int)>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.List: java.util.ListIterator listIterator()>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.List: int lastIndexOf(java.lang.Object)>'
+  target: RETURN
+- sig: '<java.util.List: java.lang.Object get(int)>'
+  target: CONTAINER_GET
+- sig: '<java.util.List: int indexOf(java.lang.Object)>'
+  target: RETURN
+- sig: '<java.util.List: java.lang.Object set(int,java.lang.Object)>'
+  target: CONTAINER_PUT
+- sig: '<java.util.List: void add(int,java.lang.Object)>'
+  target: CONTAINER_PUT
+
+- sig: '<java.util.Queue: boolean offer(java.lang.Object)>'
+  target: CONTAINER_PUT
+- sig: '<java.util.Queue: java.lang.Object remove()>'
+  target: CONTAINER_GET
+- sig: '<java.util.Queue: java.lang.Object peek()>'
+  target: CONTAINER_GET
+- sig: '<java.util.Queue: java.lang.Object element()>'
+  target: CONTAINER_GET
+- sig: '<java.util.Queue: java.lang.Object poll()>'
+  target: CONTAINER_GET
+
+- sig: '<java.util.SortedMap: java.util.Comparator comparator()>'
+  target: RETURN
+- sig: '<java.util.SortedMap: java.lang.Object lastKey()>'
+  target: CONTAINER_GET
+- sig: '<java.util.SortedMap: java.lang.Object firstKey()>'
+  target: CONTAINER_GET
+- sig: '<java.util.SortedMap: java.util.SortedMap tailMap(java.lang.Object)>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.SortedMap: java.util.SortedMap subMap(java.lang.Object,java.lang.Object)>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.SortedMap: java.util.SortedMap headMap(java.lang.Object)>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.concurrent.ConcurrentMap: boolean replace(java.lang.Object,java.lang.Object,java.lang.Object)>'
+  target: CONTAINER_PUT
+- sig: '<java.util.concurrent.ConcurrentMap: java.lang.Object putIfAbsent(java.lang.Object,java.lang.Object)>'
+  target: CONTAINER_REPLACE
+- sig: '<java.util.concurrent.ConcurrentMap: java.lang.Object replace(java.lang.Object,java.lang.Object)>'
+  target: CONTAINER_REPLACE
+- sig: '<java.util.concurrent.ConcurrentMap: boolean remove(java.lang.Object,java.lang.Object)>'
+  target: RETURN
+- sig: '<java.util.Collection: java.util.Iterator iterator()>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.Collection: java.lang.Object[] toArray(java.lang.Object[])>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.Collection: void clear()>'
+  target: IDENTITY
+- sig: '<java.util.Collection: boolean contains(java.lang.Object)>'
+  target: RETURN
+- sig: '<java.util.Collection: int size()>'
+  target: RETURN
+- sig: '<java.util.Collection: boolean remove(java.lang.Object)>'
+  target: RETURN
+- sig: '<java.util.Collection: java.lang.Object[] toArray()>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.Collection: boolean isEmpty()>'
+  target: RETURN
+- sig: '<java.util.Collection: boolean retainAll(java.util.Collection)>'
+  target: RETURN
+- sig: '<java.util.Collection: boolean add(java.lang.Object)>'
+  target: CONTAINER_PUT
+- sig: '<java.util.Collection: boolean containsAll(java.util.Collection)>'
+  target: RETURN
+- sig: '<java.util.Collection: boolean equals(java.lang.Object)>'
+  target: RETURN
+- sig: '<java.util.Collection: boolean addAll(java.util.Collection)>'
+  target: CONTAINER_ADDALL
+- sig: '<java.util.Collection: int hashCode()>'
+  target: RETURN
+- sig: '<java.util.Collection: boolean removeAll(java.util.Collection)>'
+  target: RETURN
+- sig: '<java.util.NavigableSet: java.util.NavigableSet subSet(java.lang.Object,boolean,java.lang.Object,boolean)>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.NavigableSet: java.lang.Object ceiling(java.lang.Object)>'
+  target: CONTAINER_GET
+- sig: '<java.util.NavigableSet: java.lang.Object lower(java.lang.Object)>'
+  target: CONTAINER_GET
+- sig: '<java.util.NavigableSet: java.util.NavigableSet headSet(java.lang.Object,boolean)>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.NavigableSet: java.util.Iterator descendingIterator()>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.NavigableSet: java.util.NavigableSet tailSet(java.lang.Object,boolean)>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.NavigableSet: java.lang.Object higher(java.lang.Object)>'
+  target: CONTAINER_GET
+- sig: '<java.util.NavigableSet: java.lang.Object pollLast()>'
+  target: CONTAINER_GET
+- sig: '<java.util.NavigableSet: java.lang.Object floor(java.lang.Object)>'
+  target: CONTAINER_GET
+- sig: '<java.util.NavigableSet: java.util.NavigableSet descendingSet()>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.NavigableSet: java.lang.Object pollFirst()>'
+  target: CONTAINER_GET
+- sig: '<java.util.concurrent.ConcurrentNavigableMap: java.util.NavigableSet keySet()>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.concurrent.ConcurrentNavigableMap: java.util.concurrent.ConcurrentNavigableMap headMap(java.lang.Object,boolean)>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.concurrent.ConcurrentNavigableMap: java.util.concurrent.ConcurrentNavigableMap subMap(java.lang.Object,java.lang.Object)>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.concurrent.ConcurrentNavigableMap: java.util.concurrent.ConcurrentNavigableMap tailMap(java.lang.Object,boolean)>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.concurrent.ConcurrentNavigableMap: java.util.concurrent.ConcurrentNavigableMap descendingMap()>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.concurrent.ConcurrentNavigableMap: java.util.concurrent.ConcurrentNavigableMap subMap(java.lang.Object,boolean,java.lang.Object,boolean)>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.concurrent.ConcurrentNavigableMap: java.util.concurrent.ConcurrentNavigableMap tailMap(java.lang.Object)>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.concurrent.ConcurrentNavigableMap: java.util.concurrent.ConcurrentNavigableMap headMap(java.lang.Object)>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.SortedSet: java.lang.Object first()>'
+  target: CONTAINER_GET
+- sig: '<java.util.SortedSet: java.util.Comparator comparator()>'
+  target: RETURN
+- sig: '<java.util.SortedSet: java.util.SortedSet tailSet(java.lang.Object)>'
+  target: CONTAINER_GET
+- sig: '<java.util.SortedSet: java.lang.Object last()>'
+  target: CONTAINER_GET
+- sig: '<java.util.SortedSet: java.util.SortedSet headSet(java.lang.Object)>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.SortedSet: java.util.SortedSet subSet(java.lang.Object,java.lang.Object)>'
+  target: CONTAINER_TRANSFER
+- sig: '<com.sun.org.apache.xerces.internal.xs.XSObjectList: com.sun.org.apache.xerces.internal.xs.XSObject item(int)>'
+  target: CONTAINER_GET
+- sig: '<com.sun.org.apache.xerces.internal.xs.XSObjectList: int getLength()>'
+  target: RETURN
+- sig: '<java.util.NavigableMap: java.util.Map$Entry lowerEntry(java.lang.Object)>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.NavigableMap: java.lang.Object floorKey(java.lang.Object)>'
+  target: CONTAINER_GET
+- sig: '<java.util.NavigableMap: java.util.NavigableMap tailMap(java.lang.Object,boolean)>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.NavigableMap: java.lang.Object higherKey(java.lang.Object)>'
+  target: CONTAINER_GET
+- sig: '<java.util.NavigableMap: java.lang.Object lowerKey(java.lang.Object)>'
+  target: CONTAINER_GET
+- sig: '<java.util.NavigableMap: java.util.Map$Entry pollFirstEntry()>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.NavigableMap: java.util.NavigableSet navigableKeySet()>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.NavigableMap: java.lang.Object ceilingKey(java.lang.Object)>'
+  target: CONTAINER_GET
+- sig: '<java.util.NavigableMap: java.util.Map$Entry firstEntry()>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.NavigableMap: java.util.Map$Entry lastEntry()>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.NavigableMap: java.util.NavigableSet descendingKeySet()>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.NavigableMap: java.util.NavigableMap subMap(java.lang.Object,boolean,java.lang.Object,boolean)>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.NavigableMap: java.util.Map$Entry floorEntry(java.lang.Object)>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.NavigableMap: java.util.NavigableMap descendingMap()>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.NavigableMap: java.util.Map$Entry pollLastEntry()>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.NavigableMap: java.util.Map$Entry higherEntry(java.lang.Object)>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.NavigableMap: java.util.NavigableMap headMap(java.lang.Object,boolean)>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.NavigableMap: java.util.Map$Entry ceilingEntry(java.lang.Object)>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.ListIterator: boolean hasPrevious()>'
+  target: RETURN
+- sig: '<java.util.ListIterator: int nextIndex()>'
+  target: RETURN
+- sig: '<java.util.ListIterator: void add(java.lang.Object)>'
+  target: DIE
+- sig: '<java.util.ListIterator: void set(java.lang.Object)>'
+  target: DIE
+- sig: '<java.util.ListIterator: int previousIndex()>'
+  target: RETURN
+- sig: '<java.util.ListIterator: java.lang.Object previous()>'
+  target: RETURN
+- sig: '<java.util.Deque: void push(java.lang.Object)>'
+  target: CONTAINER_PUT
+- sig: '<java.util.Deque: java.lang.Object removeLast()>'
+  target: CONTAINER_GET
+- sig: '<java.util.Deque: java.lang.Object pop()>'
+  target: CONTAINER_GET
+- sig: '<java.util.Deque: java.lang.Object getFirst()>'
+  target: CONTAINER_GET
+- sig: '<java.util.Deque: java.lang.Object removeFirst()>'
+  target: CONTAINER_GET
+- sig: '<java.util.Deque: void addFirst(java.lang.Object)>'
+  target: CONTAINER_PUT
+- sig: '<java.util.Deque: java.util.Iterator descendingIterator()>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.Deque: boolean offerLast(java.lang.Object)>'
+  target: CONTAINER_PUT
+- sig: '<java.util.Deque: boolean offerFirst(java.lang.Object)>'
+  target: CONTAINER_PUT
+- sig: '<java.util.Deque: java.lang.Object pollFirst()>'
+  target: CONTAINER_GET
+- sig: '<java.util.Deque: boolean removeFirstOccurrence(java.lang.Object)>'
+  target: IDENTITY
+- sig: '<java.util.Deque: java.lang.Object getLast()>'
+  target: CONTAINER_GET
+- sig: '<java.util.Deque: java.lang.Object peekFirst()>'
+  target: CONTAINER_GET
+- sig: '<java.util.Deque: boolean removeLastOccurrence(java.lang.Object)>'
+  target: IDENTITY
+- sig: '<java.util.Deque: void addLast(java.lang.Object)>'
+  target: CONTAINER_PUT
+- sig: '<java.util.Deque: java.lang.Object pollLast()>'
+  target: CONTAINER_GET
+- sig: '<java.util.Deque: java.lang.Object peekLast()>'
+  target: CONTAINER_GET
+
+- sig: '<java.util.concurrent.BlockingDeque: boolean offerLast(java.lang.Object,long,java.util.concurrent.TimeUnit)>'
+  target: CONTAINER_PUT
+- sig: '<java.util.concurrent.BlockingDeque: boolean offerFirst(java.lang.Object,long,java.util.concurrent.TimeUnit)>'
+  target: CONTAINER_PUT
+- sig: '<java.util.concurrent.BlockingDeque: java.lang.Object takeFirst()>'
+  target: CONTAINER_GET
+- sig: '<java.util.concurrent.BlockingDeque: java.lang.Object pollFirst(long,java.util.concurrent.TimeUnit)>'
+  target: CONTAINER_GET
+- sig: '<java.util.concurrent.BlockingDeque: void putFirst(java.lang.Object)>'
+  target: CONTAINER_PUT
+- sig: '<java.util.concurrent.BlockingDeque: void putLast(java.lang.Object)>'
+  target: CONTAINER_PUT
+- sig: '<java.util.concurrent.BlockingDeque: java.lang.Object takeLast()>'
+  target: CONTAINER_GET
+- sig: '<java.util.concurrent.BlockingDeque: java.lang.Object pollLast(long,java.util.concurrent.TimeUnit)>'
+  target: CONTAINER_GET
+
+- sig: '<java.util.Iterator: void remove()>'
+  target: IDENTITY
+- sig: '<java.util.Iterator: java.lang.Object next()>'
+  target: CONTAINER_GET
+- sig: '<java.util.Iterator: boolean hasNext()>'
+  target: IDENTITY
+- sig: '<java.util.Map: void putAll(java.util.Map)>'
+  target: CONTAINER_ADDALL
+- sig: '<java.util.Map: void clear()>'
+  target: IDENTITY
+- sig: '<java.util.Map: java.util.Set entrySet()>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.Map: java.lang.Object get(java.lang.Object)>'
+  target: CONTAINER_GET
+- sig: '<java.util.Map: java.util.Set keySet()>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)>'
+  target: CONTAINER_REPLACE
+- sig: '<java.util.Map: int size()>'
+  target: RETURN
+- sig: '<java.util.Map: java.lang.Object remove(java.lang.Object)>'
+  target: CONTAINER_GET
+- sig: '<java.util.Map: boolean isEmpty()>'
+  target: RETURN
+- sig: '<java.util.Map: java.util.Collection values()>'
+  target: CONTAINER_TRANSFER
+- sig: '<java.util.Map: boolean containsKey(java.lang.Object)>'
+  target: RETURN
+- sig: '<java.util.Map: boolean equals(java.lang.Object)>'
+  target: RETURN
+- sig: '<java.util.Map: int hashCode()>'
+  target: RETURN
+- sig: '<java.util.Map: boolean containsValue(java.lang.Object)>'
+  target: RETURN
+
+- sig: '<java.util.Map$Entry: java.lang.Object getKey()>'
+  target: CONTAINER_GET
+- sig: '<java.util.Map$Entry: java.lang.Object getValue()>'
+  target: CONTAINER_GET
+- sig: '<java.util.Map$Entry: java.lang.Object setValue(java.lang.Object)>'
+  target: DIE
+# - sig: '<java.util.Map$Entry: void <init>(java.lang.Object,java.lang.Object)>'
+#   target: CONTAINER_PUT
+
+# - sig: '<com.sun.corba.se.spi.ior.iiop.IIOPProfileTemplate: com.sun.corba.se.spi.ior.iiop.IIOPAddress getPrimaryAddress()>'
+#   target: ???
+# - sig: '<com.sun.corba.se.spi.ior.iiop.IIOPProfileTemplate: com.sun.corba.se.spi.ior.iiop.GIOPVersion getGIOPVersion()>'
+#   target: ???
+# - sig: '<com.sun.corba.se.spi.ior.TaggedProfileTemplate: java.util.Iterator iteratorById(int)>'
+#   target: ???
+# - sig: '<com.sun.corba.se.spi.ior.TaggedProfileTemplate: org.omg.IOP.TaggedComponent[] getIOPComponents(com.sun.corba.se.spi.orb.ORB,int)>'
+#   target: ???
+# - sig: '<com.sun.corba.se.spi.ior.TaggedProfileTemplate: boolean isEquivalent(com.sun.corba.se.spi.ior.TaggedProfileTemplate)>'
+#   target: ???
+# - sig: '<com.sun.corba.se.spi.ior.TaggedProfileTemplate: com.sun.corba.se.spi.ior.TaggedProfile create(com.sun.corba.se.spi.ior.ObjectKeyTemplate,com.sun.corba.se.spi.ior.ObjectId)>'
+#   target: ???
+# - sig: '<com.sun.corba.se.spi.ior.TaggedProfileTemplate: void write(com.sun.corba.se.spi.ior.ObjectKeyTemplate,com.sun.corba.se.spi.ior.ObjectId,org.omg.CORBA_2_3.portable.OutputStream)>'
+#   target: ???
+# - sig: '<com.sun.org.apache.xerces.internal.xs.XSNamedMap: com.sun.org.apache.xerces.internal.xs.XSObject item(int)>'
+#   target: ???
+# - sig: '<com.sun.org.apache.xerces.internal.xs.XSNamedMap: int getLength()>'
+#   target: ???
+# - sig: '<com.sun.org.apache.xerces.internal.xs.XSNamedMap: com.sun.org.apache.xerces.internal.xs.XSObject itemByName(java.lang.String,java.lang.String)>'
+#   target: ???
+
+# - sig: '<javax.xml.stream.XMLEventReader: java.lang.Object getProperty(java.lang.String)>'
+#   target: ???
+# - sig: '<javax.xml.stream.XMLEventReader: javax.xml.stream.events.XMLEvent peek()>'
+#   target: ???
+# - sig: '<javax.xml.stream.XMLEventReader: javax.xml.stream.events.XMLEvent nextEvent()>'
+#   target: ???
+# - sig: '<javax.xml.stream.XMLEventReader: void close()>'
+#   target: ???
+# - sig: '<javax.xml.stream.XMLEventReader: java.lang.String getElementText()>'
+#   target: ???
+# - sig: '<javax.xml.stream.XMLEventReader: javax.xml.stream.events.XMLEvent nextTag()>'
+#   target: ???
+# - sig: '<java.beans.beancontext.BeanContext: void removeBeanContextMembershipListener(java.beans.beancontext.BeanContextMembershipListener)>'
+#   target: ???
+# - sig: '<java.beans.beancontext.BeanContext: void addBeanContextMembershipListener(java.beans.beancontext.BeanContextMembershipListener)>'
+#   target: ???
+# - sig: '<java.beans.beancontext.BeanContext: java.net.URL getResource(java.lang.String,java.beans.beancontext.BeanContextChild)>'
+#   target: ???
+# - sig: '<java.beans.beancontext.BeanContext: void <clinit>()>'
+#   target: ???
+# - sig: '<java.beans.beancontext.BeanContext: java.lang.Object instantiateChild(java.lang.String)>'
+#   target: ???
+# - sig: '<java.beans.beancontext.BeanContext: java.io.InputStream getResourceAsStream(java.lang.String,java.beans.beancontext.BeanContextChild)>'
+#   target: ???
+
+# - sig: '<com.sun.org.apache.xerces.internal.xs.ShortList: int getLength()>'
+#   target: ???
+# - sig: '<com.sun.org.apache.xerces.internal.xs.ShortList: boolean contains(short)>'
+#   target: ???
+# - sig: '<com.sun.org.apache.xerces.internal.xs.ShortList: short item(int)>'
+#   target: ???
+# - sig: '<com.sun.org.apache.xerces.internal.xs.XSNamespaceItemList: int getLength()>'
+#   target: ???
+# - sig: '<com.sun.org.apache.xerces.internal.xs.XSNamespaceItemList: com.sun.org.apache.xerces.internal.xs.XSNamespaceItem item(int)>'
+#   target: ???
+
+# - sig: '<com.sun.corba.se.impl.orbutil.graph.Graph: java.util.Set getRoots()>'
+#   target: ???
+# - sig: '<com.sun.corba.se.impl.orbutil.graph.Graph: com.sun.corba.se.impl.orbutil.graph.NodeData getNodeData(com.sun.corba.se.impl.orbutil.graph.Node)>'
+#   target: ???
+# - sig: '<com.sun.corba.se.spi.transport.CorbaContactInfoListIterator: void reportRedirect(com.sun.corba.se.spi.transport.CorbaContactInfo,com.sun.corba.se.spi.ior.IOR)>'
+#   target: ???
+# - sig: '<com.sun.corba.se.spi.transport.CorbaContactInfoListIterator: void reportAddrDispositionRetry(com.sun.corba.se.spi.transport.CorbaContactInfo,short)>'
+#   target: ???
+
+# - sig: '<javax.xml.ws.handler.MessageContext: javax.xml.ws.handler.MessageContext$Scope getScope(java.lang.String)>'
+#   target: ???
+# - sig: '<javax.xml.ws.handler.MessageContext: void setScope(java.lang.String,javax.xml.ws.handler.MessageContext$Scope)>'
+#   target: ???
+# - sig: '<java.beans.beancontext.BeanContextServices: java.util.Iterator getCurrentServiceSelectors(java.lang.Class)>'
+#   target: ???
+# - sig: '<java.beans.beancontext.BeanContextServices: java.lang.Object getService(java.beans.beancontext.BeanContextChild,java.lang.Object,java.lang.Class,java.lang.Object,java.beans.beancontext.BeanContextServiceRevokedListener)>'
+#   target: ???
+# - sig: '<java.beans.beancontext.BeanContextServices: void revokeService(java.lang.Class,java.beans.beancontext.BeanContextServiceProvider,boolean)>'
+#   target: ???
+# - sig: '<java.beans.beancontext.BeanContextServices: void addBeanContextServicesListener(java.beans.beancontext.BeanContextServicesListener)>'
+#   target: ???
+# - sig: '<java.beans.beancontext.BeanContextServices: java.util.Iterator getCurrentServiceClasses()>'
+#   target: ???
+# - sig: '<java.beans.beancontext.BeanContextServices: void removeBeanContextServicesListener(java.beans.beancontext.BeanContextServicesListener)>'
+#   target: ???
+# - sig: '<java.beans.beancontext.BeanContextServices: boolean hasService(java.lang.Class)>'
+#   target: ???
+# - sig: '<java.beans.beancontext.BeanContextServices: boolean addService(java.lang.Class,java.beans.beancontext.BeanContextServiceProvider)>'
+#   target: ???
+# - sig: '<java.beans.beancontext.BeanContextServices: void releaseService(java.beans.beancontext.BeanContextChild,java.lang.Object,java.lang.Object)>'
+#   target: ???
+# - sig: '<com.sun.corba.se.spi.ior.IORTemplate: com.sun.corba.se.spi.ior.ObjectKeyTemplate getObjectKeyTemplate()>'
+#   target: ???
+# - sig: '<com.sun.corba.se.spi.ior.IORTemplate: java.util.Iterator iteratorById(int)>'
+#   target: ???
+
+# - sig: '<com.sun.xml.internal.ws.api.handler.MessageHandlerContext: com.sun.xml.internal.ws.api.message.Message getMessage()>'
+#   target: ???
+# - sig: '<com.sun.xml.internal.ws.api.handler.MessageHandlerContext: void setMessage(com.sun.xml.internal.ws.api.message.Message)>'
+#   target: ???
+# - sig: '<com.sun.xml.internal.ws.api.handler.MessageHandlerContext: com.sun.xml.internal.ws.api.WSBinding getWSBinding()>'
+#   target: ???
+# - sig: '<com.sun.xml.internal.ws.api.handler.MessageHandlerContext: com.sun.xml.internal.ws.api.model.wsdl.WSDLPort getPort()>'
+#   target: ???
+# - sig: '<com.sun.xml.internal.ws.api.handler.MessageHandlerContext: com.sun.xml.internal.ws.api.model.SEIModel getSEIModel()>'
+#   target: ???
+# - sig: '<com.sun.xml.internal.ws.api.handler.MessageHandlerContext: java.util.Set getRoles()>'
+#   target: ???
+
+
+# - sig: '<javax.script.Bindings: java.lang.Object put(java.lang.String,java.lang.Object)>'
+#   target: ???
+# - sig: '<com.sun.org.apache.xerces.internal.xs.datatypes.ObjectList: int getLength()>'
+#   target: ???
+# - sig: '<com.sun.org.apache.xerces.internal.xs.datatypes.ObjectList: java.lang.Object item(int)>'
+#   target: ???
+# - sig: '<com.sun.corba.se.spi.ior.IOR: java.util.Iterator iteratorById(int)>'
+#   target: ???
+# - sig: '<com.sun.corba.se.spi.ior.IOR: com.sun.corba.se.spi.ior.iiop.IIOPProfile getProfile()>'
+#   target: ???
+# - sig: '<com.sun.corba.se.spi.ior.IOR: java.lang.String stringify()>'
+#   target: ???
+# - sig: '<com.sun.corba.se.spi.ior.IOR: com.sun.corba.se.spi.ior.IORTemplateList getIORTemplates()>'
+#   target: ???
+# - sig: '<com.sun.corba.se.spi.ior.IOR: com.sun.corba.se.spi.orb.ORB getORB()>'
+#   target: ???
+# - sig: '<com.sun.corba.se.spi.ior.IOR: org.omg.IOP.IOR getIOPIOR()>'
+#   target: ???
+# - sig: '<com.sun.corba.se.spi.ior.IOR: boolean isEquivalent(com.sun.corba.se.spi.ior.IOR)>'
+#   target: ???
+# - sig: '<com.sun.corba.se.spi.ior.IOR: java.lang.String getTypeId()>'
+#   target: ???
+# - sig: '<com.sun.corba.se.spi.ior.IOR: boolean isNil()>'
+#   target: ???
+# - sig: '<com.sun.org.apache.xerces.internal.xs.StringList: int getLength()>'
+#   target: ???
+# - sig: '<com.sun.org.apache.xerces.internal.xs.StringList: boolean contains(java.lang.String)>'
+#   target: ???
+# - sig: '<com.sun.org.apache.xerces.internal.xs.StringList: java.lang.String item(int)>'
+#   target: ???
+# - sig: '<com.sun.corba.se.pept.transport.ContactInfoListIterator: com.sun.corba.se.pept.transport.ContactInfoList getContactInfoList()>'
+#   target: ???
+# - sig: '<com.sun.corba.se.pept.transport.ContactInfoListIterator: boolean reportException(com.sun.corba.se.pept.transport.ContactInfo,java.lang.RuntimeException)>'
+#   target: ???
+# - sig: '<com.sun.corba.se.pept.transport.ContactInfoListIterator: void reportSuccess(com.sun.corba.se.pept.transport.ContactInfo)>'
+#   target: ???
+# - sig: '<com.sun.corba.se.pept.transport.ContactInfoListIterator: java.lang.RuntimeException getFailureException()>'
+#   target: ???
+# - sig: '<com.sun.org.apache.xerces.internal.xs.datatypes.ByteList: int getLength()>'
+#   target: ???
+# - sig: '<com.sun.org.apache.xerces.internal.xs.datatypes.ByteList: byte item(int)>'
+#   target: ???
+# - sig: '<com.sun.org.apache.xerces.internal.xs.datatypes.ByteList: boolean contains(byte)>'
+#   target: ???
+
+# - sig: '<javax.xml.ws.handler.soap.SOAPMessageContext: javax.xml.soap.SOAPMessage getMessage()>'
+#   target: ???
+# - sig: '<javax.xml.ws.handler.soap.SOAPMessageContext: java.util.Set getRoles()>'
+#   target: ???
+# - sig: '<javax.xml.ws.handler.soap.SOAPMessageContext: void setMessage(javax.xml.soap.SOAPMessage)>'
+#   target: ???
+# - sig: '<javax.xml.ws.handler.soap.SOAPMessageContext: java.lang.Object[] getHeaders(javax.xml.namespace.QName,javax.xml.bind.JAXBContext,boolean)>'
+#   target: ???
+# - sig: '<javax.xml.ws.handler.LogicalMessageContext: javax.xml.ws.LogicalMessage getMessage()>'
+#   target: ???

@@ -1,0 +1,13 @@
+app_classes: "${base_dir}/unpack"
+web_xml: "${base_dir}/war/WEB-INF/web.xml"
+output_package: "org.blojsom"
+
+use_cha: true
+
+app_source_dir:
+  - "${base_dir}/src"
+  - "${base_dir}/addons/plugins/src"
+  - "${base_dir}/extensions/src/"
+  - "${base_dir}/plugins/src/"
+---
+base_dir: "${source_dir}/blojsom-3.1-source/"

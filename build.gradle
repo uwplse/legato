@@ -1,0 +1,70 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+repositories {
+  mavenCentral()
+}
+
+sourceSets {
+  main {
+	java {
+      srcDirs 'src/'
+	}
+	resources {
+	  srcDirs 'src/'
+	}
+	resources {
+	  srcDirs 'model/'
+	}
+	output.classesDir = file("build/classes/eclipse")
+  }
+  test {
+	java {
+	  srcDirs 'test/'
+	}
+	resources {
+	  srcDirs 'test/'
+	  include '**/*.yml'
+	}
+  }
+}
+
+test {
+  useTestNG()
+  systemProperty 'legato.classpath', sourceSets.test.output.classesDirs.join(":")
+  systemProperty 'legato.test-resources', sourceSets.test.output.resourcesDir
+  systemProperty 'legato.resources', sourceSets.main.output.resourcesDir
+}
+
+eclipse {
+  classpath {
+	downloadSources = true
+	downloadJavadoc = true
+	defaultOutputDir file('build/classes/eclipse')
+  }
+}
+
+compileJava {
+  options.compilerArgs << '-XDignore.symbol.file'
+  options.fork = true
+  options.forkOptions.executable = 'javac'
+}
+
+dependencies {
+  compile group: 'net.sf.trove4j', name: 'trove4j', version: '3.0.3'
+  compile group: 'org.testng', name: 'testng', version: '6.8'
+  compile group: 'com.google.guava', name: 'guava', version: '16.0.1'
+  compile group: 'org.yaml', name: 'snakeyaml', version: '1.17'
+  compile group: 'net.sf.jopt-simple', name: 'jopt-simple', version: '5.0.3'
+  compile group: 'com.jcabi', name: 'jcabi-xml', version: '0.17.2'
+  compile files('./soot-boomerang.jar')
+}
+
+compileJava {
+  options.debugOptions.debugLevel = "source,lines,vars"
+}
+
+task copyDep(type: Copy) {
+  into "$rootProject.buildDir/build-deps"
+  from configurations.runtime
+}

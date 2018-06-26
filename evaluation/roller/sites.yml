@@ -1,0 +1,294 @@
+- {containing-method: '<org.roller.presentation.LoginServlet: void service(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>',
+  containing-type: org.roller.presentation.LoginServlet, line: null, method: '<org.roller.presentation.LoginServlet:
+    void service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  source-file: LoginServlet.java, tag: 195, unit-string: 'virtualinvoke this.<org.roller.presentation.LoginServlet:
+    void service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>(t1,
+    t2)'}
+- {containing-method: '<org.roller.presentation.LoginServlet: void service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: org.roller.presentation.LoginServlet, line: null, method: '<org.roller.presentation.LoginServlet:
+    void doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  source-file: LoginServlet.java, tag: 190, unit-string: 'virtualinvoke this.<org.roller.presentation.LoginServlet:
+    void doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>(req,
+    resp)'}
+- {containing-method: '<org.roller.presentation.LoginServlet: void service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: org.roller.presentation.LoginServlet, line: null, method: '<org.roller.presentation.LoginServlet:
+    void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  source-file: LoginServlet.java, tag: 189, unit-string: 'virtualinvoke this.<org.roller.presentation.LoginServlet:
+    void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>(req,
+    resp)'}
+- {containing-method: '<org.roller.presentation.website.actions.UserFormAction: org.apache.struts.action.ActionForward
+    add(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: org.roller.presentation.website.actions.UserFormAction, line: null,
+  method: '<org.roller.presentation.RollerContext: java.lang.String getAbsoluteContextUrl(javax.servlet.http.HttpServletRequest)>',
+  source-file: UserFormAction.java, tag: 581, unit-string: '$r20 = virtualinvoke r39.<org.roller.presentation.RollerContext:
+    java.lang.String getAbsoluteContextUrl(javax.servlet.http.HttpServletRequest)>(r0)'}
+- {containing-method: '<org.roller.presentation.LoginServlet: void doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: org.roller.presentation.LoginServlet, line: '94', method: '<org.roller.presentation.LoginServlet:
+    void execute(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  source-file: LoginServlet.java, tag: 186, unit-string: 'virtualinvoke r0.<org.roller.presentation.LoginServlet:
+    void execute(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>(r1,
+    r2)'}
+- {containing-method: '<org.roller.presentation.LoginServlet: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: org.roller.presentation.LoginServlet, line: '79', method: '<org.roller.presentation.LoginServlet:
+    void execute(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  source-file: LoginServlet.java, tag: 185, unit-string: 'virtualinvoke r0.<org.roller.presentation.LoginServlet:
+    void execute(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>(r1,
+    r2)'}
+- {containing-method: '<org.roller.util.Utilities: java.lang.String escapeHTML(java.lang.String)>',
+  containing-type: org.roller.util.Utilities, line: '84', method: '<org.roller.util.Utilities:
+    java.lang.String escapeHTML(java.lang.String,boolean)>', source-file: Utilities.java,
+  tag: 176, unit-string: '$r1 = staticinvoke <org.roller.util.Utilities: java.lang.String
+    escapeHTML(java.lang.String,boolean)>(r0, 1)'}
+- {containing-method: '<org.roller.presentation.weblog.actions.BakeWeblogAction: org.apache.struts.action.ActionForward
+    bake(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: org.roller.presentation.weblog.actions.BakeWeblogAction, line: null,
+  method: '<org.roller.presentation.weblog.actions.BakeWeblogAction: java.lang.String
+    writeToFile(java.lang.String,java.util.Date,org.roller.presentation.RollerRequest)>',
+  source-file: BakeWeblogAction.java, tag: 367, unit-string: 'r66 = specialinvoke
+    r0.<org.roller.presentation.weblog.actions.BakeWeblogAction: java.lang.String
+    writeToFile(java.lang.String,java.util.Date,org.roller.presentation.RollerRequest)>($r25,
+    r65, r62)'}
+- {containing-method: '<org.roller.presentation.website.actions.UploadFileFormAction:
+    org.apache.struts.action.ActionForward upload(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: org.roller.presentation.website.actions.UploadFileFormAction, line: null,
+  source-file: UploadFileFormAction.java, tag: 3241, unit-string: 'goto [?= i12 =
+    i12 + 1]'}
+- {containing-method: '<org.roller.presentation.velocity.FoafServlet: void setupContext(org.apache.velocity.context.Context,org.roller.presentation.RollerRequest)>',
+  containing-type: org.roller.presentation.velocity.FoafServlet, line: '117', method: '<org.roller.util.Utilities:
+    java.lang.String escapeHTML(java.lang.String)>', source-file: FoafServlet.java,
+  tag: 163, unit-string: 'r6 = staticinvoke <org.roller.util.Utilities: java.lang.String
+    escapeHTML(java.lang.String)>($r19)'}
+- {containing-method: '<org.roller.presentation.velocity.FoafServlet: void setupContext(org.apache.velocity.context.Context,org.roller.presentation.RollerRequest)>',
+  containing-type: org.roller.presentation.velocity.FoafServlet, line: '129', method: '<org.roller.presentation.RollerContext:
+    java.lang.String getAbsoluteContextUrl(javax.servlet.http.HttpServletRequest)>',
+  source-file: FoafServlet.java, tag: 159, unit-string: '$r29 = virtualinvoke r4.<org.roller.presentation.RollerContext:
+    java.lang.String getAbsoluteContextUrl(javax.servlet.http.HttpServletRequest)>(r3)'}
+- {containing-method: '<org.roller.PseudoMain$LegatoActionServlet$_4: void service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: org.roller.PseudoMain$LegatoActionServlet$_4, line: '2549', method: '<org.roller.presentation.weblog.actions.BakeWeblogAction:
+    org.apache.struts.action.ActionForward bake(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  source-file: PseudoMain.java, tag: 345, unit-string: '$r7 = virtualinvoke $r5.<org.roller.presentation.weblog.actions.BakeWeblogAction:
+    org.apache.struts.action.ActionForward bake(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>($r4,
+    $r6, r1, r2)'}
+- {containing-method: '<org.roller.presentation.website.actions.WebsiteFormAction:
+    org.apache.struts.action.ActionForward update(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: org.roller.presentation.website.actions.WebsiteFormAction, line: null,
+  method: '<org.roller.PseudoMain$UrlDispatchActionForward: void doForwardNow(javax.servlet.ServletContext,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  source-file: WebsiteFormAction.java, tag: 629, unit-string: 'virtualinvoke $r14.<org.roller.PseudoMain$UrlDispatchActionForward:
+    void doForwardNow(javax.servlet.ServletContext,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>($r13,
+    r2, r3)'}
+- {containing-method: '<org.roller.presentation.velocity.FoafServlet: void setupContext(org.apache.velocity.context.Context,org.roller.presentation.RollerRequest)>',
+  containing-type: org.roller.presentation.velocity.FoafServlet, line: '117', method: '<org.roller.presentation.RollerContext:
+    java.lang.String getAbsoluteContextUrl(javax.servlet.http.HttpServletRequest)>',
+  source-file: FoafServlet.java, tag: 142, unit-string: '$r14 = virtualinvoke r4.<org.roller.presentation.RollerContext:
+    java.lang.String getAbsoluteContextUrl(javax.servlet.http.HttpServletRequest)>(r3)'}
+- {containing-method: '<org.roller.presentation.website.actions.UserFormAction: org.apache.struts.action.ActionForward
+    add(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: org.roller.presentation.website.actions.UserFormAction, line: null,
+  method: '<org.roller.presentation.RollerContext: java.lang.String getAbsoluteContextUrl(javax.servlet.http.HttpServletRequest)>',
+  source-file: UserFormAction.java, tag: 533, unit-string: '$r15 = virtualinvoke r39.<org.roller.presentation.RollerContext:
+    java.lang.String getAbsoluteContextUrl(javax.servlet.http.HttpServletRequest)>(r0)'}
+- {containing-method: '<org.roller.presentation.RollerContext: java.lang.String getAbsoluteContextUrl(javax.servlet.http.HttpServletRequest)>',
+  containing-type: org.roller.presentation.RollerContext, line: '627', method: '<org.roller.pojos.RollerConfig:
+    java.lang.String getAbsoluteURL()>', source-file: RollerContext.java, tag: 112,
+  unit-string: 'r7 = virtualinvoke $r2.<org.roller.pojos.RollerConfig: java.lang.String
+    getAbsoluteURL()>()'}
+- {containing-method: '<org.roller.presentation.weblog.actions.BakeWeblogAction: org.apache.struts.action.ActionForward
+    bake(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: org.roller.presentation.weblog.actions.BakeWeblogAction, line: null,
+  source-file: BakeWeblogAction.java, tag: 3243, unit-string: '$r47 := @caughtexception'}
+- {containing-method: '<org.roller.presentation.velocity.ContextLoader: void loadPathValues(org.apache.velocity.context.Context,org.roller.presentation.RollerRequest,org.roller.presentation.RollerContext,java.lang.String)>',
+  containing-type: org.roller.presentation.velocity.ContextLoader, line: '285', method: '<org.apache.velocity.context.Context:
+    java.lang.Object put(java.lang.String,java.lang.Object)>', source-file: ContextLoader.java,
+  tag: 3242, unit-string: 'interfaceinvoke r0.<org.apache.velocity.context.Context:
+    java.lang.Object put(java.lang.String,java.lang.Object)>("websiteURL", r16)'}
+- {containing-method: '<org.roller.presentation.velocity.ContextLoader: java.lang.String
+    loadWebsiteValues(org.apache.velocity.context.Context,org.roller.presentation.RollerRequest,org.roller.presentation.RollerContext)>',
+  containing-type: org.roller.presentation.velocity.ContextLoader, line: '436', method: '<org.roller.pojos.RollerConfig:
+    java.lang.String getSiteName()>', source-file: ContextLoader.java, tag: 286, unit-string: 'r37
+    = virtualinvoke $r14.<org.roller.pojos.RollerConfig: java.lang.String getSiteName()>()'}
+- {containing-method: '<org.roller.presentation.website.actions.UploadFileFormAction:
+    org.apache.struts.action.ActionForward upload(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: org.roller.presentation.website.actions.UploadFileFormAction, line: null,
+  method: '<java.io.InputStream: void close()>', source-file: UploadFileFormAction.java,
+  tag: 3240, unit-string: 'virtualinvoke r79.<java.io.InputStream: void close()>()'}
+- {containing-method: '<org.roller.presentation.website.tags.FileManagerTag: int doStartTag()>',
+  containing-type: org.roller.presentation.website.tags.FileManagerTag, line: '105',
+  method: '<org.apache.struts.util.RequestUtils: java.lang.String printableURL(java.net.URL)>',
+  source-file: FileManagerTag.java, tag: 3239, unit-string: 'r75 = staticinvoke <org.apache.struts.util.RequestUtils:
+    java.lang.String printableURL(java.net.URL)>($r50)'}
+- {containing-method: '<org.roller.presentation.website.actions.UserFormAction: org.apache.struts.action.ActionForward
+    add(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: org.roller.presentation.website.actions.UserFormAction, line: null,
+  source-file: UserFormAction.java, tag: 3238, unit-string: $r29 = new org.roller.PseudoMain$LegatoForward$_48}
+- {containing-method: '<org.roller.presentation.LoginServlet: void service(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>',
+  containing-type: org.roller.presentation.LoginServlet, line: null, source-file: LoginServlet.java,
+  tag: 3237, unit-string: return}
+- {containing-method: '<org.roller.presentation.website.actions.WebsiteFormAction:
+    org.apache.struts.action.ActionForward update(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: org.roller.presentation.website.actions.WebsiteFormAction, line: null,
+  source-file: WebsiteFormAction.java, tag: 3236, unit-string: return null}
+- {containing-method: '<org.roller.presentation.velocity.FoafServlet: void setupContext(org.apache.velocity.context.Context,org.roller.presentation.RollerRequest)>',
+  containing-type: org.roller.presentation.velocity.FoafServlet, line: '137', source-file: FoafServlet.java,
+  tag: 3235, unit-string: $r38 = new java.lang.StringBuilder}
+- {containing-method: '<org.roller.presentation.velocity.ContextLoader: java.lang.String
+    loadWebsiteValues(org.apache.velocity.context.Context,org.roller.presentation.RollerRequest,org.roller.presentation.RollerContext)>',
+  containing-type: org.roller.presentation.velocity.ContextLoader, line: '441', method: '<org.roller.presentation.RollerRequest:
+    javax.servlet.http.HttpServletRequest getRequest()>', source-file: ContextLoader.java,
+  tag: 3234, unit-string: '$r17 = virtualinvoke r1.<org.roller.presentation.RollerRequest:
+    javax.servlet.http.HttpServletRequest getRequest()>()'}
+- {containing-method: '<org.roller.presentation.LoginServlet: void execute(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: org.roller.presentation.LoginServlet, line: '128', method: '<org.roller.pojos.RollerConfig:
+    java.lang.String getAlgorithm()>', source-file: LoginServlet.java, tag: 80, unit-string: '$r10
+    = virtualinvoke r4.<org.roller.pojos.RollerConfig: java.lang.String getAlgorithm()>()'}
+- {containing-method: '<org.roller.presentation.velocity.ContextLoader: java.lang.String
+    loadWebsiteValues(org.apache.velocity.context.Context,org.roller.presentation.RollerRequest,org.roller.presentation.RollerContext)>',
+  containing-type: org.roller.presentation.velocity.ContextLoader, line: '429', method: '<org.roller.pojos.RollerConfig:
+    java.lang.String getEmailAddress()>', source-file: ContextLoader.java, tag: 274,
+  unit-string: '$r10 = virtualinvoke $r11.<org.roller.pojos.RollerConfig: java.lang.String
+    getEmailAddress()>()'}
+- {containing-method: '<org.roller.presentation.weblog.actions.BakeWeblogAction: java.lang.String
+    writeToFile(java.lang.String,java.util.Date,org.roller.presentation.RollerRequest)>',
+  containing-type: org.roller.presentation.weblog.actions.BakeWeblogAction, line: null,
+  method: '<org.roller.presentation.RollerContext: java.lang.String getUploadDir(javax.servlet.ServletContext)>',
+  source-file: BakeWeblogAction.java, tag: 273, unit-string: 'r25 = staticinvoke <org.roller.presentation.RollerContext:
+    java.lang.String getUploadDir(javax.servlet.ServletContext)>($r2)'}
+- {containing-method: '<org.roller.presentation.LoginServlet: void execute(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: org.roller.presentation.LoginServlet, line: '127', method: '<org.roller.pojos.RollerConfig:
+    java.lang.Boolean getEncryptPasswords()>', source-file: LoginServlet.java, tag: 75,
+  unit-string: '$r9 = virtualinvoke r4.<org.roller.pojos.RollerConfig: java.lang.Boolean
+    getEncryptPasswords()>()'}
+- {containing-method: '<org.roller.presentation.velocity.ContextLoader: java.lang.String
+    loadWebsiteValues(org.apache.velocity.context.Context,org.roller.presentation.RollerRequest,org.roller.presentation.RollerContext)>',
+  containing-type: org.roller.presentation.velocity.ContextLoader, line: '425', method: '<org.roller.pojos.RollerConfig:
+    java.lang.String getSiteDescription()>', source-file: ContextLoader.java, tag: 263,
+  unit-string: '$r9 = virtualinvoke $r8.<org.roller.pojos.RollerConfig: java.lang.String
+    getSiteDescription()>()'}
+- {containing-method: '<org.roller.presentation.velocity.ContextLoader: void loadPathValues(org.apache.velocity.context.Context,org.roller.presentation.RollerRequest,org.roller.presentation.RollerContext,java.lang.String)>',
+  containing-type: org.roller.presentation.velocity.ContextLoader, line: '278', method: '<org.roller.util.Utilities:
+    java.lang.String escapeHTML(java.lang.String)>', source-file: ContextLoader.java,
+  tag: 262, unit-string: 'r16 = staticinvoke <org.roller.util.Utilities: java.lang.String
+    escapeHTML(java.lang.String)>($r14)'}
+- {containing-method: '<org.roller.presentation.RollerContext: java.lang.String getUploadDir(javax.servlet.ServletContext)>',
+  containing-type: org.roller.presentation.RollerContext, line: '460', method: '<org.roller.pojos.RollerConfig:
+    java.lang.String getUploadDir()>', source-file: RollerContext.java, tag: 259,
+  unit-string: 'r15 = virtualinvoke r1.<org.roller.pojos.RollerConfig: java.lang.String
+    getUploadDir()>()'}
+- {containing-method: '<org.roller.presentation.velocity.ContextLoader: java.lang.String
+    loadWebsiteValues(org.apache.velocity.context.Context,org.roller.presentation.RollerRequest,org.roller.presentation.RollerContext)>',
+  containing-type: org.roller.presentation.velocity.ContextLoader, line: '423', method: '<org.roller.pojos.RollerConfig:
+    java.lang.String getSiteName()>', source-file: ContextLoader.java, tag: 252, unit-string: '$r6
+    = virtualinvoke $r5.<org.roller.pojos.RollerConfig: java.lang.String getSiteName()>()'}
+- {containing-method: '<org.roller.util.Utilities: java.lang.String stringReplace(java.lang.String,java.lang.String,java.lang.String)>',
+  containing-type: org.roller.util.Utilities, line: '284', method: '<org.roller.util.StringUtils:
+    java.lang.String replace(java.lang.String,java.lang.String,java.lang.String)>',
+  source-file: Utilities.java, tag: 251, unit-string: 'r3 = staticinvoke <org.roller.util.StringUtils:
+    java.lang.String replace(java.lang.String,java.lang.String,java.lang.String)>(r0,
+    r1, r2)'}
+- {containing-method: '<org.roller.presentation.website.actions.UploadFileFormAction:
+    org.apache.struts.action.ActionForward upload(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: org.roller.presentation.website.actions.UploadFileFormAction, line: null,
+  method: '<org.roller.pojos.RollerConfig: java.math.BigDecimal getUploadMaxFileMB()>',
+  source-file: UploadFileFormAction.java, tag: 643, unit-string: '$r26 = virtualinvoke
+    r70.<org.roller.pojos.RollerConfig: java.math.BigDecimal getUploadMaxFileMB()>()'}
+- {containing-method: '<org.roller.presentation.velocity.ContextLoader: void loadPathValues(org.apache.velocity.context.Context,org.roller.presentation.RollerRequest,org.roller.presentation.RollerContext,java.lang.String)>',
+  containing-type: org.roller.presentation.velocity.ContextLoader, line: '278', method: '<org.roller.presentation.RollerContext:
+    java.lang.String getAbsoluteContextUrl(javax.servlet.http.HttpServletRequest)>',
+  source-file: ContextLoader.java, tag: 246, unit-string: '$r10 = virtualinvoke r2.<org.roller.presentation.RollerContext:
+    java.lang.String getAbsoluteContextUrl(javax.servlet.http.HttpServletRequest)>(r4)'}
+- {containing-method: '<org.roller.presentation.velocity.ContextLoader: void loadPathValues(org.apache.velocity.context.Context,org.roller.presentation.RollerRequest,org.roller.presentation.RollerContext,java.lang.String)>',
+  containing-type: org.roller.presentation.velocity.ContextLoader, line: '283', method: '<org.roller.util.Utilities:
+    java.lang.String escapeHTML(java.lang.String)>', source-file: ContextLoader.java,
+  tag: 242, unit-string: 'r16 = staticinvoke <org.roller.util.Utilities: java.lang.String
+    escapeHTML(java.lang.String)>($r5)'}
+- {containing-method: '<org.roller.util.Utilities: java.lang.String escapeHTML(java.lang.String,boolean)>',
+  containing-type: org.roller.util.Utilities, line: '103', method: '<org.roller.util.Utilities:
+    java.lang.String stringReplace(java.lang.String,java.lang.String,java.lang.String)>',
+  source-file: Utilities.java, tag: 241, unit-string: 'r4 = staticinvoke <org.roller.util.Utilities:
+    java.lang.String stringReplace(java.lang.String,java.lang.String,java.lang.String)>(r3,
+    ">", "&gt;")'}
+- {containing-method: '<org.roller.presentation.velocity.ContextLoader: void loadPathValues(org.apache.velocity.context.Context,org.roller.presentation.RollerRequest,org.roller.presentation.RollerContext,java.lang.String)>',
+  containing-type: org.roller.presentation.velocity.ContextLoader, line: '283', method: '<org.roller.presentation.RollerContext:
+    java.lang.String getAbsoluteContextUrl(javax.servlet.http.HttpServletRequest)>',
+  source-file: ContextLoader.java, tag: 238, unit-string: '$r5 = virtualinvoke r2.<org.roller.presentation.RollerContext:
+    java.lang.String getAbsoluteContextUrl(javax.servlet.http.HttpServletRequest)>(r4)'}
+- {containing-method: '<org.roller.util.Utilities: java.lang.String escapeHTML(java.lang.String,boolean)>',
+  containing-type: org.roller.util.Utilities, line: '102', method: '<org.roller.util.Utilities:
+    java.lang.String stringReplace(java.lang.String,java.lang.String,java.lang.String)>',
+  source-file: Utilities.java, tag: 237, unit-string: 'r3 = staticinvoke <org.roller.util.Utilities:
+    java.lang.String stringReplace(java.lang.String,java.lang.String,java.lang.String)>(r2,
+    "<", "&lt;")'}
+- {containing-method: '<org.roller.presentation.weblog.actions.BakeWeblogAction: org.apache.struts.action.ActionForward
+    bake(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: org.roller.presentation.weblog.actions.BakeWeblogAction, line: null,
+  method: '<javax.servlet.http.HttpServletRequest: javax.servlet.http.HttpSession
+    getSession()>', source-file: BakeWeblogAction.java, tag: 2008, unit-string: '$r67
+    = interfaceinvoke r1.<javax.servlet.http.HttpServletRequest: javax.servlet.http.HttpSession
+    getSession()>()'}
+- {containing-method: '<org.roller.presentation.velocity.FoafServlet: void setupContext(org.apache.velocity.context.Context,org.roller.presentation.RollerRequest)>',
+  containing-type: org.roller.presentation.velocity.FoafServlet, line: '129', method: '<org.roller.util.Utilities:
+    java.lang.String escapeHTML(java.lang.String)>', source-file: FoafServlet.java,
+  tag: 232, unit-string: 'r37 = staticinvoke <org.roller.util.Utilities: java.lang.String
+    escapeHTML(java.lang.String)>($r35)'}
+- {containing-method: '<org.roller.util.Utilities: java.lang.String escapeHTML(java.lang.String,boolean)>',
+  containing-type: org.roller.util.Utilities, line: '101', method: '<org.roller.util.Utilities:
+    java.lang.String stringReplace(java.lang.String,java.lang.String,java.lang.String)>',
+  source-file: Utilities.java, tag: 231, unit-string: 'r2 = staticinvoke <org.roller.util.Utilities:
+    java.lang.String stringReplace(java.lang.String,java.lang.String,java.lang.String)>(r1,
+    "\"", "&quot;")'}
+- {containing-method: '<org.roller.util.Utilities: java.lang.String escapeHTML(java.lang.String,boolean)>',
+  containing-type: org.roller.util.Utilities, line: '100', method: '<org.roller.util.Utilities:
+    java.lang.String stringReplace(java.lang.String,java.lang.String,java.lang.String)>',
+  source-file: Utilities.java, tag: 229, unit-string: 'r1 = staticinvoke <org.roller.util.Utilities:
+    java.lang.String stringReplace(java.lang.String,java.lang.String,java.lang.String)>(r0,
+    "&nbsp;", " ")'}
+- {containing-method: '<org.roller.PseudoMain$LegatoForward$_49: void doForwardNow(javax.servlet.ServletContext,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: org.roller.PseudoMain$LegatoForward$_49, line: '4224', method: '<javax.servlet.RequestDispatcher:
+    void forward(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>', source-file: PseudoMain.java,
+  tag: 622, unit-string: 'interfaceinvoke $r6.<javax.servlet.RequestDispatcher: void
+    forward(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>(r2, r3)'}
+- {containing-method: '<org.roller.PseudoMain$Dispatcher_136: void forward(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>',
+  containing-type: org.roller.PseudoMain$Dispatcher_136, line: '2443', method: '<org.roller.PseudoMain$LegatoActionServlet$_74:
+    void service(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>', source-file: PseudoMain.java,
+  tag: 619, unit-string: 'virtualinvoke $r3.<org.roller.PseudoMain$LegatoActionServlet$_74:
+    void service(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>(r1,
+    r2)'}
+- {containing-method: '<org.roller.presentation.website.actions.WebsiteFormAction:
+    org.apache.struts.action.ActionForward update(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: org.roller.presentation.website.actions.WebsiteFormAction, line: null,
+  method: '<org.roller.pojos.RollerConfig: java.util.List getEditorPagesList()>',
+  source-file: WebsiteFormAction.java, tag: 617, unit-string: '$r35 = virtualinvoke
+    $r34.<org.roller.pojos.RollerConfig: java.util.List getEditorPagesList()>()'}
+- {containing-method: '<org.roller.presentation.website.actions.UploadFileFormAction:
+    org.apache.struts.action.ActionForward upload(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: org.roller.presentation.website.actions.UploadFileFormAction, line: null,
+  method: '<org.roller.pojos.RollerConfig: java.lang.String getUploadAllow()>', source-file: UploadFileFormAction.java,
+  tag: 614, unit-string: '$r45 = virtualinvoke r70.<org.roller.pojos.RollerConfig:
+    java.lang.String getUploadAllow()>()'}
+- {containing-method: '<org.roller.PseudoMain$LegatoActionServlet$_74: void service(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>',
+  containing-type: org.roller.PseudoMain$LegatoActionServlet$_74, line: '3735', method: '<org.roller.PseudoMain$LegatoActionServlet$_74:
+    void service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  source-file: PseudoMain.java, tag: 611, unit-string: 'virtualinvoke r0.<org.roller.PseudoMain$LegatoActionServlet$_74:
+    void service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>($r4,
+    $r3)'}
+- {containing-method: '<org.roller.presentation.RollerContext: java.lang.String getUploadPath(javax.servlet.ServletContext)>',
+  containing-type: org.roller.presentation.RollerContext, line: '484', method: '<org.roller.pojos.RollerConfig:
+    java.lang.String getUploadPath()>', source-file: RollerContext.java, tag: 1001,
+  unit-string: 'r4 = virtualinvoke r1.<org.roller.pojos.RollerConfig: java.lang.String
+    getUploadPath()>()'}
+- {containing-method: '<org.roller.PseudoMain$LegatoActionServlet$_74: void service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: org.roller.PseudoMain$LegatoActionServlet$_74, line: '3739', method: '<org.roller.presentation.website.actions.WebsiteFormAction:
+    org.apache.struts.action.ActionForward edit(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  source-file: PseudoMain.java, tag: 605, unit-string: '$r7 = virtualinvoke $r5.<org.roller.presentation.website.actions.WebsiteFormAction:
+    org.apache.struts.action.ActionForward edit(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>($r4,
+    $r6, r1, r2)'}
+- {containing-method: '<org.roller.presentation.website.tags.FileManagerTag: int doStartTag()>',
+  containing-type: org.roller.presentation.website.tags.FileManagerTag, line: '105',
+  method: '<org.roller.presentation.RollerContext: java.lang.String getUploadPath(javax.servlet.ServletContext)>',
+  source-file: FileManagerTag.java, tag: 991, unit-string: '$r42 = staticinvoke <org.roller.presentation.RollerContext:
+    java.lang.String getUploadPath(javax.servlet.ServletContext)>(r70)'}
+- {containing-method: '<org.roller.presentation.website.actions.WebsiteFormAction:
+    org.apache.struts.action.ActionForward edit(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: org.roller.presentation.website.actions.WebsiteFormAction, line: null,
+  method: '<org.roller.pojos.RollerConfig: java.util.List getEditorPagesList()>',
+  source-file: WebsiteFormAction.java, tag: 594, unit-string: '$r23 = virtualinvoke
+    $r26.<org.roller.pojos.RollerConfig: java.util.List getEditorPagesList()>()'}

@@ -1,0 +1,15 @@
+language: java
+before_install:
+- wget https://services.gradle.org/distributions/gradle-4.0-bin.zip
+- unzip gradle-4.0-bin.zip
+- export GRADLE_HOME=$PWD/gradle-4.0
+- export PATH=$GRADLE_HOME/bin:$PATH
+env:
+  global:
+    secure: KuAtB8nI9UYdAPcbOLKEw7dBfCff9CHKRAqiLGQGT/z48f9gZ2hr4/qzfw49laF3RPtQyNa2Uij32pahQgQ1j/I1NLSw5Lgvkj8lGaC09dknYMj5vE2MZ8dOzP2GX0YwBj3dgm6TMpTvwwfBf4dD89V/zv4kRmkmIJ4igWzwrKoZCcu7TN3qnE/X5SUbj9pWJEJextN+z6I/BgBXgW4/4ysEFmBeyyA0jj17hwwvOjEp1jSLwenaNlJWeG9NtTmwgAfPWW/j9VvsxhWdv6iBL06Ke0YTbuF1jAuUCVRmVUG9mFpmkfFljgmBJe5JNesWWFxzQy7RbPZumAoO6PJ9NCqKTmfzDdVpB7787X8PSH99mQcQMKZJciaGptEmk5pqpDrV6kOaih1HQ2C31x/jx3Q26FsouT1vWDGmmAcwkewGZeEgncCmZIyMx81OTvLeVtFVyY+yAPHYoEGNWPdxjhuqTqiiJwvJwxhmpNNj+fxU5zbdea2Jidirf1DSRPxgRvHtV3CcVzi2yLFfTfJ5qyA8Mm0jYhAZxVygYY7DfEYKeOHklmA1yfAjoPujTzhkKnjsKdqCFk04doKhxhKXmax59rqYauXgLFwqqoAsBsGkyL/zPm566J0qxMzUs8Em/TPomSHiIZ4N+urt1+FarvyfTjdNXnew2D0DviRVkQw=
+cache:
+  directories:
+    - '$HOME/.m2/repository'
+    - '$HOME/.gradle/caches/modules-2'
+before_cache:
+  - rm -f '$HOME/.gradle/caches/modules-2/modules-2.lock'

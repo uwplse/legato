@@ -1,0 +1,89 @@
+- containing-method: '<pebble.controller.FrontController: void processRequest(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+  failing: [CharacterEncoding]
+  fst:
+    effect: WRITE_AND_PROPAGATE
+    props: [CharacterEncoding]
+    root: {CharacterEncoding: '{c224,0}{c743,0}{c101,0}{94}'}
+    type: t
+  fst-string: "\u03BB_.[CharacterEncoding={c224}\u2080{c743}\u2080{c101}\u2080{94}]"
+  key: [<<zero>>(null_type), nop|1, 'r2(edu.washington.cse.servlet.SimpleHttpResponse)[contentType(java.lang.String)]']
+  report-type: flow
+  sensitivity: true
+  snd:
+    effect: WRITE_AND_PROPAGATE
+    props: [CharacterEncoding]
+    root: {CharacterEncoding: '{c220,0}{c739,0}{c168,0}{c166,0}{c164,0}{c163,0}{c109,0}{99}'}
+    type: t
+  snd-string: "\u03BB_.[CharacterEncoding={c220}\u2080{c739}\u2080{c168}\u2080{c166}\u2080\
+    {c164}\u2080{c163}\u2080{c109}\u2080{99}]"
+  target: r2(edu.washington.cse.servlet.SimpleHttpResponse)[contentType(java.lang.String)]
+  target-base-type: edu.washington.cse.servlet.SimpleHttpResponse
+  target-num: 2171
+  target-unit: nop
+- containing-method: '<pebble.AllServletsHandlers: void doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>'
+  failing: [CharacterEncoding]
+  fst:
+    effect: WRITE_AND_PROPAGATE
+    props: [CharacterEncoding]
+    root: {CharacterEncoding: '{c47,0}{c45,0}{40}'}
+    type: t
+  fst-string: "\u03BB_.[CharacterEncoding={c47}\u2080{c45}\u2080{40}]"
+  key: [<<zero>>(null_type), return|0, 'r2(edu.washington.cse.servlet.SimpleHttpResponse)[contentType(java.lang.String)]']
+  report-type: flow
+  sensitivity: true
+  snd:
+    effect: WRITE_AND_PROPAGATE
+    props: [CharacterEncoding]
+    root: {CharacterEncoding: '{c44,0}{c43,0}{39}'}
+    type: t
+  snd-string: "\u03BB_.[CharacterEncoding={c44}\u2080{c43}\u2080{39}]"
+  target: r2(edu.washington.cse.servlet.SimpleHttpResponse)[contentType(java.lang.String)]
+  target-base-type: edu.washington.cse.servlet.SimpleHttpResponse
+  target-num: 2172
+  target-unit: return
+- containing-method: '<pebble.controller.FrontController: void processRequest(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+  failing: [Name]
+  fst:
+    effect: PROPAGATE
+    props: [Name, CharacterEncoding]
+    root: {CharacterEncoding: '{c214,41}{184}', Name: '{c214,41}{183}'}
+    type: t
+  fst-string: "\u03BB_.[Name={c214}\u2084\u2081{183},CharacterEncoding={c214}\u2084\
+    \u2081{184}]"
+  key: [<<zero>>(null_type), 'r27 = virtualinvoke $r12.<java.lang.StringBuffer: java.lang.String
+      toString()>()|0', $r12(java.lang.StringBuffer)]
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: PROPAGATE
+    props: [Name]
+    root: {Name: '{173}'}
+    type: t
+  snd-string: "\u03BB_.[Name={173}]"
+  target: $r12(java.lang.StringBuffer)
+  target-base-type: java.lang.StringBuffer
+  target-num: 218
+  target-unit: 'r27 = virtualinvoke $r12.<java.lang.StringBuffer: java.lang.String
+    toString()>()'
+- containing-method: '<pebble.controller.FrontController: void processRequest(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+  failing: [CharacterEncoding]
+  fst:
+    effect: WRITE_AND_PROPAGATE
+    props: [CharacterEncoding]
+    root: {CharacterEncoding: '{c224,0}{c743,0}{c101,0}{94}'}
+    type: t
+  fst-string: "\u03BB_.[CharacterEncoding={c224}\u2080{c743}\u2080{c101}\u2080{94}]"
+  key: [<<zero>>(null_type), '$r19 := @caughtexception|0', 'r2(edu.washington.cse.servlet.SimpleHttpResponse)[contentType(java.lang.String)]']
+  report-type: flow
+  sensitivity: true
+  snd:
+    effect: WRITE_AND_PROPAGATE
+    props: [CharacterEncoding]
+    root: {CharacterEncoding: '{c220,0}{c739,0}{c168,0}{c166,0}{c164,0}{c163,0}{c109,0}{99}'}
+    type: t
+  snd-string: "\u03BB_.[CharacterEncoding={c220}\u2080{c739}\u2080{c168}\u2080{c166}\u2080\
+    {c164}\u2080{c163}\u2080{c109}\u2080{99}]"
+  target: r2(edu.washington.cse.servlet.SimpleHttpResponse)[contentType(java.lang.String)]
+  target-base-type: edu.washington.cse.servlet.SimpleHttpResponse
+  target-num: 2173
+  target-unit: $r19 := @caughtexception

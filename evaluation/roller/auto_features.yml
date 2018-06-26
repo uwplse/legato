@@ -1,0 +1,70 @@
+? !!python/tuple [$INSTANCE, edu.washington.cse.servlet.SessionAttributes]
+: !!python/tuple [fp, static]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<org.roller.presentation.LoginServlet: void service(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>'
+- !!python/tuple [algorithm]
+- return
+: !!python/tuple [b, null]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<org.roller.presentation.velocity.ContextLoader: java.lang.String loadWebsiteValues(org.apache.velocity.context.Context,org.roller.presentation.RollerRequest,org.roller.presentation.RollerContext)>'
+- !!python/tuple [siteName]
+- '$r = virtualinvoke r.<org.roller.presentation.RollerRequest: javax.servlet.http.HttpServletRequest
+  getRequest()>()'
+: !!python/tuple [tp, null]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<org.roller.presentation.velocity.ContextLoader: void loadPathValues(org.apache.velocity.context.Context,org.roller.presentation.RollerRequest,org.roller.presentation.RollerContext,java.lang.String)>'
+- !!python/tuple [absoluteURL]
+- 'interfaceinvoke r.<org.apache.velocity.context.Context: java.lang.Object put(java.lang.String,java.lang.Object)>("websiteURL",
+  r)'
+: !!python/tuple [fp, path]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<org.roller.presentation.velocity.FoafServlet: void setupContext(org.apache.velocity.context.Context,org.roller.presentation.RollerRequest)>'
+- !!python/tuple [absoluteURL]
+- $r = new java.lang.StringBuilder
+: !!python/tuple [tp, null]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<org.roller.presentation.website.actions.UploadFileFormAction: org.apache.struts.action.ActionForward
+  upload(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+- !!python/tuple [uploadAllow]
+- goto [?= i = i + ]
+: !!python/tuple [tp, loop]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<org.roller.presentation.website.actions.UploadFileFormAction: org.apache.struts.action.ActionForward
+  upload(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+- !!python/tuple [uploadMaxFileMB]
+- 'virtualinvoke r.<java.io.InputStream: void close()>()'
+: !!python/tuple [tp, loop]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<org.roller.presentation.website.actions.UserFormAction: org.apache.struts.action.ActionForward
+  add(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+- !!python/tuple [absoluteURL]
+- $r = new org.roller.PseudoMain$LegatoForward$_
+: !!python/tuple [tp, double]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<org.roller.presentation.website.actions.WebsiteFormAction: org.apache.struts.action.ActionForward
+  update(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+- !!python/tuple [editorPagesList]
+- return null
+: !!python/tuple [fp, servlet]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<org.roller.presentation.website.tags.FileManagerTag: int doStartTag()>'
+- !!python/tuple [uploadPath]
+- $r = new java.lang.StringBuilder
+: !!python/tuple [fp, other]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<org.roller.presentation.website.tags.FileManagerTag: int doStartTag()>'
+- !!python/tuple [uploadPath]
+- 'r = staticinvoke <org.apache.struts.util.RequestUtils: java.lang.String printableURL(java.net.URL)>($r)'
+: !!python/tuple [fp, other]
+? !!python/tuple [mEncrypt, java.lang.Boolean]
+: !!python/tuple [tp, static]

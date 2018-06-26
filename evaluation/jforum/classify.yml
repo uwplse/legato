@@ -1,0 +1,2488 @@
+- classification: fp
+  f1:
+    attachments.icon:
+    - - !!python/tuple [TR, 297, 8, 0]
+      - !!python/tuple [CR, 602, 0, 0]
+      - !!python/tuple [C, 165, 0]
+    - - !!python/tuple [TR, 297, 9, 0]
+      - !!python/tuple [CR, 601, 0, 0]
+      - !!python/tuple [CR, 602, 0, 0]
+      - !!python/tuple [C, 165, 0]
+    - - !!python/tuple [TR, 297, 16, 0]
+      - !!python/tuple [CR, 484, 0, 0]
+      - !!python/tuple [CR, 602, 0, 0]
+      - !!python/tuple [C, 165, 0]
+    attachments.images.createthumb:
+    - - !!python/tuple [TR, 297, 8, 0]
+      - !!python/tuple [CR, 602, 0, 0]
+      - !!python/tuple [C, 166, 0]
+    - - !!python/tuple [TR, 297, 9, 0]
+      - !!python/tuple [CR, 601, 0, 0]
+      - !!python/tuple [CR, 602, 0, 0]
+      - !!python/tuple [C, 166, 0]
+    - - !!python/tuple [TR, 297, 16, 0]
+      - !!python/tuple [CR, 484, 0, 0]
+      - !!python/tuple [CR, 602, 0, 0]
+      - !!python/tuple [C, 166, 0]
+    attachments.images.thumb.box.show:
+    - - !!python/tuple [TR, 297, 8, 0]
+      - !!python/tuple [CR, 602, 0, 0]
+      - !!python/tuple [C, 170, 0]
+    - - !!python/tuple [TR, 297, 9, 0]
+      - !!python/tuple [CR, 601, 0, 0]
+      - !!python/tuple [CR, 602, 0, 0]
+      - !!python/tuple [C, 170, 0]
+    - - !!python/tuple [TR, 297, 16, 0]
+      - !!python/tuple [CR, 484, 0, 0]
+      - !!python/tuple [CR, 602, 0, 0]
+      - !!python/tuple [C, 170, 0]
+    attachments.images.thumb.maxsize.h:
+    - - !!python/tuple [TR, 297, 8, 0]
+      - !!python/tuple [CR, 602, 0, 0]
+      - !!python/tuple [C, 167, 0]
+    - - !!python/tuple [TR, 297, 9, 0]
+      - !!python/tuple [CR, 601, 0, 0]
+      - !!python/tuple [CR, 602, 0, 0]
+      - !!python/tuple [C, 167, 0]
+    - - !!python/tuple [TR, 297, 16, 0]
+      - !!python/tuple [CR, 484, 0, 0]
+      - !!python/tuple [CR, 602, 0, 0]
+      - !!python/tuple [C, 167, 0]
+    attachments.images.thumb.maxsize.w:
+    - - !!python/tuple [TR, 297, 8, 0]
+      - !!python/tuple [CR, 602, 0, 0]
+      - !!python/tuple [C, 168, 0]
+    - - !!python/tuple [TR, 297, 9, 0]
+      - !!python/tuple [CR, 601, 0, 0]
+      - !!python/tuple [CR, 602, 0, 0]
+      - !!python/tuple [C, 168, 0]
+    - - !!python/tuple [TR, 297, 16, 0]
+      - !!python/tuple [CR, 484, 0, 0]
+      - !!python/tuple [CR, 602, 0, 0]
+      - !!python/tuple [C, 168, 0]
+    attachments.max.post:
+    - - !!python/tuple [TR, 297, 8, 0]
+      - !!python/tuple [CR, 602, 0, 0]
+      - !!python/tuple [C, 169, 0]
+    - - !!python/tuple [TR, 297, 9, 0]
+      - !!python/tuple [CR, 601, 0, 0]
+      - !!python/tuple [CR, 602, 0, 0]
+      - !!python/tuple [C, 169, 0]
+    - - !!python/tuple [TR, 297, 16, 0]
+      - !!python/tuple [CR, 484, 0, 0]
+      - !!python/tuple [CR, 602, 0, 0]
+      - !!python/tuple [C, 169, 0]
+  f2:
+    attachments.icon:
+    - - !!python/tuple [TR, 298, 2, 0]
+      - !!python/tuple [CR, 484, 0, 0]
+      - !!python/tuple [CR, 602, 0, 0]
+      - !!python/tuple [C, 165, 0]
+    - - !!python/tuple [TR, 298, 10, 0]
+      - - - !!python/tuple [TR, 297, 8, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 165, 0]
+        - - !!python/tuple [TR, 297, 9, 0]
+          - !!python/tuple [CR, 601, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 165, 0]
+        - - !!python/tuple [TR, 297, 16, 0]
+          - !!python/tuple [CR, 484, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 165, 0]
+    - - !!python/tuple [TR, 298, 16, 0]
+      - - - !!python/tuple [TR, 297, 8, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 165, 0]
+        - - !!python/tuple [TR, 297, 9, 0]
+          - !!python/tuple [CR, 601, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 165, 0]
+        - - !!python/tuple [TR, 297, 16, 0]
+          - !!python/tuple [CR, 484, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 165, 0]
+    - - !!python/tuple [TR, 298, 21, 0]
+      - - - !!python/tuple [TR, 297, 8, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 165, 0]
+        - - !!python/tuple [TR, 297, 9, 0]
+          - !!python/tuple [CR, 601, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 165, 0]
+        - - !!python/tuple [TR, 297, 16, 0]
+          - !!python/tuple [CR, 484, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 165, 0]
+    - - !!python/tuple [TR, 298, 23, 0]
+      - - - !!python/tuple [TR, 297, 8, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 165, 0]
+        - - !!python/tuple [TR, 297, 9, 0]
+          - !!python/tuple [CR, 601, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 165, 0]
+        - - !!python/tuple [TR, 297, 16, 0]
+          - !!python/tuple [CR, 484, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 165, 0]
+    - - !!python/tuple [TR, 298, 26, 0]
+      - - - !!python/tuple [TR, 297, 8, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 165, 0]
+        - - !!python/tuple [TR, 297, 9, 0]
+          - !!python/tuple [CR, 601, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 165, 0]
+        - - !!python/tuple [TR, 297, 16, 0]
+          - !!python/tuple [CR, 484, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 165, 0]
+    attachments.images.createthumb:
+    - - !!python/tuple [TR, 298, 2, 0]
+      - !!python/tuple [CR, 484, 0, 0]
+      - !!python/tuple [CR, 602, 0, 0]
+      - !!python/tuple [C, 166, 0]
+    - - !!python/tuple [TR, 298, 10, 0]
+      - - - !!python/tuple [TR, 297, 8, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 166, 0]
+        - - !!python/tuple [TR, 297, 9, 0]
+          - !!python/tuple [CR, 601, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 166, 0]
+        - - !!python/tuple [TR, 297, 16, 0]
+          - !!python/tuple [CR, 484, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 166, 0]
+    - - !!python/tuple [TR, 298, 16, 0]
+      - - - !!python/tuple [TR, 297, 8, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 166, 0]
+        - - !!python/tuple [TR, 297, 9, 0]
+          - !!python/tuple [CR, 601, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 166, 0]
+        - - !!python/tuple [TR, 297, 16, 0]
+          - !!python/tuple [CR, 484, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 166, 0]
+    - - !!python/tuple [TR, 298, 21, 0]
+      - - - !!python/tuple [TR, 297, 8, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 166, 0]
+        - - !!python/tuple [TR, 297, 9, 0]
+          - !!python/tuple [CR, 601, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 166, 0]
+        - - !!python/tuple [TR, 297, 16, 0]
+          - !!python/tuple [CR, 484, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 166, 0]
+    - - !!python/tuple [TR, 298, 23, 0]
+      - - - !!python/tuple [TR, 297, 8, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 166, 0]
+        - - !!python/tuple [TR, 297, 9, 0]
+          - !!python/tuple [CR, 601, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 166, 0]
+        - - !!python/tuple [TR, 297, 16, 0]
+          - !!python/tuple [CR, 484, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 166, 0]
+    - - !!python/tuple [TR, 298, 26, 0]
+      - - - !!python/tuple [TR, 297, 8, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 166, 0]
+        - - !!python/tuple [TR, 297, 9, 0]
+          - !!python/tuple [CR, 601, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 166, 0]
+        - - !!python/tuple [TR, 297, 16, 0]
+          - !!python/tuple [CR, 484, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 166, 0]
+    attachments.images.thumb.box.show:
+    - - !!python/tuple [TR, 298, 2, 0]
+      - !!python/tuple [CR, 484, 0, 0]
+      - !!python/tuple [CR, 602, 0, 0]
+      - !!python/tuple [C, 170, 0]
+    - - !!python/tuple [TR, 298, 10, 0]
+      - - - !!python/tuple [TR, 297, 8, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 170, 0]
+        - - !!python/tuple [TR, 297, 9, 0]
+          - !!python/tuple [CR, 601, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 170, 0]
+        - - !!python/tuple [TR, 297, 16, 0]
+          - !!python/tuple [CR, 484, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 170, 0]
+    - - !!python/tuple [TR, 298, 16, 0]
+      - - - !!python/tuple [TR, 297, 8, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 170, 0]
+        - - !!python/tuple [TR, 297, 9, 0]
+          - !!python/tuple [CR, 601, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 170, 0]
+        - - !!python/tuple [TR, 297, 16, 0]
+          - !!python/tuple [CR, 484, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 170, 0]
+    - - !!python/tuple [TR, 298, 21, 0]
+      - - - !!python/tuple [TR, 297, 8, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 170, 0]
+        - - !!python/tuple [TR, 297, 9, 0]
+          - !!python/tuple [CR, 601, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 170, 0]
+        - - !!python/tuple [TR, 297, 16, 0]
+          - !!python/tuple [CR, 484, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 170, 0]
+    - - !!python/tuple [TR, 298, 23, 0]
+      - - - !!python/tuple [TR, 297, 8, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 170, 0]
+        - - !!python/tuple [TR, 297, 9, 0]
+          - !!python/tuple [CR, 601, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 170, 0]
+        - - !!python/tuple [TR, 297, 16, 0]
+          - !!python/tuple [CR, 484, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 170, 0]
+    - - !!python/tuple [TR, 298, 26, 0]
+      - - - !!python/tuple [TR, 297, 8, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 170, 0]
+        - - !!python/tuple [TR, 297, 9, 0]
+          - !!python/tuple [CR, 601, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 170, 0]
+        - - !!python/tuple [TR, 297, 16, 0]
+          - !!python/tuple [CR, 484, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 170, 0]
+    attachments.images.thumb.maxsize.h:
+    - - !!python/tuple [TR, 298, 2, 0]
+      - !!python/tuple [CR, 484, 0, 0]
+      - !!python/tuple [CR, 602, 0, 0]
+      - !!python/tuple [C, 167, 0]
+    - - !!python/tuple [TR, 298, 10, 0]
+      - - - !!python/tuple [TR, 297, 8, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 167, 0]
+        - - !!python/tuple [TR, 297, 9, 0]
+          - !!python/tuple [CR, 601, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 167, 0]
+        - - !!python/tuple [TR, 297, 16, 0]
+          - !!python/tuple [CR, 484, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 167, 0]
+    - - !!python/tuple [TR, 298, 16, 0]
+      - - - !!python/tuple [TR, 297, 8, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 167, 0]
+        - - !!python/tuple [TR, 297, 9, 0]
+          - !!python/tuple [CR, 601, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 167, 0]
+        - - !!python/tuple [TR, 297, 16, 0]
+          - !!python/tuple [CR, 484, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 167, 0]
+    - - !!python/tuple [TR, 298, 21, 0]
+      - - - !!python/tuple [TR, 297, 8, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 167, 0]
+        - - !!python/tuple [TR, 297, 9, 0]
+          - !!python/tuple [CR, 601, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 167, 0]
+        - - !!python/tuple [TR, 297, 16, 0]
+          - !!python/tuple [CR, 484, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 167, 0]
+    - - !!python/tuple [TR, 298, 23, 0]
+      - - - !!python/tuple [TR, 297, 8, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 167, 0]
+        - - !!python/tuple [TR, 297, 9, 0]
+          - !!python/tuple [CR, 601, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 167, 0]
+        - - !!python/tuple [TR, 297, 16, 0]
+          - !!python/tuple [CR, 484, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 167, 0]
+    - - !!python/tuple [TR, 298, 26, 0]
+      - - - !!python/tuple [TR, 297, 8, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 167, 0]
+        - - !!python/tuple [TR, 297, 9, 0]
+          - !!python/tuple [CR, 601, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 167, 0]
+        - - !!python/tuple [TR, 297, 16, 0]
+          - !!python/tuple [CR, 484, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 167, 0]
+    attachments.images.thumb.maxsize.w:
+    - - !!python/tuple [TR, 298, 2, 0]
+      - !!python/tuple [CR, 484, 0, 0]
+      - !!python/tuple [CR, 602, 0, 0]
+      - !!python/tuple [C, 168, 0]
+    - - !!python/tuple [TR, 298, 10, 0]
+      - - - !!python/tuple [TR, 297, 8, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 168, 0]
+        - - !!python/tuple [TR, 297, 9, 0]
+          - !!python/tuple [CR, 601, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 168, 0]
+        - - !!python/tuple [TR, 297, 16, 0]
+          - !!python/tuple [CR, 484, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 168, 0]
+    - - !!python/tuple [TR, 298, 16, 0]
+      - - - !!python/tuple [TR, 297, 8, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 168, 0]
+        - - !!python/tuple [TR, 297, 9, 0]
+          - !!python/tuple [CR, 601, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 168, 0]
+        - - !!python/tuple [TR, 297, 16, 0]
+          - !!python/tuple [CR, 484, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 168, 0]
+    - - !!python/tuple [TR, 298, 21, 0]
+      - - - !!python/tuple [TR, 297, 8, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 168, 0]
+        - - !!python/tuple [TR, 297, 9, 0]
+          - !!python/tuple [CR, 601, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 168, 0]
+        - - !!python/tuple [TR, 297, 16, 0]
+          - !!python/tuple [CR, 484, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 168, 0]
+    - - !!python/tuple [TR, 298, 23, 0]
+      - - - !!python/tuple [TR, 297, 8, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 168, 0]
+        - - !!python/tuple [TR, 297, 9, 0]
+          - !!python/tuple [CR, 601, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 168, 0]
+        - - !!python/tuple [TR, 297, 16, 0]
+          - !!python/tuple [CR, 484, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 168, 0]
+    - - !!python/tuple [TR, 298, 26, 0]
+      - - - !!python/tuple [TR, 297, 8, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 168, 0]
+        - - !!python/tuple [TR, 297, 9, 0]
+          - !!python/tuple [CR, 601, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 168, 0]
+        - - !!python/tuple [TR, 297, 16, 0]
+          - !!python/tuple [CR, 484, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 168, 0]
+    attachments.max.post:
+    - - !!python/tuple [TR, 298, 2, 0]
+      - !!python/tuple [CR, 484, 0, 0]
+      - !!python/tuple [CR, 602, 0, 0]
+      - !!python/tuple [C, 169, 0]
+    - - !!python/tuple [TR, 298, 10, 0]
+      - - - !!python/tuple [TR, 297, 8, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 169, 0]
+        - - !!python/tuple [TR, 297, 9, 0]
+          - !!python/tuple [CR, 601, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 169, 0]
+        - - !!python/tuple [TR, 297, 16, 0]
+          - !!python/tuple [CR, 484, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 169, 0]
+    - - !!python/tuple [TR, 298, 16, 0]
+      - - - !!python/tuple [TR, 297, 8, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 169, 0]
+        - - !!python/tuple [TR, 297, 9, 0]
+          - !!python/tuple [CR, 601, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 169, 0]
+        - - !!python/tuple [TR, 297, 16, 0]
+          - !!python/tuple [CR, 484, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 169, 0]
+    - - !!python/tuple [TR, 298, 21, 0]
+      - - - !!python/tuple [TR, 297, 8, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 169, 0]
+        - - !!python/tuple [TR, 297, 9, 0]
+          - !!python/tuple [CR, 601, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 169, 0]
+        - - !!python/tuple [TR, 297, 16, 0]
+          - !!python/tuple [CR, 484, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 169, 0]
+    - - !!python/tuple [TR, 298, 23, 0]
+      - - - !!python/tuple [TR, 297, 8, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 169, 0]
+        - - !!python/tuple [TR, 297, 9, 0]
+          - !!python/tuple [CR, 601, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 169, 0]
+        - - !!python/tuple [TR, 297, 16, 0]
+          - !!python/tuple [CR, 484, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 169, 0]
+    - - !!python/tuple [TR, 298, 26, 0]
+      - - - !!python/tuple [TR, 297, 8, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 169, 0]
+        - - !!python/tuple [TR, 297, 9, 0]
+          - !!python/tuple [CR, 601, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 169, 0]
+        - - !!python/tuple [TR, 297, 16, 0]
+          - !!python/tuple [CR, 484, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 169, 0]
+  key: !!python/tuple ['<net.jforum.Command: freemarker.template.Template process(net.jforum.context.RequestContext,net.jforum.context.ResponseContext,freemarker.template.SimpleHash)>',
+    <<zero>>(null_type), 'goto [?= $r35 = staticinvoke <net.jforum.JForumExecutionContext:
+      java.lang.String getRedirectTo()>()]|1', 'r0(net.jforum.view.admin.AttachmentsAction)[context(freemarker.template.SimpleHash)]']
+  tag: invoke
+- classification: fp
+  f1:
+    postsPerPage:
+    - - !!python/tuple [TR, 297, 119, 0]
+      - !!python/tuple [CR, 675, 0, 0]
+      - !!python/tuple [C, 173, 0]
+    - - !!python/tuple [TR, 297, 120, 0]
+      - !!python/tuple [CR, 634, 0, 0]
+      - !!python/tuple [CR, 633, 0, 0]
+      - !!python/tuple [CR, 1451, 0, 0]
+      - !!python/tuple [C, 238, 0]
+    - - !!python/tuple [TR, 297, 122, 0]
+      - !!python/tuple [C, 173, 0]
+    rss.enabled:
+    - - !!python/tuple [TR, 297, 118, 0]
+      - !!python/tuple [C, 175, 0]
+    - - !!python/tuple [TR, 297, 119, 0]
+      - !!python/tuple [CR, 675, 0, 0]
+      - !!python/tuple [C, 171, 0]
+    - - !!python/tuple [TR, 297, 122, 0]
+      - !!python/tuple [C, 171, 0]
+    topicsPerPage:
+    - !!python/tuple [CR, 297, 118, 0]
+    - !!python/tuple [C, 174, 0]
+  f2:
+    postsPerPage:
+    - - !!python/tuple [TR, 297, 119, 0]
+      - !!python/tuple [CR, 675, 0, 0]
+      - !!python/tuple [C, 173, 0]
+    - - !!python/tuple [TR, 297, 120, 0]
+      - !!python/tuple [CR, 634, 0, 0]
+      - !!python/tuple [CR, 633, 0, 0]
+      - !!python/tuple [CR, 1451, 0, 0]
+      - !!python/tuple [C, 238, 0]
+    - - !!python/tuple [TR, 297, 122, 0]
+      - !!python/tuple [C, 173, 0]
+    rss.enabled:
+    - - !!python/tuple [TR, 298, 10, 0]
+      - - - !!python/tuple [TR, 297, 118, 0]
+          - !!python/tuple [C, 175, 0]
+        - - !!python/tuple [TR, 297, 119, 0]
+          - !!python/tuple [CR, 675, 0, 0]
+          - !!python/tuple [C, 171, 0]
+        - - !!python/tuple [TR, 297, 122, 0]
+          - !!python/tuple [C, 171, 0]
+    - - !!python/tuple [TR, 298, 16, 0]
+      - - - !!python/tuple [TR, 297, 118, 0]
+          - !!python/tuple [C, 175, 0]
+        - - !!python/tuple [TR, 297, 119, 0]
+          - !!python/tuple [CR, 675, 0, 0]
+          - !!python/tuple [C, 171, 0]
+        - - !!python/tuple [TR, 297, 122, 0]
+          - !!python/tuple [C, 171, 0]
+    - - !!python/tuple [TR, 298, 19, 0]
+      - !!python/tuple [C, 175, 0]
+    - - !!python/tuple [TR, 298, 21, 0]
+      - - - !!python/tuple [TR, 297, 118, 0]
+          - !!python/tuple [C, 175, 0]
+        - - !!python/tuple [TR, 297, 119, 0]
+          - !!python/tuple [CR, 675, 0, 0]
+          - !!python/tuple [C, 171, 0]
+        - - !!python/tuple [TR, 297, 122, 0]
+          - !!python/tuple [C, 171, 0]
+    - - !!python/tuple [TR, 298, 23, 0]
+      - - - !!python/tuple [TR, 297, 118, 0]
+          - !!python/tuple [C, 175, 0]
+        - - !!python/tuple [TR, 297, 119, 0]
+          - !!python/tuple [CR, 675, 0, 0]
+          - !!python/tuple [C, 171, 0]
+        - - !!python/tuple [TR, 297, 122, 0]
+          - !!python/tuple [C, 171, 0]
+    - - !!python/tuple [TR, 298, 24, 0]
+      - - - !!python/tuple [TR, 297, 118, 0]
+          - !!python/tuple [C, 175, 0]
+        - - !!python/tuple [TR, 297, 119, 0]
+          - !!python/tuple [CR, 675, 0, 0]
+          - !!python/tuple [C, 171, 0]
+        - - !!python/tuple [TR, 297, 122, 0]
+          - !!python/tuple [C, 171, 0]
+    - - !!python/tuple [TR, 298, 26, 0]
+      - - - !!python/tuple [TR, 297, 118, 0]
+          - !!python/tuple [C, 175, 0]
+        - - !!python/tuple [TR, 297, 119, 0]
+          - !!python/tuple [CR, 675, 0, 0]
+          - !!python/tuple [C, 171, 0]
+        - - !!python/tuple [TR, 297, 122, 0]
+          - !!python/tuple [C, 171, 0]
+    topicsPerPage:
+    - - !!python/tuple [TR, 298, 10, 0]
+      - !!python/tuple [CR, 297, 118, 0]
+      - !!python/tuple [C, 174, 0]
+    - - !!python/tuple [TR, 298, 16, 0]
+      - !!python/tuple [CR, 297, 118, 0]
+      - !!python/tuple [C, 174, 0]
+    - - !!python/tuple [TR, 298, 19, 0]
+      - !!python/tuple [C, 174, 0]
+    - - !!python/tuple [TR, 298, 21, 0]
+      - !!python/tuple [CR, 297, 118, 0]
+      - !!python/tuple [C, 174, 0]
+    - - !!python/tuple [TR, 298, 23, 0]
+      - !!python/tuple [CR, 297, 118, 0]
+      - !!python/tuple [C, 174, 0]
+    - - !!python/tuple [TR, 298, 24, 0]
+      - !!python/tuple [CR, 297, 118, 0]
+      - !!python/tuple [C, 174, 0]
+    - - !!python/tuple [TR, 298, 26, 0]
+      - !!python/tuple [CR, 297, 118, 0]
+      - !!python/tuple [C, 174, 0]
+  key: !!python/tuple ['<net.jforum.Command: freemarker.template.Template process(net.jforum.context.RequestContext,net.jforum.context.ResponseContext,freemarker.template.SimpleHash)>',
+    <<zero>>(null_type), 'goto [?= $r35 = staticinvoke <net.jforum.JForumExecutionContext:
+      java.lang.String getRedirectTo()>()]|1', 'r0(net.jforum.view.forum.ForumAction)[context(freemarker.template.SimpleHash)]']
+  tag: invoke
+- classification: fp
+  f1:
+    postsPerPage:
+    - - !!python/tuple [TR, 297, 125, 0]
+      - !!python/tuple [CR, 1514, 0, 0]
+      - !!python/tuple [C, 202, 0]
+    - - !!python/tuple [TR, 297, 126, 0]
+      - !!python/tuple [C, 201, 0]
+  f2:
+    postsPerPage:
+    - - !!python/tuple [TR, 298, 10, 0]
+      - - - !!python/tuple [TR, 297, 125, 0]
+          - !!python/tuple [CR, 1514, 0, 0]
+          - !!python/tuple [C, 202, 0]
+        - - !!python/tuple [TR, 297, 126, 0]
+          - !!python/tuple [C, 201, 0]
+    - - !!python/tuple [TR, 298, 16, 0]
+      - - - !!python/tuple [TR, 297, 125, 0]
+          - !!python/tuple [CR, 1514, 0, 0]
+          - !!python/tuple [C, 202, 0]
+        - - !!python/tuple [TR, 297, 126, 0]
+          - !!python/tuple [C, 201, 0]
+    - - !!python/tuple [TR, 298, 20, 0]
+      - !!python/tuple [CR, 1514, 0, 0]
+      - !!python/tuple [C, 202, 0]
+    - - !!python/tuple [TR, 298, 21, 0]
+      - - - !!python/tuple [TR, 297, 125, 0]
+          - !!python/tuple [CR, 1514, 0, 0]
+          - !!python/tuple [C, 202, 0]
+        - - !!python/tuple [TR, 297, 126, 0]
+          - !!python/tuple [C, 201, 0]
+    - - !!python/tuple [TR, 298, 23, 0]
+      - - - !!python/tuple [TR, 297, 125, 0]
+          - !!python/tuple [CR, 1514, 0, 0]
+          - !!python/tuple [C, 202, 0]
+        - - !!python/tuple [TR, 297, 126, 0]
+          - !!python/tuple [C, 201, 0]
+    - - !!python/tuple [TR, 298, 26, 0]
+      - - - !!python/tuple [TR, 297, 125, 0]
+          - !!python/tuple [CR, 1514, 0, 0]
+          - !!python/tuple [C, 202, 0]
+        - - !!python/tuple [TR, 297, 126, 0]
+          - !!python/tuple [C, 201, 0]
+  key: !!python/tuple ['<net.jforum.Command: freemarker.template.Template process(net.jforum.context.RequestContext,net.jforum.context.ResponseContext,freemarker.template.SimpleHash)>',
+    <<zero>>(null_type), 'goto [?= $r35 = staticinvoke <net.jforum.JForumExecutionContext:
+      java.lang.String getRedirectTo()>()]|1', 'r0(net.jforum.view.forum.HottestTopicsAction)[context(freemarker.template.SimpleHash)]']
+  tag: invoke
+- classification: fp
+  f1:
+    postsPerPage:
+    - - !!python/tuple [TR, 297, 168, 0]
+      - !!python/tuple [CR, 429, 0, 0]
+      - !!python/tuple [C, 164, 0]
+    - - !!python/tuple [TR, 297, 169, 0]
+      - !!python/tuple [C, 163, 0]
+  f2:
+    postsPerPage:
+    - - !!python/tuple [TR, 298, 10, 0]
+      - - - !!python/tuple [TR, 297, 168, 0]
+          - !!python/tuple [CR, 429, 0, 0]
+          - !!python/tuple [C, 164, 0]
+        - - !!python/tuple [TR, 297, 169, 0]
+          - !!python/tuple [C, 163, 0]
+    - - !!python/tuple [TR, 298, 16, 0]
+      - - - !!python/tuple [TR, 297, 168, 0]
+          - !!python/tuple [CR, 429, 0, 0]
+          - !!python/tuple [C, 164, 0]
+        - - !!python/tuple [TR, 297, 169, 0]
+          - !!python/tuple [C, 163, 0]
+    - - !!python/tuple [TR, 298, 21, 0]
+      - - - !!python/tuple [TR, 297, 168, 0]
+          - !!python/tuple [CR, 429, 0, 0]
+          - !!python/tuple [C, 164, 0]
+        - - !!python/tuple [TR, 297, 169, 0]
+          - !!python/tuple [C, 163, 0]
+    - - !!python/tuple [TR, 298, 23, 0]
+      - - - !!python/tuple [TR, 297, 168, 0]
+          - !!python/tuple [CR, 429, 0, 0]
+          - !!python/tuple [C, 164, 0]
+        - - !!python/tuple [TR, 297, 169, 0]
+          - !!python/tuple [C, 163, 0]
+    - - !!python/tuple [TR, 298, 26, 0]
+      - - - !!python/tuple [TR, 297, 168, 0]
+          - !!python/tuple [CR, 429, 0, 0]
+          - !!python/tuple [C, 164, 0]
+        - - !!python/tuple [TR, 297, 169, 0]
+          - !!python/tuple [C, 163, 0]
+    - - !!python/tuple [TR, 298, 27, 0]
+      - !!python/tuple [CR, 429, 0, 0]
+      - !!python/tuple [C, 164, 0]
+  key: !!python/tuple ['<net.jforum.Command: freemarker.template.Template process(net.jforum.context.RequestContext,net.jforum.context.ResponseContext,freemarker.template.SimpleHash)>',
+    <<zero>>(null_type), 'goto [?= $r35 = staticinvoke <net.jforum.JForumExecutionContext:
+      java.lang.String getRedirectTo()>()]|1', 'r0(net.jforum.view.forum.RecentTopicsAction)[context(freemarker.template.SimpleHash)]']
+  tag: invoke
+- classification: fp
+  f1:
+    attachments.icon:
+    - - !!python/tuple [TR, 299, 8, 0]
+      - !!python/tuple [CR, 596, 0, 0]
+      - !!python/tuple [C, 167, 0]
+    - - !!python/tuple [TR, 299, 9, 0]
+      - !!python/tuple [CR, 595, 0, 0]
+      - !!python/tuple [CR, 596, 0, 0]
+      - !!python/tuple [C, 167, 0]
+    - - !!python/tuple [TR, 299, 16, 0]
+      - !!python/tuple [CR, 478, 0, 0]
+      - !!python/tuple [CR, 596, 0, 0]
+      - !!python/tuple [C, 167, 0]
+    attachments.images.createthumb:
+    - - !!python/tuple [TR, 299, 8, 0]
+      - !!python/tuple [CR, 596, 0, 0]
+      - !!python/tuple [C, 168, 0]
+    - - !!python/tuple [TR, 299, 9, 0]
+      - !!python/tuple [CR, 595, 0, 0]
+      - !!python/tuple [CR, 596, 0, 0]
+      - !!python/tuple [C, 168, 0]
+    - - !!python/tuple [TR, 299, 16, 0]
+      - !!python/tuple [CR, 478, 0, 0]
+      - !!python/tuple [CR, 596, 0, 0]
+      - !!python/tuple [C, 168, 0]
+    attachments.images.thumb.box.show:
+    - - !!python/tuple [TR, 299, 8, 0]
+      - !!python/tuple [CR, 596, 0, 0]
+      - !!python/tuple [C, 172, 0]
+    - - !!python/tuple [TR, 299, 9, 0]
+      - !!python/tuple [CR, 595, 0, 0]
+      - !!python/tuple [CR, 596, 0, 0]
+      - !!python/tuple [C, 172, 0]
+    - - !!python/tuple [TR, 299, 16, 0]
+      - !!python/tuple [CR, 478, 0, 0]
+      - !!python/tuple [CR, 596, 0, 0]
+      - !!python/tuple [C, 172, 0]
+    attachments.images.thumb.maxsize.h:
+    - - !!python/tuple [TR, 299, 8, 0]
+      - !!python/tuple [CR, 596, 0, 0]
+      - !!python/tuple [C, 169, 0]
+    - - !!python/tuple [TR, 299, 9, 0]
+      - !!python/tuple [CR, 595, 0, 0]
+      - !!python/tuple [CR, 596, 0, 0]
+      - !!python/tuple [C, 169, 0]
+    - - !!python/tuple [TR, 299, 16, 0]
+      - !!python/tuple [CR, 478, 0, 0]
+      - !!python/tuple [CR, 596, 0, 0]
+      - !!python/tuple [C, 169, 0]
+    attachments.images.thumb.maxsize.w:
+    - - !!python/tuple [TR, 299, 8, 0]
+      - !!python/tuple [CR, 596, 0, 0]
+      - !!python/tuple [C, 170, 0]
+    - - !!python/tuple [TR, 299, 9, 0]
+      - !!python/tuple [CR, 595, 0, 0]
+      - !!python/tuple [CR, 596, 0, 0]
+      - !!python/tuple [C, 170, 0]
+    - - !!python/tuple [TR, 299, 16, 0]
+      - !!python/tuple [CR, 478, 0, 0]
+      - !!python/tuple [CR, 596, 0, 0]
+      - !!python/tuple [C, 170, 0]
+    attachments.max.post:
+    - - !!python/tuple [TR, 299, 8, 0]
+      - !!python/tuple [CR, 596, 0, 0]
+      - !!python/tuple [C, 171, 0]
+    - - !!python/tuple [TR, 299, 9, 0]
+      - !!python/tuple [CR, 595, 0, 0]
+      - !!python/tuple [CR, 596, 0, 0]
+      - !!python/tuple [C, 171, 0]
+    - - !!python/tuple [TR, 299, 16, 0]
+      - !!python/tuple [CR, 478, 0, 0]
+      - !!python/tuple [CR, 596, 0, 0]
+      - !!python/tuple [C, 171, 0]
+  f2:
+    attachments.icon:
+    - - !!python/tuple [TR, 300, 2, 0]
+      - !!python/tuple [CR, 478, 0, 0]
+      - !!python/tuple [CR, 596, 0, 0]
+      - !!python/tuple [C, 167, 0]
+    - - !!python/tuple [TR, 300, 10, 0]
+      - - - !!python/tuple [TR, 299, 8, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 167, 0]
+        - - !!python/tuple [TR, 299, 9, 0]
+          - !!python/tuple [CR, 595, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 167, 0]
+        - - !!python/tuple [TR, 299, 16, 0]
+          - !!python/tuple [CR, 478, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 167, 0]
+    - - !!python/tuple [TR, 300, 16, 0]
+      - - - !!python/tuple [TR, 299, 8, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 167, 0]
+        - - !!python/tuple [TR, 299, 9, 0]
+          - !!python/tuple [CR, 595, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 167, 0]
+        - - !!python/tuple [TR, 299, 16, 0]
+          - !!python/tuple [CR, 478, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 167, 0]
+    - - !!python/tuple [TR, 300, 21, 0]
+      - - - !!python/tuple [TR, 299, 8, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 167, 0]
+        - - !!python/tuple [TR, 299, 9, 0]
+          - !!python/tuple [CR, 595, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 167, 0]
+        - - !!python/tuple [TR, 299, 16, 0]
+          - !!python/tuple [CR, 478, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 167, 0]
+    - - !!python/tuple [TR, 300, 23, 0]
+      - - - !!python/tuple [TR, 299, 8, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 167, 0]
+        - - !!python/tuple [TR, 299, 9, 0]
+          - !!python/tuple [CR, 595, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 167, 0]
+        - - !!python/tuple [TR, 299, 16, 0]
+          - !!python/tuple [CR, 478, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 167, 0]
+    - - !!python/tuple [TR, 300, 26, 0]
+      - - - !!python/tuple [TR, 299, 8, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 167, 0]
+        - - !!python/tuple [TR, 299, 9, 0]
+          - !!python/tuple [CR, 595, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 167, 0]
+        - - !!python/tuple [TR, 299, 16, 0]
+          - !!python/tuple [CR, 478, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 167, 0]
+    attachments.images.createthumb:
+    - - !!python/tuple [TR, 300, 2, 0]
+      - !!python/tuple [CR, 478, 0, 0]
+      - !!python/tuple [CR, 596, 0, 0]
+      - !!python/tuple [C, 168, 0]
+    - - !!python/tuple [TR, 300, 10, 0]
+      - - - !!python/tuple [TR, 299, 8, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 168, 0]
+        - - !!python/tuple [TR, 299, 9, 0]
+          - !!python/tuple [CR, 595, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 168, 0]
+        - - !!python/tuple [TR, 299, 16, 0]
+          - !!python/tuple [CR, 478, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 168, 0]
+    - - !!python/tuple [TR, 300, 16, 0]
+      - - - !!python/tuple [TR, 299, 8, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 168, 0]
+        - - !!python/tuple [TR, 299, 9, 0]
+          - !!python/tuple [CR, 595, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 168, 0]
+        - - !!python/tuple [TR, 299, 16, 0]
+          - !!python/tuple [CR, 478, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 168, 0]
+    - - !!python/tuple [TR, 300, 21, 0]
+      - - - !!python/tuple [TR, 299, 8, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 168, 0]
+        - - !!python/tuple [TR, 299, 9, 0]
+          - !!python/tuple [CR, 595, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 168, 0]
+        - - !!python/tuple [TR, 299, 16, 0]
+          - !!python/tuple [CR, 478, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 168, 0]
+    - - !!python/tuple [TR, 300, 23, 0]
+      - - - !!python/tuple [TR, 299, 8, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 168, 0]
+        - - !!python/tuple [TR, 299, 9, 0]
+          - !!python/tuple [CR, 595, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 168, 0]
+        - - !!python/tuple [TR, 299, 16, 0]
+          - !!python/tuple [CR, 478, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 168, 0]
+    - - !!python/tuple [TR, 300, 26, 0]
+      - - - !!python/tuple [TR, 299, 8, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 168, 0]
+        - - !!python/tuple [TR, 299, 9, 0]
+          - !!python/tuple [CR, 595, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 168, 0]
+        - - !!python/tuple [TR, 299, 16, 0]
+          - !!python/tuple [CR, 478, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 168, 0]
+    attachments.images.thumb.box.show:
+    - - !!python/tuple [TR, 300, 2, 0]
+      - !!python/tuple [CR, 478, 0, 0]
+      - !!python/tuple [CR, 596, 0, 0]
+      - !!python/tuple [C, 172, 0]
+    - - !!python/tuple [TR, 300, 10, 0]
+      - - - !!python/tuple [TR, 299, 8, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 172, 0]
+        - - !!python/tuple [TR, 299, 9, 0]
+          - !!python/tuple [CR, 595, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 172, 0]
+        - - !!python/tuple [TR, 299, 16, 0]
+          - !!python/tuple [CR, 478, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 172, 0]
+    - - !!python/tuple [TR, 300, 16, 0]
+      - - - !!python/tuple [TR, 299, 8, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 172, 0]
+        - - !!python/tuple [TR, 299, 9, 0]
+          - !!python/tuple [CR, 595, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 172, 0]
+        - - !!python/tuple [TR, 299, 16, 0]
+          - !!python/tuple [CR, 478, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 172, 0]
+    - - !!python/tuple [TR, 300, 21, 0]
+      - - - !!python/tuple [TR, 299, 8, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 172, 0]
+        - - !!python/tuple [TR, 299, 9, 0]
+          - !!python/tuple [CR, 595, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 172, 0]
+        - - !!python/tuple [TR, 299, 16, 0]
+          - !!python/tuple [CR, 478, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 172, 0]
+    - - !!python/tuple [TR, 300, 23, 0]
+      - - - !!python/tuple [TR, 299, 8, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 172, 0]
+        - - !!python/tuple [TR, 299, 9, 0]
+          - !!python/tuple [CR, 595, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 172, 0]
+        - - !!python/tuple [TR, 299, 16, 0]
+          - !!python/tuple [CR, 478, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 172, 0]
+    - - !!python/tuple [TR, 300, 26, 0]
+      - - - !!python/tuple [TR, 299, 8, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 172, 0]
+        - - !!python/tuple [TR, 299, 9, 0]
+          - !!python/tuple [CR, 595, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 172, 0]
+        - - !!python/tuple [TR, 299, 16, 0]
+          - !!python/tuple [CR, 478, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 172, 0]
+    attachments.images.thumb.maxsize.h:
+    - - !!python/tuple [TR, 300, 2, 0]
+      - !!python/tuple [CR, 478, 0, 0]
+      - !!python/tuple [CR, 596, 0, 0]
+      - !!python/tuple [C, 169, 0]
+    - - !!python/tuple [TR, 300, 10, 0]
+      - - - !!python/tuple [TR, 299, 8, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 169, 0]
+        - - !!python/tuple [TR, 299, 9, 0]
+          - !!python/tuple [CR, 595, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 169, 0]
+        - - !!python/tuple [TR, 299, 16, 0]
+          - !!python/tuple [CR, 478, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 169, 0]
+    - - !!python/tuple [TR, 300, 16, 0]
+      - - - !!python/tuple [TR, 299, 8, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 169, 0]
+        - - !!python/tuple [TR, 299, 9, 0]
+          - !!python/tuple [CR, 595, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 169, 0]
+        - - !!python/tuple [TR, 299, 16, 0]
+          - !!python/tuple [CR, 478, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 169, 0]
+    - - !!python/tuple [TR, 300, 21, 0]
+      - - - !!python/tuple [TR, 299, 8, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 169, 0]
+        - - !!python/tuple [TR, 299, 9, 0]
+          - !!python/tuple [CR, 595, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 169, 0]
+        - - !!python/tuple [TR, 299, 16, 0]
+          - !!python/tuple [CR, 478, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 169, 0]
+    - - !!python/tuple [TR, 300, 23, 0]
+      - - - !!python/tuple [TR, 299, 8, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 169, 0]
+        - - !!python/tuple [TR, 299, 9, 0]
+          - !!python/tuple [CR, 595, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 169, 0]
+        - - !!python/tuple [TR, 299, 16, 0]
+          - !!python/tuple [CR, 478, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 169, 0]
+    - - !!python/tuple [TR, 300, 26, 0]
+      - - - !!python/tuple [TR, 299, 8, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 169, 0]
+        - - !!python/tuple [TR, 299, 9, 0]
+          - !!python/tuple [CR, 595, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 169, 0]
+        - - !!python/tuple [TR, 299, 16, 0]
+          - !!python/tuple [CR, 478, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 169, 0]
+    attachments.images.thumb.maxsize.w:
+    - - !!python/tuple [TR, 300, 2, 0]
+      - !!python/tuple [CR, 478, 0, 0]
+      - !!python/tuple [CR, 596, 0, 0]
+      - !!python/tuple [C, 170, 0]
+    - - !!python/tuple [TR, 300, 10, 0]
+      - - - !!python/tuple [TR, 299, 8, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 170, 0]
+        - - !!python/tuple [TR, 299, 9, 0]
+          - !!python/tuple [CR, 595, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 170, 0]
+        - - !!python/tuple [TR, 299, 16, 0]
+          - !!python/tuple [CR, 478, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 170, 0]
+    - - !!python/tuple [TR, 300, 16, 0]
+      - - - !!python/tuple [TR, 299, 8, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 170, 0]
+        - - !!python/tuple [TR, 299, 9, 0]
+          - !!python/tuple [CR, 595, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 170, 0]
+        - - !!python/tuple [TR, 299, 16, 0]
+          - !!python/tuple [CR, 478, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 170, 0]
+    - - !!python/tuple [TR, 300, 21, 0]
+      - - - !!python/tuple [TR, 299, 8, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 170, 0]
+        - - !!python/tuple [TR, 299, 9, 0]
+          - !!python/tuple [CR, 595, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 170, 0]
+        - - !!python/tuple [TR, 299, 16, 0]
+          - !!python/tuple [CR, 478, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 170, 0]
+    - - !!python/tuple [TR, 300, 23, 0]
+      - - - !!python/tuple [TR, 299, 8, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 170, 0]
+        - - !!python/tuple [TR, 299, 9, 0]
+          - !!python/tuple [CR, 595, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 170, 0]
+        - - !!python/tuple [TR, 299, 16, 0]
+          - !!python/tuple [CR, 478, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 170, 0]
+    - - !!python/tuple [TR, 300, 26, 0]
+      - - - !!python/tuple [TR, 299, 8, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 170, 0]
+        - - !!python/tuple [TR, 299, 9, 0]
+          - !!python/tuple [CR, 595, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 170, 0]
+        - - !!python/tuple [TR, 299, 16, 0]
+          - !!python/tuple [CR, 478, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 170, 0]
+    attachments.max.post:
+    - - !!python/tuple [TR, 300, 2, 0]
+      - !!python/tuple [CR, 478, 0, 0]
+      - !!python/tuple [CR, 596, 0, 0]
+      - !!python/tuple [C, 171, 0]
+    - - !!python/tuple [TR, 300, 10, 0]
+      - - - !!python/tuple [TR, 299, 8, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 171, 0]
+        - - !!python/tuple [TR, 299, 9, 0]
+          - !!python/tuple [CR, 595, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 171, 0]
+        - - !!python/tuple [TR, 299, 16, 0]
+          - !!python/tuple [CR, 478, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 171, 0]
+    - - !!python/tuple [TR, 300, 16, 0]
+      - - - !!python/tuple [TR, 299, 8, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 171, 0]
+        - - !!python/tuple [TR, 299, 9, 0]
+          - !!python/tuple [CR, 595, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 171, 0]
+        - - !!python/tuple [TR, 299, 16, 0]
+          - !!python/tuple [CR, 478, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 171, 0]
+    - - !!python/tuple [TR, 300, 21, 0]
+      - - - !!python/tuple [TR, 299, 8, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 171, 0]
+        - - !!python/tuple [TR, 299, 9, 0]
+          - !!python/tuple [CR, 595, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 171, 0]
+        - - !!python/tuple [TR, 299, 16, 0]
+          - !!python/tuple [CR, 478, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 171, 0]
+    - - !!python/tuple [TR, 300, 23, 0]
+      - - - !!python/tuple [TR, 299, 8, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 171, 0]
+        - - !!python/tuple [TR, 299, 9, 0]
+          - !!python/tuple [CR, 595, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 171, 0]
+        - - !!python/tuple [TR, 299, 16, 0]
+          - !!python/tuple [CR, 478, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 171, 0]
+    - - !!python/tuple [TR, 300, 26, 0]
+      - - - !!python/tuple [TR, 299, 8, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 171, 0]
+        - - !!python/tuple [TR, 299, 9, 0]
+          - !!python/tuple [CR, 595, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 171, 0]
+        - - !!python/tuple [TR, 299, 16, 0]
+          - !!python/tuple [CR, 478, 0, 0]
+          - !!python/tuple [CR, 596, 0, 0]
+          - !!python/tuple [C, 171, 0]
+  key: !!python/tuple ['<net.jforum.Command: freemarker.template.Template process(net.jforum.context.RequestContext,net.jforum.context.ResponseContext,freemarker.template.SimpleHash)>',
+    <<zero>>(null_type), 'goto [?= $r36 = staticinvoke <net.jforum.JForumExecutionContext:
+      java.lang.String getRedirectTo()>()]|1', 'r0(net.jforum.view.admin.AttachmentsAction)[context(freemarker.template.SimpleHash)]']
+  tag: invoke
+- classification: fp
+  f1:
+    postsPerPage:
+    - - !!python/tuple [TR, 299, 119, 0]
+      - !!python/tuple [CR, 667, 0, 0]
+      - !!python/tuple [C, 175, 0]
+    - - !!python/tuple [TR, 299, 120, 0]
+      - !!python/tuple [CR, 627, 0, 0]
+      - !!python/tuple [CR, 626, 0, 0]
+      - !!python/tuple [CR, 1418, 0, 0]
+      - !!python/tuple [C, 240, 0]
+    - - !!python/tuple [TR, 299, 122, 0]
+      - !!python/tuple [C, 175, 0]
+    rss.enabled:
+    - - !!python/tuple [TR, 299, 118, 0]
+      - !!python/tuple [C, 177, 0]
+    - - !!python/tuple [TR, 299, 119, 0]
+      - !!python/tuple [CR, 667, 0, 0]
+      - !!python/tuple [C, 173, 0]
+    - - !!python/tuple [TR, 299, 122, 0]
+      - !!python/tuple [C, 173, 0]
+    topicsPerPage:
+    - !!python/tuple [CR, 299, 118, 0]
+    - !!python/tuple [C, 176, 0]
+  f2:
+    postsPerPage:
+    - - !!python/tuple [TR, 299, 119, 0]
+      - !!python/tuple [CR, 667, 0, 0]
+      - !!python/tuple [C, 175, 0]
+    - - !!python/tuple [TR, 299, 120, 0]
+      - !!python/tuple [CR, 627, 0, 0]
+      - !!python/tuple [CR, 626, 0, 0]
+      - !!python/tuple [CR, 1418, 0, 0]
+      - !!python/tuple [C, 240, 0]
+    - - !!python/tuple [TR, 299, 122, 0]
+      - !!python/tuple [C, 175, 0]
+    rss.enabled:
+    - - !!python/tuple [TR, 300, 10, 0]
+      - - - !!python/tuple [TR, 299, 118, 0]
+          - !!python/tuple [C, 177, 0]
+        - - !!python/tuple [TR, 299, 119, 0]
+          - !!python/tuple [CR, 667, 0, 0]
+          - !!python/tuple [C, 173, 0]
+        - - !!python/tuple [TR, 299, 122, 0]
+          - !!python/tuple [C, 173, 0]
+    - - !!python/tuple [TR, 300, 16, 0]
+      - - - !!python/tuple [TR, 299, 118, 0]
+          - !!python/tuple [C, 177, 0]
+        - - !!python/tuple [TR, 299, 119, 0]
+          - !!python/tuple [CR, 667, 0, 0]
+          - !!python/tuple [C, 173, 0]
+        - - !!python/tuple [TR, 299, 122, 0]
+          - !!python/tuple [C, 173, 0]
+    - - !!python/tuple [TR, 300, 19, 0]
+      - !!python/tuple [C, 177, 0]
+    - - !!python/tuple [TR, 300, 21, 0]
+      - - - !!python/tuple [TR, 299, 118, 0]
+          - !!python/tuple [C, 177, 0]
+        - - !!python/tuple [TR, 299, 119, 0]
+          - !!python/tuple [CR, 667, 0, 0]
+          - !!python/tuple [C, 173, 0]
+        - - !!python/tuple [TR, 299, 122, 0]
+          - !!python/tuple [C, 173, 0]
+    - - !!python/tuple [TR, 300, 23, 0]
+      - - - !!python/tuple [TR, 299, 118, 0]
+          - !!python/tuple [C, 177, 0]
+        - - !!python/tuple [TR, 299, 119, 0]
+          - !!python/tuple [CR, 667, 0, 0]
+          - !!python/tuple [C, 173, 0]
+        - - !!python/tuple [TR, 299, 122, 0]
+          - !!python/tuple [C, 173, 0]
+    - - !!python/tuple [TR, 300, 24, 0]
+      - - - !!python/tuple [TR, 299, 118, 0]
+          - !!python/tuple [C, 177, 0]
+        - - !!python/tuple [TR, 299, 119, 0]
+          - !!python/tuple [CR, 667, 0, 0]
+          - !!python/tuple [C, 173, 0]
+        - - !!python/tuple [TR, 299, 122, 0]
+          - !!python/tuple [C, 173, 0]
+    - - !!python/tuple [TR, 300, 26, 0]
+      - - - !!python/tuple [TR, 299, 118, 0]
+          - !!python/tuple [C, 177, 0]
+        - - !!python/tuple [TR, 299, 119, 0]
+          - !!python/tuple [CR, 667, 0, 0]
+          - !!python/tuple [C, 173, 0]
+        - - !!python/tuple [TR, 299, 122, 0]
+          - !!python/tuple [C, 173, 0]
+    topicsPerPage:
+    - - !!python/tuple [TR, 300, 10, 0]
+      - !!python/tuple [CR, 299, 118, 0]
+      - !!python/tuple [C, 176, 0]
+    - - !!python/tuple [TR, 300, 16, 0]
+      - !!python/tuple [CR, 299, 118, 0]
+      - !!python/tuple [C, 176, 0]
+    - - !!python/tuple [TR, 300, 19, 0]
+      - !!python/tuple [C, 176, 0]
+    - - !!python/tuple [TR, 300, 21, 0]
+      - !!python/tuple [CR, 299, 118, 0]
+      - !!python/tuple [C, 176, 0]
+    - - !!python/tuple [TR, 300, 23, 0]
+      - !!python/tuple [CR, 299, 118, 0]
+      - !!python/tuple [C, 176, 0]
+    - - !!python/tuple [TR, 300, 24, 0]
+      - !!python/tuple [CR, 299, 118, 0]
+      - !!python/tuple [C, 176, 0]
+    - - !!python/tuple [TR, 300, 26, 0]
+      - !!python/tuple [CR, 299, 118, 0]
+      - !!python/tuple [C, 176, 0]
+  key: !!python/tuple ['<net.jforum.Command: freemarker.template.Template process(net.jforum.context.RequestContext,net.jforum.context.ResponseContext,freemarker.template.SimpleHash)>',
+    <<zero>>(null_type), 'goto [?= $r36 = staticinvoke <net.jforum.JForumExecutionContext:
+      java.lang.String getRedirectTo()>()]|1', 'r0(net.jforum.view.forum.ForumAction)[context(freemarker.template.SimpleHash)]']
+  tag: invoke
+- classification: fp
+  f1:
+    postsPerPage:
+    - - !!python/tuple [TR, 299, 125, 0]
+      - !!python/tuple [CR, 1480, 0, 0]
+      - !!python/tuple [C, 204, 0]
+    - - !!python/tuple [TR, 299, 126, 0]
+      - !!python/tuple [C, 203, 0]
+  f2:
+    postsPerPage:
+    - - !!python/tuple [TR, 300, 10, 0]
+      - - - !!python/tuple [TR, 299, 125, 0]
+          - !!python/tuple [CR, 1480, 0, 0]
+          - !!python/tuple [C, 204, 0]
+        - - !!python/tuple [TR, 299, 126, 0]
+          - !!python/tuple [C, 203, 0]
+    - - !!python/tuple [TR, 300, 16, 0]
+      - - - !!python/tuple [TR, 299, 125, 0]
+          - !!python/tuple [CR, 1480, 0, 0]
+          - !!python/tuple [C, 204, 0]
+        - - !!python/tuple [TR, 299, 126, 0]
+          - !!python/tuple [C, 203, 0]
+    - - !!python/tuple [TR, 300, 20, 0]
+      - !!python/tuple [CR, 1480, 0, 0]
+      - !!python/tuple [C, 204, 0]
+    - - !!python/tuple [TR, 300, 21, 0]
+      - - - !!python/tuple [TR, 299, 125, 0]
+          - !!python/tuple [CR, 1480, 0, 0]
+          - !!python/tuple [C, 204, 0]
+        - - !!python/tuple [TR, 299, 126, 0]
+          - !!python/tuple [C, 203, 0]
+    - - !!python/tuple [TR, 300, 23, 0]
+      - - - !!python/tuple [TR, 299, 125, 0]
+          - !!python/tuple [CR, 1480, 0, 0]
+          - !!python/tuple [C, 204, 0]
+        - - !!python/tuple [TR, 299, 126, 0]
+          - !!python/tuple [C, 203, 0]
+    - - !!python/tuple [TR, 300, 26, 0]
+      - - - !!python/tuple [TR, 299, 125, 0]
+          - !!python/tuple [CR, 1480, 0, 0]
+          - !!python/tuple [C, 204, 0]
+        - - !!python/tuple [TR, 299, 126, 0]
+          - !!python/tuple [C, 203, 0]
+  key: !!python/tuple ['<net.jforum.Command: freemarker.template.Template process(net.jforum.context.RequestContext,net.jforum.context.ResponseContext,freemarker.template.SimpleHash)>',
+    <<zero>>(null_type), 'goto [?= $r36 = staticinvoke <net.jforum.JForumExecutionContext:
+      java.lang.String getRedirectTo()>()]|1', 'r0(net.jforum.view.forum.HottestTopicsAction)[context(freemarker.template.SimpleHash)]']
+  tag: invoke
+- classification: fp
+  f1:
+    postsPerPage:
+    - - !!python/tuple [TR, 299, 168, 0]
+      - !!python/tuple [CR, 425, 0, 0]
+      - !!python/tuple [C, 166, 0]
+    - - !!python/tuple [TR, 299, 169, 0]
+      - !!python/tuple [C, 165, 0]
+  f2:
+    postsPerPage:
+    - - !!python/tuple [TR, 300, 10, 0]
+      - - - !!python/tuple [TR, 299, 168, 0]
+          - !!python/tuple [CR, 425, 0, 0]
+          - !!python/tuple [C, 166, 0]
+        - - !!python/tuple [TR, 299, 169, 0]
+          - !!python/tuple [C, 165, 0]
+    - - !!python/tuple [TR, 300, 16, 0]
+      - - - !!python/tuple [TR, 299, 168, 0]
+          - !!python/tuple [CR, 425, 0, 0]
+          - !!python/tuple [C, 166, 0]
+        - - !!python/tuple [TR, 299, 169, 0]
+          - !!python/tuple [C, 165, 0]
+    - - !!python/tuple [TR, 300, 21, 0]
+      - - - !!python/tuple [TR, 299, 168, 0]
+          - !!python/tuple [CR, 425, 0, 0]
+          - !!python/tuple [C, 166, 0]
+        - - !!python/tuple [TR, 299, 169, 0]
+          - !!python/tuple [C, 165, 0]
+    - - !!python/tuple [TR, 300, 23, 0]
+      - - - !!python/tuple [TR, 299, 168, 0]
+          - !!python/tuple [CR, 425, 0, 0]
+          - !!python/tuple [C, 166, 0]
+        - - !!python/tuple [TR, 299, 169, 0]
+          - !!python/tuple [C, 165, 0]
+    - - !!python/tuple [TR, 300, 26, 0]
+      - - - !!python/tuple [TR, 299, 168, 0]
+          - !!python/tuple [CR, 425, 0, 0]
+          - !!python/tuple [C, 166, 0]
+        - - !!python/tuple [TR, 299, 169, 0]
+          - !!python/tuple [C, 165, 0]
+    - - !!python/tuple [TR, 300, 27, 0]
+      - !!python/tuple [CR, 425, 0, 0]
+      - !!python/tuple [C, 166, 0]
+  key: !!python/tuple ['<net.jforum.Command: freemarker.template.Template process(net.jforum.context.RequestContext,net.jforum.context.ResponseContext,freemarker.template.SimpleHash)>',
+    <<zero>>(null_type), 'goto [?= $r36 = staticinvoke <net.jforum.JForumExecutionContext:
+      java.lang.String getRedirectTo()>()]|1', 'r0(net.jforum.view.forum.RecentTopicsAction)[context(freemarker.template.SimpleHash)]']
+  tag: invoke
+- classification: tp
+  f1:
+    forum.page.title:
+    - !!python/tuple [C, 128, 0]
+  f2:
+    forum.page.title:
+    - !!python/tuple [C, 133, 0]
+  key: !!python/tuple ['<net.jforum.ControllerUtils: void prepareTemplateContext(freemarker.template.SimpleHash,net.jforum.context.ForumContext)>',
+    <<zero>>(null_type), '$r15 = staticinvoke <net.jforum.util.preferences.SystemGlobals:
+      java.lang.String getValue(java.lang.String)>("forum.page.metatag.keywords")|0',
+    r1(freemarker.template.SimpleHash)]
+  tag: double
+- classification: tp
+  key: !!python/tuple
+  - '<net.jforum.cache.EhCacheEngine: void add(java.lang.String,java.lang.String,java.lang.Object)>'
+  - !!python/tuple ['interfaceinvoke $r7.<net.jforum.cache.CacheEngine: void add(java.lang.String,java.lang.String,java.lang.Object)>("forumRepository",
+      r1, r2)|0']
+  - r16(net.sf.ehcache.Element)[*(Any_subtype_of_java.lang.Object)]
+  units: [r4 = r16|0]
+  value:
+    r4 = r16|0:
+      encoding:
+        ? '[interfaceinvoke $r7.<net.jforum.cache.CacheEngine: void add(java.lang.String,java.lang.String,java.lang.Object)>("forumRepository",
+          r1, r2)]|r2(java.lang.String)'
+        : - !!python/tuple [SYNC, 18, 0]
+          - !!python/tuple [CR, 73, 0, 0]
+          - !!python/tuple [C, 82, 0]
+        ? '[interfaceinvoke $r7.<net.jforum.cache.CacheEngine: void add(java.lang.String,java.lang.String,java.lang.Object)>("forumRepository",
+          r1, r2)]|r3(net.jforum.entities.Category)[*(Any_subtype_of_java.lang.Object)]'
+        : - !!python/tuple [CR, 3305, 1, 2, 0]
+          - !!python/tuple [SYNC, 18, 0]
+          - !!python/tuple [CR, 73, 0, 0]
+          - !!python/tuple [C, 82, 0]
+        ? '[interfaceinvoke $r7.<net.jforum.cache.CacheEngine: void add(java.lang.String,java.lang.String,java.lang.Object)>("forumRepository",
+          r1, r2)]|r3(net.jforum.entities.Category)[forums(java.util.Set), <<contents>>(net.jforum.entities.Forum),
+          description(java.lang.String)]'
+        : - !!python/tuple [CR, 73, 0, 0]
+          - !!python/tuple [C, 82, 0]
+        ? '[interfaceinvoke $r7.<net.jforum.cache.CacheEngine: void add(java.lang.String,java.lang.String,java.lang.Object)>("forumRepository",
+          r1, r2)]|r3(net.jforum.entities.Category)[forums(java.util.Set), <<contents>>(net.jforum.entities.Forum),
+          idCategories(int)]'
+        : - !!python/tuple [SYNC, 18, 0]
+          - !!python/tuple [CR, 73, 0, 0]
+          - !!python/tuple [C, 82, 0]
+        ? '[interfaceinvoke $r7.<net.jforum.cache.CacheEngine: void add(java.lang.String,java.lang.String,java.lang.Object)>("forumRepository",
+          r1, r2)]|r3(net.jforum.entities.Category)[forums(java.util.Set), <<contents>>(net.jforum.entities.Forum),
+          name(java.lang.String)]'
+        : - !!python/tuple [CR, 73, 0, 0]
+          - !!python/tuple [C, 82, 0]
+        ? '[interfaceinvoke $r7.<net.jforum.cache.CacheEngine: void add(java.lang.String,java.lang.String,java.lang.Object)>("forumRepository",
+          r1, r2)]|r3(net.jforum.entities.Category)[forumsIdMap(java.util.Map), <<contents>>(net.jforum.entities.Forum),
+          description(java.lang.String)]'
+        : - !!python/tuple [CR, 73, 0, 0]
+          - !!python/tuple [C, 82, 0]
+        ? '[interfaceinvoke $r7.<net.jforum.cache.CacheEngine: void add(java.lang.String,java.lang.String,java.lang.Object)>("forumRepository",
+          r1, r2)]|r3(net.jforum.entities.Category)[forumsIdMap(java.util.Map), <<contents>>(net.jforum.entities.Forum),
+          idCategories(int)]'
+        : - !!python/tuple [SYNC, 18, 0]
+          - !!python/tuple [CR, 73, 0, 0]
+          - !!python/tuple [C, 82, 0]
+        ? '[interfaceinvoke $r7.<net.jforum.cache.CacheEngine: void add(java.lang.String,java.lang.String,java.lang.Object)>("forumRepository",
+          r1, r2)]|r3(net.jforum.entities.Category)[forumsIdMap(java.util.Map), <<contents>>(net.jforum.entities.Forum),
+          name(java.lang.String)]'
+        : - !!python/tuple [CR, 73, 0, 0]
+          - !!python/tuple [C, 82, 0]
+- classification: tp
+  key: !!python/tuple
+  - '<net.jforum.cache.EhCacheEngine: void add(java.lang.String,java.lang.String,java.lang.Object)>'
+  - !!python/tuple ['staticinvoke <net.jforum.repository.TopicRepository: void addTopic(net.jforum.entities.Topic)>(r0)|0',
+    'interfaceinvoke $r15.<net.jforum.cache.CacheEngine: void add(java.lang.String,java.lang.String,java.lang.Object)>("topics/byforum",
+      r2, r13)|0']
+  - r16(net.sf.ehcache.Element)[*(Any_subtype_of_java.lang.Object)]
+  units: [r4 = r16|0]
+  value:
+    r4 = r16|0:
+      encoding:
+        ? '[staticinvoke <net.jforum.repository.TopicRepository: void addTopic(net.jforum.entities.Topic)>(r0),
+          interfaceinvoke $r15.<net.jforum.cache.CacheEngine: void add(java.lang.String,java.lang.String,java.lang.Object)>("topics/byforum",
+          r2, r13)]|r2(java.lang.String)'
+        : - !!python/tuple [SYNC, 25, 0]
+          - !!python/tuple [SYNC, 15, 0]
+          - !!python/tuple [SYNC, 15, 0]
+          - !!python/tuple [CR, 1813, 0, 0]
+          - !!python/tuple [CR, 1807, 0, 0]
+          - !!python/tuple [CR, 1759, 0, 0]
+          - !!python/tuple [CR, 80, 0, 0]
+          - !!python/tuple [CR, 300, 0, 0]
+          - !!python/tuple [CR, 6018, 0, 0]
+          - !!python/tuple [CR, 73, 0, 0]
+          - !!python/tuple [C, 82, 0]
+        ? '[staticinvoke <net.jforum.repository.TopicRepository: void addTopic(net.jforum.entities.Topic)>(r0),
+          interfaceinvoke $r15.<net.jforum.cache.CacheEngine: void add(java.lang.String,java.lang.String,java.lang.Object)>("topics/byforum",
+          r2, r13)]|r3(java.util.LinkedList)[*(Any_subtype_of_java.lang.Object)]'
+        : - !!python/tuple [CR, 3944, 1, 2, 0]
+          - !!python/tuple [SYNC, 25, 0]
+          - !!python/tuple [SYNC, 15, 0]
+          - !!python/tuple [SYNC, 15, 0]
+          - !!python/tuple [CR, 1813, 0, 0]
+          - !!python/tuple [CR, 1807, 0, 0]
+          - !!python/tuple [CR, 1759, 0, 0]
+          - !!python/tuple [CR, 80, 0, 0]
+          - !!python/tuple [CR, 300, 0, 0]
+          - !!python/tuple [CR, 6018, 0, 0]
+          - !!python/tuple [CR, 73, 0, 0]
+          - !!python/tuple [C, 82, 0]
+        ? '[staticinvoke <net.jforum.repository.TopicRepository: void addTopic(net.jforum.entities.Topic)>(r0),
+          interfaceinvoke $r15.<net.jforum.cache.CacheEngine: void add(java.lang.String,java.lang.String,java.lang.Object)>("topics/byforum",
+          r2, r13)]|r3(java.util.LinkedList)[<<contents>>(net.jforum.entities.Topic),
+          forumId(int)]'
+        : - !!python/tuple [SYNC, 25, 0]
+          - !!python/tuple [SYNC, 15, 0]
+          - !!python/tuple [SYNC, 15, 0]
+          - !!python/tuple [CR, 1813, 0, 0]
+          - !!python/tuple [CR, 1807, 0, 0]
+          - !!python/tuple [CR, 1759, 0, 0]
+          - !!python/tuple [CR, 80, 0, 0]
+          - !!python/tuple [CR, 300, 0, 0]
+          - !!python/tuple [CR, 6018, 0, 0]
+          - !!python/tuple [CR, 73, 0, 0]
+          - !!python/tuple [C, 82, 0]
+        ? '[staticinvoke <net.jforum.repository.TopicRepository: void addTopic(net.jforum.entities.Topic)>(r0),
+          interfaceinvoke $r15.<net.jforum.cache.CacheEngine: void add(java.lang.String,java.lang.String,java.lang.Object)>("topics/byforum",
+          r2, r13)]|r3(java.util.LinkedList)[<<contents>>(net.jforum.entities.Topic),
+          title(java.lang.String)]'
+        : - !!python/tuple [CR, 3829, 0, 0]
+          - !!python/tuple [SYNC, 15, 0]
+          - !!python/tuple [CR, 1813, 0, 0]
+          - !!python/tuple [CR, 1807, 0, 0]
+          - !!python/tuple [CR, 1797, 0, 0]
+          - !!python/tuple [CR, 1762, 0, 0]
+          - !!python/tuple [CR, 1760, 0, 0]
+          - !!python/tuple [CR, 80, 0, 0]
+          - !!python/tuple [CR, 300, 0, 0]
+          - !!python/tuple [CR, 6018, 0, 0]
+          - !!python/tuple [CR, 73, 0, 0]
+          - !!python/tuple [C, 82, 0]
+        ? '[staticinvoke <net.jforum.repository.TopicRepository: void addTopic(net.jforum.entities.Topic)>(r0),
+          interfaceinvoke $r15.<net.jforum.cache.CacheEngine: void add(java.lang.String,java.lang.String,java.lang.Object)>("topics/byforum",
+          r2, r13)]|r3(java.util.LinkedList)[<<contents>>(net.jforum.entities.Topic),
+          type(int)]'
+        : - !!python/tuple [CR, 3829, 0, 0]
+          - !!python/tuple [SYNC, 15, 0]
+          - !!python/tuple [CR, 1813, 0, 0]
+          - !!python/tuple [CR, 1807, 0, 0]
+          - !!python/tuple [CR, 1772, 0, 0]
+          - !!python/tuple [CR, 1770, 0, 0]
+          - !!python/tuple [CR, 1762, 0, 0]
+          - !!python/tuple [CR, 1760, 0, 0]
+          - !!python/tuple [CR, 80, 0, 0]
+          - !!python/tuple [CR, 300, 0, 0]
+          - !!python/tuple [CR, 6018, 0, 0]
+          - !!python/tuple [CR, 73, 0, 0]
+          - !!python/tuple [C, 82, 0]
+- classification: fp
+  f1:
+    '*':
+    - !!python/tuple [SYNC, 31, 0]
+    - !!python/tuple
+      - P
+      - - !!python/tuple [31, 1]
+        - !!python/tuple [3309, 1]
+  f2:
+    '*':
+    - !!python/tuple
+      - P
+      - - !!python/tuple [31, 1]
+        - !!python/tuple [3309, 1]
+  key: !!python/tuple ['<net.jforum.repository.TopicRepository: void addTopic(net.jforum.entities.Topic)>',
+    'r0(net.jforum.entities.Topic)[forumId(int)]', '$r10 := @caughtexception|0', 'r0(net.jforum.entities.Topic)[forumId(int)]']
+  tag: static
+- classification: fp
+  f1:
+    '*':
+    - !!python/tuple [SYNC, 62, 0]
+    - !!python/tuple
+      - P
+      - - !!python/tuple [62, 1]
+        - !!python/tuple [3237, 1]
+  f2:
+    '*':
+    - !!python/tuple
+      - P
+      - - !!python/tuple [62, 1]
+        - !!python/tuple [3237, 1]
+  key: !!python/tuple ['<net.jforum.repository.TopicRepository: void addTopic(net.jforum.entities.Topic)>',
+    'r0(net.jforum.entities.Topic)[forumId(int)]', '$r13 := @caughtexception|0', 'r0(net.jforum.entities.Topic)[forumId(int)]']
+  tag: sync
+- classification: tp
+  f1:
+    '*':
+    - !!python/tuple [CR, 3945, 0, 0]
+    - !!python/tuple [SYNC, 25, 0]
+    - !!python/tuple
+      - P
+      - - !!python/tuple [25, 1]
+        - !!python/tuple [3942, 1]
+        - !!python/tuple [3944, 1]
+  f2:
+    '*':
+    - !!python/tuple
+      - P
+      - - !!python/tuple [25, 1]
+        - !!python/tuple [3942, 1]
+        - !!python/tuple [3944, 1]
+  key: !!python/tuple ['<net.jforum.repository.TopicRepository: void addTopic(net.jforum.entities.Topic)>',
+    'r0(net.jforum.entities.Topic)[title(java.lang.String)]', '$r10 := @caughtexception|0',
+    '[cache(net.jforum.cache.DefaultCacheEngine), cache(java.util.Map), <<contents>>(java.util.Map),
+      <<contents>>(java.util.LinkedList), <<contents>>(net.jforum.entities.Topic),
+      title(java.lang.String)]']
+- classification: tp
+  f1:
+    '*':
+    - !!python/tuple [CR, 3945, 0, 0]
+    - !!python/tuple [SYNC, 25, 0]
+    - !!python/tuple
+      - P
+      - - !!python/tuple [25, 1]
+        - !!python/tuple [3942, 1]
+        - !!python/tuple [3944, 1]
+  f2:
+    '*':
+    - !!python/tuple
+      - P
+      - - !!python/tuple [25, 1]
+        - !!python/tuple [3942, 1]
+        - !!python/tuple [3944, 1]
+  key: !!python/tuple ['<net.jforum.repository.TopicRepository: void addTopic(net.jforum.entities.Topic)>',
+    'r0(net.jforum.entities.Topic)[type(int)]', '$r10 := @caughtexception|0', '[cache(net.jforum.cache.DefaultCacheEngine),
+      cache(java.util.Map), <<contents>>(java.util.Map), <<contents>>(java.util.LinkedList),
+      <<contents>>(net.jforum.entities.Topic), type(int)]']
+- classification: tp
+  f1:
+    '*':
+    - !!python/tuple [CR, 3709, 0, 0]
+    - !!python/tuple [SYNC, 52, 0]
+    - !!python/tuple
+      - P
+      - - !!python/tuple [52, 1]
+        - !!python/tuple [3706, 1]
+        - !!python/tuple [3708, 1]
+  f2:
+    '*':
+    - !!python/tuple
+      - P
+      - - !!python/tuple [52, 1]
+        - !!python/tuple [3706, 1]
+        - !!python/tuple [3708, 1]
+  key: !!python/tuple ['<net.jforum.repository.TopicRepository: void updateTopic(net.jforum.entities.Topic)>',
+    'r0(net.jforum.entities.Topic)[type(int)]', '$r8 := @caughtexception|0', '[cache(net.jforum.cache.DefaultCacheEngine),
+      cache(java.util.Map), <<contents>>(java.util.Map), <<contents>>(java.util.List),
+      <<contents>>(net.jforum.entities.Topic), type(int)]']
+- classification: tp
+  key: !!python/tuple
+  - '<net.jforum.util.mail.Spammer: boolean dispatchMessages()>'
+  - !!python/tuple ['$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean
+      dispatchMessages()>()|0']
+  - r57(javax.mail.Transport)
+  units: ['$z7 = interfaceinvoke r59.<java.util.Iterator: boolean hasNext()>()|0']
+  value:
+    '$z7 = interfaceinvoke r59.<java.util.Iterator: boolean hasNext()>()|0':
+      mail.charset:
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.ActivationKeySpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 1834, 0, 0]
+          - !!python/tuple [CR, 3887, 0, 0]
+          - !!python/tuple [C, 113, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.ForumNewTopicSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 3187, 0, 0]
+          - !!python/tuple [CR, 4715, 0, 0]
+          - !!python/tuple [C, 113, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.LostPasswordSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 1682, 0, 0]
+          - !!python/tuple [CR, 3771, 0, 0]
+          - !!python/tuple [C, 113, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.PrivateMessageSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 2186, 0, 0]
+          - !!python/tuple [CR, 4173, 0, 0]
+          - !!python/tuple [C, 113, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.TopicReplySpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 3194, 0, 0]
+          - !!python/tuple [CR, 4728, 0, 0]
+          - !!python/tuple [C, 113, 0]
+      mail.smtp.auth:
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.ActivationKeySpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 1834, 0, 0]
+          - !!python/tuple [CR, 3887, 0, 0]
+          - !!python/tuple [C, 119, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.ForumNewTopicSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 3187, 0, 0]
+          - !!python/tuple [CR, 4715, 0, 0]
+          - !!python/tuple [C, 119, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.LostPasswordSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 1682, 0, 0]
+          - !!python/tuple [CR, 3771, 0, 0]
+          - !!python/tuple [C, 119, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.PrivateMessageSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 2186, 0, 0]
+          - !!python/tuple [CR, 4173, 0, 0]
+          - !!python/tuple [C, 119, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.TopicReplySpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 3194, 0, 0]
+          - !!python/tuple [CR, 4728, 0, 0]
+          - !!python/tuple [C, 119, 0]
+      mail.smtp.host:
+        '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|<<zero>>(null_type)':
+        - !!python/tuple [C, 241, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.ActivationKeySpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 1834, 0, 0]
+          - !!python/tuple [CR, 3887, 0, 0]
+          - !!python/tuple [C, 97, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.ForumNewTopicSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 3187, 0, 0]
+          - !!python/tuple [CR, 4715, 0, 0]
+          - !!python/tuple [C, 97, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.LostPasswordSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 1682, 0, 0]
+          - !!python/tuple [CR, 3771, 0, 0]
+          - !!python/tuple [C, 97, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.PrivateMessageSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 2186, 0, 0]
+          - !!python/tuple [CR, 4173, 0, 0]
+          - !!python/tuple [C, 97, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.TopicReplySpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 3194, 0, 0]
+          - !!python/tuple [CR, 4728, 0, 0]
+          - !!python/tuple [C, 97, 0]
+      mail.smtp.password:
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.ActivationKeySpammer)[password(java.lang.String)]'
+        : - !!python/tuple [CR, 1834, 0, 0]
+          - !!python/tuple [CR, 3887, 0, 0]
+          - !!python/tuple [C, 123, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.ForumNewTopicSpammer)[password(java.lang.String)]'
+        : - !!python/tuple [CR, 3187, 0, 0]
+          - !!python/tuple [CR, 4715, 0, 0]
+          - !!python/tuple [C, 123, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.LostPasswordSpammer)[password(java.lang.String)]'
+        : - !!python/tuple [CR, 1682, 0, 0]
+          - !!python/tuple [CR, 3771, 0, 0]
+          - !!python/tuple [C, 123, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.PrivateMessageSpammer)[password(java.lang.String)]'
+        : - !!python/tuple [CR, 2186, 0, 0]
+          - !!python/tuple [CR, 4173, 0, 0]
+          - !!python/tuple [C, 123, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.TopicReplySpammer)[password(java.lang.String)]'
+        : - !!python/tuple [CR, 3194, 0, 0]
+          - !!python/tuple [CR, 4728, 0, 0]
+          - !!python/tuple [C, 123, 0]
+      mail.smtp.port:
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.ActivationKeySpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 1834, 0, 0]
+          - !!python/tuple [CR, 3887, 0, 0]
+          - !!python/tuple [C, 100, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.ForumNewTopicSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 3187, 0, 0]
+          - !!python/tuple [CR, 4715, 0, 0]
+          - !!python/tuple [C, 100, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.LostPasswordSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 1682, 0, 0]
+          - !!python/tuple [CR, 3771, 0, 0]
+          - !!python/tuple [C, 100, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.PrivateMessageSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 2186, 0, 0]
+          - !!python/tuple [CR, 4173, 0, 0]
+          - !!python/tuple [C, 100, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.TopicReplySpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 3194, 0, 0]
+          - !!python/tuple [CR, 4728, 0, 0]
+          - !!python/tuple [C, 100, 0]
+      mail.smtp.username:
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.ActivationKeySpammer)[username(java.lang.String)]'
+        : - !!python/tuple [CR, 1834, 0, 0]
+          - !!python/tuple [CR, 3887, 0, 0]
+          - !!python/tuple [C, 120, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.ForumNewTopicSpammer)[username(java.lang.String)]'
+        : - !!python/tuple [CR, 3187, 0, 0]
+          - !!python/tuple [CR, 4715, 0, 0]
+          - !!python/tuple [C, 120, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.LostPasswordSpammer)[username(java.lang.String)]'
+        : - !!python/tuple [CR, 1682, 0, 0]
+          - !!python/tuple [CR, 3771, 0, 0]
+          - !!python/tuple [C, 120, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.PrivateMessageSpammer)[username(java.lang.String)]'
+        : - !!python/tuple [CR, 2186, 0, 0]
+          - !!python/tuple [CR, 4173, 0, 0]
+          - !!python/tuple [C, 120, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.TopicReplySpammer)[username(java.lang.String)]'
+        : - !!python/tuple [CR, 3194, 0, 0]
+          - !!python/tuple [CR, 4728, 0, 0]
+          - !!python/tuple [C, 120, 0]
+- classification: tp
+  key: !!python/tuple
+  - '<net.jforum.util.mail.Spammer: boolean dispatchMessages()>'
+  - !!python/tuple ['$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean
+      dispatchMessages()>()|0']
+  - r63(javax.mail.Transport)
+  units: ['$r43 := @caughtexception|0', '$z5 = interfaceinvoke r65.<java.util.Iterator:
+      boolean hasNext()>()|0']
+  value:
+    $r43 := @caughtexception|0:
+      mail.charset:
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.ActivationKeySpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 1790, 0, 0]
+          - !!python/tuple [CR, 3803, 0, 0]
+          - !!python/tuple [C, 116, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.ForumNewTopicSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 3118, 0, 0]
+          - !!python/tuple [CR, 4598, 0, 0]
+          - !!python/tuple [C, 116, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.LostPasswordSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 1645, 0, 0]
+          - !!python/tuple [CR, 3691, 0, 0]
+          - !!python/tuple [C, 116, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.PrivateMessageSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 2134, 0, 0]
+          - !!python/tuple [CR, 4084, 0, 0]
+          - !!python/tuple [C, 116, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.TopicReplySpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 3125, 0, 0]
+          - !!python/tuple [CR, 4611, 0, 0]
+          - !!python/tuple [C, 116, 0]
+      mail.smtp.auth:
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.ActivationKeySpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 1790, 0, 0]
+          - !!python/tuple [CR, 3803, 0, 0]
+          - !!python/tuple [C, 120, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.ForumNewTopicSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 3118, 0, 0]
+          - !!python/tuple [CR, 4598, 0, 0]
+          - !!python/tuple [C, 120, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.LostPasswordSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 1645, 0, 0]
+          - !!python/tuple [CR, 3691, 0, 0]
+          - !!python/tuple [C, 120, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.PrivateMessageSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 2134, 0, 0]
+          - !!python/tuple [CR, 4084, 0, 0]
+          - !!python/tuple [C, 120, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.TopicReplySpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 3125, 0, 0]
+          - !!python/tuple [CR, 4611, 0, 0]
+          - !!python/tuple [C, 120, 0]
+      mail.smtp.host:
+        '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|<<zero>>(null_type)':
+        - !!python/tuple [C, 243, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.ActivationKeySpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 1790, 0, 0]
+          - !!python/tuple [CR, 3803, 0, 0]
+          - !!python/tuple [C, 100, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.ForumNewTopicSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 3118, 0, 0]
+          - !!python/tuple [CR, 4598, 0, 0]
+          - !!python/tuple [C, 100, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.LostPasswordSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 1645, 0, 0]
+          - !!python/tuple [CR, 3691, 0, 0]
+          - !!python/tuple [C, 100, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.PrivateMessageSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 2134, 0, 0]
+          - !!python/tuple [CR, 4084, 0, 0]
+          - !!python/tuple [C, 100, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.TopicReplySpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 3125, 0, 0]
+          - !!python/tuple [CR, 4611, 0, 0]
+          - !!python/tuple [C, 100, 0]
+      mail.smtp.password:
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.ActivationKeySpammer)[password(java.lang.String)]'
+        : - !!python/tuple [CR, 1790, 0, 0]
+          - !!python/tuple [CR, 3803, 0, 0]
+          - !!python/tuple [C, 126, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.ForumNewTopicSpammer)[password(java.lang.String)]'
+        : - !!python/tuple [CR, 3118, 0, 0]
+          - !!python/tuple [CR, 4598, 0, 0]
+          - !!python/tuple [C, 126, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.LostPasswordSpammer)[password(java.lang.String)]'
+        : - !!python/tuple [CR, 1645, 0, 0]
+          - !!python/tuple [CR, 3691, 0, 0]
+          - !!python/tuple [C, 126, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.PrivateMessageSpammer)[password(java.lang.String)]'
+        : - !!python/tuple [CR, 2134, 0, 0]
+          - !!python/tuple [CR, 4084, 0, 0]
+          - !!python/tuple [C, 126, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.TopicReplySpammer)[password(java.lang.String)]'
+        : - !!python/tuple [CR, 3125, 0, 0]
+          - !!python/tuple [CR, 4611, 0, 0]
+          - !!python/tuple [C, 126, 0]
+      mail.smtp.port:
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.ActivationKeySpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 1790, 0, 0]
+          - !!python/tuple [CR, 3803, 0, 0]
+          - !!python/tuple [C, 103, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.ForumNewTopicSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 3118, 0, 0]
+          - !!python/tuple [CR, 4598, 0, 0]
+          - !!python/tuple [C, 103, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.LostPasswordSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 1645, 0, 0]
+          - !!python/tuple [CR, 3691, 0, 0]
+          - !!python/tuple [C, 103, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.PrivateMessageSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 2134, 0, 0]
+          - !!python/tuple [CR, 4084, 0, 0]
+          - !!python/tuple [C, 103, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.TopicReplySpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 3125, 0, 0]
+          - !!python/tuple [CR, 4611, 0, 0]
+          - !!python/tuple [C, 103, 0]
+      mail.smtp.username:
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.ActivationKeySpammer)[username(java.lang.String)]'
+        : - !!python/tuple [CR, 1790, 0, 0]
+          - !!python/tuple [CR, 3803, 0, 0]
+          - !!python/tuple [C, 122, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.ForumNewTopicSpammer)[username(java.lang.String)]'
+        : - !!python/tuple [CR, 3118, 0, 0]
+          - !!python/tuple [CR, 4598, 0, 0]
+          - !!python/tuple [C, 122, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.LostPasswordSpammer)[username(java.lang.String)]'
+        : - !!python/tuple [CR, 1645, 0, 0]
+          - !!python/tuple [CR, 3691, 0, 0]
+          - !!python/tuple [C, 122, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.PrivateMessageSpammer)[username(java.lang.String)]'
+        : - !!python/tuple [CR, 2134, 0, 0]
+          - !!python/tuple [CR, 4084, 0, 0]
+          - !!python/tuple [C, 122, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.TopicReplySpammer)[username(java.lang.String)]'
+        : - !!python/tuple [CR, 3125, 0, 0]
+          - !!python/tuple [CR, 4611, 0, 0]
+          - !!python/tuple [C, 122, 0]
+    '$z5 = interfaceinvoke r65.<java.util.Iterator: boolean hasNext()>()|0':
+      mail.charset:
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.ActivationKeySpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 1790, 0, 0]
+          - !!python/tuple [CR, 3803, 0, 0]
+          - !!python/tuple [C, 116, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.ForumNewTopicSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 3118, 0, 0]
+          - !!python/tuple [CR, 4598, 0, 0]
+          - !!python/tuple [C, 116, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.LostPasswordSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 1645, 0, 0]
+          - !!python/tuple [CR, 3691, 0, 0]
+          - !!python/tuple [C, 116, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.PrivateMessageSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 2134, 0, 0]
+          - !!python/tuple [CR, 4084, 0, 0]
+          - !!python/tuple [C, 116, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.TopicReplySpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 3125, 0, 0]
+          - !!python/tuple [CR, 4611, 0, 0]
+          - !!python/tuple [C, 116, 0]
+      mail.smtp.auth:
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.ActivationKeySpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 1790, 0, 0]
+          - !!python/tuple [CR, 3803, 0, 0]
+          - !!python/tuple [C, 120, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.ForumNewTopicSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 3118, 0, 0]
+          - !!python/tuple [CR, 4598, 0, 0]
+          - !!python/tuple [C, 120, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.LostPasswordSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 1645, 0, 0]
+          - !!python/tuple [CR, 3691, 0, 0]
+          - !!python/tuple [C, 120, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.PrivateMessageSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 2134, 0, 0]
+          - !!python/tuple [CR, 4084, 0, 0]
+          - !!python/tuple [C, 120, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.TopicReplySpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 3125, 0, 0]
+          - !!python/tuple [CR, 4611, 0, 0]
+          - !!python/tuple [C, 120, 0]
+      mail.smtp.host:
+        '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|<<zero>>(null_type)':
+        - !!python/tuple [C, 243, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.ActivationKeySpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 1790, 0, 0]
+          - !!python/tuple [CR, 3803, 0, 0]
+          - !!python/tuple [C, 100, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.ForumNewTopicSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 3118, 0, 0]
+          - !!python/tuple [CR, 4598, 0, 0]
+          - !!python/tuple [C, 100, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.LostPasswordSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 1645, 0, 0]
+          - !!python/tuple [CR, 3691, 0, 0]
+          - !!python/tuple [C, 100, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.PrivateMessageSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 2134, 0, 0]
+          - !!python/tuple [CR, 4084, 0, 0]
+          - !!python/tuple [C, 100, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.TopicReplySpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 3125, 0, 0]
+          - !!python/tuple [CR, 4611, 0, 0]
+          - !!python/tuple [C, 100, 0]
+      mail.smtp.password:
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.ActivationKeySpammer)[password(java.lang.String)]'
+        : - !!python/tuple [CR, 1790, 0, 0]
+          - !!python/tuple [CR, 3803, 0, 0]
+          - !!python/tuple [C, 126, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.ForumNewTopicSpammer)[password(java.lang.String)]'
+        : - !!python/tuple [CR, 3118, 0, 0]
+          - !!python/tuple [CR, 4598, 0, 0]
+          - !!python/tuple [C, 126, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.LostPasswordSpammer)[password(java.lang.String)]'
+        : - !!python/tuple [CR, 1645, 0, 0]
+          - !!python/tuple [CR, 3691, 0, 0]
+          - !!python/tuple [C, 126, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.PrivateMessageSpammer)[password(java.lang.String)]'
+        : - !!python/tuple [CR, 2134, 0, 0]
+          - !!python/tuple [CR, 4084, 0, 0]
+          - !!python/tuple [C, 126, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.TopicReplySpammer)[password(java.lang.String)]'
+        : - !!python/tuple [CR, 3125, 0, 0]
+          - !!python/tuple [CR, 4611, 0, 0]
+          - !!python/tuple [C, 126, 0]
+      mail.smtp.port:
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.ActivationKeySpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 1790, 0, 0]
+          - !!python/tuple [CR, 3803, 0, 0]
+          - !!python/tuple [C, 103, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.ForumNewTopicSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 3118, 0, 0]
+          - !!python/tuple [CR, 4598, 0, 0]
+          - !!python/tuple [C, 103, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.LostPasswordSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 1645, 0, 0]
+          - !!python/tuple [CR, 3691, 0, 0]
+          - !!python/tuple [C, 103, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.PrivateMessageSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 2134, 0, 0]
+          - !!python/tuple [CR, 4084, 0, 0]
+          - !!python/tuple [C, 103, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.TopicReplySpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 3125, 0, 0]
+          - !!python/tuple [CR, 4611, 0, 0]
+          - !!python/tuple [C, 103, 0]
+      mail.smtp.username:
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.ActivationKeySpammer)[username(java.lang.String)]'
+        : - !!python/tuple [CR, 1790, 0, 0]
+          - !!python/tuple [CR, 3803, 0, 0]
+          - !!python/tuple [C, 122, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.ForumNewTopicSpammer)[username(java.lang.String)]'
+        : - !!python/tuple [CR, 3118, 0, 0]
+          - !!python/tuple [CR, 4598, 0, 0]
+          - !!python/tuple [C, 122, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.LostPasswordSpammer)[username(java.lang.String)]'
+        : - !!python/tuple [CR, 1645, 0, 0]
+          - !!python/tuple [CR, 3691, 0, 0]
+          - !!python/tuple [C, 122, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.PrivateMessageSpammer)[username(java.lang.String)]'
+        : - !!python/tuple [CR, 2134, 0, 0]
+          - !!python/tuple [CR, 4084, 0, 0]
+          - !!python/tuple [C, 122, 0]
+        ? '[$z0 = virtualinvoke $r1.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.util.mail.TopicReplySpammer)[username(java.lang.String)]'
+        : - !!python/tuple [CR, 3125, 0, 0]
+          - !!python/tuple [CR, 4611, 0, 0]
+          - !!python/tuple [C, 122, 0]
+- classification: tp
+  key: !!python/tuple
+  - '<net.jforum.util.mail.Spammer: boolean dispatchMessages()>'
+  - !!python/tuple ['$z0 = virtualinvoke r16.<net.jforum.util.mail.Spammer: boolean
+      dispatchMessages()>()|0']
+  - r57(javax.mail.Transport)
+  units: ['$z4 = virtualinvoke r57.<javax.mail.Transport: boolean isConnected()>()|0',
+    '$z7 = interfaceinvoke r59.<java.util.Iterator: boolean hasNext()>()|0']
+  value:
+    '$z4 = virtualinvoke r57.<javax.mail.Transport: boolean isConnected()>()|0':
+      mail.smtp.host:
+        '[$z0 = virtualinvoke r16.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|<<zero>>(null_type)':
+        - !!python/tuple [C, 241, 0]
+        ? '[$z0 = virtualinvoke r16.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.view.forum.AjaxAction$1$TestSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 1486, 0, 0]
+          - !!python/tuple [CR, 3445, 0, 0]
+          - !!python/tuple [C, 97, 0]
+    '$z7 = interfaceinvoke r59.<java.util.Iterator: boolean hasNext()>()|0':
+      mail.smtp.host:
+        '[$z0 = virtualinvoke r16.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|<<zero>>(null_type)':
+        - !!python/tuple [C, 241, 0]
+        ? '[$z0 = virtualinvoke r16.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.view.forum.AjaxAction$1$TestSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 1486, 0, 0]
+          - !!python/tuple [CR, 3445, 0, 0]
+          - !!python/tuple [C, 97, 0]
+- classification: tp
+  key: !!python/tuple
+  - '<net.jforum.util.mail.Spammer: boolean dispatchMessages()>'
+  - !!python/tuple ['$z0 = virtualinvoke r16.<net.jforum.util.mail.Spammer: boolean
+      dispatchMessages()>()|0']
+  - r63(javax.mail.Transport)
+  units: ['$r43 := @caughtexception|0', '$z5 = interfaceinvoke r65.<java.util.Iterator:
+      boolean hasNext()>()|0', '$z6 = virtualinvoke r63.<javax.mail.Transport: boolean
+      isConnected()>()|0']
+  value:
+    $r43 := @caughtexception|0:
+      mail.smtp.host:
+        '[$z0 = virtualinvoke r16.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|<<zero>>(null_type)':
+        - !!python/tuple [C, 243, 0]
+        ? '[$z0 = virtualinvoke r16.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.view.forum.AjaxAction$1TestSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 1453, 0, 0]
+          - !!python/tuple [CR, 3373, 0, 0]
+          - !!python/tuple [C, 100, 0]
+    '$z5 = interfaceinvoke r65.<java.util.Iterator: boolean hasNext()>()|0':
+      mail.smtp.host:
+        '[$z0 = virtualinvoke r16.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|<<zero>>(null_type)':
+        - !!python/tuple [C, 243, 0]
+        ? '[$z0 = virtualinvoke r16.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.view.forum.AjaxAction$1TestSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 1453, 0, 0]
+          - !!python/tuple [CR, 3373, 0, 0]
+          - !!python/tuple [C, 100, 0]
+    '$z6 = virtualinvoke r63.<javax.mail.Transport: boolean isConnected()>()|0':
+      mail.smtp.host:
+        '[$z0 = virtualinvoke r16.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|<<zero>>(null_type)':
+        - !!python/tuple [C, 243, 0]
+        ? '[$z0 = virtualinvoke r16.<net.jforum.util.mail.Spammer: boolean dispatchMessages()>()]|r0(net.jforum.view.forum.AjaxAction$1TestSpammer)[session(javax.mail.Session)]'
+        : - !!python/tuple [CR, 1453, 0, 0]
+          - !!python/tuple [CR, 3373, 0, 0]
+          - !!python/tuple [C, 100, 0]
+- classification: fp
+  key: !!python/tuple
+  - '<net.jforum.view.admin.AttachmentsAction: void configurations()>'
+  - !!python/tuple ['virtualinvoke r0.<net.jforum.view.admin.AttachmentsAction: void
+      configurations()>()|0']
+  - r0(net.jforum.view.admin.AttachmentsAction)[context(freemarker.template.SimpleHash)]
+  tag: invoke
+  units: ['$r3 = r0.<net.jforum.view.admin.AttachmentsAction: freemarker.template.SimpleHash
+      context>|0']
+  value:
+    '$r3 = r0.<net.jforum.view.admin.AttachmentsAction: freemarker.template.SimpleHash context>|0':
+      attachments.icon:
+        '[virtualinvoke r0.<net.jforum.view.admin.AttachmentsAction: void configurations()>()]|<<zero>>(null_type)':
+        - !!python/tuple [C, 167, 0]
+        ? '[virtualinvoke r0.<net.jforum.view.admin.AttachmentsAction: void configurations()>()]|r0(net.jforum.view.admin.AttachmentsAction)[context(freemarker.template.SimpleHash)]'
+        : - - !!python/tuple [TR, 299, 8, 0]
+            - !!python/tuple [CR, 596, 0, 0]
+            - !!python/tuple [C, 167, 0]
+          - - !!python/tuple [TR, 299, 9, 0]
+            - !!python/tuple [CR, 595, 0, 0]
+            - !!python/tuple [CR, 596, 0, 0]
+            - !!python/tuple [C, 167, 0]
+          - - !!python/tuple [TR, 299, 16, 0]
+            - !!python/tuple [CR, 478, 0, 0]
+            - !!python/tuple [CR, 596, 0, 0]
+            - !!python/tuple [C, 167, 0]
+- classification: fp
+  key: !!python/tuple
+  - '<net.jforum.view.forum.ForumAction: void list()>'
+  - !!python/tuple ['virtualinvoke r0.<net.jforum.Command: void list()>()|0']
+  - r0(net.jforum.view.forum.ForumAction)[context(freemarker.template.SimpleHash)]
+  tag: invoke
+  units: ['$r10 = r0.<net.jforum.view.forum.ForumAction: freemarker.template.SimpleHash
+      context>|0']
+  value:
+    '$r10 = r0.<net.jforum.view.forum.ForumAction: freemarker.template.SimpleHash context>|0':
+      topicsPerPage:
+        '[virtualinvoke r0.<net.jforum.Command: void list()>()]|<<zero>>(null_type)':
+        - !!python/tuple [C, 176, 0]
+        ? '[virtualinvoke r0.<net.jforum.Command: void list()>()]|r0(net.jforum.view.forum.ForumAction)[context(freemarker.template.SimpleHash)]'
+        : - !!python/tuple [CR, 299, 118, 0]
+          - !!python/tuple [C, 176, 0]
+- classification: fp
+  key: !!python/tuple
+  - '<net.jforum.view.forum.HottestTopicsAction: void list()>'
+  - !!python/tuple ['virtualinvoke r0.<net.jforum.Command: void list()>()|0']
+  - r0(net.jforum.view.forum.HottestTopicsAction)[context(freemarker.template.SimpleHash)]
+  tag: invoke
+  units: ['$r3 = r0.<net.jforum.view.forum.HottestTopicsAction: freemarker.template.SimpleHash
+      context>|0']
+  value:
+    '$r3 = r0.<net.jforum.view.forum.HottestTopicsAction: freemarker.template.SimpleHash context>|0':
+      postsPerPage:
+        '[virtualinvoke r0.<net.jforum.Command: void list()>()]|<<zero>>(null_type)':
+        - !!python/tuple [C, 204, 0]
+        ? '[virtualinvoke r0.<net.jforum.Command: void list()>()]|r0(net.jforum.view.forum.HottestTopicsAction)[context(freemarker.template.SimpleHash)]'
+        : - - !!python/tuple [TR, 299, 125, 0]
+            - !!python/tuple [CR, 1480, 0, 0]
+            - !!python/tuple [C, 204, 0]
+          - - !!python/tuple [TR, 299, 126, 0]
+            - !!python/tuple [C, 203, 0]
+- classification: fp
+  f1:
+    attachments.max.post:
+    - !!python/tuple [CR, 1167, 0, 0]
+    - !!python/tuple [CR, 3149, 0, 0]
+    - !!python/tuple [CR, 1234, 0, 0]
+    - !!python/tuple [C, 237, 0]
+  f2:
+    attachments.max.post:
+    - !!python/tuple [CR, 1165, 0, 0]
+    - !!python/tuple [CR, 3149, 0, 0]
+    - !!python/tuple [CR, 1234, 0, 0]
+    - !!python/tuple [C, 237, 0]
+  key: !!python/tuple ['<net.jforum.view.forum.PostAction: void editSave()>', <<zero>>(null_type),
+    'interfaceinvoke r3.<net.jforum.dao.TopicDAO: void update(net.jforum.entities.Topic)>(r58)|0',
+    'r0(net.jforum.view.forum.PostAction)[context(freemarker.template.SimpleHash)]']
+  tag: path
+- classification: fp
+  key: !!python/tuple
+  - '<net.jforum.view.forum.PostAction: void insert()>'
+  - !!python/tuple ['virtualinvoke r0.<net.jforum.view.forum.PostAction: void insert()>()|0']
+  - r0(net.jforum.view.forum.PostAction)[context(freemarker.template.SimpleHash)]
+  tag: return
+  units: ['if $z3 == 0 goto $r10 = staticinvoke <net.jforum.SessionFacade: net.jforum.entities.UserSession
+      getUserSession()>()|0']
+  value:
+    'if $z3 == 0 goto $r10 = staticinvoke <net.jforum.SessionFacade: net.jforum.entities.UserSession getUserSession()>()|0':
+      attachments.images.thumb.box.show:
+        '[virtualinvoke r0.<net.jforum.view.forum.PostAction: void insert()>()]|<<zero>>(null_type)':
+        - !!python/tuple [CR, 1259, 0, 0]
+        - !!python/tuple [CR, 3033, 0, 0]
+        - !!python/tuple [C, 192, 0]
+        ? '[virtualinvoke r0.<net.jforum.view.forum.PostAction: void insert()>()]|r0(net.jforum.view.forum.PostAction)[context(freemarker.template.SimpleHash)]'
+        : - !!python/tuple [CR, 1036, 0, 0]
+          - !!python/tuple [CR, 3033, 0, 0]
+          - !!python/tuple [C, 192, 0]
+      rss.enabled:
+        '[virtualinvoke r0.<net.jforum.view.forum.PostAction: void insert()>()]|<<zero>>(null_type)':
+        - !!python/tuple [CR, 1259, 0, 0]
+        - !!python/tuple [CR, 3033, 0, 0]
+        - !!python/tuple [C, 193, 0]
+        ? '[virtualinvoke r0.<net.jforum.view.forum.PostAction: void insert()>()]|r0(net.jforum.view.forum.PostAction)[context(freemarker.template.SimpleHash)]'
+        : - !!python/tuple [CR, 1036, 0, 0]
+          - !!python/tuple [CR, 3033, 0, 0]
+          - !!python/tuple [C, 193, 0]
+- classification: fp
+  key: !!python/tuple
+  - '<net.jforum.view.forum.PostAction: void insert()>'
+  - !!python/tuple ['virtualinvoke r0.<net.jforum.view.forum.PostAction: void insert()>()|1']
+  - r0(net.jforum.view.forum.PostAction)[context(freemarker.template.SimpleHash)]
+  tag: return
+  units: ['if $z3 == 0 goto $r10 = staticinvoke <net.jforum.SessionFacade: net.jforum.entities.UserSession
+      getUserSession()>()|0']
+  value:
+    'if $z3 == 0 goto $r10 = staticinvoke <net.jforum.SessionFacade: net.jforum.entities.UserSession getUserSession()>()|0':
+      attachments.images.thumb.box.show:
+        '[virtualinvoke r0.<net.jforum.view.forum.PostAction: void insert()>()]|<<zero>>(null_type)':
+        - !!python/tuple [CR, 1259, 0, 0]
+        - !!python/tuple [CR, 3033, 0, 0]
+        - !!python/tuple [C, 192, 0]
+        ? '[virtualinvoke r0.<net.jforum.view.forum.PostAction: void insert()>()]|r0(net.jforum.view.forum.PostAction)[context(freemarker.template.SimpleHash)]'
+        : - !!python/tuple [CR, 1036, 0, 0]
+          - !!python/tuple [CR, 3033, 0, 0]
+          - !!python/tuple [C, 192, 0]
+      rss.enabled:
+        '[virtualinvoke r0.<net.jforum.view.forum.PostAction: void insert()>()]|<<zero>>(null_type)':
+        - !!python/tuple [CR, 1259, 0, 0]
+        - !!python/tuple [CR, 3033, 0, 0]
+        - !!python/tuple [C, 193, 0]
+        ? '[virtualinvoke r0.<net.jforum.view.forum.PostAction: void insert()>()]|r0(net.jforum.view.forum.PostAction)[context(freemarker.template.SimpleHash)]'
+        : - !!python/tuple [CR, 1036, 0, 0]
+          - !!python/tuple [CR, 3033, 0, 0]
+          - !!python/tuple [C, 193, 0]
+- classification: fp
+  key: !!python/tuple
+  - '<net.jforum.view.forum.PostAction: void insert()>'
+  - !!python/tuple ['virtualinvoke r0.<net.jforum.view.forum.PostAction: void insert()>()|2']
+  - r0(net.jforum.view.forum.PostAction)[context(freemarker.template.SimpleHash)]
+  tag: return
+  units: ['if $z3 == 0 goto $r10 = staticinvoke <net.jforum.SessionFacade: net.jforum.entities.UserSession
+      getUserSession()>()|0']
+  value:
+    'if $z3 == 0 goto $r10 = staticinvoke <net.jforum.SessionFacade: net.jforum.entities.UserSession getUserSession()>()|0':
+      attachments.images.thumb.box.show:
+        '[virtualinvoke r0.<net.jforum.view.forum.PostAction: void insert()>()]|<<zero>>(null_type)':
+        - !!python/tuple [CR, 1259, 0, 0]
+        - !!python/tuple [CR, 3033, 0, 0]
+        - !!python/tuple [C, 192, 0]
+        ? '[virtualinvoke r0.<net.jforum.view.forum.PostAction: void insert()>()]|r0(net.jforum.view.forum.PostAction)[context(freemarker.template.SimpleHash)]'
+        : - !!python/tuple [CR, 1036, 0, 0]
+          - !!python/tuple [CR, 3033, 0, 0]
+          - !!python/tuple [C, 192, 0]
+      rss.enabled:
+        '[virtualinvoke r0.<net.jforum.view.forum.PostAction: void insert()>()]|<<zero>>(null_type)':
+        - !!python/tuple [CR, 1259, 0, 0]
+        - !!python/tuple [CR, 3033, 0, 0]
+        - !!python/tuple [C, 193, 0]
+        ? '[virtualinvoke r0.<net.jforum.view.forum.PostAction: void insert()>()]|r0(net.jforum.view.forum.PostAction)[context(freemarker.template.SimpleHash)]'
+        : - !!python/tuple [CR, 1036, 0, 0]
+          - !!python/tuple [CR, 3033, 0, 0]
+          - !!python/tuple [C, 193, 0]
+- classification: fp
+  key: !!python/tuple
+  - '<net.jforum.view.forum.PostAction: void insert()>'
+  - !!python/tuple ['virtualinvoke r0.<net.jforum.view.forum.PostAction: void insert()>()|3']
+  - r0(net.jforum.view.forum.PostAction)[context(freemarker.template.SimpleHash)]
+  tag: return
+  units: ['if $z3 == 0 goto $r10 = staticinvoke <net.jforum.SessionFacade: net.jforum.entities.UserSession
+      getUserSession()>()|0']
+  value:
+    'if $z3 == 0 goto $r10 = staticinvoke <net.jforum.SessionFacade: net.jforum.entities.UserSession getUserSession()>()|0':
+      attachments.images.thumb.box.show:
+        '[virtualinvoke r0.<net.jforum.view.forum.PostAction: void insert()>()]|<<zero>>(null_type)':
+        - !!python/tuple [CR, 1259, 0, 0]
+        - !!python/tuple [CR, 3033, 0, 0]
+        - !!python/tuple [C, 192, 0]
+        ? '[virtualinvoke r0.<net.jforum.view.forum.PostAction: void insert()>()]|r0(net.jforum.view.forum.PostAction)[context(freemarker.template.SimpleHash)]'
+        : - !!python/tuple [CR, 1036, 0, 0]
+          - !!python/tuple [CR, 3033, 0, 0]
+          - !!python/tuple [C, 192, 0]
+      rss.enabled:
+        '[virtualinvoke r0.<net.jforum.view.forum.PostAction: void insert()>()]|<<zero>>(null_type)':
+        - !!python/tuple [CR, 1259, 0, 0]
+        - !!python/tuple [CR, 3033, 0, 0]
+        - !!python/tuple [C, 193, 0]
+        ? '[virtualinvoke r0.<net.jforum.view.forum.PostAction: void insert()>()]|r0(net.jforum.view.forum.PostAction)[context(freemarker.template.SimpleHash)]'
+        : - !!python/tuple [CR, 1036, 0, 0]
+          - !!python/tuple [CR, 3033, 0, 0]
+          - !!python/tuple [C, 193, 0]
+- classification: fp
+  key: !!python/tuple
+  - '<net.jforum.view.forum.PostAction: void insert()>'
+  - !!python/tuple ['virtualinvoke r0.<net.jforum.view.forum.PostAction: void insert()>()|4']
+  - r0(net.jforum.view.forum.PostAction)[context(freemarker.template.SimpleHash)]
+  tag: return
+  units: ['if $z3 == 0 goto $r10 = staticinvoke <net.jforum.SessionFacade: net.jforum.entities.UserSession
+      getUserSession()>()|0']
+  value:
+    'if $z3 == 0 goto $r10 = staticinvoke <net.jforum.SessionFacade: net.jforum.entities.UserSession getUserSession()>()|0':
+      attachments.images.thumb.box.show:
+        '[virtualinvoke r0.<net.jforum.view.forum.PostAction: void insert()>()]|<<zero>>(null_type)':
+        - !!python/tuple [CR, 1259, 0, 0]
+        - !!python/tuple [CR, 3033, 0, 0]
+        - !!python/tuple [C, 192, 0]
+        ? '[virtualinvoke r0.<net.jforum.view.forum.PostAction: void insert()>()]|r0(net.jforum.view.forum.PostAction)[context(freemarker.template.SimpleHash)]'
+        : - !!python/tuple [CR, 1036, 0, 0]
+          - !!python/tuple [CR, 3033, 0, 0]
+          - !!python/tuple [C, 192, 0]
+      rss.enabled:
+        '[virtualinvoke r0.<net.jforum.view.forum.PostAction: void insert()>()]|<<zero>>(null_type)':
+        - !!python/tuple [CR, 1259, 0, 0]
+        - !!python/tuple [CR, 3033, 0, 0]
+        - !!python/tuple [C, 193, 0]
+        ? '[virtualinvoke r0.<net.jforum.view.forum.PostAction: void insert()>()]|r0(net.jforum.view.forum.PostAction)[context(freemarker.template.SimpleHash)]'
+        : - !!python/tuple [CR, 1036, 0, 0]
+          - !!python/tuple [CR, 3033, 0, 0]
+          - !!python/tuple [C, 193, 0]
+- classification: fp
+  key: !!python/tuple
+  - '<net.jforum.view.forum.PostAction: void insert()>'
+  - !!python/tuple ['virtualinvoke r0.<net.jforum.view.forum.PostAction: void insert()>()|5']
+  - r0(net.jforum.view.forum.PostAction)[context(freemarker.template.SimpleHash)]
+  tag: return
+  units: ['if $z3 == 0 goto $r10 = staticinvoke <net.jforum.SessionFacade: net.jforum.entities.UserSession
+      getUserSession()>()|0']
+  value:
+    'if $z3 == 0 goto $r10 = staticinvoke <net.jforum.SessionFacade: net.jforum.entities.UserSession getUserSession()>()|0':
+      attachments.images.thumb.box.show:
+        '[virtualinvoke r0.<net.jforum.view.forum.PostAction: void insert()>()]|<<zero>>(null_type)':
+        - !!python/tuple [CR, 1259, 0, 0]
+        - !!python/tuple [CR, 3033, 0, 0]
+        - !!python/tuple [C, 192, 0]
+        ? '[virtualinvoke r0.<net.jforum.view.forum.PostAction: void insert()>()]|r0(net.jforum.view.forum.PostAction)[context(freemarker.template.SimpleHash)]'
+        : - !!python/tuple [CR, 1036, 0, 0]
+          - !!python/tuple [CR, 3033, 0, 0]
+          - !!python/tuple [C, 192, 0]
+      rss.enabled:
+        '[virtualinvoke r0.<net.jforum.view.forum.PostAction: void insert()>()]|<<zero>>(null_type)':
+        - !!python/tuple [CR, 1259, 0, 0]
+        - !!python/tuple [CR, 3033, 0, 0]
+        - !!python/tuple [C, 193, 0]
+        ? '[virtualinvoke r0.<net.jforum.view.forum.PostAction: void insert()>()]|r0(net.jforum.view.forum.PostAction)[context(freemarker.template.SimpleHash)]'
+        : - !!python/tuple [CR, 1036, 0, 0]
+          - !!python/tuple [CR, 3033, 0, 0]
+          - !!python/tuple [C, 193, 0]
+- classification: fp
+  key: !!python/tuple
+  - '<net.jforum.view.forum.PostAction: void list()>'
+  - !!python/tuple ['virtualinvoke r0.<net.jforum.view.forum.PostAction: void list()>()|0']
+  - r0(net.jforum.view.forum.PostAction)[context(freemarker.template.SimpleHash)]
+  tag: path
+  units: ['$r47 = r0.<net.jforum.view.forum.PostAction: freemarker.template.SimpleHash
+      context>|0', '$z27 = interfaceinvoke r10.<java.util.Iterator: boolean hasNext()>()|0']
+  value:
+    '$r47 = r0.<net.jforum.view.forum.PostAction: freemarker.template.SimpleHash context>|0':
+      attachments.images.thumb.box.show:
+        '[virtualinvoke r0.<net.jforum.view.forum.PostAction: void list()>()]|<<zero>>(null_type)':
+        - !!python/tuple [C, 192, 0]
+        ? '[virtualinvoke r0.<net.jforum.view.forum.PostAction: void list()>()]|r0(net.jforum.view.forum.PostAction)[context(freemarker.template.SimpleHash)]'
+        : - !!python/tuple [CR, 1036, 0, 0]
+          - !!python/tuple [CR, 3033, 0, 0]
+          - !!python/tuple [C, 192, 0]
+    '$z27 = interfaceinvoke r10.<java.util.Iterator: boolean hasNext()>()|0':
+      attachments.images.thumb.box.show:
+        '[virtualinvoke r0.<net.jforum.view.forum.PostAction: void list()>()]|<<zero>>(null_type)':
+        - !!python/tuple [C, 192, 0]
+        ? '[virtualinvoke r0.<net.jforum.view.forum.PostAction: void list()>()]|r0(net.jforum.view.forum.PostAction)[context(freemarker.template.SimpleHash)]'
+        : - !!python/tuple [CR, 1036, 0, 0]
+          - !!python/tuple [CR, 3033, 0, 0]
+          - !!python/tuple [C, 192, 0]
+      rss.enabled:
+        '[virtualinvoke r0.<net.jforum.view.forum.PostAction: void list()>()]|<<zero>>(null_type)':
+        - !!python/tuple [C, 193, 0]
+        ? '[virtualinvoke r0.<net.jforum.view.forum.PostAction: void list()>()]|r0(net.jforum.view.forum.PostAction)[context(freemarker.template.SimpleHash)]'
+        : - !!python/tuple [CR, 1036, 0, 0]
+          - !!python/tuple [CR, 3033, 0, 0]
+          - !!python/tuple [C, 193, 0]
+- classification: fp
+  key: !!python/tuple
+  - '<net.jforum.view.forum.RecentTopicsAction: void list()>'
+  - !!python/tuple ['virtualinvoke r0.<net.jforum.Command: void list()>()|0']
+  - r0(net.jforum.view.forum.RecentTopicsAction)[context(freemarker.template.SimpleHash)]
+  tag: invoke
+  units: ['$r3 = r0.<net.jforum.view.forum.RecentTopicsAction: freemarker.template.SimpleHash
+      context>|0']
+  value:
+    '$r3 = r0.<net.jforum.view.forum.RecentTopicsAction: freemarker.template.SimpleHash context>|0':
+      postsPerPage:
+        '[virtualinvoke r0.<net.jforum.Command: void list()>()]|<<zero>>(null_type)':
+        - !!python/tuple [C, 166, 0]
+        ? '[virtualinvoke r0.<net.jforum.Command: void list()>()]|r0(net.jforum.view.forum.RecentTopicsAction)[context(freemarker.template.SimpleHash)]'
+        : - - !!python/tuple [TR, 299, 168, 0]
+            - !!python/tuple [CR, 425, 0, 0]
+            - !!python/tuple [C, 166, 0]
+          - - !!python/tuple [TR, 299, 169, 0]
+            - !!python/tuple [C, 165, 0]
+- classification: tp
+  fields:
+    encoding: !!set {? '(cache(net.jforum.cache.DefaultCacheEngine){<<contents>>(java.util.Map),
+        array(byte[]), cache(java.util.Map), <<contents>>(net.jforum.entities.Banlist),
+        }email(java.lang.String)(cache(java.util.Map)><<contents>>(java.util.Map))(array(byte[])><<contents>>(net.jforum.entities.Banlist))(<<contents>>(java.util.Map)>array(byte[]))(<<contents>>(java.util.Map)><<contents>>(java.util.Map))(cache(net.jforum.cache.DefaultCacheEngine)>cache(java.util.Map))(<<contents>>(net.jforum.entities.Banlist)>email(java.lang.String))'
+      : null, ? '(cache(net.jforum.cache.DefaultCacheEngine){<<contents>>(java.util.Map),
+        array(byte[]), cache(java.util.Map), <<contents>>(net.jforum.entities.Banlist),
+        }ip(java.lang.String)(cache(java.util.Map)><<contents>>(java.util.Map))(array(byte[])><<contents>>(net.jforum.entities.Banlist))(<<contents>>(java.util.Map)>array(byte[]))(<<contents>>(java.util.Map)><<contents>>(java.util.Map))(cache(net.jforum.cache.DefaultCacheEngine)>cache(java.util.Map))(<<contents>>(net.jforum.entities.Banlist)>ip(java.lang.String))'
+      : null, ? '(cache(net.jforum.cache.DefaultCacheEngine){<<contents>>(java.util.Map),
+        array(byte[]), cache(java.util.Map), <<contents>>(net.jforum.entities.Banlist),
+        }userId(int)(cache(java.util.Map)><<contents>>(java.util.Map))(array(byte[])><<contents>>(net.jforum.entities.Banlist))(<<contents>>(java.util.Map)>array(byte[]))(<<contents>>(java.util.Map)><<contents>>(java.util.Map))(cache(net.jforum.cache.DefaultCacheEngine)>cache(java.util.Map))(<<contents>>(net.jforum.entities.Banlist)>userId(int))'
+      : null, ? '(cache(net.jforum.cache.DefaultCacheEngine){<<contents>>(java.util.Map),
+        array(byte[]), cache(java.util.Map), }<<contents>>(java.lang.Integer)(cache(java.util.Map)><<contents>>(java.util.Map))(<<contents>>(java.util.Map)>array(byte[]))(<<contents>>(java.util.Map)><<contents>>(java.util.Map))(cache(net.jforum.cache.DefaultCacheEngine)>cache(java.util.Map))(array(byte[])><<contents>>(java.lang.Integer))'
+      : null, ? '(cache(net.jforum.cache.DefaultCacheEngine){<<contents>>(java.util.Map),
+        cache(java.util.Map), <<contents>>(net.jforum.entities.Banlist), }email(java.lang.String)(<<contents>>(java.util.Map)><<contents>>(java.util.Map))(cache(java.util.Map)><<contents>>(java.util.Map))(cache(net.jforum.cache.DefaultCacheEngine)>cache(java.util.Map))(<<contents>>(net.jforum.entities.Banlist)>email(java.lang.String))(<<contents>>(java.util.Map)><<contents>>(net.jforum.entities.Banlist))'
+      : null, ? '(cache(net.jforum.cache.DefaultCacheEngine){<<contents>>(java.util.Map),
+        cache(java.util.Map), <<contents>>(net.jforum.entities.Banlist), }email(java.lang.String)(cache(java.util.Map)><<contents>>(java.util.Map))(<<contents>>(java.util.Map)><<contents>>(net.jforum.entities.Banlist))(<<contents>>(java.util.Map)><<contents>>(java.util.Map))(cache(net.jforum.cache.DefaultCacheEngine)>cache(java.util.Map))(<<contents>>(net.jforum.entities.Banlist)>email(java.lang.String))'
+      : null, ? '(cache(net.jforum.cache.DefaultCacheEngine){<<contents>>(java.util.Map),
+        cache(java.util.Map), <<contents>>(net.jforum.entities.Banlist), }ip(java.lang.String)(<<contents>>(java.util.Map)><<contents>>(java.util.Map))(cache(java.util.Map)><<contents>>(java.util.Map))(cache(net.jforum.cache.DefaultCacheEngine)>cache(java.util.Map))(<<contents>>(net.jforum.entities.Banlist)>ip(java.lang.String))(<<contents>>(java.util.Map)><<contents>>(net.jforum.entities.Banlist))'
+      : null, ? '(cache(net.jforum.cache.DefaultCacheEngine){<<contents>>(java.util.Map),
+        cache(java.util.Map), <<contents>>(net.jforum.entities.Banlist), }ip(java.lang.String)(cache(java.util.Map)><<contents>>(java.util.Map))(<<contents>>(java.util.Map)><<contents>>(net.jforum.entities.Banlist))(<<contents>>(java.util.Map)><<contents>>(java.util.Map))(cache(net.jforum.cache.DefaultCacheEngine)>cache(java.util.Map))(<<contents>>(net.jforum.entities.Banlist)>ip(java.lang.String))'
+      : null, ? '(cache(net.jforum.cache.DefaultCacheEngine){<<contents>>(java.util.Map),
+        cache(java.util.Map), <<contents>>(net.jforum.entities.Banlist), }userId(int)(<<contents>>(java.util.Map)><<contents>>(java.util.Map))(cache(java.util.Map)><<contents>>(java.util.Map))(cache(net.jforum.cache.DefaultCacheEngine)>cache(java.util.Map))(<<contents>>(net.jforum.entities.Banlist)>userId(int))(<<contents>>(java.util.Map)><<contents>>(net.jforum.entities.Banlist))'
+      : null, ? '(cache(net.jforum.cache.DefaultCacheEngine){<<contents>>(java.util.Map),
+        cache(java.util.Map), <<contents>>(net.jforum.entities.Banlist), }userId(int)(cache(java.util.Map)><<contents>>(java.util.Map))(<<contents>>(java.util.Map)><<contents>>(net.jforum.entities.Banlist))(<<contents>>(java.util.Map)><<contents>>(java.util.Map))(cache(net.jforum.cache.DefaultCacheEngine)>cache(java.util.Map))(<<contents>>(net.jforum.entities.Banlist)>userId(int))'
+      : null, ? '(cache(net.jforum.cache.DefaultCacheEngine){<<contents>>(java.util.Map),
+        cache(java.util.Map), }<<contents>>(java.lang.Integer)(<<contents>>(java.util.Map)><<contents>>(java.util.Map))(cache(java.util.Map)><<contents>>(java.util.Map))(cache(net.jforum.cache.DefaultCacheEngine)>cache(java.util.Map))(<<contents>>(java.util.Map)><<contents>>(java.lang.Integer))'
+      : null, ? '(cache(net.jforum.cache.DefaultCacheEngine){<<contents>>(java.util.Map),
+        cache(java.util.Map), }<<contents>>(java.lang.String)(<<contents>>(java.util.Map)><<contents>>(java.util.Map))(cache(java.util.Map)><<contents>>(java.util.Map))(cache(net.jforum.cache.DefaultCacheEngine)>cache(java.util.Map))(<<contents>>(java.util.Map)><<contents>>(java.lang.String))'
+      : null, ? '(cache(net.jforum.cache.DefaultCacheEngine){array(byte[]), <<contents>>(java.util.Map),
+        cache(java.util.Map), }<<contents>>(java.lang.String)(<<contents>>(java.util.Map)>array(byte[]))(<<contents>>(java.util.Map)><<contents>>(java.util.Map))(cache(java.util.Map)><<contents>>(java.util.Map))(cache(net.jforum.cache.DefaultCacheEngine)>cache(java.util.Map))(array(byte[])><<contents>>(java.lang.String))'
+      : null, ? '[cache(net.jforum.cache.DefaultCacheEngine), cache(java.util.Map),
+        <<contents>>(java.util.Map), <<contents>>(java.lang.String), *(Any_subtype_of_java.lang.Object)]'
+      : null, ? '[cache(net.jforum.cache.DefaultCacheEngine), cache(java.util.Map),
+        <<contents>>(java.util.Map), <<contents>>(java.util.LinkedList), *(Any_subtype_of_java.lang.Object)]'
+      : null, ? '[cache(net.jforum.cache.DefaultCacheEngine), cache(java.util.Map),
+        <<contents>>(java.util.Map), <<contents>>(java.util.LinkedList), <<contents>>(net.jforum.entities.Topic),
+        forumId(int)]' : null, ? '[cache(net.jforum.cache.DefaultCacheEngine), cache(java.util.Map),
+        <<contents>>(java.util.Map), <<contents>>(java.util.List), <<contents>>(net.jforum.entities.Post),
+        forumId(int)]' : null, ? '[cache(net.jforum.cache.DefaultCacheEngine), cache(java.util.Map),
+        <<contents>>(java.util.Map), <<contents>>(java.util.List), <<contents>>(net.jforum.entities.Post),
+        text(java.lang.String)]' : null, ? '[cache(net.jforum.cache.DefaultCacheEngine),
+        cache(java.util.Map), <<contents>>(java.util.Map), <<contents>>(java.util.List),
+        <<contents>>(net.jforum.entities.Topic), lastPostId(int)]' : null, ? '[cache(net.jforum.cache.DefaultCacheEngine),
+        cache(java.util.Map), <<contents>>(java.util.Map), <<contents>>(java.util.List),
+        <<contents>>(net.jforum.entities.Topic), title(java.lang.String)]' : null,
+      ? '[cache(net.jforum.cache.DefaultCacheEngine), cache(java.util.Map), <<contents>>(java.util.Map),
+        <<contents>>(java.util.List), <<contents>>(net.jforum.entities.Topic), type(int)]'
+      : null, ? '[cache(net.jforum.cache.DefaultCacheEngine), cache(java.util.Map),
+        <<contents>>(java.util.Map), <<contents>>(java.util.Set), <<contents>>(net.jforum.entities.Category),
+        name(java.lang.String)]' : null, ? '[cache(net.jforum.cache.DefaultCacheEngine),
+        cache(java.util.Map), <<contents>>(java.util.Map), <<contents>>(java.util.TreeSet),
+        <<contents>>(net.jforum.entities.Category), name(java.lang.String)]' : null,
+      ? '[cache(net.jforum.cache.DefaultCacheEngine), cache(java.util.Map), <<contents>>(java.util.Map),
+        <<contents>>(net.jforum.entities.Category), *(Any_subtype_of_java.lang.Object)]'
+      : null, ? '[cache(net.jforum.cache.DefaultCacheEngine), cache(java.util.Map),
+        <<contents>>(java.util.Map), <<contents>>(net.jforum.entities.Category), forums(java.util.Set),
+        <<contents>>(net.jforum.entities.Forum), description(java.lang.String)]' : null,
+      ? '[cache(net.jforum.cache.DefaultCacheEngine), cache(java.util.Map), <<contents>>(java.util.Map),
+        <<contents>>(net.jforum.entities.Category), forums(java.util.Set), <<contents>>(net.jforum.entities.Forum),
+        idCategories(int)]' : null, ? '[cache(net.jforum.cache.DefaultCacheEngine),
+        cache(java.util.Map), <<contents>>(java.util.Map), <<contents>>(net.jforum.entities.Category),
+        forums(java.util.Set), <<contents>>(net.jforum.entities.Forum), name(java.lang.String)]'
+      : null, ? '[cache(net.jforum.cache.DefaultCacheEngine), cache(java.util.Map),
+        <<contents>>(java.util.Map), <<contents>>(net.jforum.entities.Category), forumsIdMap(java.util.Map),
+        <<contents>>(net.jforum.entities.Forum), description(java.lang.String)]' : null,
+      ? '[cache(net.jforum.cache.DefaultCacheEngine), cache(java.util.Map), <<contents>>(java.util.Map),
+        <<contents>>(net.jforum.entities.Category), forumsIdMap(java.util.Map), <<contents>>(net.jforum.entities.Forum),
+        idCategories(int)]' : null, ? '[cache(net.jforum.cache.DefaultCacheEngine),
+        cache(java.util.Map), <<contents>>(java.util.Map), <<contents>>(net.jforum.entities.Category),
+        forumsIdMap(java.util.Map), <<contents>>(net.jforum.entities.Forum), name(java.lang.String)]'
+      : null, ? '[cache(net.jforum.cache.DefaultCacheEngine), cache(java.util.Map),
+        <<contents>>(java.util.Map), <<contents>>(net.jforum.entities.Category), name(java.lang.String)]'
+      : null, ? '[cache(net.jforum.cache.DefaultCacheEngine), cache(java.util.Map),
+        <<contents>>(java.util.Map), <<contents>>(net.jforum.entities.UserSession),
+        lang(java.lang.String)]' : null, ? '[cache(net.jforum.cache.DefaultCacheEngine),
+        cache(java.util.Map), <<contents>>(java.util.Map), <<contents>>(net.jforum.entities.UserSession),
+        username(java.lang.String)]' : null}
+    forum.link: !!set {? '[cache(net.jforum.cache.DefaultCacheEngine), cache(java.util.Map),
+        <<contents>>(java.util.Map), <<contents>>(java.util.List), <<contents>>(net.jforum.entities.Smilie),
+        url(java.lang.String)]' : null}
+    postsPerPage: !!set {? '[cache(net.jforum.cache.DefaultCacheEngine), cache(java.util.Map),
+        <<contents>>(java.util.Map), <<contents>>(java.util.List), <<contents>>(net.jforum.entities.Topic),
+        totalPages(java.lang.Double)]' : null}
+  key: !!python/tuple [cache, net.jforum.cache.DefaultCacheEngine]
+  props: !!set {encoding: null, forum.link: null, postsPerPage: null}
+  tag: static
+- classification: fp
+  fields:
+    i18n.board.default: !!set {'[messagesMap(java.util.Map), <<contents>>(java.lang.String)]': null}
+  key: !!python/tuple [messagesMap, java.util.Map]
+  props: !!set {i18n.board.default: null}
+  tag: static
+- classification: fp
+  fields:
+    encoding: !!set {? '[userData(java.lang.ThreadLocal), <<contents>>(net.jforum.JForumExecutionContext),
+        context(freemarker.template.SimpleHash)]' : null, ? '[userData(java.lang.ThreadLocal),
+        <<contents>>(net.jforum.JForumExecutionContext), forumContext(net.jforum.context.JForumContext),
+        request(net.jforum.context.web.WebRequestContext), query(java.util.Map), <<contents>>(java.lang.String)]'
+      : null, ? '[userData(java.lang.ThreadLocal), <<contents>>(net.jforum.JForumExecutionContext),
+        forumContext(net.jforum.context.JForumContext), request(net.jforum.context.web.WebRequestContext),
+        query(java.util.Map), <<contents>>(java.util.List), <<contents>>(java.lang.String)]'
+      : null, ? '[userData(java.lang.ThreadLocal), <<contents>>(net.jforum.JForumExecutionContext),
+        forumContext(net.jforum.context.JForumContext), response(net.jforum.context.web.WebResponseContext),
+        response(edu.washington.cse.servlet.SimpleHttpResponse), contentType(java.lang.String)]'
+      : null, '[userData(java.lang.ThreadLocal), <<contents>>(net.jforum.JForumExecutionContext), redirectTo(java.lang.String)]': null}
+    forum.link: !!set {'[userData(java.lang.ThreadLocal), <<contents>>(net.jforum.JForumExecutionContext), redirectTo(java.lang.String)]': null}
+    i18n.board.default: !!set {? '[userData(java.lang.ThreadLocal), <<contents>>(net.jforum.JForumExecutionContext),
+        context(freemarker.template.SimpleHash)]' : null}
+    postsPerPage: !!set {? '[userData(java.lang.ThreadLocal), <<contents>>(net.jforum.JForumExecutionContext),
+        context(freemarker.template.SimpleHash)]' : null, '[userData(java.lang.ThreadLocal), <<contents>>(net.jforum.JForumExecutionContext), redirectTo(java.lang.String)]': null}
+    rss.enabled: !!set {? '[userData(java.lang.ThreadLocal), <<contents>>(net.jforum.JForumExecutionContext),
+        context(freemarker.template.SimpleHash)]' : null}
+    topicsPerPage: !!set {? '[userData(java.lang.ThreadLocal), <<contents>>(net.jforum.JForumExecutionContext),
+        context(freemarker.template.SimpleHash)]' : null}
+    usersPerPage: !!set {? '[userData(java.lang.ThreadLocal), <<contents>>(net.jforum.JForumExecutionContext),
+        context(freemarker.template.SimpleHash)]' : null}
+  key: !!python/tuple [userData, java.lang.ThreadLocal]
+  props: !!set {encoding: null, forum.link: null, i18n.board.default: null, postsPerPage: null,
+    rss.enabled: null, topicsPerPage: null, usersPerPage: null}
+  tag: static
+- classification: fp
+  fields:
+    i18n.board.default: !!set {'[watching(java.util.List), <<contents>>(java.lang.String)]': null}
+  key: !!python/tuple [watching, java.util.List]
+  props: !!set {i18n.board.default: null}
+  tag: static

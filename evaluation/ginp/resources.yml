@@ -1,0 +1,19 @@
+- access-sigs: ['<net.sf.ginp.config.Configuration: java.lang.String getForcelocale()>', '<net.sf.ginp.config.Configuration: java.lang.String getCharacterEncoding()>', '<net.sf.ginp.config.Configuration: java.lang.String getConfigfilelocation()>', '<net.sf.ginp.config.Configuration: java.lang.String getConfigfilelocationPath()>', '<net.sf.ginp.config.Configuration: java.lang.String getCollectionPageName()>', '<net.sf.ginp.config.Configuration: java.lang.String getPicturePageName()>', '<net.sf.ginp.config.Configuration: int getThumbSize()>', '<net.sf.ginp.config.Configuration: int getFilmStripThumbSize()>']
+# - resources: [collectionForUser]
+#   sig: '<net.sf.ginp.config.Configuration: java.util.List getCollectionForUser(java.lang.String)>'
+- resources: [forcelocale]
+  sig: '<net.sf.ginp.config.Configuration: java.lang.String getForcelocale()>'
+- resources: [thumbSize]
+  sig: '<net.sf.ginp.config.Configuration: int getThumbSize()>'
+- resources: [filmStripThumbSize]
+  sig: '<net.sf.ginp.config.Configuration: int getFilmStripThumbSize()>'
+- resources: [picturePageName]
+  sig: '<net.sf.ginp.config.Configuration: java.lang.String getPicturePageName()>'
+- resources: [collectionPageName]
+  sig: '<net.sf.ginp.config.Configuration: java.lang.String getCollectionPageName()>'
+- resources: [characterEncoding]
+  sig: '<net.sf.ginp.config.Configuration: java.lang.String getCharacterEncoding()>'
+- resources: [configfilelocation]
+  sig: '<net.sf.ginp.config.Configuration: java.lang.String getConfigfilelocation()>'
+- resources: [configfilelocationPath]
+  sig: '<net.sf.ginp.config.Configuration: java.lang.String getConfigfilelocationPath()>'

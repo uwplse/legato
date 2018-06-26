@@ -1,0 +1,105 @@
+- access-sigs: ['<net.sourceforge.subsonic.service.SettingsService: int getStreamPort()>', '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getLoginMessage()>', '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getLdapSearchFilter()>', '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getLdapManagerDn()>', '<net.sourceforge.subsonic.service.SettingsService: int getCoverArtLimit()>', '<net.sourceforge.subsonic.service.SettingsService: int getPort()>', '<java.util.Properties: java.lang.String getProperty(java.lang.String,java.lang.String)>', '<net.sourceforge.subsonic.service.SettingsService: long getSettingsChanged()>', '<net.sourceforge.subsonic.service.SettingsService: int getIndexCreationInterval()>', '<net.sourceforge.subsonic.service.SettingsService: int getInt(java.lang.String,int)>', '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getPodcastFolder()>', '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getIgnoredArticles()>', '<net.sourceforge.subsonic.service.SettingsService: int getPodcastEpisodeDownloadCount()>', '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getVideoImageCommand()>', '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getWelcomeTitle()>', '<net.sourceforge.subsonic.service.SettingsService: java.util.Locale getLocale()>', '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getLdapUrl()>', '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getPlaylistFolder()>', '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getLdapManagerPassword()>', '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getUrlRedirectFrom()>', '<net.sourceforge.subsonic.service.SettingsService: java.util.Date getLastScanned()>', '<net.sourceforge.subsonic.service.SettingsService: int getPodcastEpisodeRetentionCount()>', '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getMusicFileTypes()>', '<net.sourceforge.subsonic.service.SettingsService: java.util.Date getLicenseDate()>', '<net.sourceforge.subsonic.service.SettingsService: long getDownloadBitrateLimit()>', '<net.sourceforge.subsonic.service.SettingsService: int getHttpsPort()>', '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getIndexString()>', '<net.sourceforge.subsonic.service.SettingsService: int getIndexCreationHour()>', '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getThemeId()>', '<net.sourceforge.subsonic.service.SettingsService: long getLong(java.lang.String,long)>', '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getWelcomeMessage()>', '<net.sourceforge.subsonic.service.SettingsService: int getSonosServiceId()>', '<net.sourceforge.subsonic.service.SettingsService: java.util.Date getTrialExpires()>', '<net.sourceforge.subsonic.service.SettingsService: int getPodcastUpdateInterval()>', '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getDownsamplingCommand()>', '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getShortcuts()>', '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getHlsCommand()>', '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getServerId()>', '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getUrlRedirectContextPath()>', '<net.sourceforge.subsonic.service.SettingsService: long getUploadBitrateLimit()>', '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getJukeboxCommand()>', '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getWelcomeSubtitle()>', '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getLicenseCode()>', '<java.util.Properties: java.lang.String getProperty(java.lang.String)>', '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getCoverArtFileTypes()>', '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getVideoFileTypes()>']
+- resources: [IndexString]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getIndexString()>'
+- resources: [IgnoredArticles]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getIgnoredArticles()>'
+- resources: [IgnoredArticles]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: java.lang.String[] getIgnoredArticlesAsArray()>'
+- resources: [Shortcuts]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getShortcuts()>'
+- resources: [Shortcuts]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: java.lang.String[] getShortcutsAsArray()>'
+- resources: [PlaylistFolder]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getPlaylistFolder()>'
+- resources: [MusicFileTypes]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getMusicFileTypes()>'
+- resources: [MusicFileTypes]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: java.lang.String[] getMusicFileTypesAsArray()>'
+- resources: [VideoFileTypes]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getVideoFileTypes()>'
+- resources: [VideoFileTypes]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: java.lang.String[] getVideoFileTypesAsArray()>'
+- resources: [CoverArtFileTypes]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getCoverArtFileTypes()>'
+- resources: [CoverArtFileTypes]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: java.lang.String[] getCoverArtFileTypesAsArray()>'
+- resources: [CoverArtLimit]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: int getCoverArtLimit()>'
+- resources: [WelcomeTitle]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getWelcomeTitle()>'
+- resources: [WelcomeSubtitle]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getWelcomeSubtitle()>'
+- resources: [WelcomeMessage2]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getWelcomeMessage()>'
+- resources: [LoginMessage]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getLoginMessage()>'
+- resources: [IndexCreationInterval]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: int getIndexCreationInterval()>'
+- resources: [IndexCreationHour]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: int getIndexCreationHour()>'
+- resources: [PodcastUpdateInterval]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: int getPodcastUpdateInterval()>'
+- resources: [PodcastEpisodeRetentionCount]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: int getPodcastEpisodeRetentionCount()>'
+- resources: [PodcastEpisodeDownloadCount]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: int getPodcastEpisodeDownloadCount()>'
+- resources: [PodcastFolder]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getPodcastFolder()>'
+- resources: [DownloadBitrateLimit]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: long getDownloadBitrateLimit()>'
+- resources: [UploadBitrateLimit]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: long getUploadBitrateLimit()>'
+- resources: [StreamPort]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: int getStreamPort()>'
+- resources: [LicenseCode]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getLicenseCode()>'
+- resources: [LicenseDate]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: java.util.Date getLicenseDate()>'
+- resources: [DownsamplingCommand4]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getDownsamplingCommand()>'
+- resources: [HlsCommand3]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getHlsCommand()>'
+- resources: [JukeboxCommand2]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getJukeboxCommand()>'
+- resources: [VideoImageCommand]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getVideoImageCommand()>'
+- resources: [LdapUrl]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getLdapUrl()>'
+- resources: [LdapSearchFilter]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getLdapSearchFilter()>'
+- resources: [LdapManagerDn]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getLdapManagerDn()>'
+- resources: [LdapManagerPassword]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getLdapManagerPassword()>'
+- resources: [Port]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: int getPort()>'
+- resources: [HttpsPort]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: int getHttpsPort()>'
+- resources: [UrlRedirectFrom]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getUrlRedirectFrom()>'
+- resources: [TrialExpires]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: java.util.Date getTrialExpires()>'
+- resources: [UrlRedirectContextPath]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getUrlRedirectContextPath()>'
+- resources: [ServerId]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getServerId()>'
+- resources: [SettingsChanged]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: long getSettingsChanged()>'
+- resources: [LastScanned]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: java.util.Date getLastScanned()>'
+- resources: [LocaleLanguage]
+  unit: 'r1 = virtualinvoke $r4.<java.util.Properties: java.lang.String getProperty(java.lang.String,java.lang.String)>("LocaleLanguage", "en")'
+  tag: 0
+  container: '<net.sourceforge.subsonic.service.SettingsService: java.util.Locale getLocale()>'
+- resources: [LocaleCountry]
+  unit: 'r2 = virtualinvoke $r5.<java.util.Properties: java.lang.String getProperty(java.lang.String,java.lang.String)>("LocaleCountry", "")'
+  tag: 0
+  container: '<net.sourceforge.subsonic.service.SettingsService: java.util.Locale getLocale()>'
+- resources: [LocaleVariant]
+  unit: 'r3 = virtualinvoke $r6.<java.util.Properties: java.lang.String getProperty(java.lang.String,java.lang.String)>("LocaleVariant", "")'
+  tag: 0
+  container: '<net.sourceforge.subsonic.service.SettingsService: java.util.Locale getLocale()>'
+- resources: [Theme]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getThemeId()>'
+- resources: [SonosServiceId]
+  sig: '<net.sourceforge.subsonic.service.SettingsService: int getSonosServiceId()>'

@@ -1,0 +1,76 @@
+- {containing-method: '<org.snipsnap.snip.SnipLink: java.lang.String encode(java.lang.String)>',
+  containing-type: org.snipsnap.snip.SnipLink, line: '277', method: '<org.snipsnap.config.Configuration:
+    java.lang.String getEncodedSpace()>', source-file: SnipLink.java, tag: 93, unit-string: 'r1
+    = interfaceinvoke r13.<org.snipsnap.config.Configuration: java.lang.String getEncodedSpace()>()'}
+- {containing-method: '<org.snipsnap.util.mail.Mail: org.snipsnap.util.mail.Mail getInstance()>',
+  containing-type: org.snipsnap.util.mail.Mail, line: '58', method: '<org.snipsnap.util.mail.Mail:
+    void <init>()>', source-file: Mail.java, tag: 243, unit-string: 'specialinvoke
+    $r2.<org.snipsnap.util.mail.Mail: void <init>()>()'}
+- {containing-method: '<org.snipsnap.util.mail.Mail: void <init>()>', containing-type: org.snipsnap.util.mail.Mail,
+  line: '68', method: '<org.snipsnap.config.Configuration: java.lang.String getMailHost()>',
+  source-file: Mail.java, tag: 35, unit-string: 'r3 = interfaceinvoke r2.<org.snipsnap.config.Configuration:
+    java.lang.String getMailHost()>()'}
+- {containing-method: '<org.snipsnap.net.RsdServlet: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: org.snipsnap.net.RsdServlet, line: '69', method: '<javax.servlet.ServletRequest:
+    javax.servlet.RequestDispatcher getRequestDispatcher(java.lang.String)>', source-file: RsdServlet.java,
+  tag: 126, unit-string: '_legato_internal_16 = interfaceinvoke r1.<javax.servlet.http.HttpServletRequest:
+    javax.servlet.RequestDispatcher getRequestDispatcher(java.lang.String)>("/rsd.jsp")'}
+- {containing-method: '<org.snipsnap.util.mail.Mail: org.snipsnap.util.mail.Mail getInstance()>',
+  containing-type: org.snipsnap.util.mail.Mail, line: '60', source-file: Mail.java,
+  tag: 2099, unit-string: '$r1 = <org.snipsnap.util.mail.Mail: org.snipsnap.util.mail.Mail
+    instance>'}
+- {containing-method: '<org.snipsnap.util.mail.Mail: void sendMail(java.lang.String,java.lang.String,java.lang.String)>',
+  containing-type: org.snipsnap.util.mail.Mail, line: '113', method: '<org.snipsnap.util.mail.Mail:
+    void sendMail(java.lang.String,java.util.Collection,java.lang.String,java.lang.String)>',
+  source-file: Mail.java, tag: 2098, unit-string: 'virtualinvoke r0.<org.snipsnap.util.mail.Mail:
+    void sendMail(java.lang.String,java.util.Collection,java.lang.String,java.lang.String)>($r16,
+    r4, r2, r3)'}
+- {containing-method: '<org.snipsnap.util.mail.Mail: void sendMail(java.lang.String,java.util.Collection,java.lang.String,java.lang.String)>',
+  containing-type: org.snipsnap.util.mail.Mail, line: '143', method: '<javax.mail.Transport:
+    void send(javax.mail.Message)>', source-file: Mail.java, tag: 2097, unit-string: 'staticinvoke
+    <javax.mail.Transport: void send(javax.mail.Message)>(r17)'}
+- {containing-method: '<org.snipsnap.serialization.rdf.RDFSerializerBase: java.lang.String
+    getAttachmentURL(org.snipsnap.snip.attachment.Attachment,org.snipsnap.snip.Snip)>',
+  containing-type: org.snipsnap.serialization.rdf.RDFSerializerBase, line: '153',
+  method: '<java.lang.StringBuilder: java.lang.String toString()>', source-file: RDFSerializerBase.java,
+  tag: 2096, unit-string: '$r14 = virtualinvoke $r12.<java.lang.StringBuilder: java.lang.String
+    toString()>()'}
+- {containing-method: '<org.snipsnap.net.MailPasswordKeyServlet: void doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: org.snipsnap.net.MailPasswordKeyServlet, line: '76', method: '<org.snipsnap.config.Configuration:
+    java.lang.String getUrl(java.lang.String)>', source-file: MailPasswordKeyServlet.java,
+  tag: 121, unit-string: 'r8 = interfaceinvoke r6.<org.snipsnap.config.Configuration:
+    java.lang.String getUrl(java.lang.String)>($r21)'}
+- {containing-method: '<org.snipsnap.net.RsdServlet: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: org.snipsnap.net.RsdServlet, line: '67', method: '<org.snipsnap.config.Configuration:
+    java.lang.String getUrl()>', source-file: RsdServlet.java, tag: 120, unit-string: '$r12
+    = interfaceinvoke $r11.<org.snipsnap.config.Configuration: java.lang.String getUrl()>()'}
+- {containing-method: '<org.snipsnap.serialization.rdf.RDFSerializerBase: java.lang.String
+    getAttachmentURL(org.snipsnap.snip.attachment.Attachment,org.snipsnap.snip.Snip)>',
+  containing-type: org.snipsnap.serialization.rdf.RDFSerializerBase, line: '153',
+  method: '<org.snipsnap.snip.SnipLink: java.lang.String encode(java.lang.String)>',
+  source-file: RDFSerializerBase.java, tag: 495, unit-string: '$r13 = staticinvoke
+    <org.snipsnap.snip.SnipLink: java.lang.String encode(java.lang.String)>($r11)'}
+- {containing-method: '<org.snipsnap.serialization.rdf.RDFSerializerBase: java.lang.String
+    getAttachmentURL(org.snipsnap.snip.attachment.Attachment,org.snipsnap.snip.Snip)>',
+  containing-type: org.snipsnap.serialization.rdf.RDFSerializerBase, line: '153',
+  method: '<org.snipsnap.snip.SnipLink: java.lang.String encode(java.lang.String)>',
+  source-file: RDFSerializerBase.java, tag: 494, unit-string: '$r8 = staticinvoke
+    <org.snipsnap.snip.SnipLink: java.lang.String encode(java.lang.String)>($r7)'}
+- {containing-method: '<org.snipsnap.util.mail.Mail: void sendMail(java.lang.String,java.lang.String,java.lang.String)>',
+  containing-type: org.snipsnap.util.mail.Mail, line: '106', method: '<org.snipsnap.config.Configuration:
+    java.lang.String getUrl()>', source-file: Mail.java, tag: 302, unit-string: 'r12
+    = interfaceinvoke r5.<org.snipsnap.config.Configuration: java.lang.String getUrl()>()'}
+- {containing-method: '<org.snipsnap.util.mail.Mail: void sendMail(java.lang.String,java.lang.String,java.lang.String)>',
+  containing-type: org.snipsnap.util.mail.Mail, line: '104', method: '<org.snipsnap.config.Configuration:
+    java.lang.String getMailDomain()>', source-file: Mail.java, tag: 293, unit-string: 'r11
+    = interfaceinvoke r5.<org.snipsnap.config.Configuration: java.lang.String getMailDomain()>()'}
+- {containing-method: '<org.snipsnap.net.MailPasswordKeyServlet: void doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: org.snipsnap.net.MailPasswordKeyServlet, line: '80', method: '<org.snipsnap.util.mail.Mail:
+    org.snipsnap.util.mail.Mail getInstance()>', source-file: MailPasswordKeyServlet.java,
+  tag: 196, unit-string: '$r31 = staticinvoke <org.snipsnap.util.mail.Mail: org.snipsnap.util.mail.Mail
+    getInstance()>()'}
+- {containing-method: '<org.snipsnap.net.RsdServlet: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: org.snipsnap.net.RsdServlet, line: '66', method: '<org.snipsnap.config.Configuration:
+    java.lang.String getUrl(java.lang.String)>', source-file: RsdServlet.java, tag: 101,
+  unit-string: '$r10 = interfaceinvoke $r9.<org.snipsnap.config.Configuration: java.lang.String
+    getUrl(java.lang.String)>("/space")'}

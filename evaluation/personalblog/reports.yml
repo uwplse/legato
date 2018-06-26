@@ -1,0 +1,150 @@
+- containing-method: '<net.eyde.personalblog.PseudoMain$Dispatcher_49: void forward(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>'
+  context: &id001 ['interfaceinvoke $r6.<javax.servlet.RequestDispatcher: void forward(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>(r2,
+      r3)|0']
+  context-num: [1260]
+  context-sens: true
+  failing: null
+  inputs: ['[$INSTANCE(edu.washington.cse.servlet.RequestAttributes), <<contents>>(net.eyde.personalblog.beans.Post)]']
+  key:
+  - *id001
+  - '[$INSTANCE(edu.washington.cse.servlet.RequestAttributes), <<contents>>(net.eyde.personalblog.beans.Post)]'
+  - nop|0
+  predecessor: false
+  report-type: value
+  target: '[$INSTANCE(edu.washington.cse.servlet.RequestAttributes), <<contents>>(net.eyde.personalblog.beans.Post)]'
+  target-num: 1546
+  target-unit: nop
+  vals:
+    ? '[virtualinvoke $r24.<net.eyde.personalblog.PseudoMain$UrlDispatchActionForward:
+      void doForwardNow(javax.servlet.ServletContext,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>($r25,
+      r3, r4)]|[$INSTANCE(edu.washington.cse.servlet.RequestAttributes), <<contents>>(net.eyde.personalblog.beans.Post)]'
+    : {'*': "\u22A5"}
+    ? '[virtualinvoke $r51.<net.eyde.personalblog.PseudoMain$UrlDispatchActionForward:
+      void doForwardNow(javax.servlet.ServletContext,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>($r52,
+      r1, r2)]|[$INSTANCE(edu.washington.cse.servlet.RequestAttributes), <<contents>>(net.eyde.personalblog.beans.Post)]'
+    : {'*': "\u22A5"}
+- containing-method: '<net.eyde.personalblog.service.Email: void sendMessage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>'
+  context: &id002 ['staticinvoke <net.eyde.personalblog.service.Email: void sendMessage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>($r26,
+      $r27, r32, r33)|0']
+  context-num: [469]
+  failing: [weblog.email]
+  inputs: [<<zero>>(null_type), r2(java.lang.String)]
+  key:
+  - *id002
+  - r6(javax.mail.internet.MimeMessage)[*(Any_subtype_of_java.lang.Object)]
+  - '$r23 = staticinvoke <net.eyde.personalblog.service.PersonalBlogService: net.eyde.personalblog.service.PersonalBlogService
+    getInstance()>()|0'
+  predecessor: false
+  report-type: value
+  target: r6(javax.mail.internet.MimeMessage)[*(Any_subtype_of_java.lang.Object)]
+  target-base-type: javax.mail.internet.MimeMessage
+  target-num: 1547
+  target-unit: '$r23 = staticinvoke <net.eyde.personalblog.service.PersonalBlogService:
+    net.eyde.personalblog.service.PersonalBlogService getInstance()>()'
+  vals:
+    ? '[staticinvoke <net.eyde.personalblog.service.Email: void sendMessage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>($r26,
+      $r27, r32, r33)]|<<zero>>(null_type)'
+    : {mail.smtp.host: '{406}', weblog.email: '{407}'}
+    ? '[staticinvoke <net.eyde.personalblog.service.Email: void sendMessage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>($r26,
+      $r27, r32, r33)]|r2(java.lang.String)'
+    : {weblog.email: '{466}'}
+- containing-method: '<net.eyde.personalblog.service.Email: void sendMessage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>'
+  context: &id003 ['staticinvoke <net.eyde.personalblog.service.Email: void sendMessage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>($r26,
+      $r27, r32, r33)|0']
+  context-num: [410]
+  failing: [weblog.email]
+  inputs: [<<zero>>(null_type), r2(java.lang.String)]
+  key:
+  - *id003
+  - r6(javax.mail.internet.MimeMessage)[*(Any_subtype_of_java.lang.Object)]
+  - '$r23 = staticinvoke <net.eyde.personalblog.service.PersonalBlogService: net.eyde.personalblog.service.PersonalBlogService
+    getInstance()>()|0'
+  predecessor: false
+  report-type: value
+  target: r6(javax.mail.internet.MimeMessage)[*(Any_subtype_of_java.lang.Object)]
+  target-base-type: javax.mail.internet.MimeMessage
+  target-num: 1547
+  target-unit: '$r23 = staticinvoke <net.eyde.personalblog.service.PersonalBlogService:
+    net.eyde.personalblog.service.PersonalBlogService getInstance()>()'
+  vals:
+    ? '[staticinvoke <net.eyde.personalblog.service.Email: void sendMessage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>($r26,
+      $r27, r32, r33)]|<<zero>>(null_type)'
+    : {mail.smtp.host: '{406}', weblog.email: '{407}'}
+    ? '[staticinvoke <net.eyde.personalblog.service.Email: void sendMessage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>($r26,
+      $r27, r32, r33)]|r2(java.lang.String)'
+    : {weblog.email: '{404}'}
+- containing-method: '<net.eyde.personalblog.PseudoMain$Dispatcher_49: void forward(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>'
+  context: &id004 ['interfaceinvoke $r6.<javax.servlet.RequestDispatcher: void forward(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>(r2,
+      r3)|0']
+  context-num: [1260]
+  context-sens: true
+  failing: null
+  inputs: ['[$INSTANCE(edu.washington.cse.servlet.RequestAttributes), <<contents>>(java.lang.String)]']
+  key:
+  - *id004
+  - '[$INSTANCE(edu.washington.cse.servlet.RequestAttributes), <<contents>>(java.lang.String)]'
+  - nop|0
+  predecessor: false
+  report-type: value
+  target: '[$INSTANCE(edu.washington.cse.servlet.RequestAttributes), <<contents>>(java.lang.String)]'
+  target-num: 1546
+  target-unit: nop
+  vals:
+    ? '[virtualinvoke $r24.<net.eyde.personalblog.PseudoMain$UrlDispatchActionForward:
+      void doForwardNow(javax.servlet.ServletContext,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>($r25,
+      r3, r4)]|[$INSTANCE(edu.washington.cse.servlet.RequestAttributes), <<contents>>(java.lang.String)]'
+    : {'*': "\u22A5"}
+    ? '[virtualinvoke $r51.<net.eyde.personalblog.PseudoMain$UrlDispatchActionForward:
+      void doForwardNow(javax.servlet.ServletContext,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>($r52,
+      r1, r2)]|[$INSTANCE(edu.washington.cse.servlet.RequestAttributes), <<contents>>(java.lang.String)]'
+    : {'*': "\u22A5"}
+- containing-method: '<net.eyde.personalblog.PseudoMain$Dispatcher_49: void forward(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>'
+  context: &id005 ['interfaceinvoke $r6.<javax.servlet.RequestDispatcher: void forward(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>(r2,
+      r3)|0']
+  context-num: [1260]
+  context-sens: true
+  failing: null
+  inputs: ['[$INSTANCE(edu.washington.cse.servlet.RequestAttributes), <<contents>>(java.util.ArrayList)]']
+  key:
+  - *id005
+  - '[$INSTANCE(edu.washington.cse.servlet.RequestAttributes), <<contents>>(java.util.ArrayList)]'
+  - nop|0
+  predecessor: false
+  report-type: value
+  target: '[$INSTANCE(edu.washington.cse.servlet.RequestAttributes), <<contents>>(java.util.ArrayList)]'
+  target-num: 1546
+  target-unit: nop
+  vals:
+    ? '[virtualinvoke $r24.<net.eyde.personalblog.PseudoMain$UrlDispatchActionForward:
+      void doForwardNow(javax.servlet.ServletContext,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>($r25,
+      r3, r4)]|[$INSTANCE(edu.washington.cse.servlet.RequestAttributes), <<contents>>(java.util.ArrayList)]'
+    : {'*': "\u22A5"}
+    ? '[virtualinvoke $r51.<net.eyde.personalblog.PseudoMain$UrlDispatchActionForward:
+      void doForwardNow(javax.servlet.ServletContext,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>($r52,
+      r1, r2)]|[$INSTANCE(edu.washington.cse.servlet.RequestAttributes), <<contents>>(java.util.ArrayList)]'
+    : {'*': "\u22A5"}
+- containing-method: '<net.eyde.personalblog.service.Email: void sendMessage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>'
+  context: &id006 ['staticinvoke <net.eyde.personalblog.service.Email: void sendMessage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>($r26,
+      $r27, r32, r33)|0']
+  context-num: [1474]
+  failing: [weblog.email]
+  inputs: [<<zero>>(null_type), r2(java.lang.String)]
+  key:
+  - *id006
+  - r6(javax.mail.internet.MimeMessage)[*(Any_subtype_of_java.lang.Object)]
+  - '$r23 = staticinvoke <net.eyde.personalblog.service.PersonalBlogService: net.eyde.personalblog.service.PersonalBlogService
+    getInstance()>()|0'
+  predecessor: false
+  report-type: value
+  target: r6(javax.mail.internet.MimeMessage)[*(Any_subtype_of_java.lang.Object)]
+  target-base-type: javax.mail.internet.MimeMessage
+  target-num: 1547
+  target-unit: '$r23 = staticinvoke <net.eyde.personalblog.service.PersonalBlogService:
+    net.eyde.personalblog.service.PersonalBlogService getInstance()>()'
+  vals:
+    ? '[staticinvoke <net.eyde.personalblog.service.Email: void sendMessage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>($r26,
+      $r27, r32, r33)]|<<zero>>(null_type)'
+    : {mail.smtp.host: '{406}', weblog.email: '{407}'}
+    ? '[staticinvoke <net.eyde.personalblog.service.Email: void sendMessage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>($r26,
+      $r27, r32, r33)]|r2(java.lang.String)'
+    : {weblog.email: '{512}'}

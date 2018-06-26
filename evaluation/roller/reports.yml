@@ -1,0 +1,270 @@
+- containing-method: '<org.roller.presentation.website.actions.UploadFileFormAction:
+    org.apache.struts.action.ActionForward upload(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+  failing: [uploadMaxFileMB]
+  fst:
+    effect: NONE
+    props: [uploadAllow, uploadMaxFileMB]
+    root: {uploadAllow: '{614}', uploadMaxFileMB: '{643}'''}
+    type: t
+  fst-string: "\u03BB_.[uploadAllow={614},uploadMaxFileMB={643}']"
+  key: [<<zero>>(null_type), 'virtualinvoke r79.<java.io.InputStream: void close()>()|0',
+    'r67(org.apache.struts.action.ActionErrors)[*(Any_subtype_of_java.lang.Object)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: NONE
+    props: [uploadAllow, uploadMaxFileMB]
+    root: {uploadAllow: '{614}', uploadMaxFileMB: '{643}'}
+    type: t
+  snd-string: "\u03BB_.[uploadAllow={614},uploadMaxFileMB={643}]"
+  target: r67(org.apache.struts.action.ActionErrors)[*(Any_subtype_of_java.lang.Object)]
+  target-base-type: org.apache.struts.action.ActionErrors
+  target-num: 3240
+  target-unit: 'virtualinvoke r79.<java.io.InputStream: void close()>()'
+- containing-method: '<org.roller.presentation.velocity.ContextLoader: java.lang.String
+    loadWebsiteValues(org.apache.velocity.context.Context,org.roller.presentation.RollerRequest,org.roller.presentation.RollerContext)>'
+  failing: [siteName]
+  fst:
+    effect: WRITE
+    props: [siteDescription, emailAddress, siteName]
+    root: {emailAddress: '{274}', siteDescription: '{263}', siteName: '{252}'}
+    type: t
+  fst-string: "\u03BB_.[siteDescription={263},emailAddress={274},siteName={252}]"
+  key: [<<zero>>(null_type), '$r17 = virtualinvoke r1.<org.roller.presentation.RollerRequest:
+      javax.servlet.http.HttpServletRequest getRequest()>()|0', 'r0(org.apache.velocity.context.Context)[*(Any_subtype_of_java.lang.Object)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: NONE
+    props: [emailAddress, siteName]
+    root: {emailAddress: '{274}', siteName: '{286}'}
+    type: t
+  snd-string: "\u03BB_.[emailAddress={274},siteName={286}]"
+  target: r0(org.apache.velocity.context.Context)[*(Any_subtype_of_java.lang.Object)]
+  target-base-type: org.apache.velocity.context.Context
+  target-num: 3234
+  target-unit: '$r17 = virtualinvoke r1.<org.roller.presentation.RollerRequest: javax.servlet.http.HttpServletRequest
+    getRequest()>()'
+- containing-method: '<org.roller.presentation.velocity.FoafServlet: void setupContext(org.apache.velocity.context.Context,org.roller.presentation.RollerRequest)>'
+  failing: [absoluteURL]
+  fst:
+    effect: PROPAGATE
+    props: [absoluteURL]
+    root: {absoluteURL: '{c142,0}{112}'}
+    type: t
+  fst-string: "\u03BB_.[absoluteURL={c163}\u2080{c176}\u2081{c241}\u2080{c251}\u2081\
+    {c237}\u2080{c251}\u2081{c231}\u2080{c251}\u2081{c229}\u2081{c251}\u2081{c142}\u2080\
+    {112}]"
+  key: [<<zero>>(null_type), $r38 = new java.lang.StringBuilder|0, 'r1(org.apache.velocity.context.Context)[*(Any_subtype_of_java.lang.Object)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: PROPAGATE
+    props: [absoluteURL]
+    root: {absoluteURL: '{c159,0}{112}'}
+    type: t
+  snd-string: "\u03BB_.[absoluteURL={c232}\u2080{c176}\u2081{c241}\u2080{c251}\u2081\
+    {c237}\u2080{c251}\u2081{c231}\u2080{c251}\u2081{c229}\u2081{c251}\u2081{c159}\u2080\
+    {112}]"
+  target: r1(org.apache.velocity.context.Context)[*(Any_subtype_of_java.lang.Object)]
+  target-base-type: org.apache.velocity.context.Context
+  target-num: 3235
+  target-unit: $r38 = new java.lang.StringBuilder
+- containing-method: '<org.roller.presentation.website.actions.WebsiteFormAction:
+    org.apache.struts.action.ActionForward update(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+  failing: [editorPagesList]
+  fst:
+    effect: NONE
+    props: [editorPagesList]
+    root: {editorPagesList: '{617}'}
+    type: t
+  fst-string: "\u03BB_.[editorPagesList={617}]"
+  key: [<<zero>>(null_type), return null|0, '[$INSTANCE(edu.washington.cse.servlet.RequestAttributes),
+      <<contents>>(java.util.List)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: NONE
+    props: [editorPagesList]
+    root: {editorPagesList: '{c629,1}{c622,0}{c619,0}{c611,0}{c605,0}{594}'}
+    type: t
+  snd-string: "\u03BB_.[editorPagesList={c629}\u2081{c622}\u2080{c619}\u2080{c611}\u2080\
+    {c605}\u2080{594}]"
+  target: '[$INSTANCE(edu.washington.cse.servlet.RequestAttributes), <<contents>>(java.util.List)]'
+  target-num: 3236
+  target-unit: return null
+- containing-method: '<org.roller.presentation.website.actions.UserFormAction: org.apache.struts.action.ActionForward
+    add(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+  failing: [absoluteURL]
+  fst:
+    effect: PROPAGATE
+    props: [absoluteURL]
+    root: {absoluteURL: '{c581,0}{112}'}
+    type: t
+  fst-string: "\u03BB_.[absoluteURL={c581}\u2080{112}]"
+  key: [<<zero>>(null_type), $r29 = new org.roller.PseudoMain$LegatoForward$_48|0,
+    '[$INSTANCE(edu.washington.cse.servlet.RequestAttributes), <<contents>>(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: PROPAGATE
+    props: [absoluteURL]
+    root: {absoluteURL: '{c533,0}{112}'}
+    type: t
+  snd-string: "\u03BB_.[absoluteURL={c533}\u2080{112}]"
+  target: '[$INSTANCE(edu.washington.cse.servlet.RequestAttributes), <<contents>>(java.lang.String)]'
+  target-num: 3238
+  target-unit: $r29 = new org.roller.PseudoMain$LegatoForward$_48
+- containing-method: '<org.roller.presentation.LoginServlet: void service(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>'
+  failing: [algorithm]
+  fst:
+    effect: NONE
+    props: [algorithm]
+    root: {algorithm: '{c195,0}{c190,0}{c186,0}{80}'}
+    type: t
+  fst-string: "\u03BB_.[algorithm={c195}\u2080{c190}\u2080{c186}\u2080{80}]"
+  key: [<<zero>>(null_type), return|0, '[mAlgorithm(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: NONE
+    props: [algorithm]
+    root: {algorithm: '{c195,0}{c189,0}{c185,0}{80}'}
+    type: t
+  snd-string: "\u03BB_.[algorithm={c195}\u2080{c189}\u2080{c185}\u2080{80}]"
+  target: '[mAlgorithm(java.lang.String)]'
+  target-num: 3237
+  target-unit: return
+- containing-method: '<org.roller.presentation.website.actions.UploadFileFormAction:
+    org.apache.struts.action.ActionForward upload(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+  failing: [uploadAllow]
+  fst:
+    effect: NONE
+    props: [uploadAllow]
+    root: {uploadAllow: '{614}'''}
+    type: t
+  fst-string: "\u03BB_.[uploadAllow={614}']"
+  key: [<<zero>>(null_type), 'goto [?= i12 = i12 + 1]|1', 'r67(org.apache.struts.action.ActionErrors)[*(Any_subtype_of_java.lang.Object)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: NONE
+    props: [uploadAllow]
+    root: {uploadAllow: '{614}'}
+    type: t
+  snd-string: "\u03BB_.[uploadAllow={614}]"
+  target: r67(org.apache.struts.action.ActionErrors)[*(Any_subtype_of_java.lang.Object)]
+  target-base-type: org.apache.struts.action.ActionErrors
+  target-num: 3241
+  target-unit: goto [?= i12 = i12 + 1]
+- containing-method: '<org.roller.presentation.website.tags.FileManagerTag: int doStartTag()>'
+  failing: [uploadPath]
+  fst:
+    effect: PROPAGATE
+    props: [uploadPath]
+    root: {uploadPath: '{c991,0}''{1001}'}
+    type: t
+  fst-string: "\u03BB_.[uploadPath={c991}\u2080'{1001}]"
+  key: [<<zero>>(null_type), 'r75 = staticinvoke <org.apache.struts.util.RequestUtils:
+      java.lang.String printableURL(java.net.URL)>($r50)|0', '$r50(java.net.URL)[*(Any_subtype_of_java.lang.Object)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: PROPAGATE
+    props: [uploadPath]
+    root: {uploadPath: '{c991,0}{1001}'}
+    type: t
+  snd-string: "\u03BB_.[uploadPath={c991}\u2080{1001}]"
+  target: $r50(java.net.URL)[*(Any_subtype_of_java.lang.Object)]
+  target-base-type: java.net.URL
+  target-num: 3239
+  target-unit: 'r75 = staticinvoke <org.apache.struts.util.RequestUtils: java.lang.String
+    printableURL(java.net.URL)>($r50)'
+- containing-method: '<org.roller.presentation.velocity.ContextLoader: void loadPathValues(org.apache.velocity.context.Context,org.roller.presentation.RollerRequest,org.roller.presentation.RollerContext,java.lang.String)>'
+  failing: [absoluteURL]
+  fst:
+    effect: PROPAGATE
+    props: [absoluteURL]
+    root: {absoluteURL: '{c246,0}{112}'}
+    type: t
+  fst-string: "\u03BB_.[absoluteURL={c262}\u2080{c176}\u2081{c241}\u2080{c251}\u2081\
+    {c237}\u2080{c251}\u2081{c231}\u2080{c251}\u2081{c229}\u2081{c251}\u2081{c246}\u2080\
+    {112}]"
+  key: [<<zero>>(null_type), 'interfaceinvoke r0.<org.apache.velocity.context.Context:
+      java.lang.Object put(java.lang.String,java.lang.Object)>("websiteURL", r16)|0',
+    r16(java.lang.String)]
+  report-type: flow
+  sensitivity: true
+  snd:
+    effect: NONE
+    props: [absoluteURL]
+    root: {absoluteURL: '{c238,0}{112}'}
+    type: t
+  snd-string: "\u03BB_.[absoluteURL={c242}\u2081{c176}\u2081{c241}\u2080{c251}\u2081\
+    {c237}\u2080{c251}\u2081{c231}\u2080{c251}\u2081{c229}\u2081{c251}\u2081{c238}\u2080\
+    {112}]"
+  target: r16(java.lang.String)
+  target-base-type: java.lang.String
+  target-num: 3242
+  target-unit: 'interfaceinvoke r0.<org.apache.velocity.context.Context: java.lang.Object
+    put(java.lang.String,java.lang.Object)>("websiteURL", r16)'
+- containing-method: '<org.roller.presentation.LoginServlet: void execute(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+  context: &id001 ['virtualinvoke r0.<org.roller.presentation.LoginServlet: void execute(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>(r1,
+      r2)|0']
+  context-num: [186]
+  key:
+  - *id001
+  - '[mEncrypt(java.lang.Boolean)]'
+  - '$r10 = virtualinvoke r4.<org.roller.pojos.RollerConfig: java.lang.String getAlgorithm()>()|0'
+  report-type: lost-static
+  target: '[mEncrypt(java.lang.Boolean)]'
+  target-num: 80
+  target-unit: '$r10 = virtualinvoke r4.<org.roller.pojos.RollerConfig: java.lang.String
+    getAlgorithm()>()'
+  value: {encryptPasswords: '{75}'}
+- containing-method: '<org.roller.presentation.weblog.actions.BakeWeblogAction: org.apache.struts.action.ActionForward
+    bake(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+  context: &id002 ['$r7 = virtualinvoke $r5.<org.roller.presentation.weblog.actions.BakeWeblogAction:
+      org.apache.struts.action.ActionForward bake(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>($r4,
+      $r6, r1, r2)|0']
+  context-num: [345]
+  key:
+  - *id002
+  - '[$INSTANCE(edu.washington.cse.servlet.SessionAttributes), <<contents>>(java.lang.String)]'
+  - '$r67 = interfaceinvoke r1.<javax.servlet.http.HttpServletRequest: javax.servlet.http.HttpSession
+    getSession()>()|0'
+  report-type: lost-static
+  target: '[$INSTANCE(edu.washington.cse.servlet.SessionAttributes), <<contents>>(java.lang.String)]'
+  target-num: 2008
+  target-unit: '$r67 = interfaceinvoke r1.<javax.servlet.http.HttpServletRequest:
+    javax.servlet.http.HttpSession getSession()>()'
+  value: {uploadDir: '{c367,0}{c273,0}{259}'}
+- containing-method: '<org.roller.presentation.weblog.actions.BakeWeblogAction: org.apache.struts.action.ActionForward
+    bake(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+  context: &id003 ['$r7 = virtualinvoke $r5.<org.roller.presentation.weblog.actions.BakeWeblogAction:
+      org.apache.struts.action.ActionForward bake(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>($r4,
+      $r6, r1, r2)|0']
+  context-num: [345]
+  key:
+  - *id003
+  - '[$INSTANCE(edu.washington.cse.servlet.SessionAttributes), <<contents>>(java.lang.String)]'
+  - $r47 := @caughtexception|0
+  report-type: lost-static
+  target: '[$INSTANCE(edu.washington.cse.servlet.SessionAttributes), <<contents>>(java.lang.String)]'
+  target-num: 3243
+  target-unit: $r47 := @caughtexception
+  value: {uploadDir: '{c367,0}{c273,0}{259}'}
+- containing-method: '<org.roller.presentation.LoginServlet: void execute(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+  context: &id004 ['virtualinvoke r0.<org.roller.presentation.LoginServlet: void execute(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>(r1,
+      r2)|0']
+  context-num: [185]
+  key:
+  - *id004
+  - '[mEncrypt(java.lang.Boolean)]'
+  - '$r10 = virtualinvoke r4.<org.roller.pojos.RollerConfig: java.lang.String getAlgorithm()>()|0'
+  report-type: lost-static
+  target: '[mEncrypt(java.lang.Boolean)]'
+  target-num: 80
+  target-unit: '$r10 = virtualinvoke r4.<org.roller.pojos.RollerConfig: java.lang.String
+    getAlgorithm()>()'
+  value: {encryptPasswords: '{75}'}

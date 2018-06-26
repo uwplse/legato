@@ -1,0 +1,83 @@
+- containing-method: '<org.snipsnap.net.RsdServlet: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+  failing: [url]
+  fst:
+    effect: NONE
+    props: [url]
+    root: {url: '{101}'}
+    type: t
+  fst-string: "\u03BB_.[url={101}]"
+  key: [<<zero>>(null_type), '_legato_internal_16 = interfaceinvoke r1.<javax.servlet.http.HttpServletRequest:
+      javax.servlet.RequestDispatcher getRequestDispatcher(java.lang.String)>("/rsd.jsp")|0',
+    '[$INSTANCE(edu.washington.cse.servlet.RequestAttributes), <<contents>>(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: NONE
+    props: [url]
+    root: {url: '{120}'}
+    type: t
+  snd-string: "\u03BB_.[url={120}]"
+  target: '[$INSTANCE(edu.washington.cse.servlet.RequestAttributes), <<contents>>(java.lang.String)]'
+  target-num: 126
+  target-unit: '_legato_internal_16 = interfaceinvoke r1.<javax.servlet.http.HttpServletRequest:
+    javax.servlet.RequestDispatcher getRequestDispatcher(java.lang.String)>("/rsd.jsp")'
+- containing-method: '<org.snipsnap.serialization.rdf.RDFSerializerBase: java.lang.String
+    getAttachmentURL(org.snipsnap.snip.attachment.Attachment,org.snipsnap.snip.Snip)>'
+  failing: [encodedSpace]
+  fst:
+    effect: PROPAGATE
+    props: [encodedSpace]
+    root: {encodedSpace: '{c494,0}{93}'}
+    type: t
+  fst-string: "\u03BB_.[encodedSpace={c494}\u2080{93}]"
+  key: [<<zero>>(null_type), '$r14 = virtualinvoke $r12.<java.lang.StringBuilder:
+      java.lang.String toString()>()|0', $r12(java.lang.StringBuilder)]
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: PROPAGATE
+    props: [encodedSpace]
+    root: {encodedSpace: '{c495,0}{93}'}
+    type: t
+  snd-string: "\u03BB_.[encodedSpace={c495}\u2080{93}]"
+  target: $r12(java.lang.StringBuilder)
+  target-base-type: java.lang.StringBuilder
+  target-num: 2096
+  target-unit: '$r14 = virtualinvoke $r12.<java.lang.StringBuilder: java.lang.String
+    toString()>()'
+- containing-method: '<org.snipsnap.util.mail.Mail: void sendMail(java.lang.String,java.util.Collection,java.lang.String,java.lang.String)>'
+  context: &id001 ['virtualinvoke r0.<org.snipsnap.util.mail.Mail: void sendMail(java.lang.String,java.util.Collection,java.lang.String,java.lang.String)>($r16,
+      r4, r2, r3)|0']
+  context-num: [2098]
+  failing: [url]
+  inputs: [r4(java.lang.String), r1(java.lang.String)]
+  key:
+  - *id001
+  - r17(javax.mail.internet.MimeMessage)[*(Any_subtype_of_java.lang.Object)]
+  - 'staticinvoke <javax.mail.Transport: void send(javax.mail.Message)>(r17)|0'
+  predecessor: false
+  report-type: value
+  target: r17(javax.mail.internet.MimeMessage)[*(Any_subtype_of_java.lang.Object)]
+  target-base-type: javax.mail.internet.MimeMessage
+  target-num: 2097
+  target-unit: 'staticinvoke <javax.mail.Transport: void send(javax.mail.Message)>(r17)'
+  vals:
+    ? '[virtualinvoke r0.<org.snipsnap.util.mail.Mail: void sendMail(java.lang.String,java.util.Collection,java.lang.String,java.lang.String)>($r16,
+      r4, r2, r3)]|r1(java.lang.String)'
+    : {mailDomain: '{293}', url: '{302}'}
+    ? '[virtualinvoke r0.<org.snipsnap.util.mail.Mail: void sendMail(java.lang.String,java.util.Collection,java.lang.String,java.lang.String)>($r16,
+      r4, r2, r3)]|r4(java.lang.String)'
+    : {url: '{121}'}
+- containing-method: '<org.snipsnap.util.mail.Mail: org.snipsnap.util.mail.Mail getInstance()>'
+  context: &id002 ['$r31 = staticinvoke <org.snipsnap.util.mail.Mail: org.snipsnap.util.mail.Mail
+      getInstance()>()|0']
+  context-num: [196]
+  key:
+  - *id002
+  - '[instance(org.snipsnap.util.mail.Mail), session(javax.mail.Session), *(Any_subtype_of_java.lang.Object)]'
+  - '$r1 = <org.snipsnap.util.mail.Mail: org.snipsnap.util.mail.Mail instance>|0'
+  report-type: lost-static
+  target: '[instance(org.snipsnap.util.mail.Mail), session(javax.mail.Session), *(Any_subtype_of_java.lang.Object)]'
+  target-num: 2099
+  target-unit: '$r1 = <org.snipsnap.util.mail.Mail: org.snipsnap.util.mail.Mail instance>'
+  value: {mailHost: '{c243,0}{35}'}

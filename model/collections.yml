@@ -1,0 +1,762 @@
+- extend: java.util.Map$Entry
+  parents: []
+- {sig: '<java.util.Map$Entry: java.lang.Object getKey()>', target: CONTAINER_GET}
+- {sig: '<java.util.Map$Entry: java.lang.Object getValue()>', target: CONTAINER_GET}
+- {sig: '<java.util.Map$Entry: java.lang.Object setValue(java.lang.Object)>', target: CONTAINER_PUT}
+- extend: java.util.Iterator
+  parents: []
+- {sig: '<java.util.Iterator: void remove()>', target: IDENTITY}
+- {sig: '<java.util.Iterator: java.lang.Object next()>', target: CONTAINER_GET}
+- {sig: '<java.util.Iterator: boolean hasNext()>', target: IDENTITY}
+- extend: java.util.Map
+  parents: []
+- {sig: '<java.util.Map: void putAll(java.util.Map)>', target: CONTAINER_ADDALL}
+- {sig: '<java.util.Map: void clear()>', target: IDENTITY}
+- {sig: '<java.util.Map: java.util.Set entrySet()>', target: CONTAINER_TRANSFER}
+- {sig: '<java.util.Map: java.lang.Object get(java.lang.Object)>', target: CONTAINER_GET}
+- {sig: '<java.util.Map: java.util.Set keySet()>', target: CONTAINER_TRANSFER}
+- {sig: '<java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)>',
+  target: CONTAINER_REPLACE}
+- {sig: '<java.util.Map: int size()>', target: RETURN}
+- {sig: '<java.util.Map: java.lang.Object remove(java.lang.Object)>', target: CONTAINER_GET}
+- {sig: '<java.util.Map: boolean isEmpty()>', target: RETURN}
+- {sig: '<java.util.Map: java.util.Collection values()>', target: CONTAINER_TRANSFER}
+- {sig: '<java.util.Map: boolean containsKey(java.lang.Object)>', target: RETURN}
+- {sig: '<java.util.Map: boolean equals(java.lang.Object)>', target: RETURN}
+- {sig: '<java.util.Map: int hashCode()>', target: RETURN}
+- {sig: '<java.util.Map: boolean containsValue(java.lang.Object)>', target: RETURN}
+- extend: java.util.Collection
+  parents: []
+- {sig: '<java.util.Collection: java.util.Iterator iterator()>', target: CONTAINER_TRANSFER}
+- {sig: '<java.util.Collection: java.lang.Object[] toArray(java.lang.Object[])>',
+  target: CONTAINER_TRANSFER}
+- {sig: '<java.util.Collection: void clear()>', target: IDENTITY}
+- {sig: '<java.util.Collection: boolean contains(java.lang.Object)>', target: RETURN}
+- {sig: '<java.util.Collection: int size()>', target: RETURN}
+- {sig: '<java.util.Collection: boolean remove(java.lang.Object)>', target: RETURN}
+- {sig: '<java.util.Collection: java.lang.Object[] toArray()>', target: CONTAINER_TRANSFER}
+- {sig: '<java.util.Collection: boolean isEmpty()>', target: RETURN}
+- {sig: '<java.util.Collection: boolean retainAll(java.util.Collection)>', target: RETURN}
+- {sig: '<java.util.Collection: boolean add(java.lang.Object)>', target: CONTAINER_PUT}
+- {sig: '<java.util.Collection: boolean containsAll(java.util.Collection)>', target: RETURN}
+- {sig: '<java.util.Collection: boolean equals(java.lang.Object)>', target: RETURN}
+- {sig: '<java.util.Collection: boolean addAll(java.util.Collection)>', target: CONTAINER_ADDALL}
+- {sig: '<java.util.Collection: int hashCode()>', target: RETURN}
+- {sig: '<java.util.Collection: boolean removeAll(java.util.Collection)>', target: RETURN}
+- extend: java.util.TreeMap$Entry
+  parents: [java.util.Map$Entry]
+- {sig: '<java.util.TreeMap$Entry: java.lang.String toString()>', target: RETURN}
+- extend: java.util.AbstractMap$SimpleImmutableEntry
+  parents: [java.util.Map$Entry]
+- {sig: '<java.util.AbstractMap$SimpleImmutableEntry: void <init>(java.lang.Object,java.lang.Object)>',
+  target: CONTAINER_PUT}
+- {sig: '<java.util.AbstractMap$SimpleImmutableEntry: void <init>(java.util.Map$Entry)>',
+  target: CONTAINER_ADDALL}
+- {sig: '<java.util.AbstractMap$SimpleImmutableEntry: java.lang.String toString()>',
+  target: RETURN}
+- extend: java.util.AbstractMap$SimpleEntry
+  parents: [java.util.Map$Entry]
+- {sig: '<java.util.AbstractMap$SimpleEntry: void <init>(java.lang.Object,java.lang.Object)>',
+  target: CONTAINER_PUT}
+- {sig: '<java.util.AbstractMap$SimpleEntry: void <init>(java.util.Map$Entry)>', target: CONTAINER_ADDALL}
+- {sig: '<java.util.AbstractMap$SimpleEntry: java.lang.String toString()>', target: RETURN}
+- extend: java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry
+  parents: [java.util.Map$Entry]
+- {sig: '<java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry:
+    java.lang.String toString()>', target: RETURN}
+- extend: java.util.HashMap$Entry
+  parents: [java.util.Map$Entry]
+- {sig: '<java.util.HashMap$Entry: java.lang.String toString()>', target: RETURN}
+- extend: java.util.IdentityHashMap$EntryIterator$Entry
+  parents: [java.util.Map$Entry]
+- {sig: '<java.util.IdentityHashMap$EntryIterator$Entry: java.lang.String toString()>',
+  target: RETURN}
+- extend: java.util.WeakHashMap$Entry
+  parents: [java.util.Map$Entry, java.lang.ref.WeakReference, java.lang.ref.Reference]
+- {sig: '<java.util.WeakHashMap$Entry: java.lang.String toString()>', target: RETURN}
+- extend: java.lang.ProcessEnvironment$StringEntrySet$2
+  parents: [java.util.Map$Entry]
+- extend: java.text.AttributeEntry
+  parents: [java.util.Map$Entry]
+- {sig: '<java.text.AttributeEntry: java.lang.String toString()>', target: RETURN}
+- extend: java.util.Collections$CheckedMap$CheckedEntrySet$CheckedEntry
+  parents: [java.util.Map$Entry]
+- {sig: '<java.util.Collections$CheckedMap$CheckedEntrySet$CheckedEntry: java.lang.String
+    toString()>', target: RETURN}
+- extend: java.util.Hashtable$Entry
+  parents: [java.util.Map$Entry]
+- {sig: '<java.util.Hashtable$Entry: java.lang.String toString()>', target: RETURN}
+- extend: java.util.EnumMap$EntryIterator$Entry
+  parents: [java.util.Map$Entry]
+- {sig: '<java.util.EnumMap$EntryIterator$Entry: java.lang.String toString()>', target: RETURN}
+- extend: java.lang.ProcessEnvironment$StringEntry
+  parents: [java.util.Map$Entry]
+- {sig: '<java.lang.ProcessEnvironment$StringEntry: void <init>(java.util.Map$Entry)>',
+  target: CONTAINER_ADDALL}
+- {sig: '<java.lang.ProcessEnvironment$StringEntry: java.lang.String toString()>',
+  target: RETURN}
+- extend: javax.xml.crypto.dsig.TransformService$MechanismMapEntry
+  parents: [java.util.Map$Entry]
+- extend: java.util.ListIterator
+  parents: [java.util.Iterator]
+- {sig: '<java.util.ListIterator: boolean hasPrevious()>', target: RETURN}
+- {sig: '<java.util.ListIterator: int nextIndex()>', target: RETURN}
+- {sig: '<java.util.ListIterator: void add(java.lang.Object)>', target: CONTAINER_PUT}
+- {sig: '<java.util.ListIterator: void set(java.lang.Object)>', target: CONTAINER_PUT}
+- {sig: '<java.util.ListIterator: int previousIndex()>', target: RETURN}
+- {sig: '<java.util.ListIterator: java.lang.Object previous()>', target: RETURN}
+- extend: javax.xml.stream.XMLEventReader
+  parents: [java.util.Iterator]
+- extend: javax.imageio.ImageIO$ImageWriterIterator
+  parents: [java.util.Iterator]
+- {sig: '<javax.imageio.ImageIO$ImageWriterIterator: void <init>(java.util.Iterator)>',
+  target: CONTAINER_ADDALL}
+- extend: java.util.AbstractMap$2$1
+  parents: [java.util.Iterator]
+- extend: java.util.concurrent.ConcurrentHashMap$KeyIterator
+  parents: [java.util.Iterator, java.util.concurrent.ConcurrentHashMap$HashIterator]
+- {sig: '<java.util.concurrent.ConcurrentHashMap$KeyIterator: java.lang.Object nextElement()>',
+  target: CONTAINER_GET}
+- extend: java.util.ArrayList$Itr
+  parents: [java.util.Iterator]
+- extend: java.util.Collections$UnmodifiableCollection$1
+  parents: [java.util.Iterator]
+- extend: java.util.Vector$Itr
+  parents: [java.util.Iterator]
+- extend: java.util.concurrent.ConcurrentLinkedDeque$AbstractItr
+  parents: [java.util.Iterator]
+- extend: java.lang.ProcessEnvironment$StringKeySet$1
+  parents: [java.util.Iterator]
+- extend: java.util.TreeMap$PrivateEntryIterator
+  parents: [java.util.Iterator]
+- extend: javax.security.auth.Subject$SecureSet$1
+  parents: [java.util.Iterator]
+- extend: javax.xml.soap.MimeHeaders$MatchingIterator
+  parents: [java.util.Iterator]
+- extend: javax.xml.validation.SchemaFactoryFinder$SingleIterator
+  parents: [java.util.Iterator]
+- extend: java.lang.ProcessEnvironment$StringEntrySet$1
+  parents: [java.util.Iterator]
+- extend: java.util.concurrent.LinkedBlockingDeque$AbstractItr
+  parents: [java.util.Iterator]
+- extend: java.util.EnumMap$EnumMapIterator
+  parents: [java.util.Iterator]
+- extend: javax.xml.xpath.XPathFactoryFinder$SingleIterator
+  parents: [java.util.Iterator]
+- extend: java.util.concurrent.ArrayBlockingQueue$Itr
+  parents: [java.util.Iterator]
+- extend: java.util.concurrent.LinkedTransferQueue$Itr
+  parents: [java.util.Iterator]
+- extend: java.util.ArrayDeque$DescendingIterator
+  parents: [java.util.Iterator]
+- extend: java.util.concurrent.LinkedBlockingQueue$Itr
+  parents: [java.util.Iterator]
+- extend: java.util.TreeMap$NavigableSubMap$SubMapIterator
+  parents: [java.util.Iterator]
+- extend: java.util.ArrayDeque$DeqIterator
+  parents: [java.util.Iterator]
+- extend: java.util.Collections$EmptyIterator
+  parents: [java.util.Iterator]
+- extend: java.util.Collections$1
+  parents: [java.util.Iterator]
+- extend: java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$1
+  parents: [java.util.Iterator]
+- extend: java.util.JumboEnumSet$EnumSetIterator
+  parents: [java.util.Iterator]
+- extend: java.util.concurrent.DelayQueue$Itr
+  parents: [java.util.Iterator]
+- extend: java.util.ServiceLoader$1
+  parents: [java.util.Iterator]
+- extend: javax.imageio.ImageIO$ImageTranscoderIterator
+  parents: [java.util.Iterator]
+- {sig: '<javax.imageio.ImageIO$ImageTranscoderIterator: void <init>(java.util.Iterator)>',
+  target: CONTAINER_ADDALL}
+- extend: java.util.RegularEnumSet$EnumSetIterator
+  parents: [java.util.Iterator]
+- extend: java.util.Hashtable$Enumerator
+  parents: [java.util.Iterator]
+- {sig: '<java.util.Hashtable$Enumerator: boolean hasMoreElements()>', target: RETURN}
+- {sig: '<java.util.Hashtable$Enumerator: java.lang.Object nextElement()>', target: CONTAINER_GET}
+- extend: javax.imageio.spi.FilterIterator
+  parents: [java.util.Iterator]
+- {sig: '<javax.imageio.spi.FilterIterator: void <init>(java.util.Iterator,javax.imageio.spi.ServiceRegistry$Filter)>',
+  target: CONTAINER_TRANSFER}
+- extend: java.util.LinkedHashMap$LinkedHashIterator
+  parents: [java.util.Iterator]
+- extend: java.util.LinkedList$DescendingIterator
+  parents: [java.util.Iterator]
+- extend: java.util.concurrent.ConcurrentSkipListMap$Iter
+  parents: [java.util.Iterator]
+- extend: java.util.AbstractMap$1$1
+  parents: [java.util.Iterator]
+- extend: java.util.concurrent.ConcurrentLinkedQueue$Itr
+  parents: [java.util.Iterator]
+- extend: java.util.concurrent.PriorityBlockingQueue$Itr
+  parents: [java.util.Iterator]
+- extend: java.util.HashMap$HashIterator
+  parents: [java.util.Iterator]
+- extend: java.util.IdentityHashMap$IdentityHashMapIterator
+  parents: [java.util.Iterator]
+- extend: org.jcp.xml.dsig.internal.dom.DOMSubTreeData$DelayedNodeIterator
+  parents: [java.util.Iterator]
+- extend: java.util.PriorityQueue$Itr
+  parents: [java.util.Iterator]
+- extend: javax.imageio.spi.PartialOrderIterator
+  parents: [java.util.Iterator]
+- {sig: '<javax.imageio.spi.PartialOrderIterator: void <init>(java.util.Iterator)>',
+  target: CONTAINER_ADDALL}
+- extend: java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue$Itr
+  parents: [java.util.Iterator]
+- extend: org.jcp.xml.dsig.internal.dom.DOMUtils$NodeSet$1
+  parents: [java.util.Iterator]
+- extend: java.util.AbstractList$Itr
+  parents: [java.util.Iterator]
+- extend: java.util.ServiceLoader$LazyIterator
+  parents: [java.util.Iterator]
+- extend: java.util.Collections$CheckedCollection$1
+  parents: [java.util.Iterator]
+- extend: javax.imageio.ImageIO$ImageReaderIterator
+  parents: [java.util.Iterator]
+- {sig: '<javax.imageio.ImageIO$ImageReaderIterator: void <init>(java.util.Iterator)>',
+  target: CONTAINER_ADDALL}
+- extend: javax.xml.validation.SchemaFactoryFinder$2
+  parents: [java.util.Iterator]
+- extend: java.util.concurrent.ConcurrentSkipListMap$SubMap$SubMapIter
+  parents: [java.util.Iterator]
+- extend: java.util.concurrent.ConcurrentHashMap$ValueIterator
+  parents: [java.util.Iterator, java.util.concurrent.ConcurrentHashMap$HashIterator]
+- {sig: '<java.util.concurrent.ConcurrentHashMap$ValueIterator: java.lang.Object nextElement()>',
+  target: CONTAINER_GET}
+- extend: java.util.concurrent.ConcurrentHashMap$EntryIterator
+  parents: [java.util.Iterator, java.util.concurrent.ConcurrentHashMap$HashIterator]
+- extend: java.nio.charset.Charset$1
+  parents: [java.util.Iterator]
+- extend: java.util.Collections$CheckedMap$CheckedEntrySet$1
+  parents: [java.util.Iterator]
+- extend: java.sql.SQLException$1
+  parents: [java.util.Iterator]
+- extend: javax.xml.xpath.XPathFactoryFinder$2
+  parents: [java.util.Iterator]
+- extend: java.util.WeakHashMap$HashIterator
+  parents: [java.util.Iterator]
+- extend: java.lang.ProcessEnvironment$StringValues$1
+  parents: [java.util.Iterator]
+- extend: javax.xml.ws.handler.LogicalMessageContext
+  parents: [java.util.Map]
+- extend: javax.xml.ws.handler.soap.SOAPMessageContext
+  parents: [java.util.Map]
+- extend: javax.script.Bindings
+  parents: [java.util.Map]
+- extend: javax.xml.ws.handler.MessageContext
+  parents: [java.util.Map]
+- extend: java.util.SortedMap
+  parents: [java.util.Map]
+- {sig: '<java.util.SortedMap: java.util.Comparator comparator()>', target: RETURN}
+- {sig: '<java.util.SortedMap: java.lang.Object lastKey()>', target: CONTAINER_GET}
+- {sig: '<java.util.SortedMap: java.lang.Object firstKey()>', target: CONTAINER_GET}
+- {sig: '<java.util.SortedMap: java.util.SortedMap tailMap(java.lang.Object)>', target: CONTAINER_TRANSFER}
+- {sig: '<java.util.SortedMap: java.util.SortedMap subMap(java.lang.Object,java.lang.Object)>',
+  target: CONTAINER_TRANSFER}
+- {sig: '<java.util.SortedMap: java.util.SortedMap headMap(java.lang.Object)>', target: CONTAINER_TRANSFER}
+- extend: java.util.concurrent.ConcurrentMap
+  parents: [java.util.Map]
+- {sig: '<java.util.concurrent.ConcurrentMap: boolean replace(java.lang.Object,java.lang.Object,java.lang.Object)>',
+  target: CONTAINER_PUT}
+- {sig: '<java.util.concurrent.ConcurrentMap: java.lang.Object putIfAbsent(java.lang.Object,java.lang.Object)>',
+  target: CONTAINER_REPLACE}
+- {sig: '<java.util.concurrent.ConcurrentMap: java.lang.Object replace(java.lang.Object,java.lang.Object)>',
+  target: CONTAINER_REPLACE}
+- {sig: '<java.util.concurrent.ConcurrentMap: boolean remove(java.lang.Object,java.lang.Object)>',
+  target: RETURN}
+- extend: java.util.Collections$UnmodifiableMap
+  parents: [java.util.Map]
+- {sig: '<java.util.Collections$UnmodifiableMap: java.lang.String toString()>', target: RETURN}
+- extend: java.util.Hashtable
+  parents: [java.util.Map, java.util.Dictionary]
+- {sig: '<java.util.Hashtable: void <init>(int,float)>', target: IDENTITY}
+- {sig: '<java.util.Hashtable: void <init>(int)>', target: IDENTITY}
+- {sig: '<java.util.Hashtable: void <init>(java.util.Map)>', target: CONTAINER_ADDALL}
+- {sig: '<java.util.Hashtable: java.util.Enumeration keys()>', target: CONTAINER_TRANSFER}
+- {sig: '<java.util.Hashtable: java.util.Enumeration elements()>', target: CONTAINER_TRANSFER}
+- {sig: '<java.util.Hashtable: boolean contains(java.lang.Object)>', target: RETURN}
+- {sig: '<java.util.Hashtable: java.lang.Object clone()>', target: CONTAINER_TRANSFER}
+- {sig: '<java.util.Hashtable: java.lang.String toString()>', target: RETURN}
+- extend: java.util.Collections$SynchronizedMap
+  parents: [java.util.Map]
+- {sig: '<java.util.Collections$SynchronizedMap: java.lang.String toString()>', target: RETURN}
+- extend: java.util.AbstractMap
+  parents: [java.util.Map]
+- {sig: '<java.util.AbstractMap: java.lang.String toString()>', target: RETURN}
+- extend: javax.script.SimpleBindings
+  parents: [java.util.Map]
+- {sig: '<javax.script.SimpleBindings: void <init>(java.util.Map)>', target: CONTAINER_ADDALL}
+- extend: java.util.Collections$CheckedMap
+  parents: [java.util.Map]
+- {sig: '<java.util.Collections$CheckedMap: java.lang.String toString()>', target: RETURN}
+- extend: java.util.jar.Attributes
+  parents: [java.util.Map]
+- {sig: '<java.util.jar.Attributes: void <init>(int)>', target: IDENTITY}
+- {sig: '<java.util.jar.Attributes: void <init>(java.util.jar.Attributes)>', target: CONTAINER_ADDALL}
+- {sig: '<java.util.jar.Attributes: java.lang.String getValue(java.lang.String)>',
+  target: CONTAINER_GET}
+- {sig: '<java.util.jar.Attributes: java.lang.String getValue(java.util.jar.Attributes$Name)>',
+  target: CONTAINER_GET}
+- {sig: '<java.util.jar.Attributes: java.lang.String putValue(java.lang.String,java.lang.String)>',
+  target: CONTAINER_GET}
+- {sig: '<java.util.jar.Attributes: java.lang.Object clone()>', target: CONTAINER_TRANSFER}
+- extend: java.util.List
+  parents: [java.util.Collection]
+- {sig: '<java.util.List: java.lang.Object remove(int)>', target: CONTAINER_GET}
+- {sig: '<java.util.List: boolean addAll(int,java.util.Collection)>', target: CONTAINER_ADDALL}
+- {sig: '<java.util.List: java.util.ListIterator listIterator(int)>', target: CONTAINER_TRANSFER}
+- {sig: '<java.util.List: java.util.List subList(int,int)>', target: CONTAINER_TRANSFER}
+- {sig: '<java.util.List: java.util.ListIterator listIterator()>', target: CONTAINER_TRANSFER}
+- {sig: '<java.util.List: int lastIndexOf(java.lang.Object)>', target: RETURN}
+- {sig: '<java.util.List: java.lang.Object get(int)>', target: CONTAINER_GET}
+- {sig: '<java.util.List: int indexOf(java.lang.Object)>', target: RETURN}
+- {sig: '<java.util.List: java.lang.Object set(int,java.lang.Object)>', target: CONTAINER_PUT}
+- {sig: '<java.util.List: void add(int,java.lang.Object)>', target: CONTAINER_PUT}
+- extend: java.util.Queue
+  parents: [java.util.Collection]
+- {sig: '<java.util.Queue: boolean offer(java.lang.Object)>', target: CONTAINER_PUT}
+- {sig: '<java.util.Queue: java.lang.Object remove()>', target: CONTAINER_GET}
+- {sig: '<java.util.Queue: java.lang.Object peek()>', target: CONTAINER_GET}
+- {sig: '<java.util.Queue: java.lang.Object element()>', target: CONTAINER_GET}
+- {sig: '<java.util.Queue: java.lang.Object poll()>', target: CONTAINER_GET}
+- extend: java.util.Set
+  parents: [java.util.Collection]
+- extend: java.util.SortedSet
+  parents: [java.util.Collection]
+- {sig: '<java.util.SortedSet: java.lang.Object first()>', target: CONTAINER_GET}
+- {sig: '<java.util.SortedSet: java.util.Comparator comparator()>', target: RETURN}
+- {sig: '<java.util.SortedSet: java.util.SortedSet tailSet(java.lang.Object)>', target: CONTAINER_GET}
+- {sig: '<java.util.SortedSet: java.lang.Object last()>', target: CONTAINER_GET}
+- {sig: '<java.util.SortedSet: java.util.SortedSet headSet(java.lang.Object)>', target: CONTAINER_TRANSFER}
+- {sig: '<java.util.SortedSet: java.util.SortedSet subSet(java.lang.Object,java.lang.Object)>',
+  target: CONTAINER_TRANSFER}
+- extend: java.util.AbstractCollection
+  parents: [java.util.Collection]
+- {sig: '<java.util.AbstractCollection: java.lang.String toString()>', target: RETURN}
+- extend: java.util.Collections$CheckedMap$CheckedEntrySet
+  parents: [java.util.Collection]
+- {sig: '<java.util.Collections$CheckedMap$CheckedEntrySet: java.lang.String toString()>',
+  target: RETURN}
+- extend: java.util.Collections$SynchronizedCollection
+  parents: [java.util.Collection]
+- {sig: '<java.util.Collections$SynchronizedCollection: java.lang.String toString()>',
+  target: RETURN}
+- extend: java.util.Collections$CheckedCollection
+  parents: [java.util.Collection]
+- {sig: '<java.util.Collections$CheckedCollection: java.lang.String toString()>',
+  target: RETURN}
+- extend: java.util.Collections$UnmodifiableCollection
+  parents: [java.util.Collection]
+- {sig: '<java.util.Collections$UnmodifiableCollection: java.lang.String toString()>',
+  target: RETURN}
+- extend: java.util.concurrent.CopyOnWriteArrayList$COWIterator
+  parents: [java.util.ListIterator, java.util.Iterator]
+- extend: java.util.ArrayList$SubList$1
+  parents: [java.util.ListIterator, java.util.Iterator]
+- extend: java.util.Collections$CheckedList$1
+  parents: [java.util.ListIterator, java.util.Iterator]
+- extend: java.util.LinkedList$ListItr
+  parents: [java.util.ListIterator, java.util.Iterator]
+- extend: java.util.concurrent.CopyOnWriteArrayList$COWSubListIterator
+  parents: [java.util.ListIterator, java.util.Iterator]
+- extend: java.util.SubList$1
+  parents: [java.util.ListIterator, java.util.Iterator]
+- extend: java.util.Collections$UnmodifiableList$1
+  parents: [java.util.ListIterator, java.util.Iterator]
+- extend: java.util.ArrayList$ListItr
+  parents: [java.util.ListIterator, java.util.Iterator, java.util.ArrayList$Itr]
+- extend: java.util.Vector$ListItr
+  parents: [java.util.ListIterator, java.util.Iterator, java.util.Vector$Itr]
+- extend: java.util.Collections$EmptyListIterator
+  parents: [java.util.ListIterator, java.util.Iterator, java.util.Collections$EmptyIterator]
+- extend: java.util.AbstractList$ListItr
+  parents: [java.util.ListIterator, java.util.Iterator, java.util.AbstractList$Itr]
+- extend: java.util.NavigableMap
+  parents: [java.util.Map, java.util.SortedMap]
+- {sig: '<java.util.NavigableMap: java.util.Map$Entry lowerEntry(java.lang.Object)>',
+  target: CONTAINER_TRANSFER}
+- {sig: '<java.util.NavigableMap: java.lang.Object floorKey(java.lang.Object)>', target: CONTAINER_GET}
+- {sig: '<java.util.NavigableMap: java.util.NavigableMap tailMap(java.lang.Object,boolean)>',
+  target: CONTAINER_TRANSFER}
+- {sig: '<java.util.NavigableMap: java.lang.Object higherKey(java.lang.Object)>',
+  target: CONTAINER_GET}
+- {sig: '<java.util.NavigableMap: java.lang.Object lowerKey(java.lang.Object)>', target: CONTAINER_GET}
+- {sig: '<java.util.NavigableMap: java.util.Map$Entry pollFirstEntry()>', target: CONTAINER_TRANSFER}
+- {sig: '<java.util.NavigableMap: java.util.NavigableSet navigableKeySet()>', target: CONTAINER_TRANSFER}
+- {sig: '<java.util.NavigableMap: java.lang.Object ceilingKey(java.lang.Object)>',
+  target: CONTAINER_GET}
+- {sig: '<java.util.NavigableMap: java.util.Map$Entry firstEntry()>', target: CONTAINER_TRANSFER}
+- {sig: '<java.util.NavigableMap: java.util.Map$Entry lastEntry()>', target: CONTAINER_TRANSFER}
+- {sig: '<java.util.NavigableMap: java.util.NavigableSet descendingKeySet()>', target: CONTAINER_TRANSFER}
+- {sig: '<java.util.NavigableMap: java.util.NavigableMap subMap(java.lang.Object,boolean,java.lang.Object,boolean)>',
+  target: CONTAINER_TRANSFER}
+- {sig: '<java.util.NavigableMap: java.util.Map$Entry floorEntry(java.lang.Object)>',
+  target: CONTAINER_TRANSFER}
+- {sig: '<java.util.NavigableMap: java.util.NavigableMap descendingMap()>', target: CONTAINER_TRANSFER}
+- {sig: '<java.util.NavigableMap: java.util.Map$Entry pollLastEntry()>', target: CONTAINER_TRANSFER}
+- {sig: '<java.util.NavigableMap: java.util.Map$Entry higherEntry(java.lang.Object)>',
+  target: CONTAINER_TRANSFER}
+- {sig: '<java.util.NavigableMap: java.util.NavigableMap headMap(java.lang.Object,boolean)>',
+  target: CONTAINER_TRANSFER}
+- {sig: '<java.util.NavigableMap: java.util.Map$Entry ceilingEntry(java.lang.Object)>',
+  target: CONTAINER_TRANSFER}
+- extend: java.util.Collections$UnmodifiableSortedMap
+  parents: [java.util.Map, java.util.SortedMap, java.util.Collections$UnmodifiableMap]
+- extend: java.util.Collections$SynchronizedSortedMap
+  parents: [java.util.Map, java.util.SortedMap, java.util.Collections$SynchronizedMap]
+- extend: java.util.HashMap
+  parents: [java.util.Map, java.util.AbstractMap]
+- {sig: '<java.util.HashMap: void <init>(int,float)>', target: IDENTITY}
+- {sig: '<java.util.HashMap: void <init>(int)>', target: IDENTITY}
+- {sig: '<java.util.HashMap: void <init>(java.util.Map)>', target: CONTAINER_ADDALL}
+- {sig: '<java.util.HashMap: java.lang.Object clone()>', target: CONTAINER_TRANSFER}
+- extend: java.util.TreeMap$SubMap
+  parents: [java.util.Map, java.util.SortedMap, java.util.AbstractMap]
+- extend: java.util.concurrent.ConcurrentHashMap
+  parents: [java.util.Map, java.util.concurrent.ConcurrentMap, java.util.AbstractMap]
+- {sig: '<java.util.concurrent.ConcurrentHashMap: void <init>(int,float,int)>', target: IDENTITY}
+- {sig: '<java.util.concurrent.ConcurrentHashMap: void <init>(int,float)>', target: IDENTITY}
+- {sig: '<java.util.concurrent.ConcurrentHashMap: void <init>(int)>', target: IDENTITY}
+- {sig: '<java.util.concurrent.ConcurrentHashMap: void <init>(java.util.Map)>', target: CONTAINER_ADDALL}
+- {sig: '<java.util.concurrent.ConcurrentHashMap: boolean contains(java.lang.Object)>',
+  target: RETURN}
+- {sig: '<java.util.concurrent.ConcurrentHashMap: java.util.Enumeration keys()>',
+  target: CONTAINER_TRANSFER}
+- {sig: '<java.util.concurrent.ConcurrentHashMap: java.util.Enumeration elements()>',
+  target: CONTAINER_TRANSFER}
+- extend: java.util.WeakHashMap
+  parents: [java.util.Map, java.util.AbstractMap]
+- {sig: '<java.util.WeakHashMap: void <init>(int,float)>', target: IDENTITY}
+- {sig: '<java.util.WeakHashMap: void <init>(int)>', target: IDENTITY}
+- {sig: '<java.util.WeakHashMap: void <init>(java.util.Map)>', target: CONTAINER_ADDALL}
+- extend: java.util.IdentityHashMap
+  parents: [java.util.Map, java.util.AbstractMap]
+- {sig: '<java.util.IdentityHashMap: void <init>(int)>', target: IDENTITY}
+- {sig: '<java.util.IdentityHashMap: void <init>(java.util.Map)>', target: CONTAINER_ADDALL}
+- {sig: '<java.util.IdentityHashMap: java.lang.Object clone()>', target: CONTAINER_TRANSFER}
+- extend: java.util.Collections$CheckedSortedMap
+  parents: [java.util.Map, java.util.SortedMap, java.util.Collections$CheckedMap]
+- extend: java.util.concurrent.CopyOnWriteArrayList
+  parents: [java.util.Collection, java.util.List]
+- {sig: '<java.util.concurrent.CopyOnWriteArrayList: void <init>(java.util.Collection)>',
+  target: CONTAINER_ADDALL}
+- {sig: '<java.util.concurrent.CopyOnWriteArrayList: void <init>(java.lang.Object[])>',
+  target: CONTAINER_ADDALL}
+- {sig: '<java.util.concurrent.CopyOnWriteArrayList: int indexOf(java.lang.Object,int)>',
+  target: RETURN}
+- {sig: '<java.util.concurrent.CopyOnWriteArrayList: int lastIndexOf(java.lang.Object,int)>',
+  target: RETURN}
+- {sig: '<java.util.concurrent.CopyOnWriteArrayList: java.lang.Object clone()>', target: CONTAINER_TRANSFER}
+- {sig: '<java.util.concurrent.CopyOnWriteArrayList: boolean addIfAbsent(java.lang.Object)>',
+  target: CONTAINER_PUT}
+- {sig: '<java.util.concurrent.CopyOnWriteArrayList: int addAllAbsent(java.util.Collection)>',
+  target: CONTAINER_ADDALL}
+- {sig: '<java.util.concurrent.CopyOnWriteArrayList: java.lang.String toString()>',
+  target: RETURN}
+- extend: java.util.concurrent.BlockingQueue
+  parents: [java.util.Collection, java.util.Queue]
+- {sig: '<java.util.concurrent.BlockingQueue: void put(java.lang.Object)>', target: CONTAINER_PUT}
+- {sig: '<java.util.concurrent.BlockingQueue: java.lang.Object take()>', target: CONTAINER_GET}
+- {sig: '<java.util.concurrent.BlockingQueue: int drainTo(java.util.Collection)>',
+  target: CONTAINER_MOVE}
+- {sig: '<java.util.concurrent.BlockingQueue: int remainingCapacity()>', target: RETURN}
+- {sig: '<java.util.concurrent.BlockingQueue: boolean offer(java.lang.Object,long,java.util.concurrent.TimeUnit)>',
+  target: CONTAINER_PUT}
+- {sig: '<java.util.concurrent.BlockingQueue: java.lang.Object poll(long,java.util.concurrent.TimeUnit)>',
+  target: CONTAINER_GET}
+- {sig: '<java.util.concurrent.BlockingQueue: int drainTo(java.util.Collection,int)>',
+  target: CONTAINER_MOVE}
+- extend: java.util.Deque
+  parents: [java.util.Collection, java.util.Queue]
+- {sig: '<java.util.Deque: void push(java.lang.Object)>', target: CONTAINER_PUT}
+- {sig: '<java.util.Deque: java.lang.Object removeLast()>', target: CONTAINER_GET}
+- {sig: '<java.util.Deque: java.lang.Object pop()>', target: CONTAINER_GET}
+- {sig: '<java.util.Deque: java.lang.Object getFirst()>', target: CONTAINER_GET}
+- {sig: '<java.util.Deque: java.lang.Object removeFirst()>', target: CONTAINER_GET}
+- {sig: '<java.util.Deque: void addFirst(java.lang.Object)>', target: CONTAINER_PUT}
+- {sig: '<java.util.Deque: java.util.Iterator descendingIterator()>', target: CONTAINER_TRANSFER}
+- {sig: '<java.util.Deque: boolean offerLast(java.lang.Object)>', target: CONTAINER_PUT}
+- {sig: '<java.util.Deque: boolean offerFirst(java.lang.Object)>', target: CONTAINER_PUT}
+- {sig: '<java.util.Deque: java.lang.Object pollFirst()>', target: CONTAINER_GET}
+- {sig: '<java.util.Deque: boolean removeFirstOccurrence(java.lang.Object)>', target: IDENTITY}
+- {sig: '<java.util.Deque: java.lang.Object getLast()>', target: CONTAINER_GET}
+- {sig: '<java.util.Deque: java.lang.Object peekFirst()>', target: CONTAINER_GET}
+- {sig: '<java.util.Deque: boolean removeLastOccurrence(java.lang.Object)>', target: IDENTITY}
+- {sig: '<java.util.Deque: void addLast(java.lang.Object)>', target: CONTAINER_PUT}
+- {sig: '<java.util.Deque: java.lang.Object pollLast()>', target: CONTAINER_GET}
+- {sig: '<java.util.Deque: java.lang.Object peekLast()>', target: CONTAINER_GET}
+- extend: java.util.NavigableSet
+  parents: [java.util.Collection, java.util.SortedSet]
+- {sig: '<java.util.NavigableSet: java.util.NavigableSet subSet(java.lang.Object,boolean,java.lang.Object,boolean)>',
+  target: CONTAINER_TRANSFER}
+- {sig: '<java.util.NavigableSet: java.lang.Object ceiling(java.lang.Object)>', target: CONTAINER_GET}
+- {sig: '<java.util.NavigableSet: java.lang.Object lower(java.lang.Object)>', target: CONTAINER_GET}
+- {sig: '<java.util.NavigableSet: java.util.NavigableSet headSet(java.lang.Object,boolean)>',
+  target: CONTAINER_TRANSFER}
+- {sig: '<java.util.NavigableSet: java.util.Iterator descendingIterator()>', target: CONTAINER_TRANSFER}
+- {sig: '<java.util.NavigableSet: java.util.NavigableSet tailSet(java.lang.Object,boolean)>',
+  target: CONTAINER_TRANSFER}
+- {sig: '<java.util.NavigableSet: java.lang.Object higher(java.lang.Object)>', target: CONTAINER_GET}
+- {sig: '<java.util.NavigableSet: java.lang.Object pollLast()>', target: CONTAINER_GET}
+- {sig: '<java.util.NavigableSet: java.lang.Object floor(java.lang.Object)>', target: CONTAINER_GET}
+- {sig: '<java.util.NavigableSet: java.util.NavigableSet descendingSet()>', target: CONTAINER_TRANSFER}
+- {sig: '<java.util.NavigableSet: java.lang.Object pollFirst()>', target: CONTAINER_GET}
+- extend: java.util.AbstractSet
+  parents: [java.util.Collection, java.util.AbstractCollection]
+- extend: java.util.AbstractList
+  parents: [java.util.Collection, java.util.List, java.util.AbstractCollection]
+- extend: java.util.AbstractQueue
+  parents: [java.util.Collection, java.util.Queue, java.util.AbstractCollection]
+- extend: java.util.Collections$SynchronizedList
+  parents: [java.util.Collection, java.util.List, java.util.Collections$SynchronizedCollection]
+- extend: java.util.Collections$SynchronizedSet
+  parents: [java.util.Collection, java.util.Collections$SynchronizedCollection]
+- extend: java.util.Collections$CheckedList
+  parents: [java.util.Collection, java.util.List, java.util.Collections$CheckedCollection]
+- extend: java.util.Collections$CheckedSet
+  parents: [java.util.Collection, java.util.Collections$CheckedCollection]
+- extend: java.util.Collections$UnmodifiableList
+  parents: [java.util.Collection, java.util.List, java.util.Collections$UnmodifiableCollection]
+- extend: java.util.Collections$UnmodifiableSet
+  parents: [java.util.Collection, java.util.Collections$UnmodifiableCollection]
+- extend: java.util.concurrent.ConcurrentNavigableMap
+  parents: [java.util.Map, java.util.SortedMap, java.util.concurrent.ConcurrentMap,
+    java.util.NavigableMap]
+- {sig: '<java.util.concurrent.ConcurrentNavigableMap: java.util.NavigableSet keySet()>',
+  target: CONTAINER_TRANSFER}
+- {sig: '<java.util.concurrent.ConcurrentNavigableMap: java.util.concurrent.ConcurrentNavigableMap
+    headMap(java.lang.Object,boolean)>', target: CONTAINER_TRANSFER}
+- {sig: '<java.util.concurrent.ConcurrentNavigableMap: java.util.concurrent.ConcurrentNavigableMap
+    subMap(java.lang.Object,java.lang.Object)>', target: CONTAINER_TRANSFER}
+- {sig: '<java.util.concurrent.ConcurrentNavigableMap: java.util.concurrent.ConcurrentNavigableMap
+    tailMap(java.lang.Object,boolean)>', target: CONTAINER_TRANSFER}
+- {sig: '<java.util.concurrent.ConcurrentNavigableMap: java.util.concurrent.ConcurrentNavigableMap
+    descendingMap()>', target: CONTAINER_TRANSFER}
+- {sig: '<java.util.concurrent.ConcurrentNavigableMap: java.util.concurrent.ConcurrentNavigableMap
+    subMap(java.lang.Object,boolean,java.lang.Object,boolean)>', target: CONTAINER_TRANSFER}
+- {sig: '<java.util.concurrent.ConcurrentNavigableMap: java.util.concurrent.ConcurrentNavigableMap
+    tailMap(java.lang.Object)>', target: CONTAINER_TRANSFER}
+- {sig: '<java.util.concurrent.ConcurrentNavigableMap: java.util.concurrent.ConcurrentNavigableMap
+    headMap(java.lang.Object)>', target: CONTAINER_TRANSFER}
+- extend: java.util.TreeMap$NavigableSubMap
+  parents: [java.util.Map, java.util.SortedMap, java.util.NavigableMap, java.util.AbstractMap]
+- extend: java.util.TreeMap
+  parents: [java.util.Map, java.util.SortedMap, java.util.NavigableMap, java.util.AbstractMap]
+- {sig: '<java.util.TreeMap: void <init>(java.util.Comparator)>', target: RECEIVER}
+- {sig: '<java.util.TreeMap: void <init>(java.util.Map)>', target: CONTAINER_ADDALL}
+- {sig: '<java.util.TreeMap: void <init>(java.util.SortedMap)>', target: CONTAINER_ADDALL}
+- {sig: '<java.util.TreeMap: java.lang.Object clone()>', target: CONTAINER_TRANSFER}
+- extend: java.util.LinkedHashMap
+  parents: [java.util.Map, java.util.AbstractMap, java.util.HashMap]
+- {sig: '<java.util.LinkedHashMap: void <init>(int,float)>', target: IDENTITY}
+- {sig: '<java.util.LinkedHashMap: void <init>(int)>', target: IDENTITY}
+- {sig: '<java.util.LinkedHashMap: void <init>(java.util.Map)>', target: CONTAINER_ADDALL}
+- {sig: '<java.util.LinkedHashMap: void <init>(int,float,boolean)>', target: IDENTITY}
+- extend: java.util.concurrent.TransferQueue
+  parents: [java.util.Collection, java.util.concurrent.BlockingQueue, java.util.Queue]
+- {sig: '<java.util.concurrent.TransferQueue: boolean tryTransfer(java.lang.Object,long,java.util.concurrent.TimeUnit)>',
+  target: CONTAINER_PUT}
+- {sig: '<java.util.concurrent.TransferQueue: void transfer(java.lang.Object)>', target: CONTAINER_PUT}
+- {sig: '<java.util.concurrent.TransferQueue: int getWaitingConsumerCount()>', target: RETURN}
+- {sig: '<java.util.concurrent.TransferQueue: boolean hasWaitingConsumer()>', target: RETURN}
+- {sig: '<java.util.concurrent.TransferQueue: boolean tryTransfer(java.lang.Object)>',
+  target: CONTAINER_PUT}
+- extend: java.util.concurrent.BlockingDeque
+  parents: [java.util.Deque, java.util.Collection, java.util.concurrent.BlockingQueue,
+    java.util.Queue]
+- {sig: '<java.util.concurrent.BlockingDeque: boolean offerLast(java.lang.Object,long,java.util.concurrent.TimeUnit)>',
+  target: CONTAINER_PUT}
+- {sig: '<java.util.concurrent.BlockingDeque: boolean offerFirst(java.lang.Object,long,java.util.concurrent.TimeUnit)>',
+  target: CONTAINER_PUT}
+- {sig: '<java.util.concurrent.BlockingDeque: java.lang.Object takeFirst()>', target: CONTAINER_GET}
+- {sig: '<java.util.concurrent.BlockingDeque: java.lang.Object pollFirst(long,java.util.concurrent.TimeUnit)>',
+  target: CONTAINER_GET}
+- {sig: '<java.util.concurrent.BlockingDeque: void putFirst(java.lang.Object)>', target: CONTAINER_PUT}
+- {sig: '<java.util.concurrent.BlockingDeque: void putLast(java.lang.Object)>', target: CONTAINER_PUT}
+- {sig: '<java.util.concurrent.BlockingDeque: java.lang.Object takeLast()>', target: CONTAINER_GET}
+- {sig: '<java.util.concurrent.BlockingDeque: java.lang.Object pollLast(long,java.util.concurrent.TimeUnit)>',
+  target: CONTAINER_GET}
+- extend: java.util.concurrent.ConcurrentLinkedDeque
+  parents: [java.util.Deque, java.util.Collection, java.util.Queue, java.util.AbstractCollection]
+- {sig: '<java.util.concurrent.ConcurrentLinkedDeque: void <init>(java.util.Collection)>',
+  target: CONTAINER_ADDALL}
+- extend: java.util.ArrayDeque
+  parents: [java.util.Deque, java.util.Collection, java.util.Queue, java.util.AbstractCollection]
+- {sig: '<java.util.ArrayDeque: void <init>(int)>', target: IDENTITY}
+- {sig: '<java.util.ArrayDeque: void <init>(java.util.Collection)>', target: CONTAINER_ADDALL}
+- {sig: '<java.util.ArrayDeque: java.util.ArrayDeque clone()>', target: CONTAINER_TRANSFER}
+- {sig: '<java.util.ArrayDeque: java.lang.Object clone()>', target: CONTAINER_TRANSFER}
+- extend: java.util.TreeMap$KeySet
+  parents: [java.util.Collection, java.util.NavigableSet, java.util.SortedSet, java.util.AbstractCollection,
+    java.util.AbstractSet]
+- extend: java.util.Collections$SetFromMap
+  parents: [java.util.Collection, java.util.AbstractCollection, java.util.AbstractSet]
+- {sig: '<java.util.Collections$SetFromMap: java.lang.String toString()>', target: RETURN}
+- extend: java.util.TreeSet
+  parents: [java.util.Collection, java.util.NavigableSet, java.util.SortedSet, java.util.AbstractCollection,
+    java.util.AbstractSet]
+- {sig: '<java.util.TreeSet: void <init>(java.util.Comparator)>', target: RECEIVER}
+- {sig: '<java.util.TreeSet: void <init>(java.util.Collection)>', target: CONTAINER_ADDALL}
+- {sig: '<java.util.TreeSet: void <init>(java.util.SortedSet)>', target: CONTAINER_ADDALL}
+- {sig: '<java.util.TreeSet: java.lang.Object clone()>', target: CONTAINER_TRANSFER}
+- extend: java.util.concurrent.ConcurrentSkipListMap$KeySet
+  parents: [java.util.Collection, java.util.NavigableSet, java.util.SortedSet, java.util.AbstractCollection,
+    java.util.AbstractSet]
+- extend: java.util.HashSet
+  parents: [java.util.Collection, java.util.AbstractCollection, java.util.AbstractSet]
+- {sig: '<java.util.HashSet: void <init>(java.util.Collection)>', target: CONTAINER_ADDALL}
+- {sig: '<java.util.HashSet: void <init>(int,float)>', target: IDENTITY}
+- {sig: '<java.util.HashSet: void <init>(int)>', target: IDENTITY}
+- {sig: '<java.util.HashSet: java.lang.Object clone()>', target: CONTAINER_TRANSFER}
+- extend: java.util.concurrent.ConcurrentSkipListSet
+  parents: [java.util.Collection, java.util.NavigableSet, java.util.SortedSet, java.util.AbstractCollection,
+    java.util.AbstractSet]
+- {sig: '<java.util.concurrent.ConcurrentSkipListSet: void <init>(java.util.Comparator)>',
+  target: RECEIVER}
+- {sig: '<java.util.concurrent.ConcurrentSkipListSet: void <init>(java.util.Collection)>',
+  target: CONTAINER_ADDALL}
+- {sig: '<java.util.concurrent.ConcurrentSkipListSet: void <init>(java.util.SortedSet)>',
+  target: CONTAINER_ADDALL}
+- {sig: '<java.util.concurrent.ConcurrentSkipListSet: java.util.concurrent.ConcurrentSkipListSet
+    clone()>', target: CONTAINER_TRANSFER}
+- {sig: '<java.util.concurrent.ConcurrentSkipListSet: java.lang.Object clone()>',
+  target: CONTAINER_TRANSFER}
+- extend: java.util.LinkedList
+  parents: [java.util.Deque, java.util.List, java.util.Collection, java.util.Queue,
+    java.util.AbstractCollection, java.util.AbstractSequentialList, java.util.AbstractList]
+- {sig: '<java.util.LinkedList: void <init>(java.util.Collection)>', target: CONTAINER_ADDALL}
+- {sig: '<java.util.LinkedList: java.lang.Object clone()>', target: CONTAINER_TRANSFER}
+- extend: java.util.Vector
+  parents: [java.util.Collection, java.util.List, java.util.AbstractCollection, java.util.AbstractList]
+- {sig: '<java.util.Vector: void <init>(int,int)>', target: IDENTITY}
+- {sig: '<java.util.Vector: void <init>(int)>', target: IDENTITY}
+- {sig: '<java.util.Vector: void <init>(java.util.Collection)>', target: CONTAINER_ADDALL}
+- {sig: '<java.util.Vector: void copyInto(java.lang.Object[])>', target: CONTAINER_ADDALL}
+- {sig: '<java.util.Vector: void trimToSize()>', target: IDENTITY}
+- {sig: '<java.util.Vector: void ensureCapacity(int)>', target: IDENTITY}
+- {sig: '<java.util.Vector: void setSize(int)>', target: IDENTITY}
+- {sig: '<java.util.Vector: int capacity()>', target: IDENTITY}
+- {sig: '<java.util.Vector: java.util.Enumeration elements()>', target: CONTAINER_TRANSFER}
+- {sig: '<java.util.Vector: int indexOf(java.lang.Object,int)>', target: RETURN}
+- {sig: '<java.util.Vector: int lastIndexOf(java.lang.Object,int)>', target: RETURN}
+- {sig: '<java.util.Vector: java.lang.Object elementAt(int)>', target: CONTAINER_GET}
+- {sig: '<java.util.Vector: java.lang.Object firstElement()>', target: CONTAINER_GET}
+- {sig: '<java.util.Vector: java.lang.Object lastElement()>', target: CONTAINER_GET}
+- {sig: '<java.util.Vector: void setElementAt(java.lang.Object,int)>', target: CONTAINER_PUT}
+- {sig: '<java.util.Vector: void removeElementAt(int)>', target: IDENTITY}
+- {sig: '<java.util.Vector: void insertElementAt(java.lang.Object,int)>', target: CONTAINER_PUT}
+- {sig: '<java.util.Vector: void addElement(java.lang.Object)>', target: CONTAINER_PUT}
+- {sig: '<java.util.Vector: boolean removeElement(java.lang.Object)>', target: CONTAINER_PUT}
+- {sig: '<java.util.Vector: void removeAllElements()>', target: RETURN}
+- {sig: '<java.util.Vector: java.lang.Object clone()>', target: CONTAINER_TRANSFER}
+- {sig: '<java.util.Vector: java.lang.String toString()>', target: RETURN}
+- extend: java.util.ArrayList
+  parents: [java.util.Collection, java.util.List, java.util.AbstractCollection, java.util.AbstractList]
+- {sig: '<java.util.ArrayList: void <init>(int)>', target: IDENTITY}
+- {sig: '<java.util.ArrayList: void <init>(java.util.Collection)>', target: CONTAINER_ADDALL}
+- {sig: '<java.util.ArrayList: void trimToSize()>', target: IDENTITY}
+- {sig: '<java.util.ArrayList: void ensureCapacity(int)>', target: IDENTITY}
+- {sig: '<java.util.ArrayList: java.lang.Object clone()>', target: CONTAINER_TRANSFER}
+- extend: java.util.Collections$AsLIFOQueue
+  parents: [java.util.Collection, java.util.Queue, java.util.AbstractQueue, java.util.AbstractCollection]
+- {sig: '<java.util.Collections$AsLIFOQueue: java.lang.String toString()>', target: RETURN}
+- extend: java.util.concurrent.DelayQueue
+  parents: [java.util.Collection, java.util.concurrent.BlockingQueue, java.util.Queue,
+    java.util.AbstractQueue, java.util.AbstractCollection]
+- {sig: '<java.util.concurrent.DelayQueue: void <init>(java.util.Collection)>', target: CONTAINER_ADDALL}
+- extend: java.util.concurrent.ArrayBlockingQueue
+  parents: [java.util.Collection, java.util.concurrent.BlockingQueue, java.util.Queue,
+    java.util.AbstractQueue, java.util.AbstractCollection]
+- {sig: '<java.util.concurrent.ArrayBlockingQueue: void <init>(int)>', target: IDENTITY}
+- {sig: '<java.util.concurrent.ArrayBlockingQueue: void <init>(int,boolean)>', target: IDENTITY}
+- {sig: '<java.util.concurrent.ArrayBlockingQueue: void <init>(int,boolean,java.util.Collection)>',
+  target: CONTAINER_ADDALL}
+- {sig: '<java.util.concurrent.ArrayBlockingQueue: java.lang.String toString()>',
+  target: RETURN}
+- extend: java.util.concurrent.SynchronousQueue
+  parents: [java.util.Collection, java.util.concurrent.BlockingQueue, java.util.Queue,
+    java.util.AbstractQueue, java.util.AbstractCollection]
+- {sig: '<java.util.concurrent.SynchronousQueue: void <init>(boolean)>', target: IDENTITY}
+- extend: java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue
+  parents: [java.util.Collection, java.util.concurrent.BlockingQueue, java.util.Queue,
+    java.util.AbstractQueue, java.util.AbstractCollection]
+- extend: java.util.concurrent.LinkedBlockingQueue
+  parents: [java.util.Collection, java.util.concurrent.BlockingQueue, java.util.Queue,
+    java.util.AbstractQueue, java.util.AbstractCollection]
+- {sig: '<java.util.concurrent.LinkedBlockingQueue: void <init>(int)>', target: IDENTITY}
+- {sig: '<java.util.concurrent.LinkedBlockingQueue: void <init>(java.util.Collection)>',
+  target: CONTAINER_ADDALL}
+- {sig: '<java.util.concurrent.LinkedBlockingQueue: java.lang.String toString()>',
+  target: RETURN}
+- extend: java.util.concurrent.ConcurrentLinkedQueue
+  parents: [java.util.Collection, java.util.Queue, java.util.AbstractQueue, java.util.AbstractCollection]
+- {sig: '<java.util.concurrent.ConcurrentLinkedQueue: void <init>(java.util.Collection)>',
+  target: CONTAINER_ADDALL}
+- extend: java.util.concurrent.PriorityBlockingQueue
+  parents: [java.util.Collection, java.util.concurrent.BlockingQueue, java.util.Queue,
+    java.util.AbstractQueue, java.util.AbstractCollection]
+- {sig: '<java.util.concurrent.PriorityBlockingQueue: void <init>(int)>', target: IDENTITY}
+- {sig: '<java.util.concurrent.PriorityBlockingQueue: void <init>(int,java.util.Comparator)>',
+  target: RECEIVER}
+- {sig: '<java.util.concurrent.PriorityBlockingQueue: void <init>(java.util.Collection)>',
+  target: CONTAINER_ADDALL}
+- {sig: '<java.util.concurrent.PriorityBlockingQueue: java.util.Comparator comparator()>',
+  target: RETURN}
+- {sig: '<java.util.concurrent.PriorityBlockingQueue: java.lang.String toString()>',
+  target: RETURN}
+- extend: java.util.Collections$SynchronizedSortedSet
+  parents: [java.util.Collection, java.util.SortedSet, java.util.Collections$SynchronizedCollection,
+    java.util.Collections$SynchronizedSet]
+- extend: java.util.Collections$CheckedSortedSet
+  parents: [java.util.Collection, java.util.SortedSet, java.util.Collections$CheckedCollection,
+    java.util.Collections$CheckedSet]
+- extend: java.util.Collections$UnmodifiableSortedSet
+  parents: [java.util.Collection, java.util.SortedSet, java.util.Collections$UnmodifiableCollection,
+    java.util.Collections$UnmodifiableSet]
+- extend: java.util.concurrent.ConcurrentSkipListMap$SubMap
+  parents: [java.util.Map, java.util.SortedMap, java.util.concurrent.ConcurrentNavigableMap,
+    java.util.concurrent.ConcurrentMap, java.util.NavigableMap, java.util.AbstractMap]
+- extend: java.util.concurrent.ConcurrentSkipListMap
+  parents: [java.util.Map, java.util.SortedMap, java.util.concurrent.ConcurrentNavigableMap,
+    java.util.concurrent.ConcurrentMap, java.util.NavigableMap, java.util.AbstractMap]
+- {sig: '<java.util.concurrent.ConcurrentSkipListMap: void <init>(java.util.Comparator)>',
+  target: RECEIVER}
+- {sig: '<java.util.concurrent.ConcurrentSkipListMap: void <init>(java.util.Map)>',
+  target: CONTAINER_ADDALL}
+- {sig: '<java.util.concurrent.ConcurrentSkipListMap: void <init>(java.util.SortedMap)>',
+  target: CONTAINER_ADDALL}
+- {sig: '<java.util.concurrent.ConcurrentSkipListMap: java.util.concurrent.ConcurrentSkipListMap
+    clone()>', target: CONTAINER_TRANSFER}
+- {sig: '<java.util.concurrent.ConcurrentSkipListMap: java.lang.Object clone()>',
+  target: CONTAINER_TRANSFER}
+- extend: java.util.concurrent.LinkedTransferQueue
+  parents: [java.util.Collection, java.util.concurrent.BlockingQueue, java.util.Queue,
+    java.util.concurrent.TransferQueue, java.util.AbstractQueue, java.util.AbstractCollection]
+- {sig: '<java.util.concurrent.LinkedTransferQueue: void <init>(java.util.Collection)>',
+  target: CONTAINER_ADDALL}
+- extend: java.util.concurrent.LinkedBlockingDeque
+  parents: [java.util.Deque, java.util.Collection, java.util.concurrent.BlockingQueue,
+    java.util.Queue, java.util.concurrent.BlockingDeque, java.util.AbstractQueue,
+    java.util.AbstractCollection]
+- {sig: '<java.util.concurrent.LinkedBlockingDeque: void <init>(int)>', target: IDENTITY}
+- {sig: '<java.util.concurrent.LinkedBlockingDeque: void <init>(java.util.Collection)>',
+  target: CONTAINER_ADDALL}
+- {sig: '<java.util.concurrent.LinkedBlockingDeque: java.lang.String toString()>',
+  target: RETURN}
+- extend: java.util.LinkedHashSet
+  parents: [java.util.Collection, java.util.AbstractCollection, java.util.AbstractSet,
+    java.util.HashSet]
+- {sig: '<java.util.LinkedHashSet: void <init>(int,float)>', target: IDENTITY}
+- {sig: '<java.util.LinkedHashSet: void <init>(int)>', target: IDENTITY}
+- {sig: '<java.util.LinkedHashSet: void <init>(java.util.Collection)>', target: CONTAINER_ADDALL}
+- {sig: '<com.sun.org.apache.xerces.internal.xs.LSInputList: int getLength()>', target: RETURN}
+- {sig: '<com.sun.org.apache.xerces.internal.xs.LSInputList: org.w3c.dom.ls.LSInput
+    item(int)>', target: CONTAINER_GET}
+- {sig: '<com.sun.org.apache.xerces.internal.xs.XSObjectList: com.sun.org.apache.xerces.internal.xs.XSObject
+    item(int)>', target: CONTAINER_GET}
+- {sig: '<com.sun.org.apache.xerces.internal.xs.XSObjectList: int getLength()>', target: RETURN}
+

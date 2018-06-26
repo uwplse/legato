@@ -1,0 +1,36 @@
+? !!python/tuple [$INSTANCE, edu.washington.cse.servlet.SessionAttributes]
+: !!python/tuple [fp, static]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<jsp.styles.w2k4.picture_jsp: void _jspService(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+- !!python/tuple [filmStripThumbSize]
+- '$r = virtualinvoke r.<javax.servlet.jsp.PageContext: java.lang.Object findAttribute(java.lang.String)>("maxsize")'
+: !!python/tuple [tp, null]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<net.sf.ginp.tags.GetPictures: int doStartTag()>'
+- !!python/tuple [thumbSize]
+- '$i = $i * '
+: !!python/tuple [tp, null]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<net.sf.ginp.tags.GetPictures: int doStartTag()>'
+- !!python/tuple [thumbSize]
+- $i = $i - $i
+: !!python/tuple [tp, null]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<net.sf.ginp.tags.NavFilmStrip: int doStartTag()>'
+- !!python/tuple [filmStripThumbSize]
+- '$r = r.<javax.servlet.jsp.tagext.TagSupport: javax.servlet.jsp.PageContext pageContext>'
+: !!python/tuple [tp, null]
+? !!python/tuple
+- '<net.sf.ginp.tags.GetPictures: int doAfterBody()>'
+- 1
+- !!python/tuple [thumbSize]
+: !!python/tuple [tp, null]
+? !!python/tuple
+- '<net.sf.ginp.tags.GetPictures: int doAfterBody()>'
+- 2
+- !!python/tuple [thumbSize]
+: !!python/tuple [tp, null]

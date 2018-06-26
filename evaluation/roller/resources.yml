@@ -1,0 +1,59 @@
+- access-sigs: ['<org.roller.pojos.RollerConfig: java.lang.String getUploadForbid()>', '<org.roller.pojos.RollerConfig: java.lang.String getAlgorithm()>', '<org.roller.pojos.RollerConfig: java.lang.String getIndexDir()>', '<org.roller.pojos.RollerConfig: java.lang.String getSiteName()>', '<org.roller.pojos.RollerConfig: java.lang.String getUploadDir()>', '<org.roller.pojos.RollerConfig: java.lang.String getSiteDescription()>', '<org.roller.pojos.RollerConfig: java.lang.String getAbsoluteURL()>', '<org.roller.pojos.RollerConfig: java.lang.String getUploadAllow()>', '<org.roller.pojos.RollerConfig: java.lang.Boolean getUploadEnabled()>', '<org.roller.pojos.RollerConfig: java.lang.Boolean getEnableAggregator()>', '<org.roller.pojos.RollerConfig: java.lang.String getEditorPages()>', '<org.roller.pojos.RollerConfig: java.lang.String getId()>', '<org.roller.pojos.RollerConfig: java.lang.String getAdminUsers()>', '<org.roller.pojos.RollerConfig: java.math.BigDecimal getUploadMaxFileMB()>', '<org.roller.pojos.RollerConfig: java.lang.String getDatabaseVersion()>', '<org.roller.pojos.RollerConfig: java.lang.String getUploadPath()>', '<org.roller.pojos.RollerConfig: java.util.List getEditorPagesList()>', '<org.roller.pojos.RollerConfig: java.lang.Boolean getAutoformatComments()>', '<org.roller.pojos.RollerConfig: java.lang.Boolean getRssUseCache()>', '<org.roller.pojos.RollerConfig: java.lang.String getUserThemes()>', '<org.roller.pojos.RollerConfig: java.lang.String getEmailAddress()>', '<org.roller.pojos.RollerConfig: java.lang.Boolean getMemDebug()>', '<org.roller.pojos.RollerConfig: java.lang.Boolean getEncryptPasswords()>', '<org.roller.pojos.RollerConfig: java.lang.Integer getRssCacheTime()>', '<org.roller.pojos.RollerConfig: java.lang.Boolean getNewUserAllowed()>', '<org.roller.pojos.RollerConfig: java.math.BigDecimal getUploadMaxDirMB()>', '<org.roller.pojos.RollerConfig: java.lang.Boolean getEscapeCommentHtml()>', '<org.roller.pojos.RollerConfig: java.lang.Boolean getEnableLinkback()>', '<org.roller.pojos.RollerConfig: java.lang.Boolean getEmailComments()>']
+- resources: [id]
+  sig: '<org.roller.pojos.RollerConfig: java.lang.String getId()>'
+- resources: [absoluteURL]
+  sig: '<org.roller.pojos.RollerConfig: java.lang.String getAbsoluteURL()>'
+- resources: [rssUseCache]
+  sig: '<org.roller.pojos.RollerConfig: java.lang.Boolean getRssUseCache()>'
+- resources: [rssCacheTime]
+  sig: '<org.roller.pojos.RollerConfig: java.lang.Integer getRssCacheTime()>'
+- resources: [newUserAllowed]
+  sig: '<org.roller.pojos.RollerConfig: java.lang.Boolean getNewUserAllowed()>'
+- resources: [adminUsers]
+  sig: '<org.roller.pojos.RollerConfig: java.lang.String getAdminUsers()>'
+- resources: [userThemes]
+  sig: '<org.roller.pojos.RollerConfig: java.lang.String getUserThemes()>'
+- resources: [editorPages]
+  sig: '<org.roller.pojos.RollerConfig: java.lang.String getEditorPages()>'
+- resources: [enableAggregator]
+  sig: '<org.roller.pojos.RollerConfig: java.lang.Boolean getEnableAggregator()>'
+- resources: [uploadEnabled]
+  sig: '<org.roller.pojos.RollerConfig: java.lang.Boolean getUploadEnabled()>'
+- resources: [uploadMaxDirMB]
+  sig: '<org.roller.pojos.RollerConfig: java.math.BigDecimal getUploadMaxDirMB()>'
+- resources: [uploadMaxFileMB]
+  sig: '<org.roller.pojos.RollerConfig: java.math.BigDecimal getUploadMaxFileMB()>'
+- resources: [uploadAllow]
+  sig: '<org.roller.pojos.RollerConfig: java.lang.String getUploadAllow()>'
+- resources: [uploadForbid]
+  sig: '<org.roller.pojos.RollerConfig: java.lang.String getUploadForbid()>'
+- resources: [uploadDir]
+  sig: '<org.roller.pojos.RollerConfig: java.lang.String getUploadDir()>'
+- resources: [uploadPath]
+  sig: '<org.roller.pojos.RollerConfig: java.lang.String getUploadPath()>'
+- resources: [memDebug]
+  sig: '<org.roller.pojos.RollerConfig: java.lang.Boolean getMemDebug()>'
+- resources: [autoformatComments]
+  sig: '<org.roller.pojos.RollerConfig: java.lang.Boolean getAutoformatComments()>'
+- resources: [escapeCommentHtml]
+  sig: '<org.roller.pojos.RollerConfig: java.lang.Boolean getEscapeCommentHtml()>'
+- resources: [emailComments]
+  sig: '<org.roller.pojos.RollerConfig: java.lang.Boolean getEmailComments()>'
+- resources: [enableLinkback]
+  sig: '<org.roller.pojos.RollerConfig: java.lang.Boolean getEnableLinkback()>'
+- resources: [siteDescription]
+  sig: '<org.roller.pojos.RollerConfig: java.lang.String getSiteDescription()>'
+- resources: [siteName]
+  sig: '<org.roller.pojos.RollerConfig: java.lang.String getSiteName()>'
+- resources: [emailAddress]
+  sig: '<org.roller.pojos.RollerConfig: java.lang.String getEmailAddress()>'
+- resources: [indexDir]
+  sig: '<org.roller.pojos.RollerConfig: java.lang.String getIndexDir()>'
+- resources: [encryptPasswords]
+  sig: '<org.roller.pojos.RollerConfig: java.lang.Boolean getEncryptPasswords()>'
+- resources: [algorithm]
+  sig: '<org.roller.pojos.RollerConfig: java.lang.String getAlgorithm()>'
+- resources: [databaseVersion]
+  sig: '<org.roller.pojos.RollerConfig: java.lang.String getDatabaseVersion()>'
+- resources: [editorPagesList]
+  sig: '<org.roller.pojos.RollerConfig: java.util.List getEditorPagesList()>'

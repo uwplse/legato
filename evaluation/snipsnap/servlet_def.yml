@@ -1,0 +1,11 @@
+app_classes: ${source_dir}/snipsnap/cls/default/WEB-INF/classes/
+web_xml: ${source_dir}/snipsnap/WEB-INF/web.xml
+jsp_dir: ${source_dir}/snipsnap/cls/jsp/classes
+
+jsp-mapping: ${source_dir}/snipsnap/cls/generated_web.xml
+
+output_package: org.snipsnap
+
+error_pages: [ "/error.jsp" ]
+
+app_source_dir: [ "${source_dir}/snipsnap/src/", "${source_dir}/snipsnap/cls/jsp/source" ]

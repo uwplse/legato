@@ -1,0 +1,10 @@
+? !!python/tuple
+- '<net.eyde.personalblog.PseudoMain$Dispatcher_49: void forward(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>'
+- 1
+- !!python/tuple []
+: !!python/tuple [fp, cs]
+? !!python/tuple
+- '<net.eyde.personalblog.service.Email: void sendMessage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>'
+- 3
+- !!python/tuple [weblog.email]
+: !!python/tuple [tp, null]

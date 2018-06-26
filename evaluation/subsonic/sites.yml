@@ -1,0 +1,580 @@
+- {containing-method: '<net.sourceforge.subsonic.ldap.SubsonicLdapBindAuthenticator:
+    void createDelegate()>', containing-type: net.sourceforge.subsonic.ldap.SubsonicLdapBindAuthenticator,
+  line: '122', source-file: SubsonicLdapBindAuthenticator.java, tag: 132, unit-string: nop}
+- {containing-method: '<net.sourceforge.subsonic.service.SearchService: java.util.List
+    getRandomAlbums(int,java.util.List)>', containing-type: net.sourceforge.subsonic.service.SearchService,
+  line: '338', method: '<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+    getMediaFile(int)>', source-file: SearchService.java, tag: 3966, unit-string: '$r28
+    = virtualinvoke $r29.<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+    getMediaFile(int)>(i2)'}
+- {containing-method: '<net.sourceforge.subsonic.io.ShoutCastOutputStream: void write(byte[])>',
+  containing-type: net.sourceforge.subsonic.io.ShoutCastOutputStream, line: '109',
+  method: '<net.sourceforge.subsonic.io.ShoutCastOutputStream: void write(byte[],int,int)>',
+  source-file: ShoutCastOutputStream.java, tag: 5550, unit-string: 'virtualinvoke
+    r0.<net.sourceforge.subsonic.io.ShoutCastOutputStream: void write(byte[],int,int)>(r1,
+    0, $i0)'}
+- {containing-method: '<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+    checkLastModified(net.sourceforge.subsonic.domain.MediaFile,boolean)>', containing-type: net.sourceforge.subsonic.service.MediaFileService,
+  line: '129', method: '<net.sourceforge.subsonic.dao.MediaFileDao: void createOrUpdateMediaFile(net.sourceforge.subsonic.domain.MediaFile)>',
+  source-file: MediaFileService.java, tag: 2204, unit-string: 'virtualinvoke $r2.<net.sourceforge.subsonic.dao.MediaFileDao:
+    void createOrUpdateMediaFile(net.sourceforge.subsonic.domain.MediaFile)>(r6)'}
+- {containing-method: '<net.sourceforge.subsonic.controller.StreamController: org.springframework.web.servlet.ModelAndView
+    handleRequest(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.sourceforge.subsonic.controller.StreamController, line: '220',
+  method: '<net.sourceforge.subsonic.controller.StreamController: void sendDummy(byte[],java.io.OutputStream)>',
+  source-file: StreamController.java, tag: 3388, unit-string: 'specialinvoke r0.<net.sourceforge.subsonic.controller.StreamController:
+    void sendDummy(byte[],java.io.OutputStream)>(r8, r113)'}
+- {containing-method: '<net.sourceforge.subsonic.service.SonosService: void setMusicServiceEnabled(boolean)>',
+  containing-type: net.sourceforge.subsonic.service.SonosService, line: '176', method: '<net.sourceforge.subsonic.service.sonos.SonosHelper:
+    java.lang.String getBaseUrl(javax.servlet.http.HttpServletRequest)>', source-file: SonosService.java,
+  tag: 5136, unit-string: 'r3 = virtualinvoke $r15.<net.sourceforge.subsonic.service.sonos.SonosHelper:
+    java.lang.String getBaseUrl(javax.servlet.http.HttpServletRequest)>($r14)'}
+- {containing-method: '<net.sourceforge.subsonic.service.MediaFileService: java.util.List
+    getDescendantsOf(net.sourceforge.subsonic.domain.MediaFile,boolean)>', containing-type: net.sourceforge.subsonic.service.MediaFileService,
+  line: '650', method: '<net.sourceforge.subsonic.service.MediaFileService: java.util.List
+    getChildrenOf(net.sourceforge.subsonic.domain.MediaFile,boolean,boolean,boolean)>',
+  source-file: MediaFileService.java, tag: 5292, unit-string: '$r6 = virtualinvoke
+    r0.<net.sourceforge.subsonic.service.MediaFileService: java.util.List getChildrenOf(net.sourceforge.subsonic.domain.MediaFile,boolean,boolean,boolean)>(r1,
+    1, 1, z0)'}
+- {containing-method: '<net.sourceforge.subsonic.controller.RESTController: void updatePlaylist(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.sourceforge.subsonic.controller.RESTController, line: '1021',
+  source-file: RESTController.java, tag: 6089, unit-string: i6 = i6 + 1}
+- {containing-method: '<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+    getMediaFile(java.io.File,boolean)>', containing-type: net.sourceforge.subsonic.service.MediaFileService,
+  line: '119', method: '<net.sourceforge.subsonic.dao.MediaFileDao: void createOrUpdateMediaFile(net.sourceforge.subsonic.domain.MediaFile)>',
+  source-file: MediaFileService.java, tag: 359, unit-string: 'virtualinvoke $r5.<net.sourceforge.subsonic.dao.MediaFileDao:
+    void createOrUpdateMediaFile(net.sourceforge.subsonic.domain.MediaFile)>(r13)'}
+- {containing-method: '<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+    getMediaFile(java.io.File,boolean)>', containing-type: net.sourceforge.subsonic.service.MediaFileService,
+  line: '115', method: '<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+    createMediaFile(java.io.File)>', source-file: MediaFileService.java, tag: 358,
+  unit-string: 'r13 = specialinvoke r0.<net.sourceforge.subsonic.service.MediaFileService:
+    net.sourceforge.subsonic.domain.MediaFile createMediaFile(java.io.File)>(r1)'}
+- {containing-method: '<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+    getMediaFile(java.io.File,boolean)>', containing-type: net.sourceforge.subsonic.service.MediaFileService,
+  line: '106', method: '<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+    checkLastModified(net.sourceforge.subsonic.domain.MediaFile,boolean)>', source-file: MediaFileService.java,
+  tag: 356, unit-string: 'r12 = specialinvoke r0.<net.sourceforge.subsonic.service.MediaFileService:
+    net.sourceforge.subsonic.domain.MediaFile checkLastModified(net.sourceforge.subsonic.domain.MediaFile,boolean)>(r11,
+    z0)'}
+- {containing-method: '<net.sourceforge.subsonic.Logger: void info(java.lang.Object,java.lang.Throwable)>',
+  containing-type: net.sourceforge.subsonic.Logger, line: '128', method: '<net.sourceforge.subsonic.Logger:
+    void add(net.sourceforge.subsonic.Logger$Level,java.lang.Object,java.lang.Throwable)>',
+  source-file: Logger.java, tag: 343, unit-string: 'specialinvoke r0.<net.sourceforge.subsonic.Logger:
+    void add(net.sourceforge.subsonic.Logger$Level,java.lang.Object,java.lang.Throwable)>($r3,
+    r1, r2)'}
+- {containing-method: '<net.sourceforge.subsonic.service.MediaFileService: java.util.List
+    getChildrenOf(net.sourceforge.subsonic.domain.MediaFile,boolean,boolean,boolean,boolean)>',
+  containing-type: net.sourceforge.subsonic.service.MediaFileService, line: '198',
+  method: '<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+    checkLastModified(net.sourceforge.subsonic.domain.MediaFile,boolean)>', source-file: MediaFileService.java,
+  tag: 4312, unit-string: 'r15 = specialinvoke r0.<net.sourceforge.subsonic.service.MediaFileService:
+    net.sourceforge.subsonic.domain.MediaFile checkLastModified(net.sourceforge.subsonic.domain.MediaFile,boolean)>(r14,
+    z3)'}
+- {containing-method: '<net.sourceforge.subsonic.controller.RESTController: javax.servlet.http.HttpServletRequest
+    wrapRequest(javax.servlet.http.HttpServletRequest,boolean)>', containing-type: net.sourceforge.subsonic.controller.RESTController,
+  line: '2221', method: '<net.sourceforge.subsonic.controller.RESTController: java.lang.String
+    createPlayerIfNecessary(javax.servlet.http.HttpServletRequest,boolean)>', source-file: RESTController.java,
+  tag: 3914, unit-string: 'r2 = specialinvoke r0.<net.sourceforge.subsonic.controller.RESTController:
+    java.lang.String createPlayerIfNecessary(javax.servlet.http.HttpServletRequest,boolean)>(r1,
+    z0)'}
+- {containing-method: '<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+    getMediaFile(java.io.File)>', containing-type: net.sourceforge.subsonic.service.MediaFileService,
+  line: '81', method: '<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+    getMediaFile(java.io.File,boolean)>', source-file: MediaFileService.java, tag: 337,
+  unit-string: '$r3 = virtualinvoke r0.<net.sourceforge.subsonic.service.MediaFileService:
+    net.sourceforge.subsonic.domain.MediaFile getMediaFile(java.io.File,boolean)>(r1,
+    $z0)'}
+- {containing-method: '<net.sourceforge.subsonic.io.ShoutCastOutputStream: void write(byte[],int,int)>',
+  containing-type: net.sourceforge.subsonic.io.ShoutCastOutputStream, line: '99',
+  method: '<net.sourceforge.subsonic.io.ShoutCastOutputStream: void writeMetaData()>',
+  source-file: ShoutCastOutputStream.java, tag: 4295, unit-string: 'specialinvoke
+    r0.<net.sourceforge.subsonic.io.ShoutCastOutputStream: void writeMetaData()>()'}
+- {containing-method: '<net.sourceforge.subsonic.io.ShoutCastOutputStream: void write(byte[],int,int)>',
+  containing-type: net.sourceforge.subsonic.io.ShoutCastOutputStream, line: '93',
+  method: '<java.io.OutputStream: void write(byte[],int,int)>', source-file: ShoutCastOutputStream.java,
+  tag: 4294, unit-string: 'virtualinvoke $r2.<java.io.OutputStream: void write(byte[],int,int)>(r1,
+    $i6, i2)'}
+- {containing-method: '<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+    getMediaFile(java.lang.String)>', containing-type: net.sourceforge.subsonic.service.MediaFileService,
+  line: '141', method: '<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+    getMediaFile(java.io.File)>', source-file: MediaFileService.java, tag: 319, unit-string: '$r3
+    = virtualinvoke r0.<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+    getMediaFile(java.io.File)>($r2)'}
+- {containing-method: '<net.sourceforge.subsonic.controller.StreamController: void
+    sendDummy(byte[],java.io.OutputStream)>', containing-type: net.sourceforge.subsonic.controller.StreamController,
+  line: '408', method: '<java.io.OutputStream: void write(byte[])>', source-file: StreamController.java,
+  tag: 4280, unit-string: 'virtualinvoke r2.<java.io.OutputStream: void write(byte[])>(r1)'}
+- {containing-method: '<net.sourceforge.subsonic.service.MusicIndexService: java.util.SortedMap
+    getIndexedArtists(java.util.List)>', containing-type: net.sourceforge.subsonic.service.MusicIndexService,
+  line: '69', method: '<net.sourceforge.subsonic.service.MusicIndexService: java.util.SortedMap
+    sortArtists(java.util.List)>', source-file: MusicIndexService.java, tag: 3880,
+  unit-string: '$r3 = specialinvoke r0.<net.sourceforge.subsonic.service.MusicIndexService:
+    java.util.SortedMap sortArtists(java.util.List)>(r2)'}
+- {containing-method: '<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+    getMediaFile(int)>', containing-type: net.sourceforge.subsonic.service.MediaFileService,
+  line: '155', method: '<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+    checkLastModified(net.sourceforge.subsonic.domain.MediaFile,boolean)>', source-file: MediaFileService.java,
+  tag: 3479, unit-string: '$r6 = specialinvoke r0.<net.sourceforge.subsonic.service.MediaFileService:
+    net.sourceforge.subsonic.domain.MediaFile checkLastModified(net.sourceforge.subsonic.domain.MediaFile,boolean)>(r1,
+    $z1)'}
+- {containing-method: '<net.sourceforge.subsonic.service.MusicIndexService: net.sourceforge.subsonic.domain.MusicFolderContent
+    getMusicFolderContent(java.util.List,boolean)>', containing-type: net.sourceforge.subsonic.service.MusicIndexService,
+  line: '73', method: '<net.sourceforge.subsonic.service.MusicIndexService: java.util.SortedMap
+    getIndexedArtists(java.util.List,boolean)>', source-file: MusicIndexService.java,
+  tag: 3866, unit-string: 'r2 = virtualinvoke r0.<net.sourceforge.subsonic.service.MusicIndexService:
+    java.util.SortedMap getIndexedArtists(java.util.List,boolean)>(r1, z0)'}
+- {containing-method: '<net.sourceforge.subsonic.controller.RESTController: void getArtists(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.sourceforge.subsonic.controller.RESTController, line: '362',
+  method: '<net.sourceforge.subsonic.service.MusicIndexService: java.util.SortedMap
+    getIndexedArtists(java.util.List)>', source-file: RESTController.java, tag: 2663,
+  unit-string: 'r6 = virtualinvoke $r17.<net.sourceforge.subsonic.service.MusicIndexService:
+    java.util.SortedMap getIndexedArtists(java.util.List)>(r5)'}
+- {containing-method: '<net.sourceforge.subsonic.controller.RESTController: javax.servlet.http.HttpServletRequest
+    wrapRequest(javax.servlet.http.HttpServletRequest)>', containing-type: net.sourceforge.subsonic.controller.RESTController,
+  line: '2217', method: '<net.sourceforge.subsonic.controller.RESTController: javax.servlet.http.HttpServletRequest
+    wrapRequest(javax.servlet.http.HttpServletRequest,boolean)>', source-file: RESTController.java,
+  tag: 3850, unit-string: '$r2 = specialinvoke r0.<net.sourceforge.subsonic.controller.RESTController:
+    javax.servlet.http.HttpServletRequest wrapRequest(javax.servlet.http.HttpServletRequest,boolean)>(r1,
+    0)'}
+- {containing-method: '<net.sourceforge.subsonic.service.sonos.SonosHelper: java.lang.String
+    getBaseUrl(javax.servlet.http.HttpServletRequest)>', containing-type: net.sourceforge.subsonic.service.sonos.SonosHelper,
+  line: '684', method: '<net.sourceforge.subsonic.service.SettingsService: java.lang.String
+    getUrlRedirectContextPath()>', source-file: SonosHelper.java, tag: 253, unit-string: 'r2
+    = virtualinvoke $r5.<net.sourceforge.subsonic.service.SettingsService: java.lang.String
+    getUrlRedirectContextPath()>()'}
+- {containing-method: '<net.sourceforge.subsonic.service.sonos.SonosHelper: java.lang.String
+    getBaseUrl(javax.servlet.http.HttpServletRequest)>', containing-type: net.sourceforge.subsonic.service.sonos.SonosHelper,
+  line: '683', method: '<net.sourceforge.subsonic.service.SettingsService: int getPort()>',
+  source-file: SonosHelper.java, tag: 252, unit-string: 'i0 = virtualinvoke $r4.<net.sourceforge.subsonic.service.SettingsService:
+    int getPort()>()'}
+- {containing-method: '<net.sourceforge.subsonic.controller.RESTController: void createShare(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.sourceforge.subsonic.controller.RESTController, line: '1817',
+  method: '<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+    getMediaFile(int)>', source-file: RESTController.java, tag: 3029, unit-string: '$r14
+    = virtualinvoke $r15.<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+    getMediaFile(int)>(i4)'}
+- {containing-method: '<net.sourceforge.subsonic.io.ShoutCastOutputStream: void writeMetaData()>',
+  containing-type: net.sourceforge.subsonic.io.ShoutCastOutputStream, line: '135',
+  method: '<net.sourceforge.subsonic.service.SettingsService: java.lang.String getWelcomeTitle()>',
+  source-file: ShoutCastOutputStream.java, tag: 248, unit-string: '$r3 = virtualinvoke
+    $r2.<net.sourceforge.subsonic.service.SettingsService: java.lang.String getWelcomeTitle()>()'}
+- {containing-method: '<net.sourceforge.subsonic.ajax.PlayQueueService: net.sourceforge.subsonic.ajax.PlayQueueInfo
+    convert(javax.servlet.http.HttpServletRequest,net.sourceforge.subsonic.domain.Player,boolean,int)>',
+  containing-type: net.sourceforge.subsonic.ajax.PlayQueueService, line: '525', method: '<net.sourceforge.subsonic.service.SettingsService:
+    java.lang.String getUrlRedirectContextPath()>', source-file: PlayQueueService.java,
+  tag: 247, unit-string: 'r11 = virtualinvoke $r30.<net.sourceforge.subsonic.service.SettingsService:
+    java.lang.String getUrlRedirectContextPath()>()'}
+- {containing-method: '<net.sourceforge.subsonic.ajax.PlayQueueService: net.sourceforge.subsonic.ajax.PlayQueueInfo
+    convert(javax.servlet.http.HttpServletRequest,net.sourceforge.subsonic.domain.Player,boolean,int)>',
+  containing-type: net.sourceforge.subsonic.ajax.PlayQueueService, line: '524', method: '<net.sourceforge.subsonic.service.SettingsService:
+    java.lang.String getUrlRedirectFrom()>', source-file: PlayQueueService.java, tag: 246,
+  unit-string: 'r9 = virtualinvoke $r32.<net.sourceforge.subsonic.service.SettingsService:
+    java.lang.String getUrlRedirectFrom()>()'}
+- {containing-method: '<net.sourceforge.subsonic.ajax.PlayQueueService: net.sourceforge.subsonic.ajax.PlayQueueInfo
+    convert(javax.servlet.http.HttpServletRequest,net.sourceforge.subsonic.domain.Player,boolean,int)>',
+  containing-type: net.sourceforge.subsonic.ajax.PlayQueueService, line: '508', method: '<net.sourceforge.subsonic.service.SettingsService:
+    int getPort()>', source-file: PlayQueueService.java, tag: 245, unit-string: 'i1
+    = virtualinvoke $r57.<net.sourceforge.subsonic.service.SettingsService: int getPort()>()'}
+- {containing-method: '<net.sourceforge.subsonic.service.MusicIndexService: java.util.SortedMap
+    sortArtists(java.util.List)>', containing-type: net.sourceforge.subsonic.service.MusicIndexService,
+  line: '101', method: '<net.sourceforge.subsonic.service.SettingsService: java.lang.String
+    getIndexString()>', source-file: MusicIndexService.java, tag: 244, unit-string: '$r7
+    = virtualinvoke $r6.<net.sourceforge.subsonic.service.SettingsService: java.lang.String
+    getIndexString()>()'}
+- {containing-method: '<net.sourceforge.subsonic.controller.MainController: java.util.List
+    getMediaFiles(javax.servlet.http.HttpServletRequest)>', containing-type: net.sourceforge.subsonic.controller.MainController,
+  line: '198', method: '<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+    getMediaFile(int)>', source-file: MainController.java, tag: 3815, unit-string: 'r12
+    = virtualinvoke $r7.<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+    getMediaFile(int)>(i4)'}
+- {containing-method: '<net.sourceforge.subsonic.controller.MainController: java.util.List
+    getMediaFiles(javax.servlet.http.HttpServletRequest)>', containing-type: net.sourceforge.subsonic.controller.MainController,
+  line: '192', method: '<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+    getMediaFile(java.lang.String)>', source-file: MainController.java, tag: 3814,
+  unit-string: 'r10 = virtualinvoke $r5.<net.sourceforge.subsonic.service.MediaFileService:
+    net.sourceforge.subsonic.domain.MediaFile getMediaFile(java.lang.String)>(r9)'}
+- {containing-method: '<net.sourceforge.subsonic.service.MediaScannerService: void
+    schedule()>', containing-type: net.sourceforge.subsonic.service.MediaScannerService,
+  line: '88', method: '<net.sourceforge.subsonic.service.SettingsService: int getIndexCreationInterval()>',
+  source-file: MediaScannerService.java, tag: 237, unit-string: '$i3 = virtualinvoke
+    $r8.<net.sourceforge.subsonic.service.SettingsService: int getIndexCreationInterval()>()'}
+- {containing-method: '<net.sourceforge.subsonic.controller.MainController: java.util.List
+    getAncestors(net.sourceforge.subsonic.domain.MediaFile)>', containing-type: net.sourceforge.subsonic.controller.MainController,
+  line: '242', method: '<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+    getParentOf(net.sourceforge.subsonic.domain.MediaFile)>', source-file: MainController.java,
+  tag: 3809, unit-string: 'r8 = virtualinvoke $r6.<net.sourceforge.subsonic.service.MediaFileService:
+    net.sourceforge.subsonic.domain.MediaFile getParentOf(net.sourceforge.subsonic.domain.MediaFile)>(r8)'}
+- {containing-method: '<net.sourceforge.subsonic.controller.MainController: java.util.List
+    getAncestors(net.sourceforge.subsonic.domain.MediaFile)>', containing-type: net.sourceforge.subsonic.controller.MainController,
+  line: '239', method: '<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+    getParentOf(net.sourceforge.subsonic.domain.MediaFile)>', source-file: MainController.java,
+  tag: 3808, unit-string: 'r8 = virtualinvoke $r4.<net.sourceforge.subsonic.service.MediaFileService:
+    net.sourceforge.subsonic.domain.MediaFile getParentOf(net.sourceforge.subsonic.domain.MediaFile)>(r1)'}
+- {containing-method: '<net.sourceforge.subsonic.service.SecurityService: java.lang.String
+    getRootFolderForFile(java.io.File)>', containing-type: net.sourceforge.subsonic.service.SecurityService,
+  line: '266', method: '<net.sourceforge.subsonic.service.SettingsService: java.lang.String
+    getPodcastFolder()>', source-file: SecurityService.java, tag: 228, unit-string: '$r4
+    = virtualinvoke $r3.<net.sourceforge.subsonic.service.SettingsService: java.lang.String
+    getPodcastFolder()>()'}
+- {containing-method: '<net.sourceforge.subsonic.ajax.PlayQueueService: net.sourceforge.subsonic.ajax.PlayQueueInfo
+    convert(javax.servlet.http.HttpServletRequest,net.sourceforge.subsonic.domain.Player,boolean,int)>',
+  containing-type: net.sourceforge.subsonic.ajax.PlayQueueService, line: '527', method: '<net.sourceforge.subsonic.util.StringUtil:
+    java.lang.String rewriteRemoteUrl(java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,int)>',
+  source-file: PlayQueueService.java, tag: 5283, unit-string: 'r10 = staticinvoke
+    <net.sourceforge.subsonic.util.StringUtil: java.lang.String rewriteRemoteUrl(java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,int)>(r62,
+    z16, r9, r11, r7, i1)'}
+- {containing-method: '<net.sourceforge.subsonic.service.MusicIndexService: java.util.SortedMap
+    getIndexedArtists(java.util.List,boolean)>', containing-type: net.sourceforge.subsonic.service.MusicIndexService,
+  line: '64', method: '<net.sourceforge.subsonic.service.MusicIndexService: java.util.SortedMap
+    sortArtists(java.util.List)>', source-file: MusicIndexService.java, tag: 4189,
+  unit-string: '$r3 = specialinvoke r0.<net.sourceforge.subsonic.service.MusicIndexService:
+    java.util.SortedMap sortArtists(java.util.List)>(r2)'}
+- {containing-method: '<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+    checkLastModified(net.sourceforge.subsonic.domain.MediaFile,boolean)>', containing-type: net.sourceforge.subsonic.service.MediaFileService,
+  line: '128', method: '<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+    createMediaFile(java.io.File)>', source-file: MediaFileService.java, tag: 2203,
+  unit-string: 'r6 = specialinvoke r0.<net.sourceforge.subsonic.service.MediaFileService:
+    net.sourceforge.subsonic.domain.MediaFile createMediaFile(java.io.File)>($r1)'}
+- {containing-method: '<net.sourceforge.subsonic.PseudoMain$DummyAcegiFilter: void
+    doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain)>',
+  containing-type: net.sourceforge.subsonic.PseudoMain$DummyAcegiFilter, line: '3336',
+  source-file: PseudoMain.java, tag: 6074, unit-string: '$r4 = r0.<net.sourceforge.subsonic.PseudoMain$DummyAcegiFilter:
+    net.sourceforge.subsonic.service.SecurityService ss>'}
+- {containing-method: '<net.sourceforge.subsonic.controller.StreamController: org.springframework.web.servlet.ModelAndView
+    handleRequest(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.sourceforge.subsonic.controller.StreamController, line: '232',
+  method: '<java.io.OutputStream: void write(byte[],int,int)>', source-file: StreamController.java,
+  tag: 3391, unit-string: 'virtualinvoke r115.<java.io.OutputStream: void write(byte[],int,int)>(r8,
+    0, i16)'}
+- {containing-method: '<net.sourceforge.subsonic.controller.StreamController: org.springframework.web.servlet.ModelAndView
+    handleRequest(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.sourceforge.subsonic.controller.StreamController, line: '229',
+  method: '<net.sourceforge.subsonic.controller.StreamController: void sendDummy(byte[],java.io.OutputStream)>',
+  source-file: StreamController.java, tag: 3390, unit-string: 'specialinvoke r0.<net.sourceforge.subsonic.controller.StreamController:
+    void sendDummy(byte[],java.io.OutputStream)>(r8, r114)'}
+- {containing-method: '<net.sourceforge.subsonic.controller.RESTController: void scrobble(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.sourceforge.subsonic.controller.RESTController, line: '1414',
+  source-file: RESTController.java, tag: 6078, unit-string: if r5 != null goto $i2
+    = lengthof r4}
+- {containing-method: '<net.sourceforge.subsonic.service.MediaFileService: java.util.List
+    getDescendantsOf(net.sourceforge.subsonic.domain.MediaFile,boolean)>', containing-type: net.sourceforge.subsonic.service.MediaFileService,
+  line: '652', method: '<net.sourceforge.subsonic.service.MediaFileService: java.util.List
+    getDescendantsOf(net.sourceforge.subsonic.domain.MediaFile,boolean)>', source-file: MediaFileService.java,
+  tag: 5293, unit-string: '$r8 = virtualinvoke r0.<net.sourceforge.subsonic.service.MediaFileService:
+    java.util.List getDescendantsOf(net.sourceforge.subsonic.domain.MediaFile,boolean)>(r3,
+    z0)'}
+- {containing-method: '<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+    createMediaFile(java.io.File)>', containing-type: net.sourceforge.subsonic.service.MediaFileService,
+  line: '459', method: '<net.sourceforge.subsonic.service.SecurityService: java.lang.String
+    getRootFolderForFile(java.io.File)>', source-file: MediaFileService.java, tag: 2192,
+  unit-string: '$r10 = virtualinvoke $r11.<net.sourceforge.subsonic.service.SecurityService:
+    java.lang.String getRootFolderForFile(java.io.File)>(r1)'}
+- {containing-method: '<net.sourceforge.subsonic.ajax.PlayQueueService: net.sourceforge.subsonic.ajax.PlayQueueInfo
+    convert(javax.servlet.http.HttpServletRequest,net.sourceforge.subsonic.domain.Player,boolean,int)>',
+  containing-type: net.sourceforge.subsonic.ajax.PlayQueueService, line: '525', source-file: PlayQueueService.java,
+  tag: 6086, unit-string: '$r30 = r0.<net.sourceforge.subsonic.ajax.PlayQueueService:
+    net.sourceforge.subsonic.service.SettingsService settingsService>'}
+- {containing-method: '<net.sourceforge.subsonic.controller.PodcastController: org.springframework.web.servlet.ModelAndView
+    handleRequestInternal(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.sourceforge.subsonic.controller.PodcastController, line: '84',
+  method: '<net.sourceforge.subsonic.service.SettingsService: int getStreamPort()>',
+  source-file: PodcastController.java, tag: 199, unit-string: 'i4 = virtualinvoke
+    $r25.<net.sourceforge.subsonic.service.SettingsService: int getStreamPort()>()'}
+- {containing-method: '<net.sourceforge.subsonic.controller.CoverArtController: java.io.File
+    getCachedImage(net.sourceforge.subsonic.controller.CoverArtController$CoverArtRequest,int)>',
+  containing-type: net.sourceforge.subsonic.controller.CoverArtController, line: '228',
+  method: '<net.sourceforge.subsonic.controller.CoverArtController$CoverArtRequest:
+    java.awt.image.BufferedImage createImage(int)>', source-file: CoverArtController.java,
+  tag: 4159, unit-string: 'r36 = virtualinvoke r1.<net.sourceforge.subsonic.controller.CoverArtController$CoverArtRequest:
+    java.awt.image.BufferedImage createImage(int)>(i0)'}
+- {containing-method: '<net.sourceforge.subsonic.controller.CoverArtController: java.io.File
+    getCachedImage(net.sourceforge.subsonic.controller.CoverArtController$CoverArtRequest,int)>',
+  containing-type: net.sourceforge.subsonic.controller.CoverArtController, line: '230',
+  method: '<net.sourceforge.subsonic.controller.CoverArtController$CoverArtRequest:
+    long lastModified()>', source-file: CoverArtController.java, tag: 4158, unit-string: '$l1
+    = virtualinvoke r1.<net.sourceforge.subsonic.controller.CoverArtController$CoverArtRequest:
+    long lastModified()>()'}
+- {containing-method: '<net.sourceforge.subsonic.io.ShoutCastOutputStream: void write(int)>',
+  containing-type: net.sourceforge.subsonic.io.ShoutCastOutputStream, line: '117',
+  method: '<net.sourceforge.subsonic.io.ShoutCastOutputStream: void write(byte[])>',
+  source-file: ShoutCastOutputStream.java, tag: 5745, unit-string: 'virtualinvoke
+    r0.<net.sourceforge.subsonic.io.ShoutCastOutputStream: void write(byte[])>(r1)'}
+- {containing-method: '<net.sourceforge.subsonic.controller.CoverArtController: java.io.File
+    getCachedImage(net.sourceforge.subsonic.controller.CoverArtController$CoverArtRequest,int)>',
+  containing-type: net.sourceforge.subsonic.controller.CoverArtController, line: '217',
+  method: '<net.sourceforge.subsonic.controller.CoverArtController$CoverArtRequest:
+    java.io.File access$2(net.sourceforge.subsonic.controller.CoverArtController$CoverArtRequest)>',
+  source-file: CoverArtController.java, tag: 4155, unit-string: '$r8 = staticinvoke
+    <net.sourceforge.subsonic.controller.CoverArtController$CoverArtRequest: java.io.File
+    access$2(net.sourceforge.subsonic.controller.CoverArtController$CoverArtRequest)>(r1)'}
+- {containing-method: '<net.sourceforge.subsonic.controller.CoverArtController: java.io.File
+    getCachedImage(net.sourceforge.subsonic.controller.CoverArtController$CoverArtRequest,int)>',
+  containing-type: net.sourceforge.subsonic.controller.CoverArtController, line: '216',
+  method: '<net.sourceforge.subsonic.controller.CoverArtController$CoverArtRequest:
+    java.lang.String getKey()>', source-file: CoverArtController.java, tag: 4154,
+  unit-string: '$r7 = virtualinvoke r1.<net.sourceforge.subsonic.controller.CoverArtController$CoverArtRequest:
+    java.lang.String getKey()>()'}
+- {containing-method: '<net.sourceforge.subsonic.controller.M3UController: org.springframework.web.servlet.ModelAndView
+    handleRequest(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.sourceforge.subsonic.controller.M3UController, line: '67',
+  method: '<net.sourceforge.subsonic.service.SettingsService: int getStreamPort()>',
+  source-file: M3UController.java, tag: 182, unit-string: 'i0 = virtualinvoke $r7.<net.sourceforge.subsonic.service.SettingsService:
+    int getStreamPort()>()'}
+- {containing-method: '<net.sourceforge.subsonic.service.MediaFileService: java.util.List
+    getChildrenOf(net.sourceforge.subsonic.domain.MediaFile,boolean,boolean,boolean)>',
+  containing-type: net.sourceforge.subsonic.service.MediaFileService, line: '174',
+  method: '<net.sourceforge.subsonic.service.MediaFileService: java.util.List getChildrenOf(net.sourceforge.subsonic.domain.MediaFile,boolean,boolean,boolean,boolean)>',
+  source-file: MediaFileService.java, tag: 3739, unit-string: '$r3 = virtualinvoke
+    r0.<net.sourceforge.subsonic.service.MediaFileService: java.util.List getChildrenOf(net.sourceforge.subsonic.domain.MediaFile,boolean,boolean,boolean,boolean)>(r1,
+    z0, z1, z2, $z3)'}
+- {containing-method: '<net.sourceforge.subsonic.PseudoMain$DummyAcegiFilter: void
+    doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain)>',
+  containing-type: net.sourceforge.subsonic.PseudoMain$DummyAcegiFilter, line: '3334',
+  method: '<net.sourceforge.subsonic.ldap.SubsonicLdapBindAuthenticator: org.acegisecurity.userdetails.ldap.LdapUserDetails
+    authenticate(java.lang.String,java.lang.String)>', source-file: PseudoMain.java,
+  tag: 160, unit-string: '$r7 = virtualinvoke $r6.<net.sourceforge.subsonic.ldap.SubsonicLdapBindAuthenticator:
+    org.acegisecurity.userdetails.ldap.LdapUserDetails authenticate(java.lang.String,java.lang.String)>("foo",
+    "bar")'}
+- {containing-method: '<net.sourceforge.subsonic.service.PodcastService: void schedule()>',
+  containing-type: net.sourceforge.subsonic.service.PodcastService, line: '132', method: '<net.sourceforge.subsonic.service.SettingsService:
+    int getPodcastUpdateInterval()>', source-file: PodcastService.java, tag: 236,
+  unit-string: 'i0 = virtualinvoke $r5.<net.sourceforge.subsonic.service.SettingsService:
+    int getPodcastUpdateInterval()>()'}
+- {containing-method: '<net.sourceforge.subsonic.ldap.SubsonicLdapBindAuthenticator:
+    org.acegisecurity.userdetails.ldap.LdapUserDetails authenticate(java.lang.String,java.lang.String)>',
+  containing-type: net.sourceforge.subsonic.ldap.SubsonicLdapBindAuthenticator, line: '71',
+  method: '<net.sourceforge.subsonic.ldap.SubsonicLdapBindAuthenticator: void createDelegate()>',
+  source-file: SubsonicLdapBindAuthenticator.java, tag: 158, unit-string: 'specialinvoke
+    r0.<net.sourceforge.subsonic.ldap.SubsonicLdapBindAuthenticator: void createDelegate()>()'}
+- {containing-method: '<net.sourceforge.subsonic.service.SonosService: void setMusicServiceEnabled(boolean)>',
+  containing-type: net.sourceforge.subsonic.service.SonosService, line: '175', method: '<net.sourceforge.subsonic.service.SettingsService:
+    int getSonosServiceId()>', source-file: SonosService.java, tag: 241, unit-string: 'i0
+    = virtualinvoke $r13.<net.sourceforge.subsonic.service.SettingsService: int getSonosServiceId()>()'}
+- {containing-method: '<net.sourceforge.subsonic.Logger: void add(net.sourceforge.subsonic.Logger$Level,java.lang.Object,java.lang.Throwable)>',
+  containing-type: net.sourceforge.subsonic.Logger, line: '173', source-file: Logger.java,
+  tag: 6101, unit-string: return}
+- {containing-method: '<net.sourceforge.subsonic.service.MusicIndexService: java.util.SortedMap
+    getIndexedArtists(java.util.List)>', containing-type: net.sourceforge.subsonic.service.MusicIndexService,
+  line: '69', source-file: MusicIndexService.java, tag: 6100, unit-string: return
+    $r3}
+- {containing-method: '<net.sourceforge.subsonic.service.MusicIndexService: java.util.SortedMap
+    getIndexedArtists(java.util.List,boolean)>', containing-type: net.sourceforge.subsonic.service.MusicIndexService,
+  line: '64', source-file: MusicIndexService.java, tag: 6099, unit-string: return
+    $r3}
+- {containing-method: '<net.sourceforge.subsonic.service.SearchService: java.util.List
+    getRandomAlbums(int,java.util.List)>', containing-type: net.sourceforge.subsonic.service.SearchService,
+  line: '339', source-file: SearchService.java, tag: 6098, unit-string: 'goto [?=
+    $z2 = interfaceinvoke r4.<java.util.List: boolean isEmpty()>()]'}
+- {containing-method: '<net.sourceforge.subsonic.service.SearchService: java.util.List
+    getRandomSongs(net.sourceforge.subsonic.domain.RandomSearchCriteria)>', containing-type: net.sourceforge.subsonic.service.SearchService,
+  line: '270', source-file: SearchService.java, tag: 6097, unit-string: '$r51 := @caughtexception'}
+- {containing-method: '<net.sourceforge.subsonic.controller.RESTController: void scrobble(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.sourceforge.subsonic.controller.RESTController, line: '1420',
+  method: '<net.sourceforge.subsonic.service.StatusService: void addRemotePlay(net.sourceforge.subsonic.domain.PlayStatus)>',
+  source-file: RESTController.java, tag: 2915, unit-string: 'virtualinvoke $r9.<net.sourceforge.subsonic.service.StatusService:
+    void addRemotePlay(net.sourceforge.subsonic.domain.PlayStatus)>($r10)'}
+- {containing-method: '<net.sourceforge.subsonic.controller.CoverArtController: java.io.File
+    getCachedImage(net.sourceforge.subsonic.controller.CoverArtController$CoverArtRequest,int)>',
+  containing-type: net.sourceforge.subsonic.controller.CoverArtController, line: '226',
+  source-file: CoverArtController.java, tag: 6090, unit-string: r35 = null}
+- {containing-method: '<net.sourceforge.subsonic.controller.RESTController: void scrobble(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.sourceforge.subsonic.controller.RESTController, line: '1413',
+  method: '<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+    getMediaFile(int)>', source-file: RESTController.java, tag: 2913, unit-string: 'r5
+    = virtualinvoke $r8.<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+    getMediaFile(int)>(i0)'}
+- {containing-method: '<net.sourceforge.subsonic.controller.RESTController: void updatePlaylist(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.sourceforge.subsonic.controller.RESTController, line: '1025',
+  source-file: RESTController.java, tag: 6088, unit-string: z5 = 1}
+- {containing-method: '<net.sourceforge.subsonic.ldap.SubsonicLdapBindAuthenticator:
+    void createDelegate()>', containing-type: net.sourceforge.subsonic.ldap.SubsonicLdapBindAuthenticator,
+  line: '100', source-file: SubsonicLdapBindAuthenticator.java, tag: 6087, unit-string: $r7
+    = new org.acegisecurity.ldap.DefaultInitialDirContextFactory}
+- {containing-method: '<net.sourceforge.subsonic.controller.RESTController: void scrobble(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.sourceforge.subsonic.controller.RESTController, line: '1399',
+  method: '<net.sourceforge.subsonic.controller.RESTController: javax.servlet.http.HttpServletRequest
+    wrapRequest(javax.servlet.http.HttpServletRequest)>', source-file: RESTController.java,
+  tag: 2910, unit-string: 'r28 = specialinvoke r0.<net.sourceforge.subsonic.controller.RESTController:
+    javax.servlet.http.HttpServletRequest wrapRequest(javax.servlet.http.HttpServletRequest)>(r27)'}
+- {containing-method: '<net.sourceforge.subsonic.controller.MainController: java.util.List
+    getAncestors(net.sourceforge.subsonic.domain.MediaFile)>', containing-type: net.sourceforge.subsonic.controller.MainController,
+  line: '240', source-file: MainController.java, tag: 6085, unit-string: if r8 ==
+    null goto return r2}
+- {containing-method: '<net.sourceforge.subsonic.io.ShoutCastOutputStream: void write(byte[],int,int)>',
+  containing-type: net.sourceforge.subsonic.io.ShoutCastOutputStream, line: '100',
+  source-file: ShoutCastOutputStream.java, tag: 6084, unit-string: 'r0.<net.sourceforge.subsonic.io.ShoutCastOutputStream:
+    int byteCount> = 0'}
+- {containing-method: '<net.sourceforge.subsonic.io.ShoutCastOutputStream: void write(byte[],int,int)>',
+  containing-type: net.sourceforge.subsonic.io.ShoutCastOutputStream, line: '88',
+  source-file: ShoutCastOutputStream.java, tag: 6083, unit-string: if i11 < i1 goto
+    $i5 = i1 - i11}
+- {containing-method: '<net.sourceforge.subsonic.service.MediaFileService: java.util.List
+    getChildrenOf(net.sourceforge.subsonic.domain.MediaFile,boolean,boolean,boolean,boolean)>',
+  containing-type: net.sourceforge.subsonic.service.MediaFileService, line: '202',
+  method: '<net.sourceforge.subsonic.domain.MediaFile: boolean isFile()>', source-file: MediaFileService.java,
+  tag: 6082, unit-string: '$z10 = virtualinvoke r15.<net.sourceforge.subsonic.domain.MediaFile:
+    boolean isFile()>()'}
+- {containing-method: '<net.sourceforge.subsonic.controller.StreamController: org.springframework.web.servlet.ModelAndView
+    handleRequest(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.sourceforge.subsonic.controller.StreamController, line: '212',
+  method: '<net.sourceforge.subsonic.domain.TransferStatus: boolean terminated()>',
+  source-file: StreamController.java, tag: 6081, unit-string: '$z21 = virtualinvoke
+    r80.<net.sourceforge.subsonic.domain.TransferStatus: boolean terminated()>()'}
+- {containing-method: '<net.sourceforge.subsonic.controller.CoverArtController: java.io.File
+    getCachedImage(net.sourceforge.subsonic.controller.CoverArtController$CoverArtRequest,int)>',
+  containing-type: net.sourceforge.subsonic.controller.CoverArtController, line: '240',
+  source-file: CoverArtController.java, tag: 6080, unit-string: '$r33 := @caughtexception'}
+- {containing-method: '<net.sourceforge.subsonic.service.MediaFileService: java.util.List
+    getDescendantsOf(net.sourceforge.subsonic.domain.MediaFile,boolean)>', containing-type: net.sourceforge.subsonic.service.MediaFileService,
+  line: '650', method: '<java.util.Iterator: boolean hasNext()>', source-file: MediaFileService.java,
+  tag: 6079, unit-string: '$z5 = interfaceinvoke r4.<java.util.Iterator: boolean hasNext()>()'}
+- {containing-method: '<net.sourceforge.subsonic.ajax.PlayQueueService: net.sourceforge.subsonic.ajax.PlayQueueInfo
+    convert(javax.servlet.http.HttpServletRequest,net.sourceforge.subsonic.domain.Player,boolean,int)>',
+  containing-type: net.sourceforge.subsonic.ajax.PlayQueueService, line: '529', method: '<net.sourceforge.subsonic.util.StringUtil:
+    java.lang.String rewriteRemoteUrl(java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,int)>',
+  source-file: PlayQueueService.java, tag: 5284, unit-string: 'r13 = staticinvoke
+    <net.sourceforge.subsonic.util.StringUtil: java.lang.String rewriteRemoteUrl(java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String,int)>(r8,
+    z16, r9, r11, r7, i1)'}
+- {containing-method: '<net.sourceforge.subsonic.service.MediaFileService: java.util.List
+    getDescendantsOf(net.sourceforge.subsonic.domain.MediaFile,boolean)>', containing-type: net.sourceforge.subsonic.service.MediaFileService,
+  line: '652', method: '<java.util.List: boolean addAll(java.util.Collection)>', source-file: MediaFileService.java,
+  tag: 6077, unit-string: '$z4 = interfaceinvoke r2.<java.util.List: boolean addAll(java.util.Collection)>($r8)'}
+- {containing-method: '<net.sourceforge.subsonic.controller.RESTController: void getNowPlaying(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.sourceforge.subsonic.controller.RESTController, line: '1196',
+  method: '<java.util.List: java.util.Iterator iterator()>', source-file: RESTController.java,
+  tag: 6076, unit-string: 'r3 = interfaceinvoke $r11.<java.util.List: java.util.Iterator
+    iterator()>()'}
+- {containing-method: '<net.sourceforge.subsonic.service.SearchService: java.util.List
+    getRandomSongs(net.sourceforge.subsonic.domain.RandomSearchCriteria)>', containing-type: net.sourceforge.subsonic.service.SearchService,
+  line: '291', source-file: SearchService.java, tag: 6075, unit-string: 'goto [?=
+    $z2 = interfaceinvoke r64.<java.util.List: boolean isEmpty()>()]'}
+- {containing-method: '<net.sourceforge.subsonic.service.SearchService: java.util.List
+    getRandomSongs(net.sourceforge.subsonic.domain.RandomSearchCriteria)>', containing-type: net.sourceforge.subsonic.service.SearchService,
+  line: '290', method: '<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+    getMediaFile(int)>', source-file: SearchService.java, tag: 3692, unit-string: '$r38
+    = virtualinvoke $r37.<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+    getMediaFile(int)>(i1)'}
+- {containing-method: '<net.sourceforge.subsonic.controller.MainController: java.util.List
+    getMediaFiles(javax.servlet.http.HttpServletRequest)>', containing-type: net.sourceforge.subsonic.controller.MainController,
+  line: '197', source-file: MainController.java, tag: 6073, unit-string: i3 = i3 +
+    1}
+- {containing-method: '<net.sourceforge.subsonic.controller.RESTController: void createPlaylist(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.sourceforge.subsonic.controller.RESTController, line: '956',
+  source-file: RESTController.java, tag: 6072, unit-string: i4 = i4 + 1}
+- {containing-method: '<net.sourceforge.subsonic.controller.StreamController: org.springframework.web.servlet.ModelAndView
+    handleRequest(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.sourceforge.subsonic.controller.StreamController, line: '231',
+  source-file: StreamController.java, tag: 6071, unit-string: 'goto [?= $z21 = virtualinvoke
+    r80.<net.sourceforge.subsonic.domain.TransferStatus: boolean terminated()>()]'}
+- {containing-method: '<net.sourceforge.subsonic.controller.StreamController: org.springframework.web.servlet.ModelAndView
+    handleRequest(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.sourceforge.subsonic.controller.StreamController, line: '222',
+  source-file: StreamController.java, tag: 6070, unit-string: 'goto [?= $z21 = virtualinvoke
+    r80.<net.sourceforge.subsonic.domain.TransferStatus: boolean terminated()>()]'}
+- {containing-method: '<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+    getMediaFile(java.io.File,boolean)>', containing-type: net.sourceforge.subsonic.service.MediaFileService,
+  line: null, source-file: MediaFileService.java, tag: 6069, unit-string: return $r0}
+- {containing-method: '<net.sourceforge.subsonic.controller.CoverArtController: java.io.File
+    getCachedImage(net.sourceforge.subsonic.controller.CoverArtController$CoverArtRequest,int)>',
+  containing-type: net.sourceforge.subsonic.controller.CoverArtController, line: '248',
+  source-file: CoverArtController.java, tag: 6068, unit-string: $r19 = r4}
+- {containing-method: '<net.sourceforge.subsonic.io.ShoutCastOutputStream: void writeMetaData()>',
+  containing-type: net.sourceforge.subsonic.io.ShoutCastOutputStream, line: '174',
+  source-file: ShoutCastOutputStream.java, tag: 6067, unit-string: 'if i7 < i0 goto
+    $r9 = r0.<net.sourceforge.subsonic.io.ShoutCastOutputStream: java.io.OutputStream
+    out>'}
+- {containing-method: '<net.sourceforge.subsonic.service.SearchService: java.util.List
+    getRandomAlbums(int,java.util.List)>', containing-type: net.sourceforge.subsonic.service.SearchService,
+  line: '348', source-file: SearchService.java, tag: 6066, unit-string: '$r36 := @caughtexception'}
+- {containing-method: '<net.sourceforge.subsonic.service.SearchService: net.sourceforge.subsonic.domain.SearchResult
+    search(net.sourceforge.subsonic.domain.SearchCriteria,java.util.List,net.sourceforge.subsonic.service.SearchService$IndexType)>',
+  containing-type: net.sourceforge.subsonic.service.SearchService, line: '218', source-file: SearchService.java,
+  tag: 6065, unit-string: 'goto [?= i17 = i17 + 1]'}
+- {containing-method: '<net.sourceforge.subsonic.controller.RESTController: void scrobble(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.sourceforge.subsonic.controller.RESTController, line: '1421',
+  source-file: RESTController.java, tag: 6064, unit-string: '$r12 = r0.<net.sourceforge.subsonic.controller.RESTController:
+    net.sourceforge.subsonic.service.MediaFileService mediaFileService>'}
+- {containing-method: '<net.sourceforge.subsonic.controller.MainController: java.util.List
+    getMediaFiles(javax.servlet.http.HttpServletRequest)>', containing-type: net.sourceforge.subsonic.controller.MainController,
+  line: '197', source-file: MainController.java, tag: 6063, unit-string: 'if i3 <
+    i2 goto i4 = r11[i3]'}
+- {containing-method: '<net.sourceforge.subsonic.controller.PodcastController: org.springframework.web.servlet.ModelAndView
+    handleRequestInternal(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.sourceforge.subsonic.controller.PodcastController, line: '59',
+  method: '<java.util.Iterator: boolean hasNext()>', source-file: PodcastController.java,
+  tag: 6062, unit-string: '$z4 = interfaceinvoke r34.<java.util.Iterator: boolean
+    hasNext()>()'}
+- {containing-method: '<net.sourceforge.subsonic.controller.RESTController: void createShare(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.sourceforge.subsonic.controller.RESTController, line: '1816',
+  source-file: RESTController.java, tag: 6061, unit-string: i3 = i3 + 1}
+- {containing-method: '<net.sourceforge.subsonic.controller.CoverArtController: java.io.File
+    getCachedImage(net.sourceforge.subsonic.controller.CoverArtController$CoverArtRequest,int)>',
+  containing-type: net.sourceforge.subsonic.controller.CoverArtController, line: '224',
+  source-file: CoverArtController.java, tag: 6060, unit-string: '$r20 := @caughtexception'}
+- {containing-method: '<net.sourceforge.subsonic.controller.RESTController: void getNowPlaying(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.sourceforge.subsonic.controller.RESTController, line: '1196',
+  method: '<net.sourceforge.subsonic.service.StatusService: java.util.List getPlayStatuses()>',
+  source-file: RESTController.java, tag: 2883, unit-string: '$r11 = virtualinvoke
+    $r10.<net.sourceforge.subsonic.service.StatusService: java.util.List getPlayStatuses()>()'}
+- {containing-method: '<net.sourceforge.subsonic.controller.RESTController: void getNowPlaying(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.sourceforge.subsonic.controller.RESTController, line: '1193',
+  method: '<net.sourceforge.subsonic.controller.RESTController: javax.servlet.http.HttpServletRequest
+    wrapRequest(javax.servlet.http.HttpServletRequest)>', source-file: RESTController.java,
+  tag: 2882, unit-string: 'r22 = specialinvoke r0.<net.sourceforge.subsonic.controller.RESTController:
+    javax.servlet.http.HttpServletRequest wrapRequest(javax.servlet.http.HttpServletRequest)>(r21)'}
+- {containing-method: '<net.sourceforge.subsonic.service.StatusService: java.util.List
+    getPlayStatuses()>', containing-type: net.sourceforge.subsonic.service.StatusService,
+  line: '171', source-file: StatusService.java, tag: 97, unit-string: nop}
+- {containing-method: '<net.sourceforge.subsonic.service.MusicIndexService: java.util.SortedMap
+    sortArtists(java.util.List)>', containing-type: net.sourceforge.subsonic.service.MusicIndexService,
+  line: '101', method: '<net.sourceforge.subsonic.service.MusicIndexService: java.util.List
+    createIndexesFromExpression(java.lang.String)>', source-file: MusicIndexService.java,
+  tag: 5246, unit-string: 'r2 = virtualinvoke r0.<net.sourceforge.subsonic.service.MusicIndexService:
+    java.util.List createIndexesFromExpression(java.lang.String)>($r7)'}
+- {containing-method: '<net.sourceforge.subsonic.service.StatusService: void addRemotePlay(net.sourceforge.subsonic.domain.PlayStatus)>',
+  containing-type: net.sourceforge.subsonic.service.StatusService, line: '144', source-file: StatusService.java,
+  tag: 79, unit-string: nop}
+- {containing-method: '<net.sourceforge.subsonic.controller.RESTController: void updatePlaylist(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.sourceforge.subsonic.controller.RESTController, line: '1022',
+  method: '<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+    getMediaFile(int)>', source-file: RESTController.java, tag: 2832, unit-string: 'r9
+    = virtualinvoke $r22.<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+    getMediaFile(int)>(i7)'}
+- {containing-method: '<net.sourceforge.subsonic.controller.RESTController: void createPlaylist(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.sourceforge.subsonic.controller.RESTController, line: '957',
+  method: '<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+    getMediaFile(int)>', source-file: RESTController.java, tag: 2820, unit-string: 'r7
+    = virtualinvoke $r15.<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+    getMediaFile(int)>(i0)'}
+- {containing-method: '<net.sourceforge.subsonic.service.SearchService: net.sourceforge.subsonic.domain.SearchResult
+    search(net.sourceforge.subsonic.domain.SearchCriteria,java.util.List,net.sourceforge.subsonic.service.SearchService$IndexType)>',
+  containing-type: net.sourceforge.subsonic.service.SearchService, line: '216', method: '<net.sourceforge.subsonic.service.MediaFileService:
+    net.sourceforge.subsonic.domain.MediaFile getMediaFile(int)>', source-file: SearchService.java,
+  tag: 3606, unit-string: 'r11 = virtualinvoke $r48.<net.sourceforge.subsonic.service.MediaFileService:
+    net.sourceforge.subsonic.domain.MediaFile getMediaFile(int)>($i13)'}
+- {containing-method: '<net.sourceforge.subsonic.controller.CoverArtController: java.io.File
+    getCachedImage(net.sourceforge.subsonic.controller.CoverArtController$CoverArtRequest,int)>',
+  containing-type: net.sourceforge.subsonic.controller.CoverArtController, line: '221',
+  source-file: CoverArtController.java, tag: 21, unit-string: entermonitor $r16}
+- {containing-method: '<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+    getParentOf(net.sourceforge.subsonic.domain.MediaFile)>', containing-type: net.sourceforge.subsonic.service.MediaFileService,
+  line: '162', method: '<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+    getMediaFile(java.lang.String)>', source-file: MediaFileService.java, tag: 3593,
+  unit-string: '$r4 = virtualinvoke r0.<net.sourceforge.subsonic.service.MediaFileService:
+    net.sourceforge.subsonic.domain.MediaFile getMediaFile(java.lang.String)>($r3)'}
+- {containing-method: '<net.sourceforge.subsonic.controller.WapController: org.springframework.web.servlet.ModelAndView
+    wap(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.sourceforge.subsonic.controller.WapController, line: '82',
+  method: '<net.sourceforge.subsonic.service.MusicIndexService: java.util.SortedMap
+    getIndexedArtists(java.util.List,boolean)>', source-file: WapController.java,
+  tag: 3193, unit-string: 'r6 = virtualinvoke $r12.<net.sourceforge.subsonic.service.MusicIndexService:
+    java.util.SortedMap getIndexedArtists(java.util.List,boolean)>(r5, 0)'}
+- {containing-method: '<net.sourceforge.subsonic.io.ShoutCastOutputStream: void writeMetaData()>',
+  containing-type: net.sourceforge.subsonic.io.ShoutCastOutputStream, line: '175',
+  method: '<java.io.OutputStream: void write(int)>', source-file: ShoutCastOutputStream.java,
+  tag: 5561, unit-string: 'virtualinvoke $r9.<java.io.OutputStream: void write(int)>(0)'}
+- {containing-method: '<net.sourceforge.subsonic.io.ShoutCastOutputStream: void writeMetaData()>',
+  containing-type: net.sourceforge.subsonic.io.ShoutCastOutputStream, line: '170',
+  method: '<java.io.OutputStream: void write(byte[])>', source-file: ShoutCastOutputStream.java,
+  tag: 5560, unit-string: 'virtualinvoke $r8.<java.io.OutputStream: void write(byte[])>(r22)'}

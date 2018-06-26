@@ -1,0 +1,51 @@
+- classification: fp
+  key: !!python/tuple
+  - '<net.eyde.personalblog.PseudoMain$Dispatcher_49: void forward(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>'
+  - !!python/tuple ['interfaceinvoke $r6.<javax.servlet.RequestDispatcher: void forward(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>(r2,
+      r3)|0']
+  - '[$INSTANCE(edu.washington.cse.servlet.RequestAttributes), <<contents>>(java.lang.String)]'
+  tag: cs
+  units: [nop|0]
+  value:
+    nop|0: {}
+- classification: fp
+  key: !!python/tuple
+  - '<net.eyde.personalblog.PseudoMain$Dispatcher_49: void forward(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>'
+  - !!python/tuple ['interfaceinvoke $r6.<javax.servlet.RequestDispatcher: void forward(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>(r2,
+      r3)|0']
+  - '[$INSTANCE(edu.washington.cse.servlet.RequestAttributes), <<contents>>(java.util.ArrayList)]'
+  tag: cs
+  units: [nop|0]
+  value:
+    nop|0: {}
+- classification: fp
+  key: !!python/tuple
+  - '<net.eyde.personalblog.PseudoMain$Dispatcher_49: void forward(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>'
+  - !!python/tuple ['interfaceinvoke $r6.<javax.servlet.RequestDispatcher: void forward(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>(r2,
+      r3)|0']
+  - '[$INSTANCE(edu.washington.cse.servlet.RequestAttributes), <<contents>>(net.eyde.personalblog.beans.Post)]'
+  tag: cs
+  units: [nop|0]
+  value:
+    nop|0: {}
+- classification: tp
+  key: !!python/tuple
+  - '<net.eyde.personalblog.service.Email: void sendMessage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>'
+  - !!python/tuple ['staticinvoke <net.eyde.personalblog.service.Email: void sendMessage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>($r26,
+      $r27, r32, r33)|0']
+  - r6(javax.mail.internet.MimeMessage)[*(Any_subtype_of_java.lang.Object)]
+  units: ['$r23 = staticinvoke <net.eyde.personalblog.service.PersonalBlogService:
+      net.eyde.personalblog.service.PersonalBlogService getInstance()>()|0', '$r23
+      = staticinvoke <net.eyde.personalblog.service.PersonalBlogService: net.eyde.personalblog.service.PersonalBlogService
+      getInstance()>()|0', '$r23 = staticinvoke <net.eyde.personalblog.service.PersonalBlogService:
+      net.eyde.personalblog.service.PersonalBlogService getInstance()>()|0']
+  value:
+    ? '$r23 = staticinvoke <net.eyde.personalblog.service.PersonalBlogService: net.eyde.personalblog.service.PersonalBlogService
+      getInstance()>()|0'
+    : weblog.email:
+        ? '[staticinvoke <net.eyde.personalblog.service.Email: void sendMessage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>($r26,
+          $r27, r32, r33)]|<<zero>>(null_type)'
+        : - !!python/tuple [C, 407, 0]
+        ? '[staticinvoke <net.eyde.personalblog.service.Email: void sendMessage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>($r26,
+          $r27, r32, r33)]|r2(java.lang.String)'
+        : - !!python/tuple [C, 512, 0]

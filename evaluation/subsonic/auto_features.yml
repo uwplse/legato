@@ -1,0 +1,255 @@
+? !!python/tuple
+- <<zero>>(null_type)
+- '<net.sourceforge.subsonic.ajax.PlayQueueService: net.sourceforge.subsonic.ajax.PlayQueueInfo
+  convert(javax.servlet.http.HttpServletRequest,net.sourceforge.subsonic.domain.Player,boolean,int)>'
+- !!python/tuple [UrlRedirectFrom]
+- '$r = r.<net.sourceforge.subsonic.ajax.PlayQueueService: net.sourceforge.subsonic.service.SettingsService
+  settingsService>'
+: !!python/tuple [tp, loop]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<net.sourceforge.subsonic.controller.MainController: java.util.List getAncestors(net.sourceforge.subsonic.domain.MediaFile)>'
+- !!python/tuple [PodcastFolder]
+- if r == null goto return r
+: !!python/tuple [tp, null]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<net.sourceforge.subsonic.controller.MainController: java.util.List getMediaFiles(javax.servlet.http.HttpServletRequest)>'
+- !!python/tuple [PodcastFolder]
+- 'i = i + '
+: !!python/tuple [tp, loop]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<net.sourceforge.subsonic.controller.MainController: java.util.List getMediaFiles(javax.servlet.http.HttpServletRequest)>'
+- !!python/tuple [PodcastFolder]
+- if i < i goto i = r[i]
+: !!python/tuple [tp, null]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<net.sourceforge.subsonic.controller.MainController: java.util.List getMultiFolderChildren(java.util.List)>'
+- !!python/tuple [PodcastFolder]
+- '$z = interfaceinvoke r.<java.util.Iterator: boolean hasNext()>()'
+: !!python/tuple [tp, null]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<net.sourceforge.subsonic.controller.PodcastController: org.springframework.web.servlet.ModelAndView
+  handleRequestInternal(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+- !!python/tuple [StreamPort]
+- '$z = interfaceinvoke r.<java.util.Iterator: boolean hasNext()>()'
+: !!python/tuple [tp, loop]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<net.sourceforge.subsonic.controller.RESTController: void createPlaylist(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+- !!python/tuple [PodcastFolder]
+- 'i = i + '
+: !!python/tuple [tp, loop]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<net.sourceforge.subsonic.controller.RESTController: void createShare(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+- !!python/tuple [PodcastFolder]
+- 'i = i + '
+: !!python/tuple [tp, loop]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<net.sourceforge.subsonic.controller.RESTController: void scrobble(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+- !!python/tuple [PodcastFolder]
+- '$r = r.<net.sourceforge.subsonic.controller.RESTController: net.sourceforge.subsonic.service.MediaFileService
+  mediaFileService>'
+: !!python/tuple [tp, null]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<net.sourceforge.subsonic.controller.RESTController: void scrobble(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+- !!python/tuple [PodcastFolder]
+- if r != null goto $i = lengthof r
+: !!python/tuple [tp, loop]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<net.sourceforge.subsonic.controller.RESTController: void updatePlaylist(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+- !!python/tuple [PodcastFolder]
+- 'i = i + '
+: !!python/tuple [tp, loop]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<net.sourceforge.subsonic.controller.RESTController: void updatePlaylist(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+- !!python/tuple [PodcastFolder]
+- 'z = '
+: !!python/tuple [tp, loop]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<net.sourceforge.subsonic.controller.StreamController: org.springframework.web.servlet.ModelAndView
+  handleRequest(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+- !!python/tuple [WelcomeTitle]
+- '$z = virtualinvoke r.<net.sourceforge.subsonic.domain.TransferStatus: boolean terminated()>()'
+: !!python/tuple [tp, null]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<net.sourceforge.subsonic.controller.StreamController: org.springframework.web.servlet.ModelAndView
+  handleRequest(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+- !!python/tuple [WelcomeTitle]
+- 'goto [?= $z = virtualinvoke r.<net.sourceforge.subsonic.domain.TransferStatus:
+  boolean terminated()>()]'
+: !!python/tuple [tp, null]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<net.sourceforge.subsonic.io.ShoutCastOutputStream: void write(byte[],int,int)>'
+- !!python/tuple [WelcomeTitle]
+- i = i + i
+: !!python/tuple [tp, null]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<net.sourceforge.subsonic.io.ShoutCastOutputStream: void write(byte[],int,int)>'
+- !!python/tuple [WelcomeTitle]
+- if i < i goto $i = i - i
+: !!python/tuple [tp, null]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<net.sourceforge.subsonic.io.ShoutCastOutputStream: void write(byte[],int,int)>'
+- !!python/tuple [WelcomeTitle]
+- 'r.<net.sourceforge.subsonic.io.ShoutCastOutputStream: int byteCount> = '
+: !!python/tuple [tp, null]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<net.sourceforge.subsonic.io.ShoutCastOutputStream: void writeMetaData()>'
+- !!python/tuple [WelcomeTitle]
+- 'if i < i goto $r = r.<net.sourceforge.subsonic.io.ShoutCastOutputStream: java.io.OutputStream
+  out>'
+: !!python/tuple [tp, null]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<net.sourceforge.subsonic.service.MediaFileService: java.util.List getChildrenOf(net.sourceforge.subsonic.domain.MediaFile,boolean,boolean,boolean,boolean)>'
+- !!python/tuple [PodcastFolder]
+- '$z = virtualinvoke r.<net.sourceforge.subsonic.domain.MediaFile: boolean isFile()>()'
+: !!python/tuple [tp, loop]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<net.sourceforge.subsonic.service.MediaFileService: java.util.List getDescendantsOf(net.sourceforge.subsonic.domain.MediaFile,boolean)>'
+- !!python/tuple [PodcastFolder]
+- '$z = interfaceinvoke r.<java.util.Iterator: boolean hasNext()>()'
+: !!python/tuple [tp, null]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<net.sourceforge.subsonic.service.MediaFileService: java.util.List getDescendantsOf(net.sourceforge.subsonic.domain.MediaFile,boolean)>'
+- !!python/tuple [PodcastFolder]
+- '$z = interfaceinvoke r.<java.util.List: boolean addAll(java.util.Collection)>($r)'
+: !!python/tuple [tp, null]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<net.sourceforge.subsonic.service.MediaFileService: java.util.List getDescendantsOf(net.sourceforge.subsonic.domain.MediaFile,boolean)>'
+- !!python/tuple [PodcastFolder]
+- 'goto [?= $z = interfaceinvoke r.<java.util.Iterator: boolean hasNext()>()]'
+: !!python/tuple [tp, null]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+  getMediaFile(java.io.File,boolean)>'
+- !!python/tuple [PodcastFolder]
+- return $r
+: !!python/tuple [fp, path]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<net.sourceforge.subsonic.service.SearchService: java.util.List getRandomAlbums(int,java.util.List)>'
+- !!python/tuple [PodcastFolder]
+- $r := @caughtexception
+: !!python/tuple [tp, loop]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<net.sourceforge.subsonic.service.SearchService: java.util.List getRandomAlbums(int,java.util.List)>'
+- !!python/tuple [PodcastFolder]
+- 'goto [?= $z = interfaceinvoke r.<java.util.List: boolean isEmpty()>()]'
+: !!python/tuple [tp, loop]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<net.sourceforge.subsonic.service.SearchService: java.util.List getRandomSongs(net.sourceforge.subsonic.domain.RandomSearchCriteria)>'
+- !!python/tuple [PodcastFolder]
+- $r := @caughtexception
+: !!python/tuple [tp, null]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<net.sourceforge.subsonic.service.SearchService: java.util.List getRandomSongs(net.sourceforge.subsonic.domain.RandomSearchCriteria)>'
+- !!python/tuple [PodcastFolder]
+- 'goto [?= $z = interfaceinvoke r.<java.util.List: boolean isEmpty()>()]'
+: !!python/tuple [tp, loop]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<net.sourceforge.subsonic.service.SearchService: net.sourceforge.subsonic.domain.SearchResult
+  search(net.sourceforge.subsonic.domain.SearchCriteria,java.util.List,net.sourceforge.subsonic.service.SearchService$IndexType)>'
+- !!python/tuple [PodcastFolder]
+- goto [?= i = i + ]
+: !!python/tuple [tp, loop]
+? !!python/tuple [OTHER, net.sourceforge.subsonic.domain.MusicIndex]
+: !!python/tuple [fp, static]
+? !!python/tuple [entries, java.util.List]
+: !!python/tuple [fp, static]
+? !!python/tuple
+- r0(net.sourceforge.subsonic.PseudoMain$DummyAcegiFilter)[bind(net.sourceforge.subsonic.ldap.SubsonicLdapBindAuthenticator),
+  authenticatorTimestamp(long)]
+- '<net.sourceforge.subsonic.PseudoMain$DummyAcegiFilter: void doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain)>'
+- !!python/tuple ['*']
+- '$r = r.<net.sourceforge.subsonic.PseudoMain$DummyAcegiFilter: net.sourceforge.subsonic.service.SecurityService
+  ss>'
+: !!python/tuple [fp, sync]
+? !!python/tuple
+- r0(net.sourceforge.subsonic.controller.RESTController)[statusService(net.sourceforge.subsonic.service.StatusService),
+  remotePlays(java.util.List), <<contents>>(net.sourceforge.subsonic.domain.PlayStatus),
+  mediaFile(net.sourceforge.subsonic.domain.MediaFile), folder(java.lang.String)]
+- '<net.sourceforge.subsonic.controller.RESTController: void getNowPlaying(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+- !!python/tuple ['*']
+- 'r = interfaceinvoke $r.<java.util.List: java.util.Iterator iterator()>()'
+: !!python/tuple [tp, null]
+? !!python/tuple
+- r0(net.sourceforge.subsonic.controller.RESTController)[statusService(net.sourceforge.subsonic.service.StatusService),
+  remotePlays(java.util.List), <<contents>>(net.sourceforge.subsonic.domain.PlayStatus),
+  mediaFile(net.sourceforge.subsonic.domain.MediaFile), folder(java.lang.String)]
+- '<net.sourceforge.subsonic.controller.RESTController: void scrobble(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+- !!python/tuple ['*']
+- '$r = r.<net.sourceforge.subsonic.controller.RESTController: net.sourceforge.subsonic.service.MediaFileService
+  mediaFileService>'
+: !!python/tuple [tp, null]
+? !!python/tuple
+- r0(net.sourceforge.subsonic.ldap.SubsonicLdapBindAuthenticator)[authenticatorTimestamp(long)]
+- '<net.sourceforge.subsonic.ldap.SubsonicLdapBindAuthenticator: void createDelegate()>'
+- !!python/tuple ['*']
+- $r = new org.acegisecurity.ldap.DefaultInitialDirContextFactory
+: !!python/tuple [fp, sync]
+? !!python/tuple
+- r1(net.sourceforge.subsonic.controller.CoverArtController$MediaFileCoverArtRequest)[dir(net.sourceforge.subsonic.domain.MediaFile),
+  folder(java.lang.String)]
+- '<net.sourceforge.subsonic.controller.CoverArtController: java.io.File getCachedImage(net.sourceforge.subsonic.controller.CoverArtController$CoverArtRequest,int)>'
+- !!python/tuple ['*']
+- $r := @caughtexception
+: !!python/tuple [fp, sync]
+? !!python/tuple
+- r1(net.sourceforge.subsonic.controller.CoverArtController$MediaFileCoverArtRequest)[dir(net.sourceforge.subsonic.domain.MediaFile),
+  folder(java.lang.String)]
+- '<net.sourceforge.subsonic.controller.CoverArtController: java.io.File getCachedImage(net.sourceforge.subsonic.controller.CoverArtController$CoverArtRequest,int)>'
+- !!python/tuple ['*']
+- r = null
+: !!python/tuple [fp, sync]
+? !!python/tuple
+- r1(net.sourceforge.subsonic.controller.CoverArtController$MediaFileCoverArtRequest)[mediaFile(net.sourceforge.subsonic.domain.MediaFile),
+  folder(java.lang.String)]
+- '<net.sourceforge.subsonic.controller.CoverArtController: java.io.File getCachedImage(net.sourceforge.subsonic.controller.CoverArtController$CoverArtRequest,int)>'
+- !!python/tuple ['*']
+- $r := @caughtexception
+: !!python/tuple [fp, sync]
+? !!python/tuple
+- r1(net.sourceforge.subsonic.controller.CoverArtController$MediaFileCoverArtRequest)[mediaFile(net.sourceforge.subsonic.domain.MediaFile),
+  folder(java.lang.String)]
+- '<net.sourceforge.subsonic.controller.CoverArtController: java.io.File getCachedImage(net.sourceforge.subsonic.controller.CoverArtController$CoverArtRequest,int)>'
+- !!python/tuple ['*']
+- $r = r
+: !!python/tuple [fp, sync]
+? !!python/tuple
+- r1(net.sourceforge.subsonic.controller.CoverArtController$VideoCoverArtRequest)[mediaFile(net.sourceforge.subsonic.domain.MediaFile),
+  folder(java.lang.String)]
+- '<net.sourceforge.subsonic.controller.CoverArtController: java.io.File getCachedImage(net.sourceforge.subsonic.controller.CoverArtController$CoverArtRequest,int)>'
+- !!python/tuple ['*']
+- $r := @caughtexception
+: !!python/tuple [fp, sync]
+? !!python/tuple
+- r1(net.sourceforge.subsonic.controller.CoverArtController$VideoCoverArtRequest)[mediaFile(net.sourceforge.subsonic.domain.MediaFile),
+  folder(java.lang.String)]
+- '<net.sourceforge.subsonic.controller.CoverArtController: java.io.File getCachedImage(net.sourceforge.subsonic.controller.CoverArtController$CoverArtRequest,int)>'
+- !!python/tuple ['*']
+- r = null
+: !!python/tuple [fp, sync]

@@ -1,0 +1,106 @@
+? !!python/tuple
+- <<zero>>(null_type)
+- '<vqwiki.AbstractNotify: boolean sendNotifications(java.lang.String,java.util.Locale)>'
+- !!python/tuple [force-encoding]
+- $r = new java.lang.StringBuffer
+: !!python/tuple [tp, null]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<vqwiki.AbstractServletSearchEngine: void rebuild()>'
+- !!python/tuple [homeDir]
+- $r := @caughtexception
+: !!python/tuple [tp, loop]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<vqwiki.AbstractServletSearchEngine: void rebuild()>'
+- !!python/tuple [homeDir]
+- 'goto [?= $z = interfaceinvoke r.<java.util.Iterator: boolean hasNext()>()]'
+: !!python/tuple [tp, loop]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<vqwiki.WikiBase: void panic()>'
+- !!python/tuple [homeDir]
+- 'i = '
+: !!python/tuple [fp, other]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<vqwiki.file.FileHandler: void rename(java.lang.String,java.lang.String,java.lang.String)>'
+- !!python/tuple [homeDir]
+- 'if $z !=  goto specialinvoke r.<vqwiki.file.FileHandler: void renameHistoryFiles(java.lang.String,java.lang.String,java.lang.String)>(r,
+  r, r)'
+: !!python/tuple [tp, null]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<vqwiki.file.FileNotify: java.util.Collection getAll(java.lang.String)>'
+- !!python/tuple [homeDir]
+- 'i = i + '
+: !!python/tuple [tp, loop]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<vqwiki.file.FileVersionManager: java.lang.String diff(java.lang.String,java.lang.String,int,int,boolean)>'
+- !!python/tuple [homeDir]
+- '$r = virtualinvoke $r.<java.lang.StringBuffer: java.lang.String toString()>()'
+: !!python/tuple [tp, null]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<vqwiki.lex.LinkLexConvertOnlineHTML: java.lang.String getTopicLink(java.lang.String,java.lang.String)>'
+- !!python/tuple [force-encoding]
+- return $r
+: !!python/tuple [fp, path]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<vqwiki.lex.MediaWikiUtil: java.lang.String buildWikiLink(java.lang.String,java.lang.String)>'
+- !!python/tuple [force-encoding]
+- return $r
+: !!python/tuple [fp, path]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<vqwiki.servlets.PrintableServlet: java.util.Collection parsePage(java.util.ResourceBundle,vqwiki.Environment,java.lang.String,java.lang.String,int,java.util.Vector)>'
+- !!python/tuple [file-encoding]
+- '$z = interfaceinvoke r.<java.util.Collection: boolean addAll(java.util.Collection)>($r)'
+: !!python/tuple [tp, null]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<vqwiki.servlets.SearchServlet: void doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+- !!python/tuple [force-encoding]
+- '$r = virtualinvoke r.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>("</p>")'
+: !!python/tuple [tp, null]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<vqwiki.servlets.SearchServlet: void doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+- !!python/tuple [force-encoding]
+- '$r = virtualinvoke r.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>("\">")'
+: !!python/tuple [tp, null]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<vqwiki.servlets.SearchServlet: void doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+- !!python/tuple [force-encoding]
+- r = new java.lang.StringBuffer
+: !!python/tuple [tp, loop]
+? !!python/tuple
+- '[$INSTANCE(vqwiki.servlets.AdministrationServlet), wb(vqwiki.WikiBase), changeLog(vqwiki.file.FileChangeLog),
+  cache(java.util.Map), <<contents>>(java.lang.String)]'
+- '<vqwiki.AbstractServletSearchEngine: org.apache.lucene.document.Document createDocument(java.lang.String,java.lang.String)>'
+- !!python/tuple ['*']
+- $r := @caughtexception
+: !!python/tuple [fp, sync]
+? !!python/tuple
+- '[$INSTANCE(vqwiki.servlets.RecentChangesServlet), wb(vqwiki.WikiBase), changeLog(vqwiki.file.FileChangeLog),
+  cache(java.util.Map), <<contents>>(java.util.Map), <<contents>>(java.util.ArrayList),
+  <<contents>>(vqwiki.Change), virtualWiki(java.lang.String)]'
+- '<vqwiki.AbstractServletSearchEngine: void rebuild()>'
+- !!python/tuple ['*']
+- $r := @caughtexception
+: !!python/tuple [fp, sync]
+? !!python/tuple
+- '[$INSTANCE(vqwiki.servlets.RecentChangesServlet), wb(vqwiki.WikiBase), changeLog(vqwiki.file.FileChangeLog),
+  cache(java.util.Map), <<contents>>(java.util.Map), <<contents>>(java.util.ArrayList),
+  <<contents>>(vqwiki.Change), virtualWiki(java.lang.String)]'
+- '<vqwiki.AbstractServletSearchEngine: void rebuild()>'
+- !!python/tuple ['*']
+- '$z = interfaceinvoke r.<java.util.Iterator: boolean hasNext()>()'
+: !!python/tuple [fp, sync]
+? !!python/tuple [instance, vqwiki.SearchRefreshThread]
+: !!python/tuple [fp, static]
+? !!python/tuple [instance, vqwiki.WikiBase]
+: !!python/tuple [tp, static]

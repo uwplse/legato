@@ -1,0 +1,614 @@
+- classification: fp
+  fields:
+    uploadDir: !!set {'[$INSTANCE(edu.washington.cse.servlet.SessionAttributes), <<contents>>(java.lang.String)]': null}
+  key: !!python/tuple [$INSTANCE, edu.washington.cse.servlet.SessionAttributes]
+  props: !!set {uploadDir: null}
+  tag: static
+- classification: b
+  f1:
+    editorPagesList:
+    - !!python/tuple [CR, 371, 0, 0]
+    - !!python/tuple [CR, 597, 0, 0]
+    - !!python/tuple [CR, 586, 0, 0]
+    - !!python/tuple [CR, 582, 0, 0]
+    - !!python/tuple [CR, 307, 0, 0]
+    - !!python/tuple [CR, 300, 0, 0]
+    - !!python/tuple [CR, 1462, 0, 0]
+    - !!python/tuple [CR, 816, 0, 0]
+    - !!python/tuple [CR, 598, 0, 0]
+    - !!python/tuple [CR, 588, 0, 0]
+    - !!python/tuple [C, 574, 0]
+  f2:
+    editorPagesList:
+    - !!python/tuple [CR, 569, 0, 0]
+    - !!python/tuple [CR, 597, 0, 0]
+    - !!python/tuple [CR, 586, 0, 0]
+    - !!python/tuple [CR, 582, 0, 0]
+    - !!python/tuple [CR, 307, 0, 0]
+    - !!python/tuple [CR, 300, 0, 0]
+    - !!python/tuple [CR, 1462, 0, 0]
+    - !!python/tuple [CR, 816, 0, 0]
+    - !!python/tuple [CR, 598, 0, 0]
+    - !!python/tuple [CR, 588, 0, 0]
+    - !!python/tuple [C, 574, 0]
+  key: !!python/tuple ['<org.apache.jsp.weblog.WeblogQuery_jsp: void _jspService(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+    <<zero>>(null_type), '$r137 := @caughtexception|0', '[$INSTANCE(edu.washington.cse.servlet.RequestAttributes),
+      <<contents>>(java.util.List)]']
+- classification: b
+  f1:
+    uploadAllow:
+    - !!python/tuple [CR, 371, 0, 0]
+    - !!python/tuple [CR, 597, 0, 0]
+    - !!python/tuple [CR, 586, 0, 0]
+    - !!python/tuple [CR, 582, 0, 0]
+    - !!python/tuple [CR, 307, 0, 0]
+    - !!python/tuple [CR, 300, 0, 0]
+    - !!python/tuple [CR, 1441, 0, 0]
+    - !!python/tuple [CR, 795, 0, 0]
+    - !!python/tuple [CR, 925, 0, 0]
+    - !!python/tuple [CR, 1293, 0, 0]
+    - !!python/tuple [C, 600, 0]
+    uploadMaxDirMB:
+    - !!python/tuple [CR, 371, 0, 0]
+    - !!python/tuple [CR, 597, 0, 0]
+    - !!python/tuple [CR, 586, 0, 0]
+    - !!python/tuple [CR, 582, 0, 0]
+    - !!python/tuple [CR, 307, 0, 0]
+    - !!python/tuple [CR, 300, 0, 0]
+    - !!python/tuple [CR, 1441, 0, 0]
+    - !!python/tuple [CR, 795, 0, 0]
+    - !!python/tuple [CR, 925, 0, 0]
+    - !!python/tuple [CR, 1293, 0, 0]
+    - !!python/tuple [C, 603, 0]
+    uploadMaxFileMB:
+    - !!python/tuple [CR, 371, 0, 0]
+    - !!python/tuple [CR, 597, 0, 0]
+    - !!python/tuple [CR, 586, 0, 0]
+    - !!python/tuple [CR, 582, 0, 0]
+    - !!python/tuple [CR, 307, 0, 0]
+    - !!python/tuple [CR, 300, 0, 0]
+    - !!python/tuple [CR, 1441, 0, 0]
+    - !!python/tuple [CR, 795, 0, 0]
+    - !!python/tuple [CR, 925, 0, 0]
+    - !!python/tuple [CR, 1293, 0, 0]
+    - !!python/tuple [C, 604, 0]
+  f2:
+    uploadAllow:
+    - !!python/tuple [CR, 569, 0, 0]
+    - !!python/tuple [CR, 597, 0, 0]
+    - !!python/tuple [CR, 586, 0, 0]
+    - !!python/tuple [CR, 582, 0, 0]
+    - !!python/tuple [CR, 307, 0, 0]
+    - !!python/tuple [CR, 300, 0, 0]
+    - !!python/tuple [CR, 1441, 0, 0]
+    - !!python/tuple [CR, 795, 0, 0]
+    - !!python/tuple [CR, 925, 0, 0]
+    - !!python/tuple [CR, 1293, 0, 0]
+    - !!python/tuple [C, 600, 0]
+    uploadMaxDirMB:
+    - !!python/tuple [CR, 569, 0, 0]
+    - !!python/tuple [CR, 597, 0, 0]
+    - !!python/tuple [CR, 586, 0, 0]
+    - !!python/tuple [CR, 582, 0, 0]
+    - !!python/tuple [CR, 307, 0, 0]
+    - !!python/tuple [CR, 300, 0, 0]
+    - !!python/tuple [CR, 1441, 0, 0]
+    - !!python/tuple [CR, 795, 0, 0]
+    - !!python/tuple [CR, 925, 0, 0]
+    - !!python/tuple [CR, 1293, 0, 0]
+    - !!python/tuple [C, 603, 0]
+    uploadMaxFileMB:
+    - !!python/tuple [CR, 569, 0, 0]
+    - !!python/tuple [CR, 597, 0, 0]
+    - !!python/tuple [CR, 586, 0, 0]
+    - !!python/tuple [CR, 582, 0, 0]
+    - !!python/tuple [CR, 307, 0, 0]
+    - !!python/tuple [CR, 300, 0, 0]
+    - !!python/tuple [CR, 1441, 0, 0]
+    - !!python/tuple [CR, 795, 0, 0]
+    - !!python/tuple [CR, 925, 0, 0]
+    - !!python/tuple [CR, 1293, 0, 0]
+    - !!python/tuple [C, 604, 0]
+  key: !!python/tuple ['<org.apache.jsp.weblog.WeblogQuery_jsp: void _jspService(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+    <<zero>>(null_type), '$r137 := @caughtexception|0', '[$INSTANCE(edu.washington.cse.servlet.RequestAttributes),
+      <<contents>>(org.apache.struts.action.ActionErrors)]']
+- classification: b
+  f1:
+    uploadDir:
+    - !!python/tuple [CR, 371, 0, 0]
+    - !!python/tuple [CR, 597, 0, 0]
+    - !!python/tuple [CR, 586, 0, 0]
+    - !!python/tuple [CR, 582, 0, 0]
+    - !!python/tuple [CR, 307, 0, 0]
+    - !!python/tuple [CR, 300, 0, 0]
+    - !!python/tuple [CR, 349, 0, 0]
+    - !!python/tuple [CR, 343, 0, 0]
+    - !!python/tuple [CR, 342, 0, 0]
+    - !!python/tuple [CR, 335, 0, 0]
+    - !!python/tuple [CR, 367, 0, 0]
+    - !!python/tuple [CR, 279, 0, 0]
+    - !!python/tuple [C, 257, 0]
+  f2:
+    uploadDir:
+    - !!python/tuple [CR, 569, 0, 0]
+    - !!python/tuple [CR, 597, 0, 0]
+    - !!python/tuple [CR, 586, 0, 0]
+    - !!python/tuple [CR, 582, 0, 0]
+    - !!python/tuple [CR, 307, 0, 0]
+    - !!python/tuple [CR, 300, 0, 0]
+    - !!python/tuple [CR, 349, 0, 0]
+    - !!python/tuple [CR, 343, 0, 0]
+    - !!python/tuple [CR, 342, 0, 0]
+    - !!python/tuple [CR, 335, 0, 0]
+    - !!python/tuple [CR, 367, 0, 0]
+    - !!python/tuple [CR, 279, 0, 0]
+    - !!python/tuple [C, 257, 0]
+  key: !!python/tuple ['<org.apache.jsp.weblog.WeblogQuery_jsp: void _jspService(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+    <<zero>>(null_type), '$r137 := @caughtexception|0', '[$INSTANCE(edu.washington.cse.servlet.SessionAttributes),
+      <<contents>>(java.lang.String)]']
+- classification: b
+  f1:
+    editorPagesList:
+    - !!python/tuple [CR, 278, 0, 0]
+    - !!python/tuple [CR, 597, 0, 0]
+    - !!python/tuple [CR, 586, 0, 0]
+    - !!python/tuple [CR, 582, 0, 0]
+    - !!python/tuple [CR, 307, 0, 0]
+    - !!python/tuple [CR, 300, 0, 0]
+    - !!python/tuple [CR, 1462, 0, 0]
+    - !!python/tuple [CR, 816, 0, 0]
+    - !!python/tuple [CR, 598, 0, 0]
+    - !!python/tuple [CR, 588, 0, 0]
+    - !!python/tuple [C, 574, 0]
+  f2:
+    editorPagesList:
+    - !!python/tuple [CR, 330, 0, 0]
+    - !!python/tuple [CR, 597, 0, 0]
+    - !!python/tuple [CR, 586, 0, 0]
+    - !!python/tuple [CR, 582, 0, 0]
+    - !!python/tuple [CR, 307, 0, 0]
+    - !!python/tuple [CR, 300, 0, 0]
+    - !!python/tuple [CR, 1462, 0, 0]
+    - !!python/tuple [CR, 816, 0, 0]
+    - !!python/tuple [CR, 598, 0, 0]
+    - !!python/tuple [CR, 588, 0, 0]
+    - !!python/tuple [C, 574, 0]
+  key: !!python/tuple ['<org.apache.jsp.weblog.export_002dentries_jsp: void _jspService(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+    <<zero>>(null_type), '$r90 := @caughtexception|0', '[$INSTANCE(edu.washington.cse.servlet.RequestAttributes),
+      <<contents>>(java.util.List)]']
+- classification: b
+  f1:
+    uploadAllow:
+    - !!python/tuple [CR, 278, 0, 0]
+    - !!python/tuple [CR, 597, 0, 0]
+    - !!python/tuple [CR, 586, 0, 0]
+    - !!python/tuple [CR, 582, 0, 0]
+    - !!python/tuple [CR, 307, 0, 0]
+    - !!python/tuple [CR, 300, 0, 0]
+    - !!python/tuple [CR, 1441, 0, 0]
+    - !!python/tuple [CR, 795, 0, 0]
+    - !!python/tuple [CR, 925, 0, 0]
+    - !!python/tuple [CR, 1293, 0, 0]
+    - !!python/tuple [C, 600, 0]
+    uploadMaxDirMB:
+    - !!python/tuple [CR, 278, 0, 0]
+    - !!python/tuple [CR, 597, 0, 0]
+    - !!python/tuple [CR, 586, 0, 0]
+    - !!python/tuple [CR, 582, 0, 0]
+    - !!python/tuple [CR, 307, 0, 0]
+    - !!python/tuple [CR, 300, 0, 0]
+    - !!python/tuple [CR, 1441, 0, 0]
+    - !!python/tuple [CR, 795, 0, 0]
+    - !!python/tuple [CR, 925, 0, 0]
+    - !!python/tuple [CR, 1293, 0, 0]
+    - !!python/tuple [C, 603, 0]
+    uploadMaxFileMB:
+    - !!python/tuple [CR, 278, 0, 0]
+    - !!python/tuple [CR, 597, 0, 0]
+    - !!python/tuple [CR, 586, 0, 0]
+    - !!python/tuple [CR, 582, 0, 0]
+    - !!python/tuple [CR, 307, 0, 0]
+    - !!python/tuple [CR, 300, 0, 0]
+    - !!python/tuple [CR, 1441, 0, 0]
+    - !!python/tuple [CR, 795, 0, 0]
+    - !!python/tuple [CR, 925, 0, 0]
+    - !!python/tuple [CR, 1293, 0, 0]
+    - !!python/tuple [C, 604, 0]
+  f2:
+    uploadAllow:
+    - !!python/tuple [CR, 330, 0, 0]
+    - !!python/tuple [CR, 597, 0, 0]
+    - !!python/tuple [CR, 586, 0, 0]
+    - !!python/tuple [CR, 582, 0, 0]
+    - !!python/tuple [CR, 307, 0, 0]
+    - !!python/tuple [CR, 300, 0, 0]
+    - !!python/tuple [CR, 1441, 0, 0]
+    - !!python/tuple [CR, 795, 0, 0]
+    - !!python/tuple [CR, 925, 0, 0]
+    - !!python/tuple [CR, 1293, 0, 0]
+    - !!python/tuple [C, 600, 0]
+    uploadMaxDirMB:
+    - !!python/tuple [CR, 330, 0, 0]
+    - !!python/tuple [CR, 597, 0, 0]
+    - !!python/tuple [CR, 586, 0, 0]
+    - !!python/tuple [CR, 582, 0, 0]
+    - !!python/tuple [CR, 307, 0, 0]
+    - !!python/tuple [CR, 300, 0, 0]
+    - !!python/tuple [CR, 1441, 0, 0]
+    - !!python/tuple [CR, 795, 0, 0]
+    - !!python/tuple [CR, 925, 0, 0]
+    - !!python/tuple [CR, 1293, 0, 0]
+    - !!python/tuple [C, 603, 0]
+    uploadMaxFileMB:
+    - !!python/tuple [CR, 330, 0, 0]
+    - !!python/tuple [CR, 597, 0, 0]
+    - !!python/tuple [CR, 586, 0, 0]
+    - !!python/tuple [CR, 582, 0, 0]
+    - !!python/tuple [CR, 307, 0, 0]
+    - !!python/tuple [CR, 300, 0, 0]
+    - !!python/tuple [CR, 1441, 0, 0]
+    - !!python/tuple [CR, 795, 0, 0]
+    - !!python/tuple [CR, 925, 0, 0]
+    - !!python/tuple [CR, 1293, 0, 0]
+    - !!python/tuple [C, 604, 0]
+  key: !!python/tuple ['<org.apache.jsp.weblog.export_002dentries_jsp: void _jspService(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+    <<zero>>(null_type), '$r90 := @caughtexception|0', '[$INSTANCE(edu.washington.cse.servlet.RequestAttributes),
+      <<contents>>(org.apache.struts.action.ActionErrors)]']
+- classification: b
+  f1:
+    uploadDir:
+    - !!python/tuple [CR, 278, 0, 0]
+    - !!python/tuple [CR, 597, 0, 0]
+    - !!python/tuple [CR, 586, 0, 0]
+    - !!python/tuple [CR, 582, 0, 0]
+    - !!python/tuple [CR, 307, 0, 0]
+    - !!python/tuple [CR, 300, 0, 0]
+    - !!python/tuple [CR, 349, 0, 0]
+    - !!python/tuple [CR, 343, 0, 0]
+    - !!python/tuple [CR, 342, 0, 0]
+    - !!python/tuple [CR, 335, 0, 0]
+    - !!python/tuple [CR, 367, 0, 0]
+    - !!python/tuple [CR, 279, 0, 0]
+    - !!python/tuple [C, 257, 0]
+  f2:
+    uploadDir:
+    - !!python/tuple [CR, 330, 0, 0]
+    - !!python/tuple [CR, 597, 0, 0]
+    - !!python/tuple [CR, 586, 0, 0]
+    - !!python/tuple [CR, 582, 0, 0]
+    - !!python/tuple [CR, 307, 0, 0]
+    - !!python/tuple [CR, 300, 0, 0]
+    - !!python/tuple [CR, 349, 0, 0]
+    - !!python/tuple [CR, 343, 0, 0]
+    - !!python/tuple [CR, 342, 0, 0]
+    - !!python/tuple [CR, 335, 0, 0]
+    - !!python/tuple [CR, 367, 0, 0]
+    - !!python/tuple [CR, 279, 0, 0]
+    - !!python/tuple [C, 257, 0]
+  key: !!python/tuple ['<org.apache.jsp.weblog.export_002dentries_jsp: void _jspService(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+    <<zero>>(null_type), '$r90 := @caughtexception|0', '[$INSTANCE(edu.washington.cse.servlet.SessionAttributes),
+      <<contents>>(java.lang.String)]']
+- classification: fp
+  key: !!python/tuple
+  - '<org.roller.PseudoMain$Dispatcher_136: void forward(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>'
+  - !!python/tuple ['interfaceinvoke $r6.<javax.servlet.RequestDispatcher: void forward(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>(r2,
+      r3)|0']
+  - '[$INSTANCE(edu.washington.cse.servlet.RequestAttributes), <<contents>>(java.util.List)]'
+  tag: servlet
+  units: [return|0]
+  value:
+    return|0:
+      editorPagesList:
+        ? '[interfaceinvoke $r6.<javax.servlet.RequestDispatcher: void forward(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>(r2,
+          r3)]|<<zero>>(null_type)'
+        : - !!python/tuple [CR, 616, 0, 0]
+          - !!python/tuple [CR, 606, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 590, 0]
+        ? '[interfaceinvoke $r6.<javax.servlet.RequestDispatcher: void forward(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>(r2,
+          r3)]|[$INSTANCE(edu.washington.cse.servlet.RequestAttributes), <<contents>>(java.util.List)]'
+        : - !!python/tuple [C, 614, 0]
+- classification: fp
+  key: !!python/tuple
+  - '<org.roller.PseudoMain$LegatoActionServlet$_74: void service(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>'
+  - !!python/tuple ['virtualinvoke $r3.<org.roller.PseudoMain$LegatoActionServlet$_74:
+      void service(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>(r1,
+      r2)|0']
+  - '[$INSTANCE(edu.washington.cse.servlet.RequestAttributes), <<contents>>(java.util.List)]'
+  tag: servlet
+  units: [return|0]
+  value:
+    return|0:
+      editorPagesList:
+        ? '[virtualinvoke $r3.<org.roller.PseudoMain$LegatoActionServlet$_74: void
+          service(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>(r1,
+          r2)]|<<zero>>(null_type)'
+        : - !!python/tuple [CR, 606, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 590, 0]
+        ? '[virtualinvoke $r3.<org.roller.PseudoMain$LegatoActionServlet$_74: void
+          service(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>(r1,
+          r2)]|[$INSTANCE(edu.washington.cse.servlet.RequestAttributes), <<contents>>(java.util.List)]'
+        : - !!python/tuple [C, 614, 0]
+- classification: fp
+  key: !!python/tuple
+  - '<org.roller.PseudoMain$LegatoActionServlet$_74: void service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+  - !!python/tuple ['virtualinvoke r0.<org.roller.PseudoMain$LegatoActionServlet$_74:
+      void service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>($r4,
+      $r3)|0']
+  - '[$INSTANCE(edu.washington.cse.servlet.RequestAttributes), <<contents>>(java.util.List)]'
+  tag: other
+  units: ['$r8 := @caughtexception|0', 'goto [?= return]|0']
+  value:
+    $r8 := @caughtexception|0:
+      editorPagesList:
+        ? '[virtualinvoke r0.<org.roller.PseudoMain$LegatoActionServlet$_74: void
+          service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>($r4,
+          $r3)]|<<zero>>(null_type)'
+        : - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 590, 0]
+        ? '[virtualinvoke r0.<org.roller.PseudoMain$LegatoActionServlet$_74: void
+          service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>($r4,
+          $r3)]|[$INSTANCE(edu.washington.cse.servlet.RequestAttributes), <<contents>>(java.util.List)]'
+        : - !!python/tuple [C, 614, 0]
+    goto [?= return]|0:
+      editorPagesList:
+        ? '[virtualinvoke r0.<org.roller.PseudoMain$LegatoActionServlet$_74: void
+          service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>($r4,
+          $r3)]|<<zero>>(null_type)'
+        : - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 590, 0]
+        ? '[virtualinvoke r0.<org.roller.PseudoMain$LegatoActionServlet$_74: void
+          service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>($r4,
+          $r3)]|[$INSTANCE(edu.washington.cse.servlet.RequestAttributes), <<contents>>(java.util.List)]'
+        : - !!python/tuple [C, 614, 0]
+- classification: fp
+  key: !!python/tuple
+  - '<org.roller.PseudoMain$LegatoForward$_49: void doForwardNow(javax.servlet.ServletContext,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+  - !!python/tuple ['virtualinvoke $r14.<org.roller.PseudoMain$UrlDispatchActionForward:
+      void doForwardNow(javax.servlet.ServletContext,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>($r13,
+      r2, r3)|0']
+  - '[$INSTANCE(edu.washington.cse.servlet.RequestAttributes), <<contents>>(java.util.List)]'
+  tag: servlet
+  units: ['$r7 := @caughtexception|0', 'goto [?= return]|0']
+  value:
+    $r7 := @caughtexception|0:
+      editorPagesList:
+        ? '[virtualinvoke $r14.<org.roller.PseudoMain$UrlDispatchActionForward: void
+          doForwardNow(javax.servlet.ServletContext,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>($r13,
+          r2, r3)]|<<zero>>(null_type)'
+        : - !!python/tuple [CR, 620, 0, 0]
+          - !!python/tuple [CR, 616, 0, 0]
+          - !!python/tuple [CR, 606, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 590, 0]
+        ? '[virtualinvoke $r14.<org.roller.PseudoMain$UrlDispatchActionForward: void
+          doForwardNow(javax.servlet.ServletContext,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>($r13,
+          r2, r3)]|[$INSTANCE(edu.washington.cse.servlet.RequestAttributes), <<contents>>(java.util.List)]'
+        : - !!python/tuple [C, 614, 0]
+    goto [?= return]|0:
+      editorPagesList:
+        ? '[virtualinvoke $r14.<org.roller.PseudoMain$UrlDispatchActionForward: void
+          doForwardNow(javax.servlet.ServletContext,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>($r13,
+          r2, r3)]|<<zero>>(null_type)'
+        : - !!python/tuple [CR, 620, 0, 0]
+          - !!python/tuple [CR, 616, 0, 0]
+          - !!python/tuple [CR, 606, 0, 0]
+          - !!python/tuple [CR, 602, 0, 0]
+          - !!python/tuple [C, 590, 0]
+        ? '[virtualinvoke $r14.<org.roller.PseudoMain$UrlDispatchActionForward: void
+          doForwardNow(javax.servlet.ServletContext,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>($r13,
+          r2, r3)]|[$INSTANCE(edu.washington.cse.servlet.RequestAttributes), <<contents>>(java.util.List)]'
+        : - !!python/tuple [C, 614, 0]
+- classification: b
+  f1:
+    '*':
+    - !!python/tuple [CR, 3337, 1, 0]
+    - !!python/tuple [CR, 171, 1, 0]
+    - !!python/tuple [CR, 224, 1, 0]
+    - !!python/tuple [CR, 250, 1, 0]
+    - &id001 !!python/tuple [L]
+  f2:
+    '*':
+    - !!python/tuple [CR, 3337, 1, 0]
+    - !!python/tuple [CR, 171, 1, 0]
+    - !!python/tuple [CR, 224, 1, 0]
+    - !!python/tuple [CR, 250, 1, 0]
+    - *id001
+  key: !!python/tuple ['<org.roller.pojos.WeblogEntryData: java.lang.String getRss09xDescription(int)>',
+    'r0(org.roller.pojos.WeblogEntryData)[*(Any_subtype_of_java.lang.Object)]', return
+      r6|0, r6(java.lang.String)]
+- classification: b
+  f1:
+    algorithm:
+    - !!python/tuple [CR, 195, 0, 0]
+    - !!python/tuple [CR, 190, 0, 0]
+    - !!python/tuple [CR, 186, 0, 0]
+    - !!python/tuple [C, 80, 0]
+  f2:
+    algorithm:
+    - !!python/tuple [CR, 195, 0, 0]
+    - !!python/tuple [CR, 189, 0, 0]
+    - !!python/tuple [CR, 185, 0, 0]
+    - !!python/tuple [C, 80, 0]
+  key: !!python/tuple ['<org.roller.presentation.LoginServlet: void service(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>',
+    <<zero>>(null_type), return|0, '[mAlgorithm(java.lang.String)]']
+- classification: b
+  f1:
+    encryptPasswords:
+    - !!python/tuple [CR, 180, 0, 0]
+    - !!python/tuple [CR, 175, 0, 0]
+    - !!python/tuple [CR, 169, 0, 0]
+    - !!python/tuple [C, 73, 0]
+  f2:
+    encryptPasswords:
+    - !!python/tuple [CR, 180, 0, 0]
+    - !!python/tuple [CR, 174, 0, 0]
+    - !!python/tuple [CR, 168, 0, 0]
+    - !!python/tuple [C, 73, 0]
+  key: !!python/tuple ['<org.roller.presentation.LoginServlet: void service(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>',
+    <<zero>>(null_type), return|0, '[mEncrypt(java.lang.Boolean)]']
+- classification: tp
+  f1:
+    emailAddress:
+    - !!python/tuple [C, 274, 0]
+    siteDescription:
+    - !!python/tuple [C, 263, 0]
+    siteName:
+    - !!python/tuple [C, 252, 0]
+  f2:
+    emailAddress:
+    - !!python/tuple [C, 274, 0]
+    siteName:
+    - !!python/tuple [C, 286, 0]
+  key: !!python/tuple ['<org.roller.presentation.velocity.ContextLoader: java.lang.String
+      loadWebsiteValues(org.apache.velocity.context.Context,org.roller.presentation.RollerRequest,org.roller.presentation.RollerContext)>',
+    <<zero>>(null_type), '$r17 = virtualinvoke r1.<org.roller.presentation.RollerRequest:
+      javax.servlet.http.HttpServletRequest getRequest()>()|0', 'r0(org.apache.velocity.context.Context)[*(Any_subtype_of_java.lang.Object)]']
+- classification: fp
+  f1:
+    absoluteURL:
+    - !!python/tuple [CR, 246, 0, 0]
+    - !!python/tuple [C, 112, 0]
+  f2:
+    absoluteURL:
+    - !!python/tuple [CR, 238, 0, 0]
+    - !!python/tuple [C, 112, 0]
+  key: !!python/tuple ['<org.roller.presentation.velocity.ContextLoader: void loadPathValues(org.apache.velocity.context.Context,org.roller.presentation.RollerRequest,org.roller.presentation.RollerContext,java.lang.String)>',
+    <<zero>>(null_type), 'interfaceinvoke r0.<org.apache.velocity.context.Context:
+      java.lang.Object put(java.lang.String,java.lang.Object)>("websiteURL", r16)|0',
+    r16(java.lang.String)]
+  tag: path
+- classification: tp
+  f1:
+    absoluteURL:
+    - !!python/tuple [CR, 142, 0, 0]
+    - !!python/tuple [C, 112, 0]
+  f2:
+    absoluteURL:
+    - !!python/tuple [CR, 159, 0, 0]
+    - !!python/tuple [C, 112, 0]
+  key: !!python/tuple ['<org.roller.presentation.velocity.FoafServlet: void setupContext(org.apache.velocity.context.Context,org.roller.presentation.RollerRequest)>',
+    <<zero>>(null_type), $r38 = new java.lang.StringBuilder|0, 'r1(org.apache.velocity.context.Context)[*(Any_subtype_of_java.lang.Object)]']
+- classification: tp
+  f1:
+    uploadAllow:
+    - !!python/tuple [C, 614, 1]
+  f2:
+    uploadAllow:
+    - !!python/tuple [C, 614, 0]
+  key: !!python/tuple ['<org.roller.presentation.website.actions.UploadFileFormAction:
+      org.apache.struts.action.ActionForward upload(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+    <<zero>>(null_type), 'goto [?= i12 = i12 + 1]|1', 'r67(org.apache.struts.action.ActionErrors)[*(Any_subtype_of_java.lang.Object)]']
+  tag: loop
+- classification: tp
+  f1:
+    uploadAllow:
+    - !!python/tuple [C, 614, 0]
+    uploadMaxFileMB:
+    - !!python/tuple [C, 643, 1]
+  f2:
+    uploadAllow:
+    - !!python/tuple [C, 614, 0]
+    uploadMaxFileMB:
+    - !!python/tuple [C, 643, 0]
+  key: !!python/tuple ['<org.roller.presentation.website.actions.UploadFileFormAction:
+      org.apache.struts.action.ActionForward upload(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+    <<zero>>(null_type), 'virtualinvoke r79.<java.io.InputStream: void close()>()|0',
+    'r67(org.apache.struts.action.ActionErrors)[*(Any_subtype_of_java.lang.Object)]']
+  tag: loop
+- classification: tp
+  f1:
+    absoluteURL:
+    - !!python/tuple [CR, 581, 0, 0]
+    - !!python/tuple [C, 112, 0]
+  f2:
+    absoluteURL:
+    - !!python/tuple [CR, 533, 0, 0]
+    - !!python/tuple [C, 112, 0]
+  key: !!python/tuple ['<org.roller.presentation.website.actions.UserFormAction: org.apache.struts.action.ActionForward
+      add(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+    <<zero>>(null_type), $r29 = new org.roller.PseudoMain$LegatoForward$_48|0, '[$INSTANCE(edu.washington.cse.servlet.RequestAttributes),
+      <<contents>>(java.lang.String)]']
+  tag: double
+- classification: fp
+  key: !!python/tuple
+  - '<org.roller.presentation.website.actions.WebsiteFormAction: org.apache.struts.action.ActionForward
+    edit(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+  - !!python/tuple ['$r7 = virtualinvoke $r5.<org.roller.presentation.website.actions.WebsiteFormAction:
+      org.apache.struts.action.ActionForward edit(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>($r4,
+      $r6, r1, r2)|0']
+  - '[$INSTANCE(edu.washington.cse.servlet.RequestAttributes), <<contents>>(java.util.List)]'
+  tag: other
+  units: ['$r24 := @caughtexception|0', 'goto [?= (branch)]|0']
+  value:
+    $r24 := @caughtexception|0:
+      editorPagesList:
+        ? '[$r7 = virtualinvoke $r5.<org.roller.presentation.website.actions.WebsiteFormAction:
+          org.apache.struts.action.ActionForward edit(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>($r4,
+          $r6, r1, r2)]|<<zero>>(null_type)'
+        : - !!python/tuple [C, 590, 0]
+        ? '[$r7 = virtualinvoke $r5.<org.roller.presentation.website.actions.WebsiteFormAction:
+          org.apache.struts.action.ActionForward edit(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>($r4,
+          $r6, r1, r2)]|[$INSTANCE(edu.washington.cse.servlet.RequestAttributes),
+          <<contents>>(java.util.List)]'
+        : - !!python/tuple [C, 614, 0]
+    goto [?= (branch)]|0:
+      editorPagesList:
+        ? '[$r7 = virtualinvoke $r5.<org.roller.presentation.website.actions.WebsiteFormAction:
+          org.apache.struts.action.ActionForward edit(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>($r4,
+          $r6, r1, r2)]|<<zero>>(null_type)'
+        : - !!python/tuple [C, 590, 0]
+        ? '[$r7 = virtualinvoke $r5.<org.roller.presentation.website.actions.WebsiteFormAction:
+          org.apache.struts.action.ActionForward edit(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>($r4,
+          $r6, r1, r2)]|[$INSTANCE(edu.washington.cse.servlet.RequestAttributes),
+          <<contents>>(java.util.List)]'
+        : - !!python/tuple [C, 614, 0]
+- classification: fp
+  f1:
+    editorPagesList:
+    - !!python/tuple [C, 617, 0]
+  f2:
+    editorPagesList:
+    - !!python/tuple [CR, 629, 1, 0]
+    - !!python/tuple [CR, 622, 0, 0]
+    - !!python/tuple [CR, 619, 0, 0]
+    - !!python/tuple [CR, 611, 0, 0]
+    - !!python/tuple [CR, 605, 0, 0]
+    - !!python/tuple [C, 594, 0]
+  key: !!python/tuple ['<org.roller.presentation.website.actions.WebsiteFormAction:
+      org.apache.struts.action.ActionForward update(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+    <<zero>>(null_type), return null|0, '[$INSTANCE(edu.washington.cse.servlet.RequestAttributes),
+      <<contents>>(java.util.List)]']
+  tag: servlet
+- classification: fp
+  f1:
+    uploadPath:
+    - !!python/tuple [CR, 2951, 0, 1]
+    - !!python/tuple [C, 1009, 0]
+  f2:
+    uploadPath:
+    - !!python/tuple [CR, 2951, 0, 0]
+    - !!python/tuple [C, 1009, 0]
+  key: !!python/tuple ['<org.roller.presentation.website.tags.FileManagerTag: int
+      doStartTag()>', <<zero>>(null_type), $r52 = new java.lang.StringBuilder|0, r75(java.lang.String)]
+  tag: other
+- classification: fp
+  f1:
+    uploadPath:
+    - !!python/tuple [CR, 991, 0, 1]
+    - !!python/tuple [C, 1001, 0]
+  f2:
+    uploadPath:
+    - !!python/tuple [CR, 991, 0, 0]
+    - !!python/tuple [C, 1001, 0]
+  key: !!python/tuple ['<org.roller.presentation.website.tags.FileManagerTag: int
+      doStartTag()>', <<zero>>(null_type), 'r75 = staticinvoke <org.apache.struts.util.RequestUtils:
+      java.lang.String printableURL(java.net.URL)>($r50)|0', '$r50(java.net.URL)[*(Any_subtype_of_java.lang.Object)]']
+  tag: other
+- classification: tp
+  fields:
+    encryptPasswords: !!set {'[mEncrypt(java.lang.Boolean)]': null}
+  key: !!python/tuple [mEncrypt, java.lang.Boolean]
+  props: !!set {encryptPasswords: null}
+  tag: static

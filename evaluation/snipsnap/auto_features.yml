@@ -1,0 +1,20 @@
+? !!python/tuple
+- <<zero>>(null_type)
+- '<org.snipsnap.net.RsdServlet: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+- !!python/tuple [url]
+- '_legato_internal_ = interfaceinvoke r.<javax.servlet.http.HttpServletRequest: javax.servlet.RequestDispatcher
+  getRequestDispatcher(java.lang.String)>("/rsd.jsp")'
+: !!python/tuple [tp, double]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<org.snipsnap.serialization.rdf.RDFSerializerBase: java.lang.String getAttachmentURL(org.snipsnap.snip.attachment.Attachment,org.snipsnap.snip.Snip)>'
+- !!python/tuple [encodedSpace]
+- '$r = virtualinvoke $r.<java.lang.StringBuilder: java.lang.String toString()>()'
+: !!python/tuple [tp, double]
+? !!python/tuple
+- '<org.snipsnap.util.mail.Mail: void sendMail(java.lang.String,java.util.Collection,java.lang.String,java.lang.String)>'
+- 1
+- !!python/tuple [url]
+: !!python/tuple [fp, path]
+? !!python/tuple [instance, org.snipsnap.util.mail.Mail]
+: !!python/tuple [fp, static]

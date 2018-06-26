@@ -1,0 +1,20 @@
+- access-sigs: [ '<pebble.blog.Blog: java.lang.String getName()>', '<pebble.blog.Blog: java.lang.String getAuthor()>', '<pebble.blog.Blog: java.lang.String getDescription()>', '<pebble.blog.Blog: java.lang.String getTimeZoneId()>', '<pebble.blog.Blog: int getRecentBlogEntriesOnHomePage()>', '<pebble.blog.Blog: int getRecentCommentsOnHomePage()>', '<pebble.blog.Blog: java.lang.String getCharacterEncoding()>', '<pebble.blog.Blog: java.lang.String getLanguage()>', '<pebble.blog.Blog: java.lang.String getCountry()>' ]
+- sig: '<pebble.blog.Blog: java.lang.String getName()>'
+  resources: ['Name']
+- sig: '<pebble.blog.Blog: java.lang.String getAuthor()>'
+  resources: ['Author']
+- sig: '<pebble.blog.Blog: java.lang.String getDescription()>'
+  resources: ['Description']
+- sig: '<pebble.blog.Blog: java.lang.String getTimeZoneId()>'
+  resources: ['TimeZoneId']
+- sig: '<pebble.blog.Blog: int getRecentBlogEntriesOnHomePage()>'
+  resources: ['RecentBlogEntriesOnHomePage']
+- sig: '<pebble.blog.Blog: int getRecentCommentsOnHomePage()>'
+  resources: ['RecentCommentsOnHomePage']
+- sig: '<pebble.blog.Blog: java.lang.String getCharacterEncoding()>'
+  resources: ['CharacterEncoding']
+- sig: '<pebble.blog.Blog: java.lang.String getLanguage()>'
+  resources: ['Language']
+- sig: '<pebble.blog.Blog: java.lang.String getCountry()>'
+  resources: ['Country']
+

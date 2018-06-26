@@ -1,0 +1,17 @@
+app_classes: "${project_dir}//build/WEB-INF/classes"
+web_xml: "${project_dir}/config/webxml/web.xml"
+output_package: "net.eyde.personalblog"
+jsp_dir: "${project_dir}/build/generated_jsp_classes/"
+
+jsp-mapping: "${project_dir}/build/generated_web.xml"
+
+app_source_dir: [ "${project_dir}/source", "${project_dir}/build/generated_jsp_source" ]
+
+struts:
+  struts_config: "${project_dir}/config/xml/struts-config.xml"
+  tiles_config: "${project_dir}/config/xml/tiles-defs.xml"
+  struts_jar: "${project_dir}/lib/struts.jar"
+  generated_dir: "${this_dir}/struts_generated"
+  ignored_actions: ["/Welcome"]
+---
+project_dir: "${source_dir}/securibench-91a/personalblog"

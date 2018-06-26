@@ -1,0 +1,1191 @@
+- containing-method: '<net.sourceforge.subsonic.controller.CoverArtController: java.io.File
+    getCachedImage(net.sourceforge.subsonic.controller.CoverArtController$CoverArtRequest,int)>'
+  failing: ['*']
+  fst:
+    effect: NONE
+    props: ['*']
+    root: {'*': '{c4159,0}{s21}{c4155,1}{c4154,2}L'}
+    type: pp
+  fst-string: "\u03BBL.[*={c4159}\u2080{s21}{c4155}\u2081{c4154}\u2082L]"
+  key: ['r1(net.sourceforge.subsonic.controller.CoverArtController$MediaFileCoverArtRequest)[mediaFile(net.sourceforge.subsonic.domain.MediaFile),
+      folder(java.lang.String)]', '$r20 := @caughtexception|0', 'r1(net.sourceforge.subsonic.controller.CoverArtController$MediaFileCoverArtRequest)[mediaFile(net.sourceforge.subsonic.domain.MediaFile),
+      folder(java.lang.String)]']
+  report-type: flow
+  sensitivity: true
+  snd:
+    effect: NONE
+    props: ['*']
+    root: {'*': '{c4154,2}L'}
+    type: pp
+  snd-string: "\u03BBL.[*={c4155}\u2081{c4154}\u2082L]"
+  target: r1(net.sourceforge.subsonic.controller.CoverArtController$MediaFileCoverArtRequest)[mediaFile(net.sourceforge.subsonic.domain.MediaFile),
+    folder(java.lang.String)]
+  target-base-type: net.sourceforge.subsonic.controller.CoverArtController$MediaFileCoverArtRequest
+  target-num: 6060
+  target-unit: $r20 := @caughtexception
+- containing-method: '<net.sourceforge.subsonic.controller.PodcastController: org.springframework.web.servlet.ModelAndView
+    handleRequestInternal(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+  failing: [StreamPort]
+  fst:
+    effect: WRITE
+    props: [StreamPort]
+    root: {StreamPort: '{199}'''}
+    type: t
+  fst-string: "\u03BB_.[StreamPort={199}']"
+  key: [<<zero>>(null_type), '$z4 = interfaceinvoke r34.<java.util.Iterator: boolean
+      hasNext()>()|0', 'r5(java.util.ArrayList)[<<contents>>(net.sourceforge.subsonic.controller.PodcastController$Podcast),
+      enclosureUrl(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: WRITE
+    props: [StreamPort]
+    root: {StreamPort: '{199}'}
+    type: t
+  snd-string: "\u03BB_.[StreamPort={199}]"
+  target: r5(java.util.ArrayList)[<<contents>>(net.sourceforge.subsonic.controller.PodcastController$Podcast),
+    enclosureUrl(java.lang.String)]
+  target-base-type: java.util.ArrayList
+  target-num: 6062
+  target-unit: '$z4 = interfaceinvoke r34.<java.util.Iterator: boolean hasNext()>()'
+- containing-method: '<net.sourceforge.subsonic.controller.RESTController: void createShare(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+  failing: [PodcastFolder]
+  fst:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c3029,0}''{c3479,0}{c2203,0}{c2192,0}{228}'}
+    type: t
+  fst-string: "\u03BB_.[PodcastFolder={c3029}\u2080'{c3479}\u2080{c2204}\u2080{c2203}\u2080\
+    {c2192}\u2080{228}]"
+  key: [<<zero>>(null_type), i3 = i3 + 1|0, 'r5(java.util.ArrayList)[<<contents>>(net.sourceforge.subsonic.domain.MediaFile),
+      folder(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c3029,0}{c3479,0}{c2203,0}{c2192,0}{228}'}
+    type: t
+  snd-string: "\u03BB_.[PodcastFolder={c3029}\u2080{c3479}\u2080{c2204}\u2080{c2203}\u2080\
+    {c2192}\u2080{228}]"
+  target: r5(java.util.ArrayList)[<<contents>>(net.sourceforge.subsonic.domain.MediaFile),
+    folder(java.lang.String)]
+  target-base-type: java.util.ArrayList
+  target-num: 6061
+  target-unit: i3 = i3 + 1
+- containing-method: '<net.sourceforge.subsonic.controller.RESTController: void scrobble(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+  failing: ['*']
+  fst:
+    effect: NONE
+    props: ['*']
+    root: {'*': '{c2910,0}{c3850,0}{c3914,0}P{5267,5269,5270}'}
+    type: pp
+  fst-string: "\u03BBL.[*={c2910}\u2080{c3850}\u2080{c3914}\u2080P{5267,5269,5270}]"
+  key: ['r0(net.sourceforge.subsonic.controller.RESTController)[statusService(net.sourceforge.subsonic.service.StatusService),
+      remotePlays(java.util.List), <<contents>>(net.sourceforge.subsonic.domain.PlayStatus),
+      mediaFile(net.sourceforge.subsonic.domain.MediaFile), folder(java.lang.String)]',
+    '$r12 = r0.<net.sourceforge.subsonic.controller.RESTController: net.sourceforge.subsonic.service.MediaFileService
+      mediaFileService>|0', 'r0(net.sourceforge.subsonic.controller.RESTController)[statusService(net.sourceforge.subsonic.service.StatusService),
+      remotePlays(java.util.List), <<contents>>(net.sourceforge.subsonic.domain.PlayStatus),
+      mediaFile(net.sourceforge.subsonic.domain.MediaFile), folder(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: WRITE
+    props: ['*']
+    root: {'*': '{c2915,0}{s79}{s79}{c2910,0}{c3850,0}{c3914,0}P{5267,5269,5270}'}
+    type: pp
+  snd-string: "\u03BBL.[*={c2915}\u2080{s79}{s79}{c2910}\u2080{c3850}\u2080{c3914}\u2080\
+    P{5267,5269,5270}]"
+  target: r0(net.sourceforge.subsonic.controller.RESTController)[statusService(net.sourceforge.subsonic.service.StatusService),
+    remotePlays(java.util.List), <<contents>>(net.sourceforge.subsonic.domain.PlayStatus),
+    mediaFile(net.sourceforge.subsonic.domain.MediaFile), folder(java.lang.String)]
+  target-base-type: net.sourceforge.subsonic.controller.RESTController
+  target-num: 6064
+  target-unit: '$r12 = r0.<net.sourceforge.subsonic.controller.RESTController: net.sourceforge.subsonic.service.MediaFileService
+    mediaFileService>'
+- containing-method: '<net.sourceforge.subsonic.controller.CoverArtController: java.io.File
+    getCachedImage(net.sourceforge.subsonic.controller.CoverArtController$CoverArtRequest,int)>'
+  failing: ['*']
+  fst:
+    effect: NONE
+    props: ['*']
+    root: {'*': '{c4159,0}{s21}{c4155,1}{c4154,2}L'}
+    type: pp
+  fst-string: "\u03BBL.[*={c4159}\u2080{s21}{c4155}\u2081{c4154}\u2082L]"
+  key: ['r1(net.sourceforge.subsonic.controller.CoverArtController$MediaFileCoverArtRequest)[dir(net.sourceforge.subsonic.domain.MediaFile),
+      folder(java.lang.String)]', '$r33 := @caughtexception|0', 'r1(net.sourceforge.subsonic.controller.CoverArtController$MediaFileCoverArtRequest)[dir(net.sourceforge.subsonic.domain.MediaFile),
+      folder(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: NONE
+    props: ['*']
+    root: {'*': '{c4154,0;1;2;3}L'}
+    type: pp
+  snd-string: "\u03BBL.[*={c4155}\u2081{c4154}\u2080\u208C\u2081\u208C\u2082\u208C\
+    \u2083L]"
+  target: r1(net.sourceforge.subsonic.controller.CoverArtController$MediaFileCoverArtRequest)[dir(net.sourceforge.subsonic.domain.MediaFile),
+    folder(java.lang.String)]
+  target-base-type: net.sourceforge.subsonic.controller.CoverArtController$MediaFileCoverArtRequest
+  target-num: 6080
+  target-unit: $r33 := @caughtexception
+- containing-method: '<net.sourceforge.subsonic.controller.MainController: java.util.List
+    getMediaFiles(javax.servlet.http.HttpServletRequest)>'
+  failing: [PodcastFolder]
+  fst:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c3814,0}{c319,0}{c337,0}{c358,0}{c2192,0}{228}'}
+    type: t
+  fst-string: "\u03BB_.[PodcastFolder={c3814}\u2080{c319}\u2080{c337}\u2080{c359}\u2080\
+    {c358}\u2080{c2192}\u2080{228}]"
+  key: [<<zero>>(null_type), 'if i3 < i2 goto i4 = r11[i3]|0', 'r2(java.util.ArrayList)[<<contents>>(net.sourceforge.subsonic.domain.MediaFile),
+      folder(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c3815,0}{c3479,0}{c2203,0}{c2192,0}{228}'}
+    type: t
+  snd-string: "\u03BB_.[PodcastFolder={c3815}\u2080{c3479}\u2080{c2204}\u2080{c2203}\u2080\
+    {c2192}\u2080{228}]"
+  target: r2(java.util.ArrayList)[<<contents>>(net.sourceforge.subsonic.domain.MediaFile),
+    folder(java.lang.String)]
+  target-base-type: java.util.ArrayList
+  target-num: 6063
+  target-unit: if i3 < i2 goto i4 = r11[i3]
+- containing-method: '<net.sourceforge.subsonic.controller.StreamController: org.springframework.web.servlet.ModelAndView
+    handleRequest(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+  failing: [WelcomeTitle]
+  fst:
+    effect: WRITE
+    props: [WelcomeTitle]
+    root: {WelcomeTitle: '{c3388,0}{c4280,0}{c5550,0}{c4295,0}{248}'}
+    type: t
+  fst-string: "\u03BB_.[WelcomeTitle={c3388}\u2080{c4280}\u2080{c5550}\u2080{c4295}\u2080\
+    {248}]"
+  key: [<<zero>>(null_type), '$z21 = virtualinvoke r80.<net.sourceforge.subsonic.domain.TransferStatus:
+      boolean terminated()>()|0', 'r100(net.sourceforge.subsonic.io.ShoutCastOutputStream)[previousStreamTitle(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: WRITE
+    props: [WelcomeTitle]
+    root: {WelcomeTitle: '{c3391,1}{c4295,0}{248}'}
+    type: t
+  snd-string: "\u03BB_.[WelcomeTitle={c3391}\u2081{c4295}\u2080{248}]"
+  target: r100(net.sourceforge.subsonic.io.ShoutCastOutputStream)[previousStreamTitle(java.lang.String)]
+  target-base-type: net.sourceforge.subsonic.io.ShoutCastOutputStream
+  target-num: 6081
+  target-unit: '$z21 = virtualinvoke r80.<net.sourceforge.subsonic.domain.TransferStatus:
+    boolean terminated()>()'
+- containing-method: '<net.sourceforge.subsonic.controller.RESTController: void scrobble(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+  failing: [PodcastFolder]
+  fst:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c2915,0}{s79}{s79}{c2915,0}{c2913,0}{c3479,0}{c2204,0}{c2203,0}{c2192,0}{228}'}
+    type: t
+  fst-string: "\u03BB_.[PodcastFolder={c2915}\u2080{s79}{s79}{c2915}\u2080{c2913}\u2080\
+    {c3479}\u2080{c2204}\u2080{c2203}\u2080{c2192}\u2080{228}]"
+  key: [<<zero>>(null_type), '$r12 = r0.<net.sourceforge.subsonic.controller.RESTController:
+      net.sourceforge.subsonic.service.MediaFileService mediaFileService>|0', 'r0(net.sourceforge.subsonic.controller.RESTController)[statusService(net.sourceforge.subsonic.service.StatusService),
+      remotePlays(java.util.List), <<contents>>(net.sourceforge.subsonic.domain.PlayStatus),
+      mediaFile(net.sourceforge.subsonic.domain.MediaFile), folder(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c2913,0}{c3479,0}{c2203,0}{c2192,0}{228}'}
+    type: t
+  snd-string: "\u03BB_.[PodcastFolder={c2913}\u2080{c3479}\u2080{c2204}\u2080{c2203}\u2080\
+    {c2192}\u2080{228}]"
+  target: r0(net.sourceforge.subsonic.controller.RESTController)[statusService(net.sourceforge.subsonic.service.StatusService),
+    remotePlays(java.util.List), <<contents>>(net.sourceforge.subsonic.domain.PlayStatus),
+    mediaFile(net.sourceforge.subsonic.domain.MediaFile), folder(java.lang.String)]
+  target-base-type: net.sourceforge.subsonic.controller.RESTController
+  target-num: 6064
+  target-unit: '$r12 = r0.<net.sourceforge.subsonic.controller.RESTController: net.sourceforge.subsonic.service.MediaFileService
+    mediaFileService>'
+- containing-method: '<net.sourceforge.subsonic.controller.RESTController: void scrobble(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+  failing: ['*']
+  fst:
+    effect: WRITE
+    props: ['*']
+    root: {'*': '{c2915,0}''{s79}{s79}{c2910,0}{c3850,0}{c3914,0}P{5267,5269,5270}'}
+    type: pp
+  fst-string: "\u03BBL.[*={c2915}\u2080'{s79}{s79}{c2910}\u2080{c3850}\u2080{c3914}\u2080\
+    P{5267,5269,5270}]"
+  key: ['r0(net.sourceforge.subsonic.controller.RESTController)[statusService(net.sourceforge.subsonic.service.StatusService),
+      remotePlays(java.util.List), <<contents>>(net.sourceforge.subsonic.domain.PlayStatus),
+      mediaFile(net.sourceforge.subsonic.domain.MediaFile), folder(java.lang.String)]',
+    '$r12 = r0.<net.sourceforge.subsonic.controller.RESTController: net.sourceforge.subsonic.service.MediaFileService
+      mediaFileService>|0', 'r28(net.sourceforge.subsonic.controller.RESTController$1)[this$0(net.sourceforge.subsonic.controller.RESTController),
+      statusService(net.sourceforge.subsonic.service.StatusService), remotePlays(java.util.List),
+      <<contents>>(net.sourceforge.subsonic.domain.PlayStatus), mediaFile(net.sourceforge.subsonic.domain.MediaFile),
+      folder(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: WRITE
+    props: ['*']
+    root: {'*': '{c2915,0}{s79}{s79}{c2910,0}{c3850,0}{c3914,0}P{5267,5269,5270}'}
+    type: pp
+  snd-string: "\u03BBL.[*={c2915}\u2080{s79}{s79}{c2910}\u2080{c3850}\u2080{c3914}\u2080\
+    P{5267,5269,5270}]"
+  target: r28(net.sourceforge.subsonic.controller.RESTController$1)[this$0(net.sourceforge.subsonic.controller.RESTController),
+    statusService(net.sourceforge.subsonic.service.StatusService), remotePlays(java.util.List),
+    <<contents>>(net.sourceforge.subsonic.domain.PlayStatus), mediaFile(net.sourceforge.subsonic.domain.MediaFile),
+    folder(java.lang.String)]
+  target-base-type: net.sourceforge.subsonic.controller.RESTController$1
+  target-num: 6064
+  target-unit: '$r12 = r0.<net.sourceforge.subsonic.controller.RESTController: net.sourceforge.subsonic.service.MediaFileService
+    mediaFileService>'
+- containing-method: '<net.sourceforge.subsonic.service.SearchService: net.sourceforge.subsonic.domain.SearchResult
+    search(net.sourceforge.subsonic.domain.SearchCriteria,java.util.List,net.sourceforge.subsonic.service.SearchService$IndexType)>'
+  failing: [PodcastFolder]
+  fst:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c3606,0}''{c3479,0}{c2203,0}{c2192,0}{228}'}
+    type: t
+  fst-string: "\u03BB_.[PodcastFolder={c3606}\u2080'{c3479}\u2080{c2204}\u2080{c2203}\u2080\
+    {c2192}\u2080{228}]"
+  key: [<<zero>>(null_type), 'goto [?= i17 = i17 + 1]|0', 'r4(net.sourceforge.subsonic.domain.SearchResult)[mediaFiles(java.util.List),
+      <<contents>>(net.sourceforge.subsonic.domain.MediaFile), folder(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c3606,0}{c3479,0}{c2203,0}{c2192,0}{228}'}
+    type: t
+  snd-string: "\u03BB_.[PodcastFolder={c3606}\u2080{c3479}\u2080{c2204}\u2080{c2203}\u2080\
+    {c2192}\u2080{228}]"
+  target: r4(net.sourceforge.subsonic.domain.SearchResult)[mediaFiles(java.util.List),
+    <<contents>>(net.sourceforge.subsonic.domain.MediaFile), folder(java.lang.String)]
+  target-base-type: net.sourceforge.subsonic.domain.SearchResult
+  target-num: 6065
+  target-unit: goto [?= i17 = i17 + 1]
+- containing-method: '<net.sourceforge.subsonic.service.SearchService: java.util.List
+    getRandomAlbums(int,java.util.List)>'
+  failing: [PodcastFolder]
+  fst:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c3966,0}''{c3479,0}{c2203,0}{c2192,0}{228}'}
+    type: t
+  fst-string: "\u03BB_.[PodcastFolder={c3966}\u2080'{c3479}\u2080{c2204}\u2080{c2203}\u2080\
+    {c2192}\u2080{228}]"
+  key: [<<zero>>(null_type), '$r36 := @caughtexception|0', 'r2(java.util.ArrayList)[<<contents>>(net.sourceforge.subsonic.domain.MediaFile),
+      folder(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c3966,0}{c3479,0}{c2203,0}{c2192,0}{228}'}
+    type: t
+  snd-string: "\u03BB_.[PodcastFolder={c3966}\u2080{c3479}\u2080{c2204}\u2080{c2203}\u2080\
+    {c2192}\u2080{228}]"
+  target: r2(java.util.ArrayList)[<<contents>>(net.sourceforge.subsonic.domain.MediaFile),
+    folder(java.lang.String)]
+  target-base-type: java.util.ArrayList
+  target-num: 6066
+  target-unit: $r36 := @caughtexception
+- containing-method: '<net.sourceforge.subsonic.controller.RESTController: void scrobble(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+  failing: [PodcastFolder]
+  fst:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c2913,0}''{c3479,0}{c2203,0}{c2192,0}{228}'}
+    type: t
+  fst-string: "\u03BB_.[PodcastFolder={c2913}\u2080'{c3479}\u2080{c2204}\u2080{c2203}\u2080\
+    {c2192}\u2080{228}]"
+  key: [<<zero>>(null_type), if r5 != null goto $i2 = lengthof r4|0, 'r28(net.sourceforge.subsonic.controller.RESTController$1)[this$0(net.sourceforge.subsonic.controller.RESTController),
+      statusService(net.sourceforge.subsonic.service.StatusService), remotePlays(java.util.List),
+      <<contents>>(net.sourceforge.subsonic.domain.PlayStatus), mediaFile(net.sourceforge.subsonic.domain.MediaFile),
+      folder(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c2913,0}{c3479,0}{c2203,0}{c2192,0}{228}'}
+    type: t
+  snd-string: "\u03BB_.[PodcastFolder={c2915}\u2080{c2913}\u2080{c3479}\u2080{c2204}\u2080\
+    {c2203}\u2080{c2192}\u2080{228}]"
+  target: r28(net.sourceforge.subsonic.controller.RESTController$1)[this$0(net.sourceforge.subsonic.controller.RESTController),
+    statusService(net.sourceforge.subsonic.service.StatusService), remotePlays(java.util.List),
+    <<contents>>(net.sourceforge.subsonic.domain.PlayStatus), mediaFile(net.sourceforge.subsonic.domain.MediaFile),
+    folder(java.lang.String)]
+  target-base-type: net.sourceforge.subsonic.controller.RESTController$1
+  target-num: 6078
+  target-unit: if r5 != null goto $i2 = lengthof r4
+- containing-method: '<net.sourceforge.subsonic.service.MediaFileService: java.util.List
+    getChildrenOf(net.sourceforge.subsonic.domain.MediaFile,boolean,boolean,boolean,boolean)>'
+  failing: [PodcastFolder]
+  fst:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c4312,0}''{c2203,0}{c2192,0}{228}'}
+    type: t
+  fst-string: "\u03BB_.[PodcastFolder={c4312}\u2080'{c2204}\u2080{c2203}\u2080{c2192}\u2080\
+    {228}]"
+  key: [<<zero>>(null_type), '$z10 = virtualinvoke r15.<net.sourceforge.subsonic.domain.MediaFile:
+      boolean isFile()>()|0', 'r12(java.util.ArrayList)[<<contents>>(net.sourceforge.subsonic.domain.MediaFile),
+      folder(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c4312,0}{c2203,0}{c2192,0}{228}'}
+    type: t
+  snd-string: "\u03BB_.[PodcastFolder={c4312}\u2080{c2204}\u2080{c2203}\u2080{c2192}\u2080\
+    {228}]"
+  target: r12(java.util.ArrayList)[<<contents>>(net.sourceforge.subsonic.domain.MediaFile),
+    folder(java.lang.String)]
+  target-base-type: java.util.ArrayList
+  target-num: 6082
+  target-unit: '$z10 = virtualinvoke r15.<net.sourceforge.subsonic.domain.MediaFile:
+    boolean isFile()>()'
+- containing-method: '<net.sourceforge.subsonic.io.ShoutCastOutputStream: void write(byte[],int,int)>'
+  failing: [WelcomeTitle]
+  fst:
+    effect: WRITE
+    props: [WelcomeTitle]
+    root: {WelcomeTitle: '{c4295,0}{c4295,0}{248}'}
+    type: t
+  fst-string: "\u03BB_.[WelcomeTitle={c4295}\u2080{c4295}\u2080{248}]"
+  key: [<<zero>>(null_type), 'r0.<net.sourceforge.subsonic.io.ShoutCastOutputStream:
+      int byteCount> = 0|0', 'r0(net.sourceforge.subsonic.io.ShoutCastOutputStream)[previousStreamTitle(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: WRITE
+    props: [WelcomeTitle]
+    root: {WelcomeTitle: '{c4295,0}{248}'}
+    type: t
+  snd-string: "\u03BB_.[WelcomeTitle={c4295}\u2080{248}]"
+  target: r0(net.sourceforge.subsonic.io.ShoutCastOutputStream)[previousStreamTitle(java.lang.String)]
+  target-base-type: net.sourceforge.subsonic.io.ShoutCastOutputStream
+  target-num: 6084
+  target-unit: 'r0.<net.sourceforge.subsonic.io.ShoutCastOutputStream: int byteCount>
+    = 0'
+- containing-method: '<net.sourceforge.subsonic.io.ShoutCastOutputStream: void write(byte[],int,int)>'
+  failing: [WelcomeTitle]
+  fst:
+    effect: WRITE
+    props: [WelcomeTitle]
+    root: {WelcomeTitle: '{c4294,1}{c4295,0}{248}'}
+    type: t
+  fst-string: "\u03BB_.[WelcomeTitle={c4294}\u2081{c4295}\u2080{248}]"
+  key: [<<zero>>(null_type), if i11 < i1 goto $i5 = i1 - i11|0, 'r0(net.sourceforge.subsonic.io.ShoutCastOutputStream)[out(net.sourceforge.subsonic.io.ShoutCastOutputStream),
+      previousStreamTitle(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: WRITE
+    props: [WelcomeTitle]
+    root: {WelcomeTitle: '{c4295,0}{c5561,2}{c5745,0}{c5550,0}{c4295,0}{248}'}
+    type: t
+  snd-string: "\u03BB_.[WelcomeTitle={c4295}\u2080{c5561}\u2082{c5745}\u2080{c5550}\u2080\
+    {c4295}\u2080{248}]"
+  target: r0(net.sourceforge.subsonic.io.ShoutCastOutputStream)[out(net.sourceforge.subsonic.io.ShoutCastOutputStream),
+    previousStreamTitle(java.lang.String)]
+  target-base-type: net.sourceforge.subsonic.io.ShoutCastOutputStream
+  target-num: 6083
+  target-unit: if i11 < i1 goto $i5 = i1 - i11
+- containing-method: '<net.sourceforge.subsonic.io.ShoutCastOutputStream: void writeMetaData()>'
+  failing: [WelcomeTitle]
+  fst:
+    effect: WRITE
+    props: [WelcomeTitle]
+    root: {WelcomeTitle: '{c5560,0}{c5550,0}{c4295,0}{248}'}
+    type: t
+  fst-string: "\u03BB_.[WelcomeTitle={c5560}\u2080{c5550}\u2080{c4295}\u2080{248}]"
+  key: [<<zero>>(null_type), 'if i7 < i0 goto $r9 = r0.<net.sourceforge.subsonic.io.ShoutCastOutputStream:
+      java.io.OutputStream out>|0', 'r0(net.sourceforge.subsonic.io.ShoutCastOutputStream)[out(net.sourceforge.subsonic.io.ShoutCastOutputStream),
+      previousStreamTitle(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: WRITE
+    props: [WelcomeTitle]
+    root: {WelcomeTitle: '{c5561,2}{c5745,0}{c5550,0}{c4295,0}{248}'}
+    type: t
+  snd-string: "\u03BB_.[WelcomeTitle={c5561}\u2082{c5745}\u2080{c5550}\u2080{c4295}\u2080\
+    {248}]"
+  target: r0(net.sourceforge.subsonic.io.ShoutCastOutputStream)[out(net.sourceforge.subsonic.io.ShoutCastOutputStream),
+    previousStreamTitle(java.lang.String)]
+  target-base-type: net.sourceforge.subsonic.io.ShoutCastOutputStream
+  target-num: 6067
+  target-unit: 'if i7 < i0 goto $r9 = r0.<net.sourceforge.subsonic.io.ShoutCastOutputStream:
+    java.io.OutputStream out>'
+- containing-method: '<net.sourceforge.subsonic.controller.CoverArtController: java.io.File
+    getCachedImage(net.sourceforge.subsonic.controller.CoverArtController$CoverArtRequest,int)>'
+  failing: ['*']
+  fst:
+    effect: NONE
+    props: ['*']
+    root: {'*': '{c4154,0;1;2;3;4}L'}
+    type: pp
+  fst-string: "\u03BBL.[*={c4158}\u2083\u208C\u2084{c4155}\u2081{c4154}\u2080\u208C\
+    \u2081\u208C\u2082\u208C\u2083\u208C\u2084L]"
+  key: ['r1(net.sourceforge.subsonic.controller.CoverArtController$MediaFileCoverArtRequest)[mediaFile(net.sourceforge.subsonic.domain.MediaFile),
+      folder(java.lang.String)]', $r19 = r4|0, 'r1(net.sourceforge.subsonic.controller.CoverArtController$MediaFileCoverArtRequest)[mediaFile(net.sourceforge.subsonic.domain.MediaFile),
+      folder(java.lang.String)]']
+  report-type: flow
+  sensitivity: true
+  snd:
+    effect: NONE
+    props: ['*']
+    root: {'*': '{c4159,0}{s21}L'}
+    type: pp
+  snd-string: "\u03BBL.[*={c4159}\u2080{s21}L]"
+  target: r1(net.sourceforge.subsonic.controller.CoverArtController$MediaFileCoverArtRequest)[mediaFile(net.sourceforge.subsonic.domain.MediaFile),
+    folder(java.lang.String)]
+  target-base-type: net.sourceforge.subsonic.controller.CoverArtController$MediaFileCoverArtRequest
+  target-num: 6068
+  target-unit: $r19 = r4
+- containing-method: '<net.sourceforge.subsonic.service.MediaFileService: net.sourceforge.subsonic.domain.MediaFile
+    getMediaFile(java.io.File,boolean)>'
+  failing: [PodcastFolder]
+  fst:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c356,0}{c2203,0}{c2192,0}{228}'}
+    type: t
+  fst-string: "\u03BB_.[PodcastFolder={c356}\u2080{c2204}\u2080{c2203}\u2080{c2192}\u2080\
+    {228}]"
+  key: [<<zero>>(null_type), return $r0|0, '$r0(net.sourceforge.subsonic.domain.MediaFile)[folder(java.lang.String)]']
+  report-type: flow
+  sensitivity: true
+  snd:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c358,0}{c2192,0}{228}'}
+    type: t
+  snd-string: "\u03BB_.[PodcastFolder={c359}\u2080{c358}\u2080{c2192}\u2080{228}]"
+  target: $r0(net.sourceforge.subsonic.domain.MediaFile)[folder(java.lang.String)]
+  target-base-type: net.sourceforge.subsonic.domain.MediaFile
+  target-num: 6069
+  target-unit: return $r0
+- containing-method: '<net.sourceforge.subsonic.controller.StreamController: org.springframework.web.servlet.ModelAndView
+    handleRequest(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+  failing: [WelcomeTitle]
+  fst:
+    effect: WRITE
+    props: [WelcomeTitle]
+    root: {WelcomeTitle: '{c3391,1}{c4295,0}{248}'}
+    type: t
+  fst-string: "\u03BB_.[WelcomeTitle={c3391}\u2081{c4295}\u2080{248}]"
+  key: [<<zero>>(null_type), 'goto [?= $z21 = virtualinvoke r80.<net.sourceforge.subsonic.domain.TransferStatus:
+      boolean terminated()>()]|0', 'r100(net.sourceforge.subsonic.io.ShoutCastOutputStream)[previousStreamTitle(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: WRITE
+    props: [WelcomeTitle]
+    root: {WelcomeTitle: '{c3388,0}{c4280,0}{c5550,0}{c4295,0}{248}'}
+    type: t
+  snd-string: "\u03BB_.[WelcomeTitle={c3388}\u2080{c4280}\u2080{c5550}\u2080{c4295}\u2080\
+    {248}]"
+  target: r100(net.sourceforge.subsonic.io.ShoutCastOutputStream)[previousStreamTitle(java.lang.String)]
+  target-base-type: net.sourceforge.subsonic.io.ShoutCastOutputStream
+  target-num: 6070
+  target-unit: 'goto [?= $z21 = virtualinvoke r80.<net.sourceforge.subsonic.domain.TransferStatus:
+    boolean terminated()>()]'
+- containing-method: '<net.sourceforge.subsonic.controller.CoverArtController: java.io.File
+    getCachedImage(net.sourceforge.subsonic.controller.CoverArtController$CoverArtRequest,int)>'
+  failing: ['*']
+  fst:
+    effect: NONE
+    props: ['*']
+    root: {'*': '{c4158,4}{s21}{c4155,1}{c4154,0;1;2;3;4}L'}
+    type: pp
+  fst-string: "\u03BBL.[*={c4158}\u2084{s21}{c4155}\u2081{c4154}\u2080\u208C\u2081\
+    \u208C\u2082\u208C\u2083\u208C\u2084L]"
+  key: ['r1(net.sourceforge.subsonic.controller.CoverArtController$VideoCoverArtRequest)[mediaFile(net.sourceforge.subsonic.domain.MediaFile),
+      folder(java.lang.String)]', '$r33 := @caughtexception|0', 'r1(net.sourceforge.subsonic.controller.CoverArtController$VideoCoverArtRequest)[mediaFile(net.sourceforge.subsonic.domain.MediaFile),
+      folder(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: NONE
+    props: ['*']
+    root: {'*': '{c4154,0;1;2;3;4}L'}
+    type: pp
+  snd-string: "\u03BBL.[*={c4155}\u2081{c4154}\u2080\u208C\u2081\u208C\u2082\u208C\
+    \u2083\u208C\u2084L]"
+  target: r1(net.sourceforge.subsonic.controller.CoverArtController$VideoCoverArtRequest)[mediaFile(net.sourceforge.subsonic.domain.MediaFile),
+    folder(java.lang.String)]
+  target-base-type: net.sourceforge.subsonic.controller.CoverArtController$VideoCoverArtRequest
+  target-num: 6080
+  target-unit: $r33 := @caughtexception
+- containing-method: '<net.sourceforge.subsonic.controller.StreamController: org.springframework.web.servlet.ModelAndView
+    handleRequest(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+  failing: [WelcomeTitle]
+  fst:
+    effect: WRITE
+    props: [WelcomeTitle]
+    root: {WelcomeTitle: '{c3391,1}{c4295,0}{248}'}
+    type: t
+  fst-string: "\u03BB_.[WelcomeTitle={c3391}\u2081{c4295}\u2080{248}]"
+  key: [<<zero>>(null_type), 'goto [?= $z21 = virtualinvoke r80.<net.sourceforge.subsonic.domain.TransferStatus:
+      boolean terminated()>()]|1', 'r100(net.sourceforge.subsonic.io.ShoutCastOutputStream)[previousStreamTitle(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: WRITE
+    props: [WelcomeTitle]
+    root: {WelcomeTitle: '{c3390,0}{c4280,0}{c5550,0}{c4295,0}{248}'}
+    type: t
+  snd-string: "\u03BB_.[WelcomeTitle={c3390}\u2080{c4280}\u2080{c5550}\u2080{c4295}\u2080\
+    {248}]"
+  target: r100(net.sourceforge.subsonic.io.ShoutCastOutputStream)[previousStreamTitle(java.lang.String)]
+  target-base-type: net.sourceforge.subsonic.io.ShoutCastOutputStream
+  target-num: 6071
+  target-unit: 'goto [?= $z21 = virtualinvoke r80.<net.sourceforge.subsonic.domain.TransferStatus:
+    boolean terminated()>()]'
+- containing-method: '<net.sourceforge.subsonic.controller.MainController: java.util.List
+    getAncestors(net.sourceforge.subsonic.domain.MediaFile)>'
+  failing: [PodcastFolder]
+  fst:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c3808,0}{c3593,0}{c319,0}{c337,0}{c358,0}{c2192,0}{228}'}
+    type: t
+  fst-string: "\u03BB_.[PodcastFolder={c3808}\u2080{c3593}\u2080{c319}\u2080{c337}\u2080\
+    {c359}\u2080{c358}\u2080{c2192}\u2080{228}]"
+  key: [<<zero>>(null_type), if r8 == null goto return r2|0, 'r8(net.sourceforge.subsonic.domain.MediaFile)[folder(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c3809,0}{c3593,0}{c319,0}{c337,0}{c358,0}{c2192,0}{228}'}
+    type: t
+  snd-string: "\u03BB_.[PodcastFolder={c3809}\u2080{c3593}\u2080{c319}\u2080{c337}\u2080\
+    {c359}\u2080{c358}\u2080{c2192}\u2080{228}]"
+  target: r8(net.sourceforge.subsonic.domain.MediaFile)[folder(java.lang.String)]
+  target-base-type: net.sourceforge.subsonic.domain.MediaFile
+  target-num: 6085
+  target-unit: if r8 == null goto return r2
+- containing-method: '<net.sourceforge.subsonic.controller.RESTController: void createPlaylist(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+  failing: [PodcastFolder]
+  fst:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c2820,0}''{c3479,0}{c2203,0}{c2192,0}{228}'}
+    type: t
+  fst-string: "\u03BB_.[PodcastFolder={c2820}\u2080'{c3479}\u2080{c2204}\u2080{c2203}\u2080\
+    {c2192}\u2080{228}]"
+  key: [<<zero>>(null_type), i4 = i4 + 1|0, 'r5(java.util.ArrayList)[<<contents>>(net.sourceforge.subsonic.domain.MediaFile),
+      folder(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c2820,0}{c3479,0}{c2203,0}{c2192,0}{228}'}
+    type: t
+  snd-string: "\u03BB_.[PodcastFolder={c2820}\u2080{c3479}\u2080{c2204}\u2080{c2203}\u2080\
+    {c2192}\u2080{228}]"
+  target: r5(java.util.ArrayList)[<<contents>>(net.sourceforge.subsonic.domain.MediaFile),
+    folder(java.lang.String)]
+  target-base-type: java.util.ArrayList
+  target-num: 6072
+  target-unit: i4 = i4 + 1
+- containing-method: '<net.sourceforge.subsonic.ajax.PlayQueueService: net.sourceforge.subsonic.ajax.PlayQueueInfo
+    convert(javax.servlet.http.HttpServletRequest,net.sourceforge.subsonic.domain.Player,boolean,int)>'
+  failing: [UrlRedirectFrom]
+  fst:
+    effect: WRITE_AND_PROPAGATE
+    props: [Port, UrlRedirectFrom, UrlRedirectContextPath]
+    root: {Port: '{245}', UrlRedirectContextPath: '{247}', UrlRedirectFrom: '{246}'''}
+    type: t
+  fst-string: "\u03BB_.[Port={245},UrlRedirectFrom={246}',UrlRedirectContextPath={247}]"
+  key: [<<zero>>(null_type), '$r30 = r0.<net.sourceforge.subsonic.ajax.PlayQueueService:
+      net.sourceforge.subsonic.service.SettingsService settingsService>|0', 'r5(java.util.ArrayList)[<<contents>>(net.sourceforge.subsonic.ajax.PlayQueueInfo$Entry),
+      remoteStreamUrl(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: WRITE_AND_PROPAGATE
+    props: [Port, UrlRedirectFrom, UrlRedirectContextPath]
+    root: {Port: '{c5283,0}{245}', UrlRedirectContextPath: '{c5283,0}{247}', UrlRedirectFrom: '{c5283,0}{246}'}
+    type: t
+  snd-string: "\u03BB_.[Port={c5283}\u2080{245},UrlRedirectFrom={c5283}\u2080{246},UrlRedirectContextPath={c5283}\u2080\
+    {247}]"
+  target: r5(java.util.ArrayList)[<<contents>>(net.sourceforge.subsonic.ajax.PlayQueueInfo$Entry),
+    remoteStreamUrl(java.lang.String)]
+  target-base-type: java.util.ArrayList
+  target-num: 6086
+  target-unit: '$r30 = r0.<net.sourceforge.subsonic.ajax.PlayQueueService: net.sourceforge.subsonic.service.SettingsService
+    settingsService>'
+- containing-method: '<net.sourceforge.subsonic.ldap.SubsonicLdapBindAuthenticator:
+    void createDelegate()>'
+  failing: null
+  fst:
+    effect: WRITE
+    props: ['*']
+    root: {'*': '{s132}L'}
+    type: pp
+  fst-string: "\u03BBL.[*={s132}L]"
+  key: ['r0(net.sourceforge.subsonic.ldap.SubsonicLdapBindAuthenticator)[authenticatorTimestamp(long)]',
+    $r7 = new org.acegisecurity.ldap.DefaultInitialDirContextFactory|0, 'r0(net.sourceforge.subsonic.ldap.SubsonicLdapBindAuthenticator)[authenticatorTimestamp(long)]']
+  report-type: flow
+  sensitivity: true
+  snd: {effect: NONE, type: id}
+  snd-string: id[NONE]
+  target: r0(net.sourceforge.subsonic.ldap.SubsonicLdapBindAuthenticator)[authenticatorTimestamp(long)]
+  target-base-type: net.sourceforge.subsonic.ldap.SubsonicLdapBindAuthenticator
+  target-num: 6087
+  target-unit: $r7 = new org.acegisecurity.ldap.DefaultInitialDirContextFactory
+- containing-method: '<net.sourceforge.subsonic.controller.MainController: java.util.List
+    getMediaFiles(javax.servlet.http.HttpServletRequest)>'
+  failing: [PodcastFolder]
+  fst:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c3815,0}''{c3479,0}{c2203,0}{c2192,0}{228}'}
+    type: t
+  fst-string: "\u03BB_.[PodcastFolder={c3815}\u2080'{c3479}\u2080{c2204}\u2080{c2203}\u2080\
+    {c2192}\u2080{228}]"
+  key: [<<zero>>(null_type), i3 = i3 + 1|0, 'r2(java.util.ArrayList)[<<contents>>(net.sourceforge.subsonic.domain.MediaFile),
+      folder(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c3815,0}{c3479,0}{c2203,0}{c2192,0}{228}'}
+    type: t
+  snd-string: "\u03BB_.[PodcastFolder={c3815}\u2080{c3479}\u2080{c2204}\u2080{c2203}\u2080\
+    {c2192}\u2080{228}]"
+  target: r2(java.util.ArrayList)[<<contents>>(net.sourceforge.subsonic.domain.MediaFile),
+    folder(java.lang.String)]
+  target-base-type: java.util.ArrayList
+  target-num: 6073
+  target-unit: i3 = i3 + 1
+- containing-method: '<net.sourceforge.subsonic.ajax.PlayQueueService: net.sourceforge.subsonic.ajax.PlayQueueInfo
+    convert(javax.servlet.http.HttpServletRequest,net.sourceforge.subsonic.domain.Player,boolean,int)>'
+  failing: [UrlRedirectFrom]
+  fst:
+    effect: WRITE_AND_PROPAGATE
+    props: [Port, UrlRedirectFrom, UrlRedirectContextPath]
+    root: {Port: '{245}', UrlRedirectContextPath: '{247}', UrlRedirectFrom: '{246}'''}
+    type: t
+  fst-string: "\u03BB_.[Port={245},UrlRedirectFrom={246}',UrlRedirectContextPath={247}]"
+  key: [<<zero>>(null_type), '$r30 = r0.<net.sourceforge.subsonic.ajax.PlayQueueService:
+      net.sourceforge.subsonic.service.SettingsService settingsService>|0', 'r5(java.util.ArrayList)[<<contents>>(net.sourceforge.subsonic.ajax.PlayQueueInfo$Entry),
+      remoteCoverArtUrl(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: WRITE_AND_PROPAGATE
+    props: [Port, UrlRedirectFrom, UrlRedirectContextPath]
+    root: {Port: '{c5284,0}{245}', UrlRedirectContextPath: '{c5284,0}{247}', UrlRedirectFrom: '{c5284,0}{246}'}
+    type: t
+  snd-string: "\u03BB_.[Port={c5284}\u2080{245},UrlRedirectFrom={c5284}\u2080{246},UrlRedirectContextPath={c5284}\u2080\
+    {247}]"
+  target: r5(java.util.ArrayList)[<<contents>>(net.sourceforge.subsonic.ajax.PlayQueueInfo$Entry),
+    remoteCoverArtUrl(java.lang.String)]
+  target-base-type: java.util.ArrayList
+  target-num: 6086
+  target-unit: '$r30 = r0.<net.sourceforge.subsonic.ajax.PlayQueueService: net.sourceforge.subsonic.service.SettingsService
+    settingsService>'
+- containing-method: '<net.sourceforge.subsonic.controller.RESTController: void updatePlaylist(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+  failing: [PodcastFolder]
+  fst:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c2832,0}''{c3479,0}{c2203,0}{c2192,0}{228}'}
+    type: t
+  fst-string: "\u03BB_.[PodcastFolder={c2832}\u2080'{c3479}\u2080{c2204}\u2080{c2203}\u2080\
+    {c2192}\u2080{228}]"
+  key: [<<zero>>(null_type), z5 = 1|1, 'r7(java.util.List)[<<contents>>(net.sourceforge.subsonic.domain.MediaFile),
+      folder(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c2832,0}{c3479,0}{c2203,0}{c2192,0}{228}'}
+    type: t
+  snd-string: "\u03BB_.[PodcastFolder={c2832}\u2080{c3479}\u2080{c2204}\u2080{c2203}\u2080\
+    {c2192}\u2080{228}]"
+  target: r7(java.util.List)[<<contents>>(net.sourceforge.subsonic.domain.MediaFile),
+    folder(java.lang.String)]
+  target-base-type: java.util.List
+  target-num: 6088
+  target-unit: z5 = 1
+- containing-method: '<net.sourceforge.subsonic.PseudoMain$DummyAcegiFilter: void
+    doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain)>'
+  failing: ['*']
+  fst:
+    effect: WRITE
+    props: ['*']
+    root: {'*': '{c160,0}{c158,0}{s132}P{314,321,322,323}'}
+    type: pp
+  fst-string: "\u03BBL.[*={c160}\u2080{c158}\u2080{s132}P{314,321,322,323}]"
+  key: ['r0(net.sourceforge.subsonic.PseudoMain$DummyAcegiFilter)[bind(net.sourceforge.subsonic.ldap.SubsonicLdapBindAuthenticator),
+      authenticatorTimestamp(long)]', '$r4 = r0.<net.sourceforge.subsonic.PseudoMain$DummyAcegiFilter:
+      net.sourceforge.subsonic.service.SecurityService ss>|0', 'r0(net.sourceforge.subsonic.PseudoMain$DummyAcegiFilter)[bind(net.sourceforge.subsonic.ldap.SubsonicLdapBindAuthenticator),
+      authenticatorTimestamp(long)]']
+  report-type: flow
+  sensitivity: true
+  snd:
+    effect: NONE
+    props: ['*']
+    root: {'*': 'P{160,314}'}
+    type: pp
+  snd-string: "\u03BBL.[*=P{160,314}]"
+  target: r0(net.sourceforge.subsonic.PseudoMain$DummyAcegiFilter)[bind(net.sourceforge.subsonic.ldap.SubsonicLdapBindAuthenticator),
+    authenticatorTimestamp(long)]
+  target-base-type: net.sourceforge.subsonic.PseudoMain$DummyAcegiFilter
+  target-num: 6074
+  target-unit: '$r4 = r0.<net.sourceforge.subsonic.PseudoMain$DummyAcegiFilter: net.sourceforge.subsonic.service.SecurityService
+    ss>'
+- containing-method: '<net.sourceforge.subsonic.service.SearchService: java.util.List
+    getRandomSongs(net.sourceforge.subsonic.domain.RandomSearchCriteria)>'
+  failing: [PodcastFolder]
+  fst:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c3692,0}''{c3479,0}{c2203,0}{c2192,0}{228}'}
+    type: t
+  fst-string: "\u03BB_.[PodcastFolder={c3692}\u2080'{c3479}\u2080{c2204}\u2080{c2203}\u2080\
+    {c2192}\u2080{228}]"
+  key: [<<zero>>(null_type), 'goto [?= $z2 = interfaceinvoke r64.<java.util.List:
+      boolean isEmpty()>()]|1', 'r2(java.util.ArrayList)[<<contents>>(net.sourceforge.subsonic.domain.MediaFile),
+      folder(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c3692,0}{c3479,0}{c2203,0}{c2192,0}{228}'}
+    type: t
+  snd-string: "\u03BB_.[PodcastFolder={c3692}\u2080{c3479}\u2080{c2204}\u2080{c2203}\u2080\
+    {c2192}\u2080{228}]"
+  target: r2(java.util.ArrayList)[<<contents>>(net.sourceforge.subsonic.domain.MediaFile),
+    folder(java.lang.String)]
+  target-base-type: java.util.ArrayList
+  target-num: 6075
+  target-unit: 'goto [?= $z2 = interfaceinvoke r64.<java.util.List: boolean isEmpty()>()]'
+- containing-method: '<net.sourceforge.subsonic.controller.CoverArtController: java.io.File
+    getCachedImage(net.sourceforge.subsonic.controller.CoverArtController$CoverArtRequest,int)>'
+  failing: ['*']
+  fst:
+    effect: NONE
+    props: ['*']
+    root: {'*': '({t4158,3}{c4155,1}{c4154,0;1;2;3;4}L|{t4158,4}{s21}L)'}
+    type: pp
+  fst-string: "\u03BBL.[*=({4158}\u2083{c4155}\u2081{c4154}\u2080\u208C\u2081\u208C\
+    \u2082\u208C\u2083\u208C\u2084L|{4158}\u2084{s21}L)]"
+  key: ['r1(net.sourceforge.subsonic.controller.CoverArtController$VideoCoverArtRequest)[mediaFile(net.sourceforge.subsonic.domain.MediaFile),
+      folder(java.lang.String)]', r35 = null|0, 'r1(net.sourceforge.subsonic.controller.CoverArtController$VideoCoverArtRequest)[mediaFile(net.sourceforge.subsonic.domain.MediaFile),
+      folder(java.lang.String)]']
+  report-type: flow
+  sensitivity: true
+  snd:
+    effect: NONE
+    props: ['*']
+    root: {'*': '{c4154,0;1;2;3;4}L'}
+    type: pp
+  snd-string: "\u03BBL.[*={c4155}\u2081{c4154}\u2080\u208C\u2081\u208C\u2082\u208C\
+    \u2083\u208C\u2084L]"
+  target: r1(net.sourceforge.subsonic.controller.CoverArtController$VideoCoverArtRequest)[mediaFile(net.sourceforge.subsonic.domain.MediaFile),
+    folder(java.lang.String)]
+  target-base-type: net.sourceforge.subsonic.controller.CoverArtController$VideoCoverArtRequest
+  target-num: 6090
+  target-unit: r35 = null
+- containing-method: '<net.sourceforge.subsonic.controller.RESTController: void updatePlaylist(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+  failing: [PodcastFolder]
+  fst:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c2832,0}''{c3479,0}{c2203,0}{c2192,0}{228}'}
+    type: t
+  fst-string: "\u03BB_.[PodcastFolder={c2832}\u2080'{c3479}\u2080{c2204}\u2080{c2203}\u2080\
+    {c2192}\u2080{228}]"
+  key: [<<zero>>(null_type), i6 = i6 + 1|0, 'r7(java.util.List)[<<contents>>(net.sourceforge.subsonic.domain.MediaFile),
+      folder(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c2832,0}{c3479,0}{c2203,0}{c2192,0}{228}'}
+    type: t
+  snd-string: "\u03BB_.[PodcastFolder={c2832}\u2080{c3479}\u2080{c2204}\u2080{c2203}\u2080\
+    {c2192}\u2080{228}]"
+  target: r7(java.util.List)[<<contents>>(net.sourceforge.subsonic.domain.MediaFile),
+    folder(java.lang.String)]
+  target-base-type: java.util.List
+  target-num: 6089
+  target-unit: i6 = i6 + 1
+- containing-method: '<net.sourceforge.subsonic.controller.RESTController: void scrobble(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+  failing: [PodcastFolder]
+  fst:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c2915,0}{s79}{s79}{c2915,0}{c2913,0}{c3479,0}{c2204,0}{c2203,0}{c2192,0}{228}'}
+    type: t
+  fst-string: "\u03BB_.[PodcastFolder={c2915}\u2080{s79}{s79}{c2915}\u2080{c2913}\u2080\
+    {c3479}\u2080{c2204}\u2080{c2203}\u2080{c2192}\u2080{228}]"
+  key: [<<zero>>(null_type), '$r12 = r0.<net.sourceforge.subsonic.controller.RESTController:
+      net.sourceforge.subsonic.service.MediaFileService mediaFileService>|0', 'r28(net.sourceforge.subsonic.controller.RESTController$1)[this$0(net.sourceforge.subsonic.controller.RESTController),
+      statusService(net.sourceforge.subsonic.service.StatusService), remotePlays(java.util.List),
+      <<contents>>(net.sourceforge.subsonic.domain.PlayStatus), mediaFile(net.sourceforge.subsonic.domain.MediaFile),
+      folder(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c2913,0}{c3479,0}{c2203,0}{c2192,0}{228}'}
+    type: t
+  snd-string: "\u03BB_.[PodcastFolder={c2913}\u2080{c3479}\u2080{c2204}\u2080{c2203}\u2080\
+    {c2192}\u2080{228}]"
+  target: r28(net.sourceforge.subsonic.controller.RESTController$1)[this$0(net.sourceforge.subsonic.controller.RESTController),
+    statusService(net.sourceforge.subsonic.service.StatusService), remotePlays(java.util.List),
+    <<contents>>(net.sourceforge.subsonic.domain.PlayStatus), mediaFile(net.sourceforge.subsonic.domain.MediaFile),
+    folder(java.lang.String)]
+  target-base-type: net.sourceforge.subsonic.controller.RESTController$1
+  target-num: 6064
+  target-unit: '$r12 = r0.<net.sourceforge.subsonic.controller.RESTController: net.sourceforge.subsonic.service.MediaFileService
+    mediaFileService>'
+- containing-method: '<net.sourceforge.subsonic.controller.RESTController: void getNowPlaying(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+  failing: ['*']
+  fst:
+    effect: WRITE
+    props: ['*']
+    root: {'*': '{c2883,0}{s97}{c2882,0}{c3850,0}{c3914,0}P{5267,5269,5270}'}
+    type: pp
+  fst-string: "\u03BBL.[*={c2883}\u2080{s97}{c2882}\u2080{c3850}\u2080{c3914}\u2080\
+    P{5267,5269,5270}]"
+  key: ['r0(net.sourceforge.subsonic.controller.RESTController)[statusService(net.sourceforge.subsonic.service.StatusService),
+      remotePlays(java.util.List), <<contents>>(net.sourceforge.subsonic.domain.PlayStatus),
+      mediaFile(net.sourceforge.subsonic.domain.MediaFile), folder(java.lang.String)]',
+    'r3 = interfaceinvoke $r11.<java.util.List: java.util.Iterator iterator()>()|0',
+    'r0(net.sourceforge.subsonic.controller.RESTController)[statusService(net.sourceforge.subsonic.service.StatusService),
+      remotePlays(java.util.List), <<contents>>(net.sourceforge.subsonic.domain.PlayStatus),
+      mediaFile(net.sourceforge.subsonic.domain.MediaFile), folder(java.lang.String)]']
+  report-type: flow
+  sensitivity: true
+  snd:
+    effect: NONE
+    props: ['*']
+    root: {'*': '{c2882,0}{c3850,0}{c3914,0}P{5267,5269,5270}'}
+    type: pp
+  snd-string: "\u03BBL.[*={c2882}\u2080{c3850}\u2080{c3914}\u2080P{5267,5269,5270}]"
+  target: r0(net.sourceforge.subsonic.controller.RESTController)[statusService(net.sourceforge.subsonic.service.StatusService),
+    remotePlays(java.util.List), <<contents>>(net.sourceforge.subsonic.domain.PlayStatus),
+    mediaFile(net.sourceforge.subsonic.domain.MediaFile), folder(java.lang.String)]
+  target-base-type: net.sourceforge.subsonic.controller.RESTController
+  target-num: 6076
+  target-unit: 'r3 = interfaceinvoke $r11.<java.util.List: java.util.Iterator iterator()>()'
+- containing-method: '<net.sourceforge.subsonic.service.MediaFileService: java.util.List
+    getDescendantsOf(net.sourceforge.subsonic.domain.MediaFile,boolean)>'
+  failing: [PodcastFolder]
+  fst:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c5292,0}{c3739,0}{c4312,0}{c2203,0}{c2192,0}{228}'}
+    type: t
+  fst-string: "\u03BB_.[PodcastFolder={c5292}\u2080{c3739}\u2080{c4312}\u2080{c2204}\u2080\
+    {c2203}\u2080{c2192}\u2080{228}]"
+  key: [<<zero>>(null_type), '$z4 = interfaceinvoke r2.<java.util.List: boolean addAll(java.util.Collection)>($r8)|0',
+    'r2(java.util.ArrayList)[<<contents>>(net.sourceforge.subsonic.domain.MediaFile),
+      folder(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c5293,0}{c5292,0}{c3739,0}{c4312,0}{c2203,0}{c2192,0}{228}'}
+    type: t
+  snd-string: "\u03BB_.[PodcastFolder={c5293}\u2080{c5292}\u2080{c3739}\u2080{c4312}\u2080\
+    {c2204}\u2080{c2203}\u2080{c2192}\u2080{228}]"
+  target: r2(java.util.ArrayList)[<<contents>>(net.sourceforge.subsonic.domain.MediaFile),
+    folder(java.lang.String)]
+  target-base-type: java.util.ArrayList
+  target-num: 6077
+  target-unit: '$z4 = interfaceinvoke r2.<java.util.List: boolean addAll(java.util.Collection)>($r8)'
+- containing-method: '<net.sourceforge.subsonic.service.SearchService: java.util.List
+    getRandomSongs(net.sourceforge.subsonic.domain.RandomSearchCriteria)>'
+  failing: [PodcastFolder]
+  fst:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c3692,0}''{c3479,0}{c2203,0}{c2192,0}{228}'}
+    type: t
+  fst-string: "\u03BB_.[PodcastFolder={c3692}\u2080'{c3479}\u2080{c2204}\u2080{c2203}\u2080\
+    {c2192}\u2080{228}]"
+  key: [<<zero>>(null_type), '$r51 := @caughtexception|0', 'r2(java.util.ArrayList)[<<contents>>(net.sourceforge.subsonic.domain.MediaFile),
+      folder(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c3692,0}{c3479,0}{c2203,0}{c2192,0}{228}'}
+    type: t
+  snd-string: "\u03BB_.[PodcastFolder={c3692}\u2080{c3479}\u2080{c2204}\u2080{c2203}\u2080\
+    {c2192}\u2080{228}]"
+  target: r2(java.util.ArrayList)[<<contents>>(net.sourceforge.subsonic.domain.MediaFile),
+    folder(java.lang.String)]
+  target-base-type: java.util.ArrayList
+  target-num: 6097
+  target-unit: $r51 := @caughtexception
+- containing-method: '<net.sourceforge.subsonic.controller.CoverArtController: java.io.File
+    getCachedImage(net.sourceforge.subsonic.controller.CoverArtController$CoverArtRequest,int)>'
+  failing: ['*']
+  fst:
+    effect: NONE
+    props: ['*']
+    root: {'*': '({t4158,0}{c4155,1}{c4154,0;1;2;3;4}L|{t4158,1}{c4155,1}{c4154,0;1;2;3;4}L|{t4158,2}{s21}L|{t4158,3}{c4155,1}{c4154,0;1;2;3;4}L|{t4158,4}{c4155,1}{c4154,0;1;2;3;4}L)'}
+    type: pp
+  fst-string: "\u03BBL.[*=({4158}\u2080{c4155}\u2081{c4154}\u2080\u208C\u2081\u208C\
+    \u2082\u208C\u2083\u208C\u2084L|{4158}\u2081{c4155}\u2081{c4154}\u2080\u208C\u2081\
+    \u208C\u2082\u208C\u2083\u208C\u2084L|{4158}\u2082{s21}L|{4158}\u2083{c4155}\u2081\
+    {c4154}\u2080\u208C\u2081\u208C\u2082\u208C\u2083\u208C\u2084L|{4158}\u2084{c4155}\u2081\
+    {c4154}\u2080\u208C\u2081\u208C\u2082\u208C\u2083\u208C\u2084L)]"
+  key: ['r1(net.sourceforge.subsonic.controller.CoverArtController$MediaFileCoverArtRequest)[dir(net.sourceforge.subsonic.domain.MediaFile),
+      folder(java.lang.String)]', r35 = null|0, 'r1(net.sourceforge.subsonic.controller.CoverArtController$MediaFileCoverArtRequest)[dir(net.sourceforge.subsonic.domain.MediaFile),
+      folder(java.lang.String)]']
+  report-type: flow
+  sensitivity: true
+  snd:
+    effect: NONE
+    props: ['*']
+    root: {'*': '{c4154,0;1;2;3;4}L'}
+    type: pp
+  snd-string: "\u03BBL.[*={c4155}\u2081{c4154}\u2080\u208C\u2081\u208C\u2082\u208C\
+    \u2083\u208C\u2084L]"
+  target: r1(net.sourceforge.subsonic.controller.CoverArtController$MediaFileCoverArtRequest)[dir(net.sourceforge.subsonic.domain.MediaFile),
+    folder(java.lang.String)]
+  target-base-type: net.sourceforge.subsonic.controller.CoverArtController$MediaFileCoverArtRequest
+  target-num: 6090
+  target-unit: r35 = null
+- containing-method: '<net.sourceforge.subsonic.controller.RESTController: void scrobble(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+  failing: [PodcastFolder]
+  fst:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c2913,0}''{c3479,0}{c2203,0}{c2192,0}{228}'}
+    type: t
+  fst-string: "\u03BB_.[PodcastFolder={c2913}\u2080'{c3479}\u2080{c2204}\u2080{c2203}\u2080\
+    {c2192}\u2080{228}]"
+  key: [<<zero>>(null_type), if r5 != null goto $i2 = lengthof r4|0, 'r0(net.sourceforge.subsonic.controller.RESTController)[statusService(net.sourceforge.subsonic.service.StatusService),
+      remotePlays(java.util.List), <<contents>>(net.sourceforge.subsonic.domain.PlayStatus),
+      mediaFile(net.sourceforge.subsonic.domain.MediaFile), folder(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c2913,0}{c3479,0}{c2203,0}{c2192,0}{228}'}
+    type: t
+  snd-string: "\u03BB_.[PodcastFolder={c2915}\u2080{c2913}\u2080{c3479}\u2080{c2204}\u2080\
+    {c2203}\u2080{c2192}\u2080{228}]"
+  target: r0(net.sourceforge.subsonic.controller.RESTController)[statusService(net.sourceforge.subsonic.service.StatusService),
+    remotePlays(java.util.List), <<contents>>(net.sourceforge.subsonic.domain.PlayStatus),
+    mediaFile(net.sourceforge.subsonic.domain.MediaFile), folder(java.lang.String)]
+  target-base-type: net.sourceforge.subsonic.controller.RESTController
+  target-num: 6078
+  target-unit: if r5 != null goto $i2 = lengthof r4
+- containing-method: '<net.sourceforge.subsonic.service.SearchService: java.util.List
+    getRandomAlbums(int,java.util.List)>'
+  failing: [PodcastFolder]
+  fst:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c3966,0}''{c3479,0}{c2203,0}{c2192,0}{228}'}
+    type: t
+  fst-string: "\u03BB_.[PodcastFolder={c3966}\u2080'{c3479}\u2080{c2204}\u2080{c2203}\u2080\
+    {c2192}\u2080{228}]"
+  key: [<<zero>>(null_type), 'goto [?= $z2 = interfaceinvoke r4.<java.util.List: boolean
+      isEmpty()>()]|1', 'r2(java.util.ArrayList)[<<contents>>(net.sourceforge.subsonic.domain.MediaFile),
+      folder(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c3966,0}{c3479,0}{c2203,0}{c2192,0}{228}'}
+    type: t
+  snd-string: "\u03BB_.[PodcastFolder={c3966}\u2080{c3479}\u2080{c2204}\u2080{c2203}\u2080\
+    {c2192}\u2080{228}]"
+  target: r2(java.util.ArrayList)[<<contents>>(net.sourceforge.subsonic.domain.MediaFile),
+    folder(java.lang.String)]
+  target-base-type: java.util.ArrayList
+  target-num: 6098
+  target-unit: 'goto [?= $z2 = interfaceinvoke r4.<java.util.List: boolean isEmpty()>()]'
+- containing-method: '<net.sourceforge.subsonic.service.MediaFileService: java.util.List
+    getDescendantsOf(net.sourceforge.subsonic.domain.MediaFile,boolean)>'
+  failing: [PodcastFolder]
+  fst:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c5293,0}{c5292,0}{c3739,0}{c4312,0}{c2203,0}{c2192,0}{228}'}
+    type: t
+  fst-string: "\u03BB_.[PodcastFolder={c5293}\u2080{c5292}\u2080{c3739}\u2080{c4312}\u2080\
+    {c2204}\u2080{c2203}\u2080{c2192}\u2080{228}]"
+  key: [<<zero>>(null_type), '$z5 = interfaceinvoke r4.<java.util.Iterator: boolean
+      hasNext()>()|0', 'r2(java.util.ArrayList)[<<contents>>(net.sourceforge.subsonic.domain.MediaFile),
+      folder(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: WRITE
+    props: [PodcastFolder]
+    root: {PodcastFolder: '{c5292,0}{c3739,0}{c4312,0}{c2203,0}{c2192,0}{228}'}
+    type: t
+  snd-string: "\u03BB_.[PodcastFolder={c5292}\u2080{c3739}\u2080{c4312}\u2080{c2204}\u2080\
+    {c2203}\u2080{c2192}\u2080{228}]"
+  target: r2(java.util.ArrayList)[<<contents>>(net.sourceforge.subsonic.domain.MediaFile),
+    folder(java.lang.String)]
+  target-base-type: java.util.ArrayList
+  target-num: 6079
+  target-unit: '$z5 = interfaceinvoke r4.<java.util.Iterator: boolean hasNext()>()'
+- containing-method: '<net.sourceforge.subsonic.controller.CoverArtController: java.io.File
+    getCachedImage(net.sourceforge.subsonic.controller.CoverArtController$CoverArtRequest,int)>'
+  failing: ['*']
+  fst:
+    effect: NONE
+    props: ['*']
+    root: {'*': '{c4159,0}{s21}{c4155,1}{c4154,2}L'}
+    type: pp
+  fst-string: "\u03BBL.[*={c4159}\u2080{s21}{c4155}\u2081{c4154}\u2082L]"
+  key: ['r1(net.sourceforge.subsonic.controller.CoverArtController$MediaFileCoverArtRequest)[mediaFile(net.sourceforge.subsonic.domain.MediaFile),
+      folder(java.lang.String)]', '$r33 := @caughtexception|0', 'r1(net.sourceforge.subsonic.controller.CoverArtController$MediaFileCoverArtRequest)[mediaFile(net.sourceforge.subsonic.domain.MediaFile),
+      folder(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: NONE
+    props: ['*']
+    root: {'*': '{c4154,0;1;2;3}L'}
+    type: pp
+  snd-string: "\u03BBL.[*={c4155}\u2081{c4154}\u2080\u208C\u2081\u208C\u2082\u208C\
+    \u2083L]"
+  target: r1(net.sourceforge.subsonic.controller.CoverArtController$MediaFileCoverArtRequest)[mediaFile(net.sourceforge.subsonic.domain.MediaFile),
+    folder(java.lang.String)]
+  target-base-type: net.sourceforge.subsonic.controller.CoverArtController$MediaFileCoverArtRequest
+  target-num: 6080
+  target-unit: $r33 := @caughtexception
+- containing-method: '<net.sourceforge.subsonic.service.MusicIndexService: java.util.SortedMap
+    getIndexedArtists(java.util.List,boolean)>'
+  context: &id001 ['r6 = virtualinvoke $r12.<net.sourceforge.subsonic.service.MusicIndexService:
+      java.util.SortedMap getIndexedArtists(java.util.List,boolean)>(r5, 0)|0']
+  context-num: [3193]
+  key:
+  - *id001
+  - '[OTHER(net.sourceforge.subsonic.domain.MusicIndex), prefixes(java.util.List),
+    <<contents>>(java.lang.String)]'
+  - return $r3|0
+  report-type: lost-static
+  target: '[OTHER(net.sourceforge.subsonic.domain.MusicIndex), prefixes(java.util.List),
+    <<contents>>(java.lang.String)]'
+  target-num: 6099
+  target-unit: return $r3
+  value: {IndexString: '{c4189,0}{c5246,0}{244}'}
+- containing-method: '<net.sourceforge.subsonic.service.MusicIndexService: java.util.SortedMap
+    getIndexedArtists(java.util.List)>'
+  context: &id002 ['r6 = virtualinvoke $r17.<net.sourceforge.subsonic.service.MusicIndexService:
+      java.util.SortedMap getIndexedArtists(java.util.List)>(r5)|0']
+  context-num: [2663]
+  key:
+  - *id002
+  - '[OTHER(net.sourceforge.subsonic.domain.MusicIndex), index(java.lang.String)]'
+  - return $r3|0
+  report-type: lost-static
+  target: '[OTHER(net.sourceforge.subsonic.domain.MusicIndex), index(java.lang.String)]'
+  target-num: 6100
+  target-unit: return $r3
+  value: {IndexString: '{c3880,0}{c5246,0}{244}'}
+- containing-method: '<net.sourceforge.subsonic.service.MusicIndexService: java.util.SortedMap
+    getIndexedArtists(java.util.List,boolean)>'
+  context: &id003 ['r6 = virtualinvoke $r12.<net.sourceforge.subsonic.service.MusicIndexService:
+      java.util.SortedMap getIndexedArtists(java.util.List,boolean)>(r5, 0)|0']
+  context-num: [3193]
+  key:
+  - *id003
+  - '[OTHER(net.sourceforge.subsonic.domain.MusicIndex), index(java.lang.String)]'
+  - return $r3|0
+  report-type: lost-static
+  target: '[OTHER(net.sourceforge.subsonic.domain.MusicIndex), index(java.lang.String)]'
+  target-num: 6099
+  target-unit: return $r3
+  value: {IndexString: '{c4189,0}{c5246,0}{244}'}
+- containing-method: '<net.sourceforge.subsonic.service.MusicIndexService: java.util.SortedMap
+    getIndexedArtists(java.util.List,boolean)>'
+  context: &id004 ['r2 = virtualinvoke r0.<net.sourceforge.subsonic.service.MusicIndexService:
+      java.util.SortedMap getIndexedArtists(java.util.List,boolean)>(r1, z0)|0']
+  context-num: [3866]
+  key:
+  - *id004
+  - '[OTHER(net.sourceforge.subsonic.domain.MusicIndex), prefixes(java.util.List),
+    <<contents>>(java.lang.String)]'
+  - return $r3|0
+  report-type: lost-static
+  target: '[OTHER(net.sourceforge.subsonic.domain.MusicIndex), prefixes(java.util.List),
+    <<contents>>(java.lang.String)]'
+  target-num: 6099
+  target-unit: return $r3
+  value: {IndexString: '{c4189,0}{c5246,0}{244}'}
+- containing-method: '<net.sourceforge.subsonic.Logger: void add(net.sourceforge.subsonic.Logger$Level,java.lang.Object,java.lang.Throwable)>'
+  context: &id005 ['specialinvoke r0.<net.sourceforge.subsonic.Logger: void add(net.sourceforge.subsonic.Logger$Level,java.lang.Object,java.lang.Throwable)>($r3,
+      r1, r2)|0']
+  context-num: [343]
+  key:
+  - *id005
+  - '[entries(java.util.List), <<contents>>(net.sourceforge.subsonic.Logger$Entry),
+    message(java.lang.String)]'
+  - return|0
+  report-type: lost-static
+  target: '[entries(java.util.List), <<contents>>(net.sourceforge.subsonic.Logger$Entry),
+    message(java.lang.String)]'
+  target-num: 6101
+  target-unit: return
+  value: {IndexCreationInterval: '{237}', LdapManagerDn: '{c158,0}{s132}{154}', LdapManagerPassword: '{c158,0}{s132}{155}',
+    LdapUrl: '{c158,0}{s132}{152}', PodcastUpdateInterval: '{236}', Port: '{c5136,0}{252}',
+    SonosServiceId: '{241}', StreamPort: '{182}', UrlRedirectContextPath: '{c5136,0}{253}'}
+- containing-method: '<net.sourceforge.subsonic.service.MusicIndexService: java.util.SortedMap
+    getIndexedArtists(java.util.List,boolean)>'
+  context: &id006 ['r2 = virtualinvoke r0.<net.sourceforge.subsonic.service.MusicIndexService:
+      java.util.SortedMap getIndexedArtists(java.util.List,boolean)>(r1, z0)|0']
+  context-num: [3866]
+  key:
+  - *id006
+  - '[OTHER(net.sourceforge.subsonic.domain.MusicIndex), index(java.lang.String)]'
+  - return $r3|0
+  report-type: lost-static
+  target: '[OTHER(net.sourceforge.subsonic.domain.MusicIndex), index(java.lang.String)]'
+  target-num: 6099
+  target-unit: return $r3
+  value: {IndexString: '{c4189,0}{c5246,0}{244}'}
+- containing-method: '<net.sourceforge.subsonic.service.MusicIndexService: java.util.SortedMap
+    getIndexedArtists(java.util.List)>'
+  context: &id007 ['r6 = virtualinvoke $r17.<net.sourceforge.subsonic.service.MusicIndexService:
+      java.util.SortedMap getIndexedArtists(java.util.List)>(r5)|0']
+  context-num: [2663]
+  key:
+  - *id007
+  - '[OTHER(net.sourceforge.subsonic.domain.MusicIndex), prefixes(java.util.List),
+    <<contents>>(java.lang.String)]'
+  - return $r3|0
+  report-type: lost-static
+  target: '[OTHER(net.sourceforge.subsonic.domain.MusicIndex), prefixes(java.util.List),
+    <<contents>>(java.lang.String)]'
+  target-num: 6100
+  target-unit: return $r3
+  value: {IndexString: '{c3880,0}{c5246,0}{244}'}

@@ -1,0 +1,27 @@
+- rule: "~<PropagationTest$TestClass:fluent>"
+- rule: "^<PropagationTest$TestClass:receiver>"
+- rule: "<PropagationTest$TestClass:returnValue>"
+- rule: '=<java.io.PrintStream: println>'
+- '^<PropagationTest$TestClass:notFluent>'
+- sig: "<java.lang.String: java.lang.String[] split(java.lang.String)>"
+  target: GRAPH
+  resolver: ret-graph
+  fields: ["ARRAY_FIELD"]
+- sig: "<java.lang.String: java.lang.String valueOf(int)>"
+  target: RETURN
+- sig: "<java.lang.Integer: java.lang.Integer valueOf(int)>"
+  target: RETURN
+- sig: "<java.lang.Integer: int intValue()>"
+  target: RETURN
+- sig: "<java.lang.Integer: int parseInt(java.lang.String)>"
+  target: RETURN
+- sig: "<PropagationTest$TestClass: java.lang.String format(java.lang.String,java.lang.Object[])>"
+  target: RETURN
+  subfields: [1]
+- sig: '<PropagationTest$TestClass: void process(int,PropagationTest$TestClass)>'
+  target: GRAPH
+  resolver: out-arg
+  argnum: 1
+- sig: '<PropagationTest$TestClass: void addAll(java.lang.Object[])>'
+  target: RECEIVER
+  subfields: [1]

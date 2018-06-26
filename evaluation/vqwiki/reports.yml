@@ -1,0 +1,967 @@
+- containing-method: '<vqwiki.AbstractServletSearchEngine: void rebuild()>'
+  failing: [homeDir]
+  fst:
+    effect: PROPAGATE
+    props: [homeDir]
+    root: {homeDir: '{c346,0}''{c321,1}{c331,0}{c133,1}{c121,0}{96}'}
+    type: t
+  fst-string: "\u03BB_.[homeDir={c346}\u2080'{c321}\u2081{c331}\u2080{c133}\u2081\
+    {c121}\u2080{96}]"
+  key: [<<zero>>(null_type), 'goto [?= $z3 = interfaceinvoke r5.<java.util.Iterator:
+      boolean hasNext()>()]|0', 'r59(org.apache.lucene.index.IndexWriter)[*(Any_subtype_of_java.lang.Object)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: PROPAGATE
+    props: [homeDir]
+    root: {homeDir: '{c346,0}{c321,1}{c331,0}{c133,1}{c121,0}{96}'}
+    type: t
+  snd-string: "\u03BB_.[homeDir={c346}\u2080{c321}\u2081{c331}\u2080{c133}\u2081{c121}\u2080\
+    {96}]"
+  target: r59(org.apache.lucene.index.IndexWriter)[*(Any_subtype_of_java.lang.Object)]
+  target-base-type: org.apache.lucene.index.IndexWriter
+  target-num: 13486
+  target-unit: 'goto [?= $z3 = interfaceinvoke r5.<java.util.Iterator: boolean hasNext()>()]'
+- containing-method: '<vqwiki.lex.MediaWikiUtil: java.lang.String buildWikiLink(java.lang.String,java.lang.String)>'
+  failing: [force-encoding]
+  fst:
+    effect: PROPAGATE
+    props: [force-encoding]
+    root: {force-encoding: '{c2121,0}{362}'}
+    type: t
+  fst-string: "\u03BB_.[force-encoding={c2121}\u2080{362}]"
+  key: [<<zero>>(null_type), return $r0|0, $r0(java.lang.String)]
+  report-type: flow
+  sensitivity: true
+  snd:
+    effect: PROPAGATE
+    props: [force-encoding]
+    root: {force-encoding: '{c2116,0}{362}'}
+    type: t
+  snd-string: "\u03BB_.[force-encoding={c2116}\u2080{362}]"
+  target: $r0(java.lang.String)
+  target-base-type: java.lang.String
+  target-num: 13481
+  target-unit: return $r0
+- containing-method: '<vqwiki.servlets.PrintableServlet: java.util.Collection parsePage(java.util.ResourceBundle,vqwiki.Environment,java.lang.String,java.lang.String,int,java.util.Vector)>'
+  failing: [file-encoding]
+  fst:
+    effect: WRITE
+    props: [file-encoding]
+    root: {file-encoding: '{c10442,0}{c10442,0}{c10440,0}{3818}'}
+    type: t
+  fst-string: "\u03BB_.[file-encoding={c10442}\u2080{c10442}\u2080{c10440}\u2080{3818}]"
+  key: [<<zero>>(null_type), '$z6 = interfaceinvoke r7.<java.util.Collection: boolean
+      addAll(java.util.Collection)>($r16)|0', '$r16(java.util.ArrayList)[<<contents>>(vqwiki.PrintableEntry),
+      topic(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: WRITE
+    props: [file-encoding]
+    root: {file-encoding: '{c10442,0}{c10440,0}{3818}'}
+    type: t
+  snd-string: "\u03BB_.[file-encoding={c10442}\u2080{c10440}\u2080{3818}]"
+  target: $r16(java.util.ArrayList)[<<contents>>(vqwiki.PrintableEntry), topic(java.lang.String)]
+  target-base-type: java.util.ArrayList
+  target-num: 13490
+  target-unit: '$z6 = interfaceinvoke r7.<java.util.Collection: boolean addAll(java.util.Collection)>($r16)'
+- containing-method: '<vqwiki.AbstractServletSearchEngine: void rebuild()>'
+  failing: [homeDir]
+  fst:
+    effect: PROPAGATE
+    props: [homeDir]
+    root: {homeDir: '{c346,0}''{c321,1}{c331,0}{c133,1}{c121,0}{96}'}
+    type: t
+  fst-string: "\u03BB_.[homeDir={c346}\u2080'{c321}\u2081{c331}\u2080{c133}\u2081\
+    {c121}\u2080{96}]"
+  key: [<<zero>>(null_type), '$r46 := @caughtexception|0', 'r59(org.apache.lucene.index.IndexWriter)[*(Any_subtype_of_java.lang.Object)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: PROPAGATE
+    props: [homeDir]
+    root: {homeDir: '{c346,0}{c321,1}{c331,0}{c133,1}{c121,0}{96}'}
+    type: t
+  snd-string: "\u03BB_.[homeDir={c346}\u2080{c321}\u2081{c331}\u2080{c133}\u2081{c121}\u2080\
+    {96}]"
+  target: r59(org.apache.lucene.index.IndexWriter)[*(Any_subtype_of_java.lang.Object)]
+  target-base-type: org.apache.lucene.index.IndexWriter
+  target-num: 13483
+  target-unit: $r46 := @caughtexception
+- containing-method: '<vqwiki.AbstractNotify: boolean sendNotifications(java.lang.String,java.util.Locale)>'
+  failing: [force-encoding]
+  fst:
+    effect: PROPAGATE
+    props: [force-encoding]
+    root: {force-encoding: '{c12331,0}{362}'}
+    type: t
+  fst-string: "\u03BB_.[force-encoding={c12331}\u2080{362}]"
+  key: [<<zero>>(null_type), $r99 = new java.lang.StringBuffer|0, r10(java.lang.StringBuffer)]
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: PROPAGATE
+    props: [force-encoding]
+    root: {force-encoding: '{c12286,0}{362}'}
+    type: t
+  snd-string: "\u03BB_.[force-encoding={c12286}\u2080{362}]"
+  target: r10(java.lang.StringBuffer)
+  target-base-type: java.lang.StringBuffer
+  target-num: 13491
+  target-unit: $r99 = new java.lang.StringBuffer
+- containing-method: '<vqwiki.file.FileNotify: java.util.Collection getAll(java.lang.String)>'
+  failing: [homeDir]
+  fst:
+    effect: WRITE_AND_PROPAGATE
+    props: [homeDir]
+    root: {homeDir: '{c12854,0}''{c2035,0}{c133,1}{c121,0}{96}'}
+    type: t
+  fst-string: "\u03BB_.[homeDir={c12854}\u2080'{c2035}\u2080{c133}\u2081{c121}\u2080\
+    {96}]"
+  key: [<<zero>>(null_type), i3 = i3 + 1|0, 'r1(java.util.ArrayList)[<<contents>>(vqwiki.file.FileNotify),
+      notifyFile(java.io.File)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: WRITE_AND_PROPAGATE
+    props: [homeDir]
+    root: {homeDir: '{c12854,0}{c2035,0}{c133,1}{c121,0}{96}'}
+    type: t
+  snd-string: "\u03BB_.[homeDir={c12854}\u2080{c2035}\u2080{c133}\u2081{c121}\u2080\
+    {96}]"
+  target: r1(java.util.ArrayList)[<<contents>>(vqwiki.file.FileNotify), notifyFile(java.io.File)]
+  target-base-type: java.util.ArrayList
+  target-num: 13488
+  target-unit: i3 = i3 + 1
+- containing-method: '<vqwiki.AbstractServletSearchEngine: void rebuild()>'
+  failing: ['*']
+  fst:
+    effect: NONE
+    props: ['*']
+    root: {'*': '{c346,0}{s41}P{967,968,969,979:-1,980:-1}'}
+    type: pp
+  fst-string: "\u03BBL.[*={c346}\u2080{s41}P{967,968,969,979:-1,980:-1}]"
+  key: ['[$INSTANCE(vqwiki.servlets.RecentChangesServlet), wb(vqwiki.WikiBase), changeLog(vqwiki.file.FileChangeLog),
+      cache(java.util.Map), <<contents>>(java.util.Map), <<contents>>(java.util.ArrayList),
+      <<contents>>(vqwiki.Change), virtualWiki(java.lang.String)]', '$r46 := @caughtexception|0',
+    '[$INSTANCE(vqwiki.servlets.RecentChangesServlet), wb(vqwiki.WikiBase), changeLog(vqwiki.file.FileChangeLog),
+      cache(java.util.Map), <<contents>>(java.util.Map), <<contents>>(java.util.ArrayList),
+      <<contents>>(vqwiki.Change), virtualWiki(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: NONE
+    props: ['*']
+    root: {'*': 'P{967,968,969,979:-1,980:-1}'}
+    type: pp
+  snd-string: "\u03BBL.[*=P{967,968,969,979:-1,980:-1}]"
+  target: '[$INSTANCE(vqwiki.servlets.RecentChangesServlet), wb(vqwiki.WikiBase),
+    changeLog(vqwiki.file.FileChangeLog), cache(java.util.Map), <<contents>>(java.util.Map),
+    <<contents>>(java.util.ArrayList), <<contents>>(vqwiki.Change), virtualWiki(java.lang.String)]'
+  target-num: 13483
+  target-unit: $r46 := @caughtexception
+- containing-method: '<vqwiki.AbstractServletSearchEngine: void rebuild()>'
+  failing: ['*']
+  fst:
+    effect: NONE
+    props: ['*']
+    root: {'*': '{c346,0}{s41}P{967,968,969,979:-1,980:-1}'}
+    type: pp
+  fst-string: "\u03BBL.[*={c346}\u2080{s41}P{967,968,969,979:-1,980:-1}]"
+  key: ['[$INSTANCE(vqwiki.servlets.RecentChangesServlet), wb(vqwiki.WikiBase), changeLog(vqwiki.file.FileChangeLog),
+      cache(java.util.Map), <<contents>>(java.util.Map), <<contents>>(java.util.ArrayList),
+      <<contents>>(vqwiki.Change), virtualWiki(java.lang.String)]', '$z3 = interfaceinvoke
+      r5.<java.util.Iterator: boolean hasNext()>()|0', '[$INSTANCE(vqwiki.servlets.RecentChangesServlet),
+      wb(vqwiki.WikiBase), changeLog(vqwiki.file.FileChangeLog), cache(java.util.Map),
+      <<contents>>(java.util.Map), <<contents>>(java.util.ArrayList), <<contents>>(vqwiki.Change),
+      virtualWiki(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: NONE
+    props: ['*']
+    root: {'*': 'P{967,968,969,979:-1,980:-1}'}
+    type: pp
+  snd-string: "\u03BBL.[*=P{967,968,969,979:-1,980:-1}]"
+  target: '[$INSTANCE(vqwiki.servlets.RecentChangesServlet), wb(vqwiki.WikiBase),
+    changeLog(vqwiki.file.FileChangeLog), cache(java.util.Map), <<contents>>(java.util.Map),
+    <<contents>>(java.util.ArrayList), <<contents>>(vqwiki.Change), virtualWiki(java.lang.String)]'
+  target-num: 13479
+  target-unit: '$z3 = interfaceinvoke r5.<java.util.Iterator: boolean hasNext()>()'
+- containing-method: '<vqwiki.WikiBase: void panic()>'
+  failing: [homeDir]
+  fst:
+    effect: PROPAGATE
+    props: [homeDir]
+    root: {homeDir: '{c1879,0}''{c133,1}{c121,0}{96}'}
+    type: t
+  fst-string: "\u03BB_.[homeDir={c1879}\u2080'{c133}\u2081{c121}\u2080{96}]"
+  key: [<<zero>>(null_type), i3 = 0|0, 'r33(java.io.File[])[*(Any_subtype_of_java.lang.Object)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: PROPAGATE
+    props: [homeDir]
+    root: {homeDir: '{c1879,0}{c133,1}{c121,0}{96}'}
+    type: t
+  snd-string: "\u03BB_.[homeDir={c1879}\u2080{c133}\u2081{c121}\u2080{96}]"
+  target: r33(java.io.File[])[*(Any_subtype_of_java.lang.Object)]
+  target-base-type: java.io.File[]
+  target-num: 13482
+  target-unit: i3 = 0
+- containing-method: '<vqwiki.AbstractServletSearchEngine: void rebuild()>'
+  failing: [homeDir]
+  fst:
+    effect: PROPAGATE
+    props: [homeDir]
+    root: {homeDir: '{c346,0}''{c321,1}{c331,0}{c133,1}{c121,0}{96}'}
+    type: t
+  fst-string: "\u03BB_.[homeDir={c346}\u2080'{c321}\u2081{c331}\u2080{c133}\u2081\
+    {c121}\u2080{96}]"
+  key: [<<zero>>(null_type), '$r29 := @caughtexception|0', 'r59(org.apache.lucene.index.IndexWriter)[*(Any_subtype_of_java.lang.Object)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: PROPAGATE
+    props: [homeDir]
+    root: {homeDir: '{c346,0}{c321,1}{c331,0}{c133,1}{c121,0}{96}'}
+    type: t
+  snd-string: "\u03BB_.[homeDir={c346}\u2080{c321}\u2081{c331}\u2080{c133}\u2081{c121}\u2080\
+    {96}]"
+  target: r59(org.apache.lucene.index.IndexWriter)[*(Any_subtype_of_java.lang.Object)]
+  target-base-type: org.apache.lucene.index.IndexWriter
+  target-num: 13484
+  target-unit: $r29 := @caughtexception
+- containing-method: '<vqwiki.file.FileHandler: void rename(java.lang.String,java.lang.String,java.lang.String)>'
+  failing: [homeDir]
+  fst:
+    effect: PROPAGATE
+    props: [homeDir]
+    root: {homeDir: '{c3465,0}{c323,0}{c133,1}{c121,0}{96}'}
+    type: t
+  fst-string: "\u03BB_.[homeDir={c3465}\u2080{c323}\u2080{c133}\u2081{c121}\u2080\
+    {96}]"
+  key: [<<zero>>(null_type), 'if $z0 != 0 goto specialinvoke r0.<vqwiki.file.FileHandler:
+      void renameHistoryFiles(java.lang.String,java.lang.String,java.lang.String)>(r1,
+      r2, r3)|0', $z0(boolean)]
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: PROPAGATE
+    props: [homeDir]
+    root: {homeDir: '{c3469,0}{c323,0}{c133,1}{c121,0}{96}'}
+    type: t
+  snd-string: "\u03BB_.[homeDir={c3469}\u2080{c323}\u2080{c133}\u2081{c121}\u2080\
+    {96}]"
+  target: $z0(boolean)
+  target-base-type: boolean
+  target-num: 13487
+  target-unit: 'if $z0 != 0 goto specialinvoke r0.<vqwiki.file.FileHandler: void renameHistoryFiles(java.lang.String,java.lang.String,java.lang.String)>(r1,
+    r2, r3)'
+- containing-method: '<vqwiki.lex.LinkLexConvertOnlineHTML: java.lang.String getTopicLink(java.lang.String,java.lang.String)>'
+  failing: [force-encoding]
+  fst:
+    effect: PROPAGATE
+    props: [force-encoding]
+    root: {force-encoding: '{c704,0}{362}'}
+    type: t
+  fst-string: "\u03BB_.[force-encoding={c704}\u2080{362}]"
+  key: [<<zero>>(null_type), return $r0|0, $r0(java.lang.String)]
+  report-type: flow
+  sensitivity: true
+  snd:
+    effect: PROPAGATE
+    props: [force-encoding]
+    root: {force-encoding: '{c695,0}{362}'}
+    type: t
+  snd-string: "\u03BB_.[force-encoding={c695}\u2080{362}]"
+  target: $r0(java.lang.String)
+  target-base-type: java.lang.String
+  target-num: 13489
+  target-unit: return $r0
+- containing-method: '<vqwiki.AbstractServletSearchEngine: org.apache.lucene.document.Document
+    createDocument(java.lang.String,java.lang.String)>'
+  failing: ['*']
+  fst:
+    effect: NONE
+    props: ['*']
+    root: {'*': '{c344,172}{c1622,0}{c2153,0}{c2614,1}{c2875,0}{c3028,0}{c3108,0;1}{c2873,0}{c3030,0}{c3108,0;1}{s25}{s14}{c1621,0}{c1620,2}{c341,0;2;3;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27;28;29;30;31;32;33;34;35;36;37;38;39;40;41;42;43;44;45;46;47;48;49;50;51;52;53;54;55;56;57;58;59;60;61;62;63;64;65;66;67;68;69;70;71;72;73;74;75;76;77;78;79;80;81;82;83;84;85;86;87;88;89;90;91;92;93;94;95;96;97;98;99;100;101;102;103;104;105;106;107;108;109;110;111;112;113;114;115;116;117;118;119;120;121;122;123;124;125;126;127;128;129;130;131;132;133;134;135;136;137;138;139;140;141;142;143;144;145;146;147;148;149;150;151;152;153;154;155;156;157;158;159;160;161;162;163;164;165;166;167;168;169;170;171;172;173;174;175;176;177;178;179;180;181;182;183;184;185;186;187;188;189;190;192;193;194;195;196;197;198;199;200;201;202;203;204;205;206;207;208;209;210;211;212;213;214;215;216;217;218;219;220;221;222;223;224;225;226;227;228;229;230;231;232;233;234;235;236;237;238;239;240;241;242;243;244;245;246;247;248;249;250;251;252;253;254;255;256;257;258;259;260;261;262;263;264;265;266;267;268;269;270;271;272;273;274;275;276;277;278;279;280;281;282;283;284;285;286;287}P{82,83,85,86,87,89,319:-1,321:-1,325:-1,327:-1,329:-1,330:-1,334:-1,336:-1,337:-1,338:-1,345:-1,419:-1,872:-1,873:-1,874:-1,876:-1,877:-1,908:-1,967:-1,968:-1,969:-1,979:-1,980:-1,996:-1,1013:-1,1015:-1,1016:-1,1020:-1,1024:-1,2029:-1,2030:-1,2031:-1,2035:-1,2036:-1,2037:-1,2044:-1,2045:-1,2046:-1,2048:-1,2049:-1,2050:-1,2051:-1,2055:-1,2056:-1,2058:-1}'}
+    type: pp
+  fst-string: "\u03BBL.[*={c344}\u2081\u2087\u2082{c1622}\u2080{c2153}\u2080{c2614}\u2081\
+    {c2875}\u2080{c3028}\u2080{c3108}\u2080\u208C\u2081{c2873}\u2080{c3030}\u2080\
+    {c3108}\u2080\u208C\u2081{s25}{s14}{c1621}\u2080{c1620}\u2082{c341}\u2080\u208C\
+    \u2082\u208C\u2083\u208C\u2085\u208C\u2086\u208C\u2087\u208C\u2088\u208C\u2089\
+    \u208C\u2081\u2080\u208C\u2081\u2081\u208C\u2081\u2082\u208C\u2081\u2083\u208C\
+    \u2081\u2084\u208C\u2081\u2085\u208C\u2081\u2086\u208C\u2081\u2087\u208C\u2081\
+    \u2088\u208C\u2081\u2089\u208C\u2082\u2080\u208C\u2082\u2081\u208C\u2082\u2082\
+    \u208C\u2082\u2083\u208C\u2082\u2084\u208C\u2082\u2085\u208C\u2082\u2086\u208C\
+    \u2082\u2087\u208C\u2082\u2088\u208C\u2082\u2089\u208C\u2083\u2080\u208C\u2083\
+    \u2081\u208C\u2083\u2082\u208C\u2083\u2083\u208C\u2083\u2084\u208C\u2083\u2085\
+    \u208C\u2083\u2086\u208C\u2083\u2087\u208C\u2083\u2088\u208C\u2083\u2089\u208C\
+    \u2084\u2080\u208C\u2084\u2081\u208C\u2084\u2082\u208C\u2084\u2083\u208C\u2084\
+    \u2084\u208C\u2084\u2085\u208C\u2084\u2086\u208C\u2084\u2087\u208C\u2084\u2088\
+    \u208C\u2084\u2089\u208C\u2085\u2080\u208C\u2085\u2081\u208C\u2085\u2082\u208C\
+    \u2085\u2083\u208C\u2085\u2084\u208C\u2085\u2085\u208C\u2085\u2086\u208C\u2085\
+    \u2087\u208C\u2085\u2088\u208C\u2085\u2089\u208C\u2086\u2080\u208C\u2086\u2081\
+    \u208C\u2086\u2082\u208C\u2086\u2083\u208C\u2086\u2084\u208C\u2086\u2085\u208C\
+    \u2086\u2086\u208C\u2086\u2087\u208C\u2086\u2088\u208C\u2086\u2089\u208C\u2087\
+    \u2080\u208C\u2087\u2081\u208C\u2087\u2082\u208C\u2087\u2083\u208C\u2087\u2084\
+    \u208C\u2087\u2085\u208C\u2087\u2086\u208C\u2087\u2087\u208C\u2087\u2088\u208C\
+    \u2087\u2089\u208C\u2088\u2080\u208C\u2088\u2081\u208C\u2088\u2082\u208C\u2088\
+    \u2083\u208C\u2088\u2084\u208C\u2088\u2085\u208C\u2088\u2086\u208C\u2088\u2087\
+    \u208C\u2088\u2088\u208C\u2088\u2089\u208C\u2089\u2080\u208C\u2089\u2081\u208C\
+    \u2089\u2082\u208C\u2089\u2083\u208C\u2089\u2084\u208C\u2089\u2085\u208C\u2089\
+    \u2086\u208C\u2089\u2087\u208C\u2089\u2088\u208C\u2089\u2089\u208C\u2081\u2080\
+    \u2080\u208C\u2081\u2080\u2081\u208C\u2081\u2080\u2082\u208C\u2081\u2080\u2083\
+    \u208C\u2081\u2080\u2084\u208C\u2081\u2080\u2085\u208C\u2081\u2080\u2086\u208C\
+    \u2081\u2080\u2087\u208C\u2081\u2080\u2088\u208C\u2081\u2080\u2089\u208C\u2081\
+    \u2081\u2080\u208C\u2081\u2081\u2081\u208C\u2081\u2081\u2082\u208C\u2081\u2081\
+    \u2083\u208C\u2081\u2081\u2084\u208C\u2081\u2081\u2085\u208C\u2081\u2081\u2086\
+    \u208C\u2081\u2081\u2087\u208C\u2081\u2081\u2088\u208C\u2081\u2081\u2089\u208C\
+    \u2081\u2082\u2080\u208C\u2081\u2082\u2081\u208C\u2081\u2082\u2082\u208C\u2081\
+    \u2082\u2083\u208C\u2081\u2082\u2084\u208C\u2081\u2082\u2085\u208C\u2081\u2082\
+    \u2086\u208C\u2081\u2082\u2087\u208C\u2081\u2082\u2088\u208C\u2081\u2082\u2089\
+    \u208C\u2081\u2083\u2080\u208C\u2081\u2083\u2081\u208C\u2081\u2083\u2082\u208C\
+    \u2081\u2083\u2083\u208C\u2081\u2083\u2084\u208C\u2081\u2083\u2085\u208C\u2081\
+    \u2083\u2086\u208C\u2081\u2083\u2087\u208C\u2081\u2083\u2088\u208C\u2081\u2083\
+    \u2089\u208C\u2081\u2084\u2080\u208C\u2081\u2084\u2081\u208C\u2081\u2084\u2082\
+    \u208C\u2081\u2084\u2083\u208C\u2081\u2084\u2084\u208C\u2081\u2084\u2085\u208C\
+    \u2081\u2084\u2086\u208C\u2081\u2084\u2087\u208C\u2081\u2084\u2088\u208C\u2081\
+    \u2084\u2089\u208C\u2081\u2085\u2080\u208C\u2081\u2085\u2081\u208C\u2081\u2085\
+    \u2082\u208C\u2081\u2085\u2083\u208C\u2081\u2085\u2084\u208C\u2081\u2085\u2085\
+    \u208C\u2081\u2085\u2086\u208C\u2081\u2085\u2087\u208C\u2081\u2085\u2088\u208C\
+    \u2081\u2085\u2089\u208C\u2081\u2086\u2080\u208C\u2081\u2086\u2081\u208C\u2081\
+    \u2086\u2082\u208C\u2081\u2086\u2083\u208C\u2081\u2086\u2084\u208C\u2081\u2086\
+    \u2085\u208C\u2081\u2086\u2086\u208C\u2081\u2086\u2087\u208C\u2081\u2086\u2088\
+    \u208C\u2081\u2086\u2089\u208C\u2081\u2087\u2080\u208C\u2081\u2087\u2081\u208C\
+    \u2081\u2087\u2082\u208C\u2081\u2087\u2083\u208C\u2081\u2087\u2084\u208C\u2081\
+    \u2087\u2085\u208C\u2081\u2087\u2086\u208C\u2081\u2087\u2087\u208C\u2081\u2087\
+    \u2088\u208C\u2081\u2087\u2089\u208C\u2081\u2088\u2080\u208C\u2081\u2088\u2081\
+    \u208C\u2081\u2088\u2082\u208C\u2081\u2088\u2083\u208C\u2081\u2088\u2084\u208C\
+    \u2081\u2088\u2085\u208C\u2081\u2088\u2086\u208C\u2081\u2088\u2087\u208C\u2081\
+    \u2088\u2088\u208C\u2081\u2088\u2089\u208C\u2081\u2089\u2080\u208C\u2081\u2089\
+    \u2082\u208C\u2081\u2089\u2083\u208C\u2081\u2089\u2084\u208C\u2081\u2089\u2085\
+    \u208C\u2081\u2089\u2086\u208C\u2081\u2089\u2087\u208C\u2081\u2089\u2088\u208C\
+    \u2081\u2089\u2089\u208C\u2082\u2080\u2080\u208C\u2082\u2080\u2081\u208C\u2082\
+    \u2080\u2082\u208C\u2082\u2080\u2083\u208C\u2082\u2080\u2084\u208C\u2082\u2080\
+    \u2085\u208C\u2082\u2080\u2086\u208C\u2082\u2080\u2087\u208C\u2082\u2080\u2088\
+    \u208C\u2082\u2080\u2089\u208C\u2082\u2081\u2080\u208C\u2082\u2081\u2081\u208C\
+    \u2082\u2081\u2082\u208C\u2082\u2081\u2083\u208C\u2082\u2081\u2084\u208C\u2082\
+    \u2081\u2085\u208C\u2082\u2081\u2086\u208C\u2082\u2081\u2087\u208C\u2082\u2081\
+    \u2088\u208C\u2082\u2081\u2089\u208C\u2082\u2082\u2080\u208C\u2082\u2082\u2081\
+    \u208C\u2082\u2082\u2082\u208C\u2082\u2082\u2083\u208C\u2082\u2082\u2084\u208C\
+    \u2082\u2082\u2085\u208C\u2082\u2082\u2086\u208C\u2082\u2082\u2087\u208C\u2082\
+    \u2082\u2088\u208C\u2082\u2082\u2089\u208C\u2082\u2083\u2080\u208C\u2082\u2083\
+    \u2081\u208C\u2082\u2083\u2082\u208C\u2082\u2083\u2083\u208C\u2082\u2083\u2084\
+    \u208C\u2082\u2083\u2085\u208C\u2082\u2083\u2086\u208C\u2082\u2083\u2087\u208C\
+    \u2082\u2083\u2088\u208C\u2082\u2083\u2089\u208C\u2082\u2084\u2080\u208C\u2082\
+    \u2084\u2081\u208C\u2082\u2084\u2082\u208C\u2082\u2084\u2083\u208C\u2082\u2084\
+    \u2084\u208C\u2082\u2084\u2085\u208C\u2082\u2084\u2086\u208C\u2082\u2084\u2087\
+    \u208C\u2082\u2084\u2088\u208C\u2082\u2084\u2089\u208C\u2082\u2085\u2080\u208C\
+    \u2082\u2085\u2081\u208C\u2082\u2085\u2082\u208C\u2082\u2085\u2083\u208C\u2082\
+    \u2085\u2084\u208C\u2082\u2085\u2085\u208C\u2082\u2085\u2086\u208C\u2082\u2085\
+    \u2087\u208C\u2082\u2085\u2088\u208C\u2082\u2085\u2089\u208C\u2082\u2086\u2080\
+    \u208C\u2082\u2086\u2081\u208C\u2082\u2086\u2082\u208C\u2082\u2086\u2083\u208C\
+    \u2082\u2086\u2084\u208C\u2082\u2086\u2085\u208C\u2082\u2086\u2086\u208C\u2082\
+    \u2086\u2087\u208C\u2082\u2086\u2088\u208C\u2082\u2086\u2089\u208C\u2082\u2087\
+    \u2080\u208C\u2082\u2087\u2081\u208C\u2082\u2087\u2082\u208C\u2082\u2087\u2083\
+    \u208C\u2082\u2087\u2084\u208C\u2082\u2087\u2085\u208C\u2082\u2087\u2086\u208C\
+    \u2082\u2087\u2087\u208C\u2082\u2087\u2088\u208C\u2082\u2087\u2089\u208C\u2082\
+    \u2088\u2080\u208C\u2082\u2088\u2081\u208C\u2082\u2088\u2082\u208C\u2082\u2088\
+    \u2083\u208C\u2082\u2088\u2084\u208C\u2082\u2088\u2085\u208C\u2082\u2088\u2086\
+    \u208C\u2082\u2088\u2087P{82,83,85,86,87,89,319:-1,321:-1,325:-1,327:-1,329:-1,330:-1,334:-1,336:-1,337:-1,338:-1,345:-1,419:-1,872:-1,873:-1,874:-1,876:-1,877:-1,908:-1,967:-1,968:-1,969:-1,979:-1,980:-1,996:-1,1013:-1,1015:-1,1016:-1,1020:-1,1024:-1,2029:-1,2030:-1,2031:-1,2035:-1,2036:-1,2037:-1,2044:-1,2045:-1,2046:-1,2048:-1,2049:-1,2050:-1,2051:-1,2055:-1,2056:-1,2058:-1}]"
+  key: ['[$INSTANCE(vqwiki.servlets.AdministrationServlet), wb(vqwiki.WikiBase), changeLog(vqwiki.file.FileChangeLog),
+      cache(java.util.Map), <<contents>>(java.lang.String)]', '$r84 := @caughtexception|0',
+    '[$INSTANCE(vqwiki.servlets.AdministrationServlet), wb(vqwiki.WikiBase), changeLog(vqwiki.file.FileChangeLog),
+      cache(java.util.Map), <<contents>>(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: NONE
+    props: ['*']
+    root: {'*': 'P{82,83,85,86,87,89,319:-1,321:-1,325:-1,327:-1,329:-1,330:-1,334:-1,336:-1,337:-1,338:-1,340:-1,342:-1,345:-1,419:-1,420:-1,872:-1,873:-1,874:-1,876:-1,877:-1,908:-1,967:-1,968:-1,969:-1,979:-1,980:-1,996:-1,1013:-1,1015:-1,1016:-1,1020:-1,1024:-1,2029:-1,2030:-1,2031:-1,2035:-1,2036:-1,2037:-1,2044:-1,2045:-1,2046:-1,2048:-1,2049:-1,2050:-1,2051:-1,2055:-1,2056:-1,2057:-1,2058:-1}'}
+    type: pp
+  snd-string: "\u03BBL.[*=P{82,83,85,86,87,89,319:-1,321:-1,325:-1,327:-1,329:-1,330:-1,334:-1,336:-1,337:-1,338:-1,340:-1,342:-1,345:-1,419:-1,420:-1,872:-1,873:-1,874:-1,876:-1,877:-1,908:-1,967:-1,968:-1,969:-1,979:-1,980:-1,996:-1,1013:-1,1015:-1,1016:-1,1020:-1,1024:-1,2029:-1,2030:-1,2031:-1,2035:-1,2036:-1,2037:-1,2044:-1,2045:-1,2046:-1,2048:-1,2049:-1,2050:-1,2051:-1,2055:-1,2056:-1,2057:-1,2058:-1}]"
+  target: '[$INSTANCE(vqwiki.servlets.AdministrationServlet), wb(vqwiki.WikiBase),
+    changeLog(vqwiki.file.FileChangeLog), cache(java.util.Map), <<contents>>(java.lang.String)]'
+  target-num: 13480
+  target-unit: $r84 := @caughtexception
+- containing-method: '<vqwiki.file.FileVersionManager: java.lang.String diff(java.lang.String,java.lang.String,int,int,boolean)>'
+  failing: [homeDir]
+  fst:
+    effect: PROPAGATE
+    props: [homeDir]
+    root: {homeDir: '{c12767,0}{c133,1}{c121,0}{96}'}
+    type: t
+  fst-string: "\u03BB_.[homeDir={c12767}\u2080{c133}\u2081{c121}\u2080{96}]"
+  key: [<<zero>>(null_type), '$r50 = virtualinvoke $r51.<java.lang.StringBuffer: java.lang.String
+      toString()>()|0', $r51(java.lang.StringBuffer)]
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: PROPAGATE
+    props: [homeDir]
+    root: {homeDir: '{c12758,0}{c133,1}{c121,0}{96}'}
+    type: t
+  snd-string: "\u03BB_.[homeDir={c12758}\u2080{c133}\u2081{c121}\u2080{96}]"
+  target: $r51(java.lang.StringBuffer)
+  target-base-type: java.lang.StringBuffer
+  target-num: 12772
+  target-unit: '$r50 = virtualinvoke $r51.<java.lang.StringBuffer: java.lang.String
+    toString()>()'
+- containing-method: '<vqwiki.AbstractServletSearchEngine: void rebuild()>'
+  failing: ['*']
+  fst:
+    effect: NONE
+    props: ['*']
+    root: {'*': '{c346,0}{s41}P{967,968,969,979:-1,980:-1}'}
+    type: pp
+  fst-string: "\u03BBL.[*={c346}\u2080{s41}P{967,968,969,979:-1,980:-1}]"
+  key: ['[$INSTANCE(vqwiki.servlets.RecentChangesServlet), wb(vqwiki.WikiBase), changeLog(vqwiki.file.FileChangeLog),
+      cache(java.util.Map), <<contents>>(java.util.Map), <<contents>>(java.util.ArrayList),
+      <<contents>>(vqwiki.Change), virtualWiki(java.lang.String)]', '$r29 := @caughtexception|0',
+    '[$INSTANCE(vqwiki.servlets.RecentChangesServlet), wb(vqwiki.WikiBase), changeLog(vqwiki.file.FileChangeLog),
+      cache(java.util.Map), <<contents>>(java.util.Map), <<contents>>(java.util.ArrayList),
+      <<contents>>(vqwiki.Change), virtualWiki(java.lang.String)]']
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: NONE
+    props: ['*']
+    root: {'*': 'P{967,968,969,979:-1,980:-1}'}
+    type: pp
+  snd-string: "\u03BBL.[*=P{967,968,969,979:-1,980:-1}]"
+  target: '[$INSTANCE(vqwiki.servlets.RecentChangesServlet), wb(vqwiki.WikiBase),
+    changeLog(vqwiki.file.FileChangeLog), cache(java.util.Map), <<contents>>(java.util.Map),
+    <<contents>>(java.util.ArrayList), <<contents>>(vqwiki.Change), virtualWiki(java.lang.String)]'
+  target-num: 13484
+  target-unit: $r29 := @caughtexception
+- containing-method: '<vqwiki.servlets.SearchServlet: void doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+  failing: [force-encoding]
+  fst:
+    effect: PROPAGATE
+    props: [force-encoding]
+    root: {force-encoding: '{c3545,0}{362}'}
+    type: t
+  fst-string: "\u03BB_.[force-encoding={c3545}\u2080{362}]"
+  key: [<<zero>>(null_type), '$r63 = virtualinvoke r7.<java.lang.StringBuffer: java.lang.StringBuffer
+      append(java.lang.String)>("\">")|0', r7(java.lang.StringBuffer)]
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: PROPAGATE
+    props: [force-encoding]
+    root: {force-encoding: '{c7587,0}{362}'}
+    type: t
+  snd-string: "\u03BB_.[force-encoding={c7587}\u2080{362}]"
+  target: r7(java.lang.StringBuffer)
+  target-base-type: java.lang.StringBuffer
+  target-num: 7589
+  target-unit: '$r63 = virtualinvoke r7.<java.lang.StringBuffer: java.lang.StringBuffer
+    append(java.lang.String)>("\">")'
+- containing-method: '<vqwiki.servlets.SearchServlet: void doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+  failing: [force-encoding]
+  fst:
+    effect: PROPAGATE
+    props: [force-encoding]
+    root: {force-encoding: '{c7587,0}{362}'}
+    type: t
+  fst-string: "\u03BB_.[force-encoding={c7587}\u2080{362}]"
+  key: [<<zero>>(null_type), '$r59 = virtualinvoke r7.<java.lang.StringBuffer: java.lang.StringBuffer
+      append(java.lang.String)>("</p>")|0', r7(java.lang.StringBuffer)]
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: PROPAGATE
+    props: [force-encoding]
+    root: {force-encoding: '{c3545,0}{362}'}
+    type: t
+  snd-string: "\u03BB_.[force-encoding={c3545}\u2080{362}]"
+  target: r7(java.lang.StringBuffer)
+  target-base-type: java.lang.StringBuffer
+  target-num: 7593
+  target-unit: '$r59 = virtualinvoke r7.<java.lang.StringBuffer: java.lang.StringBuffer
+    append(java.lang.String)>("</p>")'
+- containing-method: '<vqwiki.servlets.SearchServlet: void doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+  failing: [force-encoding]
+  fst:
+    effect: PROPAGATE
+    props: [force-encoding]
+    root: {force-encoding: '{c3545,0}''{362}'}
+    type: t
+  fst-string: "\u03BB_.[force-encoding={c3545}\u2080'{362}]"
+  key: [<<zero>>(null_type), r88 = new java.lang.StringBuffer|0, r7(java.lang.StringBuffer)]
+  report-type: flow
+  sensitivity: false
+  snd:
+    effect: PROPAGATE
+    props: [force-encoding]
+    root: {force-encoding: '{c3545,0}{362}'}
+    type: t
+  snd-string: "\u03BB_.[force-encoding={c3545}\u2080{362}]"
+  target: r7(java.lang.StringBuffer)
+  target-base-type: java.lang.StringBuffer
+  target-num: 13485
+  target-unit: r88 = new java.lang.StringBuffer
+- containing-method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>'
+  context: &id001 ['$r31 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()|0']
+  context-num: [3078]
+  key:
+  - *id001
+  - '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  - '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>|0'
+  report-type: lost-static
+  target: '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  target-num: 13492
+  target-unit: '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>'
+  value: {smtp-host: '{c108,0}{c87,0}{82}'}
+- containing-method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>'
+  context: &id002 ['r1 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()|0']
+  context-num: [1620]
+  key:
+  - *id002
+  - '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  - '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>|0'
+  report-type: lost-static
+  target: '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  target-num: 13492
+  target-unit: '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>'
+  value: {smtp-host: '{c108,0}{c87,0}{82}'}
+- containing-method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>'
+  context: &id003 ['$r4 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()|0']
+  context-num: [1612]
+  key:
+  - *id003
+  - '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  - '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>|0'
+  report-type: lost-static
+  target: '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  target-num: 13492
+  target-unit: '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>'
+  value: {smtp-host: '{c108,0}{c87,0}{82}'}
+- containing-method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>'
+  context: &id004 ['$r8 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()|0']
+  context-num: [1918]
+  key:
+  - *id004
+  - '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  - '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>|0'
+  report-type: lost-static
+  target: '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  target-num: 13492
+  target-unit: '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>'
+  value: {smtp-host: '{c108,0}{c87,0}{82}'}
+- containing-method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>'
+  context: &id005 ['$r17 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()|0']
+  context-num: [2323]
+  key:
+  - *id005
+  - '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  - '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>|0'
+  report-type: lost-static
+  target: '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  target-num: 13492
+  target-unit: '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>'
+  value: {smtp-host: '{c108,0}{c87,0}{82}'}
+- containing-method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>'
+  context: &id006 ['$r26 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()|0']
+  context-num: [9784]
+  key:
+  - *id006
+  - '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  - '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>|0'
+  report-type: lost-static
+  target: '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  target-num: 13492
+  target-unit: '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>'
+  value: {smtp-host: '{c108,0}{c87,0}{82}'}
+- containing-method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>'
+  context: &id007 ['$r156 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()|0']
+  context-num: [12300]
+  key:
+  - *id007
+  - '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  - '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>|0'
+  report-type: lost-static
+  target: '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  target-num: 13492
+  target-unit: '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>'
+  value: {smtp-host: '{c108,0}{c87,0}{82}'}
+- containing-method: '<vqwiki.WikiBase: void initialise()>'
+  context: &id008 ['staticinvoke <vqwiki.WikiBase: void initialise()>()|0']
+  context-num: [9614]
+  key:
+  - *id008
+  - '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  - return|0
+  report-type: lost-static
+  target: '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  target-num: 13493
+  target-unit: return
+  value: {smtp-host: '{c12244,0}{c87,0}{82}'}
+- containing-method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>'
+  context: &id009 ['$r66 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()|0']
+  context-num: [2302]
+  key:
+  - *id009
+  - '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  - '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>|0'
+  report-type: lost-static
+  target: '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  target-num: 13492
+  target-unit: '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>'
+  value: {smtp-host: '{c108,0}{c87,0}{82}'}
+- containing-method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>'
+  context: &id010 ['$r29 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()|0']
+  context-num: [2299]
+  key:
+  - *id010
+  - '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  - '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>|0'
+  report-type: lost-static
+  target: '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  target-num: 13492
+  target-unit: '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>'
+  value: {smtp-host: '{c108,0}{c87,0}{82}'}
+- containing-method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>'
+  context: &id011 ['$r33 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()|0']
+  context-num: [12816]
+  key:
+  - *id011
+  - '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  - '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>|0'
+  report-type: lost-static
+  target: '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  target-num: 13492
+  target-unit: '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>'
+  value: {smtp-host: '{c108,0}{c87,0}{82}'}
+- containing-method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>'
+  context: &id012 ['$r18 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()|0']
+  context-num: [2297]
+  key:
+  - *id012
+  - '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  - '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>|0'
+  report-type: lost-static
+  target: '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  target-num: 13492
+  target-unit: '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>'
+  value: {smtp-host: '{c108,0}{c87,0}{82}'}
+- containing-method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>'
+  context: &id013 ['$r29 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()|0']
+  context-num: [12271]
+  key:
+  - *id013
+  - '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  - '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>|0'
+  report-type: lost-static
+  target: '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  target-num: 13492
+  target-unit: '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>'
+  value: {smtp-host: '{c108,0}{c87,0}{82}'}
+- containing-method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>'
+  context: &id014 ['$r12 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()|0']
+  context-num: [2319]
+  key:
+  - *id014
+  - '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  - '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>|0'
+  report-type: lost-static
+  target: '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  target-num: 13492
+  target-unit: '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>'
+  value: {smtp-host: '{c108,0}{c87,0}{82}'}
+- containing-method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>'
+  context: &id015 ['r10 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()|0']
+  context-num: [13494]
+  key:
+  - *id015
+  - '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  - '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>|0'
+  report-type: lost-static
+  target: '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  target-num: 13492
+  target-unit: '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>'
+  value: {smtp-host: '{c108,0}{c87,0}{82}'}
+- containing-method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>'
+  context: &id016 ['$r9 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()|0']
+  context-num: [2205]
+  key:
+  - *id016
+  - '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  - '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>|0'
+  report-type: lost-static
+  target: '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  target-num: 13492
+  target-unit: '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>'
+  value: {smtp-host: '{c108,0}{c87,0}{82}'}
+- containing-method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>'
+  context: &id017 ['$r12 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()|0']
+  context-num: [2149]
+  key:
+  - *id017
+  - '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  - '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>|0'
+  report-type: lost-static
+  target: '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  target-num: 13492
+  target-unit: '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>'
+  value: {smtp-host: '{c108,0}{c87,0}{82}'}
+- containing-method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>'
+  context: &id018 ['$r1 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()|0']
+  context-num: [1796]
+  key:
+  - *id018
+  - '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  - '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>|0'
+  report-type: lost-static
+  target: '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  target-num: 13492
+  target-unit: '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>'
+  value: {smtp-host: '{c108,0}{c87,0}{82}'}
+- containing-method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>'
+  context: &id019 ['$r3 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()|0']
+  context-num: [787]
+  key:
+  - *id019
+  - '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  - '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>|0'
+  report-type: lost-static
+  target: '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  target-num: 13492
+  target-unit: '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>'
+  value: {smtp-host: '{c108,0}{c87,0}{82}'}
+- containing-method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>'
+  context: &id020 ['$r32 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()|0']
+  context-num: [2188]
+  key:
+  - *id020
+  - '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  - '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>|0'
+  report-type: lost-static
+  target: '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  target-num: 13492
+  target-unit: '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>'
+  value: {smtp-host: '{c108,0}{c87,0}{82}'}
+- containing-method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>'
+  context: &id021 ['$r1 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()|0']
+  context-num: [1623]
+  key:
+  - *id021
+  - '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  - '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>|0'
+  report-type: lost-static
+  target: '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  target-num: 13492
+  target-unit: '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>'
+  value: {smtp-host: '{c108,0}{c87,0}{82}'}
+- containing-method: '<vqwiki.WikiBase: void initialise()>'
+  context: &id022 ['staticinvoke <vqwiki.WikiBase: void initialise()>()|0']
+  context-num: [9634]
+  key:
+  - *id022
+  - '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  - return|0
+  report-type: lost-static
+  target: '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  target-num: 13493
+  target-unit: return
+  value: {smtp-host: '{c12244,0}{c87,0}{82}'}
+- containing-method: '<vqwiki.SearchRefreshThread: void <init>(vqwiki.SearchEngine,int)>'
+  context: &id023 ['specialinvoke $r14.<vqwiki.SearchRefreshThread: void <init>(vqwiki.SearchEngine,int)>($r15,
+      $i1)|0']
+  context-num: [84]
+  key:
+  - *id023
+  - '[instance(vqwiki.SearchRefreshThread), millis(int)]'
+  - 'virtualinvoke r0.<vqwiki.SearchRefreshThread: void setDaemon(boolean)>(1)|0'
+  report-type: lost-static
+  target: '[instance(vqwiki.SearchRefreshThread), millis(int)]'
+  target-num: 13495
+  target-unit: 'virtualinvoke r0.<vqwiki.SearchRefreshThread: void setDaemon(boolean)>(1)'
+  value: {indexRefreshInterval: '{83}'}
+- containing-method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>'
+  context: &id024 ['$r3 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()|0']
+  context-num: [2560]
+  key:
+  - *id024
+  - '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  - '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>|0'
+  report-type: lost-static
+  target: '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  target-num: 13492
+  target-unit: '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>'
+  value: {smtp-host: '{c108,0}{c87,0}{82}'}
+- containing-method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>'
+  context: &id025 ['$r2 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()|0']
+  context-num: [1613]
+  key:
+  - *id025
+  - '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  - '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>|0'
+  report-type: lost-static
+  target: '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  target-num: 13492
+  target-unit: '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>'
+  value: {smtp-host: '{c108,0}{c87,0}{82}'}
+- containing-method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>'
+  context: &id026 ['$r20 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()|0']
+  context-num: [12265]
+  key:
+  - *id026
+  - '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  - '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>|0'
+  report-type: lost-static
+  target: '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  target-num: 13492
+  target-unit: '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>'
+  value: {smtp-host: '{c108,0}{c87,0}{82}'}
+- containing-method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>'
+  context: &id027 ['$r12 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()|0']
+  context-num: [1925]
+  key:
+  - *id027
+  - '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  - '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>|0'
+  report-type: lost-static
+  target: '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  target-num: 13492
+  target-unit: '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>'
+  value: {smtp-host: '{c108,0}{c87,0}{82}'}
+- containing-method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>'
+  context: &id028 ['$r2 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()|0']
+  context-num: [2047]
+  key:
+  - *id028
+  - '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  - '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>|0'
+  report-type: lost-static
+  target: '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  target-num: 13492
+  target-unit: '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>'
+  value: {smtp-host: '{c108,0}{c87,0}{82}'}
+- containing-method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>'
+  context: &id029 ['r39 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()|0']
+  context-num: [2701]
+  key:
+  - *id029
+  - '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  - '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>|0'
+  report-type: lost-static
+  target: '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  target-num: 13492
+  target-unit: '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>'
+  value: {smtp-host: '{c108,0}{c87,0}{82}'}
+- containing-method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>'
+  context: &id030 ['$r3 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()|0']
+  context-num: [2229]
+  key:
+  - *id030
+  - '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  - '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>|0'
+  report-type: lost-static
+  target: '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  target-num: 13492
+  target-unit: '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>'
+  value: {smtp-host: '{c108,0}{c87,0}{82}'}
+- containing-method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>'
+  context: &id031 ['$r8 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()|0']
+  context-num: [2203]
+  key:
+  - *id031
+  - '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  - '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>|0'
+  report-type: lost-static
+  target: '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  target-num: 13492
+  target-unit: '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>'
+  value: {smtp-host: '{c108,0}{c87,0}{82}'}
+- containing-method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>'
+  context: &id032 ['$r112 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()|0']
+  context-num: [2304]
+  key:
+  - *id032
+  - '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  - '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>|0'
+  report-type: lost-static
+  target: '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  target-num: 13492
+  target-unit: '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>'
+  value: {smtp-host: '{c108,0}{c87,0}{82}'}
+- containing-method: '<vqwiki.WikiBase: vqwiki.WikiBase getInstance()>'
+  context: &id033 ['$r21 = staticinvoke <vqwiki.WikiBase: vqwiki.WikiBase getInstance()>()|0']
+  context-num: [9688]
+  key:
+  - *id033
+  - '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  - '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>|0'
+  report-type: lost-static
+  target: '[instance(vqwiki.WikiBase), wikiMail(vqwiki.WikiMail), session(javax.mail.Session),
+    *(Any_subtype_of_java.lang.Object)]'
+  target-num: 13492
+  target-unit: '$r1 = <vqwiki.WikiBase: vqwiki.WikiBase instance>'
+  value: {smtp-host: '{c108,0}{c87,0}{82}'}

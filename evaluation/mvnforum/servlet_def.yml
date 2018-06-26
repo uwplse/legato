@@ -1,0 +1,13 @@
+app_classes: "${mvnforum_build}/classes:${project_dir}/build/build-myvietnam/classes"
+web_xml: ${mvnforum_build}/webapp/mvnforum/WEB-INF/web.xml
+output_package: "com.mvnforum"
+jsp_dir: "${mvnforum_build}/generated_jsp_classes"
+
+jsp-mapping: "${mvnforum_build}/generated_web.xml"
+error_pages: [ "fatalerror.jsp" ]
+
+app_source_dir: ["${project_dir}/mvnforum/src", "${project_dir}/build/build-mvnforum/generated_jsp_java", "${project_dir}/myvietnam/src" ]
+
+---
+project_dir: "${source_dir}/mvnforum-1.0.2-ga-src"
+mvnforum_build: "${source_dir}/mvnforum-1.0.2-ga-src/build/build-mvnforum"

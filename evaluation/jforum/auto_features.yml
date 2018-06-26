@@ -1,0 +1,90 @@
+? !!python/tuple
+- <<zero>>(null_type)
+- '<net.jforum.Command: freemarker.template.Template process(net.jforum.context.RequestContext,net.jforum.context.ResponseContext,freemarker.template.SimpleHash)>'
+- !!python/tuple [attachments.icon, attachments.images.createthumb, attachments.images.thumb.box.show,
+  attachments.images.thumb.maxsize.h, attachments.images.thumb.maxsize.w, attachments.max.post]
+- 'goto [?= $r = staticinvoke <net.jforum.JForumExecutionContext: java.lang.String
+  getRedirectTo()>()]'
+: !!python/tuple [fp, invoke]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<net.jforum.Command: freemarker.template.Template process(net.jforum.context.RequestContext,net.jforum.context.ResponseContext,freemarker.template.SimpleHash)>'
+- !!python/tuple [postsPerPage]
+- 'goto [?= $r = staticinvoke <net.jforum.JForumExecutionContext: java.lang.String
+  getRedirectTo()>()]'
+: !!python/tuple [fp, invoke]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<net.jforum.Command: freemarker.template.Template process(net.jforum.context.RequestContext,net.jforum.context.ResponseContext,freemarker.template.SimpleHash)>'
+- !!python/tuple [rss.enabled, topicsPerPage]
+- 'goto [?= $r = staticinvoke <net.jforum.JForumExecutionContext: java.lang.String
+  getRedirectTo()>()]'
+: !!python/tuple [fp, invoke]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<net.jforum.ControllerUtils: void prepareTemplateContext(freemarker.template.SimpleHash,net.jforum.context.ForumContext)>'
+- !!python/tuple [forum.page.title]
+- '$r = staticinvoke <net.jforum.util.preferences.SystemGlobals: java.lang.String
+  getValue(java.lang.String)>("forum.page.metatag.keywords")'
+: !!python/tuple [tp, double]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<net.jforum.view.forum.PostAction: void editSave()>'
+- !!python/tuple [attachments.max.post]
+- 'interfaceinvoke r.<net.jforum.dao.TopicDAO: void update(net.jforum.entities.Topic)>(r)'
+: !!python/tuple [fp, path]
+? !!python/tuple
+- '<net.jforum.util.mail.Spammer: boolean dispatchMessages()>'
+- 2
+- !!python/tuple [mail.charset, mail.smtp.auth, mail.smtp.host, mail.smtp.password,
+  mail.smtp.port, mail.smtp.username]
+: !!python/tuple [tp, null]
+? !!python/tuple
+- '<net.jforum.util.mail.Spammer: boolean dispatchMessages()>'
+- 3
+- !!python/tuple [mail.smtp.host]
+: !!python/tuple [tp, null]
+? !!python/tuple
+- '<net.jforum.view.admin.AttachmentsAction: void configurations()>'
+- 1
+- !!python/tuple [attachments.icon]
+: !!python/tuple [fp, invoke]
+? !!python/tuple
+- '<net.jforum.view.forum.ForumAction: void list()>'
+- 1
+- !!python/tuple [topicsPerPage]
+: !!python/tuple [fp, invoke]
+? !!python/tuple
+- '<net.jforum.view.forum.HottestTopicsAction: void list()>'
+- 1
+- !!python/tuple [postsPerPage]
+: !!python/tuple [fp, invoke]
+? !!python/tuple
+- '<net.jforum.view.forum.PostAction: void insert()>'
+- 1
+- !!python/tuple [attachments.images.thumb.box.show, rss.enabled]
+: !!python/tuple [fp, return]
+? !!python/tuple
+- '<net.jforum.view.forum.PostAction: void list()>'
+- 2
+- !!python/tuple [attachments.images.thumb.box.show, rss.enabled]
+: !!python/tuple [fp, path]
+? !!python/tuple
+- '<net.jforum.view.forum.RecentTopicsAction: void list()>'
+- 1
+- !!python/tuple [postsPerPage]
+: !!python/tuple [fp, invoke]
+? !!python/tuple [cache, net.jforum.cache.DefaultCacheEngine]
+: !!python/tuple [tp, static]
+? !!python/tuple [messagesMap, java.util.Map]
+: !!python/tuple [fp, static]
+? !!python/tuple
+- r0(net.jforum.entities.Topic)[forumId(int)]
+- '<net.jforum.repository.TopicRepository: void addTopic(net.jforum.entities.Topic)>'
+- !!python/tuple ['*']
+- $r := @caughtexception
+: !!python/tuple [fp, sync]
+? !!python/tuple [userData, java.lang.ThreadLocal]
+: !!python/tuple [fp, static]
+? !!python/tuple [watching, java.util.List]
+: !!python/tuple [fp, static]

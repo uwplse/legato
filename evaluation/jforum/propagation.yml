@@ -1,0 +1,37 @@
+- sig: "<freemarker.template.SimpleHash: void put(java.lang.String,java.lang.Object)>"
+  target: RECEIVER
+- sig: "<freemarker.template.SimpleHash: void put(java.lang.String,boolean)>"
+  target: RECEIVER
+- "=<org.apache.log4j.Logger:*>"
+
+
+#- rule: "@net.jforum.entities:set*"
+#- "@@net.jforun.entities:get*"
+
+- rule: '^<javax.mail.Transport:connect>'
+- rule: '^<javax.mail.Transport:sendMessage>'
+- rule: '<javax.mail.Session,javax.mail.Transport>'
+- sig: '<javax.mail.Session: javax.mail.Session getInstance(java.util.Properties)>'
+  target: RETURN
+  subfields: [0]
+
+
+#- rule: '^<java.util.Properties:put>'
+
+
+# properties
+
+# - sig: '<java.util.Properties: java.lang.String getProperty(java.lang.String)>'
+#   target: CONTAINER_GET
+# - sig: '<java.util.Properties: java.lang.String getProperty(java.lang.String,java.lang.String)>'
+#   target: CONTAINER_GET
+# - sig: '<java.lang.Properties: java.lang.Object setProperty(java.lang.String,java.lang.String)>'
+#   target: CONTAINER_PUT
+# - sig: '<java.util.Properties: java.lang.Object put(java.lang.Object,java.lang.Object)>'
+#   target: CONTAINER_REPLACE
+# - sig: '<java.util.Properties: void load(java.io.InputStream)>'
+#   target: CONTAINER_PUT
+# - sig: '<java.util.Properties: void store(java.io.OutputStream,java.lang.String)>'
+#   target: IDENTITY
+
+

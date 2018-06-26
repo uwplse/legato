@@ -1,0 +1,56 @@
+- sig: "<net.jforum.util.preferences.SystemGlobals: boolean getBoolValue(java.lang.String)>"
+  pos: 0
+- sig: "<net.jforum.util.preferences.SystemGlobals: int getIntValue(java.lang.String)>"
+  pos: 0
+- sig: "<net.jforum.util.preferences.SystemGlobals: java.lang.String getValue(java.lang.String)>"
+  pos: 0
+#- group: ["mail.smtp.username", "mail.smtp.password"]
+- whitelist:
+    - attachments.icon
+    - attachments.images.createthumb
+    - attachments.images.thumb.box.show
+    - attachments.images.thumb.maxsize.h
+    - attachments.images.thumb.maxsize.w
+    - attachments.max.post
+    - avatar.maxHeight
+    - avatarMaxKbSize
+    - avatar.maxWidth
+    - captcha.registration
+    - encoding
+    - forum.link
+    - forum.name
+    - forum.page.metatag.description
+    - forum.page.metatag.keywords
+    - forum.page.title
+    - homepage.link
+    - hot.topic.begin
+    - html.tags.welcome
+    - i18n.board.default
+    - mail.activationKey.messageFile
+    - mail.activationKey.subject
+    - mail.charset
+    - mail.lostPassword.messageFile
+    - mail.lostPassword.subject
+    - mail.messageFormat
+    - mail.newAnswer.messageFile
+    - mail.newAnswer.subject
+    - mail.newPm.messageFile
+    - mail.newPm.subject
+    - mail.notify.answers
+    - mail.sender
+    - mail.smtp.auth
+    - mail.smtp.host
+    - mail.smtp.password
+    - mail.smtp.port
+    - mail.smtp.ssl
+    - mail.smtp.username
+    - mail.user.email.auth
+    - posts.cache.enabled
+    - posts.cache.size
+    - posts.new.delay
+    - postsPerPage
+    - registration.enabled
+    - rss.enabled
+    - topic.recent
+    - topicsPerPage
+    - usersPerPage

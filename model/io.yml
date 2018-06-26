@@ -1,0 +1,672 @@
+- =<java.io.OutputStream:write*>
+- =<java.io.OutputStream:flush*>
+- =<java.io.OutputStream:close*>
+- ^<java.io.OutputStream:<init>>
+- parents: [java.io.OutputStream]
+  extend: java.io.FilterOutputStream
+- =<java.io.FilterOutputStream:write*>
+- =<java.io.FilterOutputStream:flush*>
+- =<java.io.FilterOutputStream:close*>
+- ^<java.io.FilterOutputStream:<init>>
+- parents: [java.io.OutputStream]
+  extend: org.jcp.xml.dsig.internal.DigesterOutputStream
+- =<org.jcp.xml.dsig.internal.DigesterOutputStream:write*>
+- ^<org.jcp.xml.dsig.internal.DigesterOutputStream:<init>>
+- {target: IDENTITY, sig: '<org.jcp.xml.dsig.internal.DigesterOutputStream: byte[] getDigestValue()>'}
+- {target: IDENTITY, sig: '<org.jcp.xml.dsig.internal.DigesterOutputStream: java.io.InputStream getInputStream()>'}
+- parents: [java.io.OutputStream]
+  extend: java.io.FileOutputStream
+- =<java.io.FileOutputStream:write*>
+- =<java.io.FileOutputStream:close*>
+- ^<java.io.FileOutputStream:<init>>
+- {target: IDENTITY, sig: '<java.io.FileOutputStream: java.io.FileDescriptor getFD()>'}
+- {target: IDENTITY, sig: '<java.io.FileOutputStream: java.nio.channels.FileChannel getChannel()>'}
+- {target: IDENTITY, sig: '<java.io.FileOutputStream: void finalize()>'}
+- parents: [java.io.OutputStream]
+  extend: java.awt.dnd.SerializationTester$1
+- =<java.awt.dnd.SerializationTester$1:write*>
+- ^<java.awt.dnd.SerializationTester$1:<init>>
+- parents: [java.io.OutputStream]
+  extend: java.io.PipedOutputStream
+- =<java.io.PipedOutputStream:write*>
+- =<java.io.PipedOutputStream:flush*>
+- =<java.io.PipedOutputStream:close*>
+- ^<java.io.PipedOutputStream:<init>>
+- {target: IDENTITY, sig: '<java.io.PipedOutputStream: void connect(java.io.PipedInputStream)>'}
+- parents: [java.io.OutputStream]
+  extend: java.nio.channels.Channels$3
+- =<java.nio.channels.Channels$3:write*>
+- =<java.nio.channels.Channels$3:close*>
+- ^<java.nio.channels.Channels$3:<init>>
+- parents: [java.io.OutputStream]
+  extend: java.util.logging.FileHandler$MeteredStream
+- =<java.util.logging.FileHandler$MeteredStream:write*>
+- =<java.util.logging.FileHandler$MeteredStream:flush*>
+- =<java.util.logging.FileHandler$MeteredStream:close*>
+- ^<java.util.logging.FileHandler$MeteredStream:<init>>
+- parents: [java.io.OutputStream]
+  extend: java.io.ObjectOutputStream$BlockDataOutputStream
+- =<java.io.ObjectOutputStream$BlockDataOutputStream:write*>
+- =<java.io.ObjectOutputStream$BlockDataOutputStream:flush*>
+- =<java.io.ObjectOutputStream$BlockDataOutputStream:close*>
+- ^<java.io.ObjectOutputStream$BlockDataOutputStream:<init>>
+- {target: IDENTITY, sig: '<java.io.ObjectOutputStream$BlockDataOutputStream: boolean setBlockDataMode(boolean)>'}
+- {target: IDENTITY, sig: '<java.io.ObjectOutputStream$BlockDataOutputStream: boolean getBlockDataMode()>'}
+- {target: IDENTITY, sig: '<java.io.ObjectOutputStream$BlockDataOutputStream: void drain()>'}
+- {target: IDENTITY, sig: '<java.io.ObjectOutputStream$BlockDataOutputStream: long getUTFLength(java.lang.String)>'}
+- parents: [java.io.OutputStream]
+  extend: java.nio.channels.Channels$1
+- =<java.nio.channels.Channels$1:write*>
+- =<java.nio.channels.Channels$1:close*>
+- ^<java.nio.channels.Channels$1:<init>>
+- parents: [java.io.OutputStream]
+  extend: javax.swing.text.rtf.AbstractFilter
+- =<javax.swing.text.rtf.AbstractFilter:write*>
+- ^<javax.swing.text.rtf.AbstractFilter:<init>>
+- {target: IDENTITY, sig: '<javax.swing.text.rtf.AbstractFilter: void readFromStream(java.io.InputStream)>'}
+- {target: IDENTITY, sig: '<javax.swing.text.rtf.AbstractFilter: void readFromReader(java.io.Reader)>'}
+- parents: [java.io.OutputStream]
+  extend: java.lang.ProcessBuilder$NullOutputStream
+- =<java.lang.ProcessBuilder$NullOutputStream:write*>
+- ^<java.lang.ProcessBuilder$NullOutputStream:<init>>
+- parents: [java.io.OutputStream]
+  extend: java.io.ObjectOutputStream
+- =<java.io.ObjectOutputStream:write*>
+- =<java.io.ObjectOutputStream:flush*>
+- =<java.io.ObjectOutputStream:close*>
+- ^<java.io.ObjectOutputStream:<init>>
+- {target: IDENTITY, sig: '<java.io.ObjectOutputStream: void useProtocolVersion(int)>'}
+- {target: IDENTITY, sig: '<java.io.ObjectOutputStream: void defaultWriteObject()>'}
+- {target: IDENTITY, sig: '<java.io.ObjectOutputStream: java.io.ObjectOutputStream$PutField putFields()>'}
+- {target: IDENTITY, sig: '<java.io.ObjectOutputStream: void reset()>'}
+- {target: IDENTITY, sig: '<java.io.ObjectOutputStream: void annotateClass(java.lang.Class)>'}
+- {target: IDENTITY, sig: '<java.io.ObjectOutputStream: void annotateProxyClass(java.lang.Class)>'}
+- {target: IDENTITY, sig: '<java.io.ObjectOutputStream: java.lang.Object replaceObject(java.lang.Object)>'}
+- {target: IDENTITY, sig: '<java.io.ObjectOutputStream: boolean enableReplaceObject(boolean)>'}
+- {target: IDENTITY, sig: '<java.io.ObjectOutputStream: void drain()>'}
+- {target: IDENTITY, sig: '<java.io.ObjectOutputStream: int getProtocolVersion()>'}
+- parents: [java.io.OutputStream]
+  extend: java.io.ByteArrayOutputStream
+- =<java.io.ByteArrayOutputStream:write*>
+- =<java.io.ByteArrayOutputStream:close*>
+- ^<java.io.ByteArrayOutputStream:<init>>
+- {target: IDENTITY, sig: '<java.io.ByteArrayOutputStream: void reset()>'}
+- {target: IDENTITY, sig: '<java.io.ByteArrayOutputStream: byte[] toByteArray()>'}
+- {target: IDENTITY, sig: '<java.io.ByteArrayOutputStream: int size()>'}
+- {target: IDENTITY, sig: '<java.io.ByteArrayOutputStream: java.lang.String toString()>'}
+- {target: IDENTITY, sig: '<java.io.ByteArrayOutputStream: java.lang.String toString(java.lang.String)>'}
+- {target: IDENTITY, sig: '<java.io.ByteArrayOutputStream: java.lang.String toString(int)>'}
+- parents: [java.io.FilterOutputStream, java.io.OutputStream]
+  extend: java.io.BufferedOutputStream
+- =<java.io.BufferedOutputStream:write*>
+- =<java.io.BufferedOutputStream:flush*>
+- ^<java.io.BufferedOutputStream:<init>>
+- parents: [java.io.FilterOutputStream, java.io.OutputStream]
+  extend: java.security.DigestOutputStream
+- =<java.security.DigestOutputStream:write*>
+- ^<java.security.DigestOutputStream:<init>>
+- {target: IDENTITY, sig: '<java.security.DigestOutputStream: java.security.MessageDigest getMessageDigest()>'}
+- {target: IDENTITY, sig: '<java.security.DigestOutputStream: void setMessageDigest(java.security.MessageDigest)>'}
+- {target: IDENTITY, sig: '<java.security.DigestOutputStream: void on(boolean)>'}
+- {target: IDENTITY, sig: '<java.security.DigestOutputStream: java.lang.String toString()>'}
+- parents: [java.io.FilterOutputStream, java.io.OutputStream]
+  extend: java.util.zip.InflaterOutputStream
+- =<java.util.zip.InflaterOutputStream:write*>
+- =<java.util.zip.InflaterOutputStream:flush*>
+- =<java.util.zip.InflaterOutputStream:close*>
+- ^<java.util.zip.InflaterOutputStream:<init>>
+- {target: IDENTITY, sig: '<java.util.zip.InflaterOutputStream: void finish()>'}
+- parents: [java.io.FilterOutputStream, java.io.OutputStream]
+  extend: java.util.zip.DeflaterOutputStream
+- =<java.util.zip.DeflaterOutputStream:write*>
+- =<java.util.zip.DeflaterOutputStream:flush*>
+- =<java.util.zip.DeflaterOutputStream:close*>
+- ^<java.util.zip.DeflaterOutputStream:<init>>
+- {target: IDENTITY, sig: '<java.util.zip.DeflaterOutputStream: void finish()>'}
+- {target: IDENTITY, sig: '<java.util.zip.DeflaterOutputStream: void deflate()>'}
+- parents: [java.io.FilterOutputStream, java.io.OutputStream]
+  extend: java.util.zip.CheckedOutputStream
+- =<java.util.zip.CheckedOutputStream:write*>
+- ^<java.util.zip.CheckedOutputStream:<init>>
+- {target: IDENTITY, sig: '<java.util.zip.CheckedOutputStream: java.util.zip.Checksum getChecksum()>'}
+- parents: [java.io.FilterOutputStream, java.io.OutputStream]
+  extend: java.io.DataOutputStream
+- =<java.io.DataOutputStream:write*>
+- =<java.io.DataOutputStream:flush*>
+- ^<java.io.DataOutputStream:<init>>
+- {target: IDENTITY, sig: '<java.io.DataOutputStream: int size()>'}
+- parents: [java.io.FilterOutputStream, java.io.OutputStream]
+  extend: java.io.PrintStream
+- =<java.io.PrintStream:print*>
+- =<java.io.PrintStream:write*>
+- =<java.io.PrintStream:append*>
+- =<java.io.PrintStream:flush*>
+- =<java.io.PrintStream:close*>
+- ^<java.io.PrintStream:<init>>
+- {target: IDENTITY, sig: '<java.io.PrintStream: boolean checkError()>'}
+- {target: IDENTITY, sig: '<java.io.PrintStream: void setError()>'}
+- {target: IDENTITY, sig: '<java.io.PrintStream: void clearError()>'}
+- {target: IDENTITY, sig: '<java.io.PrintStream: java.io.PrintStream format(java.lang.String,java.lang.Object[])>'}
+- {target: IDENTITY, sig: '<java.io.PrintStream: java.io.PrintStream format(java.util.Locale,java.lang.String,java.lang.Object[])>'}
+- parents: [java.io.FilterOutputStream, java.io.OutputStream]
+  extend: javax.crypto.CipherOutputStream
+- =<javax.crypto.CipherOutputStream:write*>
+- =<javax.crypto.CipherOutputStream:flush*>
+- =<javax.crypto.CipherOutputStream:close*>
+- ^<javax.crypto.CipherOutputStream:<init>>
+- parents: [java.io.FileOutputStream, java.io.OutputStream]
+  extend: java.net.SocketOutputStream
+- =<java.net.SocketOutputStream:write*>
+- =<java.net.SocketOutputStream:close*>
+- ^<java.net.SocketOutputStream:<init>>
+- {target: IDENTITY, sig: '<java.net.SocketOutputStream: void finalize()>'}
+- parents: [javax.swing.text.rtf.AbstractFilter, java.io.OutputStream]
+  extend: javax.swing.text.rtf.RTFParser
+- =<javax.swing.text.rtf.RTFParser:write*>
+- =<javax.swing.text.rtf.RTFParser:flush*>
+- =<javax.swing.text.rtf.RTFParser:close*>
+- ^<javax.swing.text.rtf.RTFParser:<init>>
+- {target: IDENTITY, sig: '<javax.swing.text.rtf.RTFParser: boolean handleKeyword(java.lang.String)>'}
+- {target: IDENTITY, sig: '<javax.swing.text.rtf.RTFParser: boolean handleKeyword(java.lang.String,int)>'}
+- {target: IDENTITY, sig: '<javax.swing.text.rtf.RTFParser: void handleText(java.lang.String)>'}
+- {target: IDENTITY, sig: '<javax.swing.text.rtf.RTFParser: void handleText(char)>'}
+- {target: IDENTITY, sig: '<javax.swing.text.rtf.RTFParser: void handleBinaryBlob(byte[])>'}
+- {target: IDENTITY, sig: '<javax.swing.text.rtf.RTFParser: void begingroup()>'}
+- {target: IDENTITY, sig: '<javax.swing.text.rtf.RTFParser: void endgroup()>'}
+- {target: IDENTITY, sig: '<javax.swing.text.rtf.RTFParser: void warning(java.lang.String)>'}
+- parents: [java.io.ByteArrayOutputStream, java.io.OutputStream]
+  extend: org.jcp.xml.dsig.internal.SignerOutputStream
+- =<org.jcp.xml.dsig.internal.SignerOutputStream:write*>
+- ^<org.jcp.xml.dsig.internal.SignerOutputStream:<init>>
+- parents: [java.io.ByteArrayOutputStream, java.io.OutputStream]
+  extend: org.jcp.xml.dsig.internal.MacOutputStream
+- =<org.jcp.xml.dsig.internal.MacOutputStream:write*>
+- ^<org.jcp.xml.dsig.internal.MacOutputStream:<init>>
+- parents: [java.io.FilterOutputStream, java.io.BufferedOutputStream, java.io.OutputStream]
+  extend: java.lang.UNIXProcess$ProcessPipeOutputStream
+- ^<java.lang.UNIXProcess$ProcessPipeOutputStream:<init>>
+- {target: IDENTITY, sig: '<java.lang.UNIXProcess$ProcessPipeOutputStream: void processExited()>'}
+- parents: [java.io.FilterOutputStream, java.util.zip.DeflaterOutputStream, java.io.OutputStream]
+  extend: java.util.zip.ZipOutputStream
+- =<java.util.zip.ZipOutputStream:write*>
+- =<java.util.zip.ZipOutputStream:close*>
+- ^<java.util.zip.ZipOutputStream:<init>>
+- {target: IDENTITY, sig: '<java.util.zip.ZipOutputStream: void setComment(java.lang.String)>'}
+- {target: IDENTITY, sig: '<java.util.zip.ZipOutputStream: void setMethod(int)>'}
+- {target: IDENTITY, sig: '<java.util.zip.ZipOutputStream: void setLevel(int)>'}
+- {target: IDENTITY, sig: '<java.util.zip.ZipOutputStream: void putNextEntry(java.util.zip.ZipEntry)>'}
+- parents: [java.io.FilterOutputStream, java.util.zip.DeflaterOutputStream, java.io.OutputStream]
+  extend: java.util.zip.GZIPOutputStream
+- =<java.util.zip.GZIPOutputStream:write*>
+- ^<java.util.zip.GZIPOutputStream:<init>>
+- parents: [java.io.FilterOutputStream, java.io.PrintStream, java.io.OutputStream]
+  extend: java.rmi.server.LogStream
+- =<java.rmi.server.LogStream:write*>
+- ^<java.rmi.server.LogStream:<init>>
+- {target: IDENTITY, sig: '<java.rmi.server.LogStream: java.rmi.server.LogStream log(java.lang.String)>'}
+- {target: IDENTITY, sig: '<java.rmi.server.LogStream: java.io.PrintStream getDefaultStream()>'}
+- {target: IDENTITY, sig: '<java.rmi.server.LogStream: void setDefaultStream(java.io.PrintStream)>'}
+- {target: IDENTITY, sig: '<java.rmi.server.LogStream: java.io.OutputStream getOutputStream()>'}
+- {target: IDENTITY, sig: '<java.rmi.server.LogStream: void setOutputStream(java.io.OutputStream)>'}
+- {target: IDENTITY, sig: '<java.rmi.server.LogStream: java.lang.String toString()>'}
+- {target: IDENTITY, sig: '<java.rmi.server.LogStream: int parseLevel(java.lang.String)>'}
+- parents: [javax.swing.text.rtf.AbstractFilter, java.io.OutputStream, javax.swing.text.rtf.RTFParser]
+  extend: javax.swing.text.rtf.RTFReader
+- =<javax.swing.text.rtf.RTFReader:close*>
+- ^<javax.swing.text.rtf.RTFReader:<init>>
+- {target: IDENTITY, sig: '<javax.swing.text.rtf.RTFReader: java.awt.Color defaultColor()>'}
+- {target: IDENTITY, sig: '<javax.swing.text.rtf.RTFReader: void setRTFDestination(javax.swing.text.rtf.RTFReader$Destination)>'}
+- {target: IDENTITY, sig: '<javax.swing.text.rtf.RTFReader: void setCharacterSet(java.lang.String)>'}
+- {target: IDENTITY, sig: '<javax.swing.text.rtf.RTFReader: void defineCharacterSet(java.lang.String,char[])>'}
+- {target: IDENTITY, sig: '<javax.swing.text.rtf.RTFReader: java.lang.Object getCharacterSet(java.lang.String)>'}
+- {target: IDENTITY, sig: '<javax.swing.text.rtf.RTFReader: char[] readCharset(java.io.InputStream)>'}
+- {target: IDENTITY, sig: '<javax.swing.text.rtf.RTFReader: char[] readCharset(java.net.URL)>'}
+- parents: [java.io.FilterOutputStream, java.util.zip.DeflaterOutputStream, java.util.zip.ZipOutputStream, java.io.OutputStream]
+  extend: java.util.jar.JarOutputStream
+- ^<java.util.jar.JarOutputStream:<init>>
+- =<java.io.Writer:write*>
+- =<java.io.Writer:append*>
+- =<java.io.Writer:flush*>
+- =<java.io.Writer:close*>
+- ^<java.io.Writer:<init>>
+- parents: [java.io.Writer]
+  extend: java.io.PipedWriter
+- =<java.io.PipedWriter:write*>
+- =<java.io.PipedWriter:flush*>
+- =<java.io.PipedWriter:close*>
+- ^<java.io.PipedWriter:<init>>
+- {target: IDENTITY, sig: '<java.io.PipedWriter: void connect(java.io.PipedReader)>'}
+- parents: [java.io.Writer]
+  extend: java.io.OutputStreamWriter
+- =<java.io.OutputStreamWriter:write*>
+- =<java.io.OutputStreamWriter:flush*>
+- =<java.io.OutputStreamWriter:close*>
+- ^<java.io.OutputStreamWriter:<init>>
+- {target: IDENTITY, sig: '<java.io.OutputStreamWriter: java.lang.String getEncoding()>'}
+- parents: [java.io.Writer]
+  extend: java.io.CharArrayWriter
+- =<java.io.CharArrayWriter:write*>
+- =<java.io.CharArrayWriter:append*>
+- =<java.io.CharArrayWriter:flush*>
+- =<java.io.CharArrayWriter:close*>
+- ^<java.io.CharArrayWriter:<init>>
+- {target: IDENTITY, sig: '<java.io.CharArrayWriter: void reset()>'}
+- {target: IDENTITY, sig: '<java.io.CharArrayWriter: char[] toCharArray()>'}
+- {target: IDENTITY, sig: '<java.io.CharArrayWriter: int size()>'}
+- {target: IDENTITY, sig: '<java.io.CharArrayWriter: java.lang.String toString()>'}
+- parents: [java.io.Writer]
+  extend: java.io.BufferedWriter
+- =<java.io.BufferedWriter:write*>
+- =<java.io.BufferedWriter:flush*>
+- =<java.io.BufferedWriter:close*>
+- ^<java.io.BufferedWriter:<init>>
+- {target: IDENTITY, sig: '<java.io.BufferedWriter: void newLine()>'}
+- parents: [java.io.Writer]
+  extend: java.io.PrintWriter
+- =<java.io.PrintWriter:print*>
+- =<java.io.PrintWriter:write*>
+- =<java.io.PrintWriter:append*>
+- =<java.io.PrintWriter:flush*>
+- =<java.io.PrintWriter:close*>
+- ^<java.io.PrintWriter:<init>>
+- {target: IDENTITY, sig: '<java.io.PrintWriter: boolean checkError()>'}
+- {target: IDENTITY, sig: '<java.io.PrintWriter: void setError()>'}
+- {target: IDENTITY, sig: '<java.io.PrintWriter: void clearError()>'}
+- {target: IDENTITY, sig: '<java.io.PrintWriter: java.io.PrintWriter format(java.lang.String,java.lang.Object[])>'}
+- {target: IDENTITY, sig: '<java.io.PrintWriter: java.io.PrintWriter format(java.util.Locale,java.lang.String,java.lang.Object[])>'}
+- parents: [java.io.Writer]
+  extend: java.io.StringWriter
+- =<java.io.StringWriter:write*>
+- =<java.io.StringWriter:append*>
+- =<java.io.StringWriter:flush*>
+- =<java.io.StringWriter:close*>
+- ^<java.io.StringWriter:<init>>
+- {target: IDENTITY, sig: '<java.io.StringWriter: java.lang.String toString()>'}
+- {target: IDENTITY, sig: '<java.io.StringWriter: java.lang.StringBuffer getBuffer()>'}
+- parents: [java.io.Writer]
+  extend: java.io.FilterWriter
+- =<java.io.FilterWriter:write*>
+- =<java.io.FilterWriter:flush*>
+- =<java.io.FilterWriter:close*>
+- ^<java.io.FilterWriter:<init>>
+- parents: [java.io.Writer, java.io.OutputStreamWriter]
+  extend: java.io.FileWriter
+- ^<java.io.FileWriter:<init>>
+- parents: [java.io.PrintWriter, java.io.Writer]
+  extend: javax.swing.text.html.parser.NPrintWriter
+- =<javax.swing.text.html.parser.NPrintWriter:print*>
+- ^<javax.swing.text.html.parser.NPrintWriter:<init>>
+- parents: [java.io.PrintWriter, java.io.Writer]
+  extend: java.io.Console$3
+- =<java.io.Console$3:close*>
+- ^<java.io.Console$3:<init>>
+- =<java.io.Reader:read*>
+- =<java.io.Reader:skip*>
+- =<java.io.Reader:close*>
+- =<java.io.Reader:reset*>
+- =<java.io.Reader:markSupported*>
+- =<java.io.Reader:mark*>
+- ^<java.io.Reader:<init>>
+- parents: [java.io.Reader]
+  extend: java.io.BufferedReader
+- =<java.io.BufferedReader:read*>
+- =<java.io.BufferedReader:skip*>
+- =<java.io.BufferedReader:close*>
+- =<java.io.BufferedReader:reset*>
+- =<java.io.BufferedReader:markSupported*>
+- =<java.io.BufferedReader:mark*>
+- ^<java.io.BufferedReader:<init>>
+- parents: [java.io.Reader]
+  extend: java.io.FilterReader
+- =<java.io.FilterReader:read*>
+- =<java.io.FilterReader:skip*>
+- =<java.io.FilterReader:close*>
+- =<java.io.FilterReader:reset*>
+- =<java.io.FilterReader:markSupported*>
+- =<java.io.FilterReader:mark*>
+- ^<java.io.FilterReader:<init>>
+- parents: [java.io.Reader]
+  extend: java.io.CharArrayReader
+- =<java.io.CharArrayReader:read*>
+- =<java.io.CharArrayReader:skip*>
+- =<java.io.CharArrayReader:close*>
+- =<java.io.CharArrayReader:reset*>
+- =<java.io.CharArrayReader:markSupported*>
+- =<java.io.CharArrayReader:mark*>
+- ^<java.io.CharArrayReader:<init>>
+- parents: [java.io.Reader]
+  extend: java.io.StringReader
+- =<java.io.StringReader:read*>
+- =<java.io.StringReader:skip*>
+- =<java.io.StringReader:close*>
+- =<java.io.StringReader:reset*>
+- =<java.io.StringReader:markSupported*>
+- =<java.io.StringReader:mark*>
+- ^<java.io.StringReader:<init>>
+- parents: [java.io.Reader]
+  extend: java.io.Console$LineReader
+- =<java.io.Console$LineReader:read*>
+- =<java.io.Console$LineReader:close*>
+- ^<java.io.Console$LineReader:<init>>
+- parents: [java.io.Reader]
+  extend: java.io.InputStreamReader
+- =<java.io.InputStreamReader:read*>
+- =<java.io.InputStreamReader:close*>
+- ^<java.io.InputStreamReader:<init>>
+- {target: 'RETURN', sig: '<java.io.InputStreamReader: java.lang.String getEncoding()>'}
+- parents: [java.io.Reader]
+  extend: java.io.PipedReader
+- =<java.io.PipedReader:read*>
+- =<java.io.PipedReader:close*>
+- ^<java.io.PipedReader:<init>>
+- {target: 'DIE', sig: '<java.io.PipedReader: void connect(java.io.PipedWriter)>'}
+- {target: 'DIE', sig: '<java.io.PipedReader: void receive(int)>'}
+- {target: 'DIE', sig: '<java.io.PipedReader: void receive(char[],int,int)>'}
+- {target: 'DIE', sig: '<java.io.PipedReader: void receivedLast()>'}
+- parents: [java.io.Reader, java.io.BufferedReader]
+  extend: java.io.LineNumberReader
+- =<java.io.LineNumberReader:read*>
+- =<java.io.LineNumberReader:skip*>
+- =<java.io.LineNumberReader:reset*>
+- =<java.io.LineNumberReader:mark*>
+- ^<java.io.LineNumberReader:<init>>
+- {target: 'IDENTITY', sig: '<java.io.LineNumberReader: void setLineNumber(int)>'}
+- {target: 'IDENTITY', sig: '<java.io.LineNumberReader: int getLineNumber()>'}
+- parents: [java.io.Reader, java.io.FilterReader]
+  extend: java.io.PushbackReader
+- =<java.io.PushbackReader:read*>
+- =<java.io.PushbackReader:skip*>
+- =<java.io.PushbackReader:close*>
+- =<java.io.PushbackReader:reset*>
+- =<java.io.PushbackReader:markSupported*>
+- =<java.io.PushbackReader:mark*>
+- ^<java.io.PushbackReader:<init>>
+- {target: 'DIE', sig: '<java.io.PushbackReader: void unread(int)>'}
+- {target: 'DIE', sig: '<java.io.PushbackReader: void unread(char[],int,int)>'}
+- {target: 'DIE', sig: '<java.io.PushbackReader: void unread(char[])>'}
+- parents: [java.io.Reader, java.io.InputStreamReader]
+  extend: java.io.FileReader
+- ^<java.io.FileReader:<init>>
+- =<java.io.InputStream:read*>
+- =<java.io.InputStream:skip*>
+- =<java.io.InputStream:close*>
+- =<java.io.InputStream:available*>
+- =<java.io.InputStream:reset*>
+- =<java.io.InputStream:markSupported*>
+- =<java.io.InputStream:mark*>
+- ^<java.io.InputStream:<init>>
+- parents: [java.io.InputStream]
+  extend: java.util.jar.JarVerifier$VerifierStream
+- =<java.util.jar.JarVerifier$VerifierStream:read*>
+- =<java.util.jar.JarVerifier$VerifierStream:close*>
+- =<java.util.jar.JarVerifier$VerifierStream:available*>
+- ^<java.util.jar.JarVerifier$VerifierStream:<init>>
+- parents: [java.io.InputStream]
+  extend: java.io.ObjectInputStream$PeekInputStream
+- =<java.io.ObjectInputStream$PeekInputStream:read*>
+- =<java.io.ObjectInputStream$PeekInputStream:skip*>
+- =<java.io.ObjectInputStream$PeekInputStream:close*>
+- =<java.io.ObjectInputStream$PeekInputStream:available*>
+- ^<java.io.ObjectInputStream$PeekInputStream:<init>>
+- {target: 'IDENTITY', sig: '<java.io.ObjectInputStream$PeekInputStream: int peek()>'}
+- parents: [java.io.InputStream]
+  extend: java.io.StringBufferInputStream
+- =<java.io.StringBufferInputStream:read*>
+- =<java.io.StringBufferInputStream:skip*>
+- =<java.io.StringBufferInputStream:available*>
+- =<java.io.StringBufferInputStream:reset*>
+- ^<java.io.StringBufferInputStream:<init>>
+- parents: [java.io.InputStream]
+  extend: java.lang.ProcessBuilder$NullInputStream
+- =<java.lang.ProcessBuilder$NullInputStream:read*>
+- =<java.lang.ProcessBuilder$NullInputStream:available*>
+- ^<java.lang.ProcessBuilder$NullInputStream:<init>>
+- parents: [java.io.InputStream]
+  extend: javax.sound.sampled.AudioInputStream$TargetDataLineInputStream
+- =<javax.sound.sampled.AudioInputStream$TargetDataLineInputStream:read*>
+- =<javax.sound.sampled.AudioInputStream$TargetDataLineInputStream:close*>
+- =<javax.sound.sampled.AudioInputStream$TargetDataLineInputStream:available*>
+- ^<javax.sound.sampled.AudioInputStream$TargetDataLineInputStream:<init>>
+- parents: [java.io.InputStream]
+  extend: java.io.ByteArrayInputStream
+- =<java.io.ByteArrayInputStream:read*>
+- =<java.io.ByteArrayInputStream:skip*>
+- =<java.io.ByteArrayInputStream:close*>
+- =<java.io.ByteArrayInputStream:available*>
+- =<java.io.ByteArrayInputStream:reset*>
+- =<java.io.ByteArrayInputStream:markSupported*>
+- =<java.io.ByteArrayInputStream:mark*>
+- ^<java.io.ByteArrayInputStream:<init>>
+- parents: [java.io.InputStream]
+  extend: java.io.ObjectInputStream
+- =<java.io.ObjectInputStream:read*>
+- =<java.io.ObjectInputStream:skip*>
+- =<java.io.ObjectInputStream:close*>
+- =<java.io.ObjectInputStream:available*>
+- ^<java.io.ObjectInputStream:<init>>
+- {target: 'DIE', sig: '<java.io.ObjectInputStream: void defaultReadObject()>'}
+- {target: 'IDENTITY', sig: '<java.io.ObjectInputStream: void registerValidation(java.io.ObjectInputValidation,int)>'}
+- {target: 'DIE', sig: '<java.io.ObjectInputStream: java.lang.Class resolveClass(java.io.ObjectStreamClass)>'}
+- {target: 'DIE', sig: '<java.io.ObjectInputStream: java.lang.Class resolveProxyClass(java.lang.String[])>'}
+- {target: 'DIE', sig: '<java.io.ObjectInputStream: java.lang.Object resolveObject(java.lang.Object)>'}
+- {target: 'DIE', sig: '<java.io.ObjectInputStream: boolean enableResolveObject(boolean)>'}
+- parents: [java.io.InputStream]
+  extend: java.util.zip.ZipFile$ZipFileInputStream
+- =<java.util.zip.ZipFile$ZipFileInputStream:read*>
+- =<java.util.zip.ZipFile$ZipFileInputStream:skip*>
+- =<java.util.zip.ZipFile$ZipFileInputStream:close*>
+- =<java.util.zip.ZipFile$ZipFileInputStream:available*>
+- ^<java.util.zip.ZipFile$ZipFileInputStream:<init>>
+- {target: 'IDENTITY', sig: '<java.util.zip.ZipFile$ZipFileInputStream: long size()>'}
+- {target: 'IDENTITY', sig: '<java.util.zip.ZipFile$ZipFileInputStream: void finalize()>'}
+- parents: [java.io.InputStream]
+  extend: java.io.SequenceInputStream
+- =<java.io.SequenceInputStream:read*>
+- =<java.io.SequenceInputStream:close*>
+- =<java.io.SequenceInputStream:available*>
+- ^<java.io.SequenceInputStream:<init>>
+- {target: 'RETURN', sig: '<java.io.SequenceInputStream: void nextStream()>'}
+- parents: [java.io.InputStream]
+  extend: java.io.FileInputStream
+- =<java.io.FileInputStream:read*>
+- =<java.io.FileInputStream:skip*>
+- =<java.io.FileInputStream:close*>
+- =<java.io.FileInputStream:available*>
+- ^<java.io.FileInputStream:<init>>
+- {target: 'RETURN', sig: '<java.io.FileInputStream: java.io.FileDescriptor getFD()>'}
+- {target: 'RETURN', sig: '<java.io.FileInputStream: java.nio.channels.FileChannel getChannel()>'}
+- {target: 'IDENTITY', sig: '<java.io.FileInputStream: void finalize()>'}
+- parents: [java.io.InputStream]
+  extend: java.io.PipedInputStream
+- =<java.io.PipedInputStream:read*>
+- =<java.io.PipedInputStream:close*>
+- =<java.io.PipedInputStream:available*>
+- ^<java.io.PipedInputStream:<init>>
+- {target: 'DIE', sig: '<java.io.PipedInputStream: void connect(java.io.PipedOutputStream)>'}
+- {target: 'DIE', sig: '<java.io.PipedInputStream: void receive(int)>'}
+- {target: 'DIE', sig: '<java.io.PipedInputStream: void receive(byte[],int,int)>'}
+- {target: 'DIE', sig: '<java.io.PipedInputStream: void receivedLast()>'}
+- parents: [java.io.InputStream]
+  extend: java.nio.channels.Channels$2
+- =<java.nio.channels.Channels$2:read*>
+- =<java.nio.channels.Channels$2:close*>
+- ^<java.nio.channels.Channels$2:<init>>
+- parents: [java.io.InputStream]
+  extend: java.io.ObjectInputStream$BlockDataInputStream
+- =<java.io.ObjectInputStream$BlockDataInputStream:read*>
+- =<java.io.ObjectInputStream$BlockDataInputStream:skip*>
+- =<java.io.ObjectInputStream$BlockDataInputStream:close*>
+- =<java.io.ObjectInputStream$BlockDataInputStream:available*>
+- ^<java.io.ObjectInputStream$BlockDataInputStream:<init>>
+- {target: 'IDENTITY', sig: '<java.io.ObjectInputStream$BlockDataInputStream: boolean setBlockDataMode(boolean)>'}
+- {target: 'IDENTITY', sig: '<java.io.ObjectInputStream$BlockDataInputStream: boolean getBlockDataMode()>'}
+- {target: 'IDENTITY', sig: '<java.io.ObjectInputStream$BlockDataInputStream: int currentBlockRemaining()>'}
+- {target: 'IDENTITY', sig: '<java.io.ObjectInputStream$BlockDataInputStream: int peek()>'}
+- {target: 'IDENTITY', sig: '<java.io.ObjectInputStream$BlockDataInputStream: byte peekByte()>'}
+- parents: [java.io.InputStream]
+  extend: java.io.FilterInputStream
+- =<java.io.FilterInputStream:read*>
+- =<java.io.FilterInputStream:skip*>
+- =<java.io.FilterInputStream:close*>
+- =<java.io.FilterInputStream:available*>
+- =<java.io.FilterInputStream:reset*>
+- =<java.io.FilterInputStream:markSupported*>
+- =<java.io.FilterInputStream:mark*>
+- ^<java.io.FilterInputStream:<init>>
+- parents: [java.io.InputStream]
+  extend: javax.sound.sampled.AudioInputStream
+- =<javax.sound.sampled.AudioInputStream:read*>
+- =<javax.sound.sampled.AudioInputStream:skip*>
+- =<javax.sound.sampled.AudioInputStream:close*>
+- =<javax.sound.sampled.AudioInputStream:available*>
+- =<javax.sound.sampled.AudioInputStream:reset*>
+- =<javax.sound.sampled.AudioInputStream:markSupported*>
+- =<javax.sound.sampled.AudioInputStream:mark*>
+- ^<javax.sound.sampled.AudioInputStream:<init>>
+# - {target: '???', sig: '<javax.sound.sampled.AudioInputStream: javax.sound.sampled.AudioFormat getFormat()>'}
+# - {target: '???', sig: '<javax.sound.sampled.AudioInputStream: long getFrameLength()>'}
+# - parents: [java.io.ObjectInputStream, java.io.InputStream]
+#   extend: javax.management.loading.MLetObjectInputStream
+# - ^<javax.management.loading.MLetObjectInputStream:<init>>
+# - {target: '???', sig: '<javax.management.loading.MLetObjectInputStream: java.lang.Class resolveClass(java.io.ObjectStreamClass)>'}
+# - {target: '???', sig: '<javax.management.loading.MLetObjectInputStream: java.lang.ClassLoader getClassLoader()>'}
+- parents: [java.io.ObjectInputStream, java.io.InputStream]
+  extend: java.beans.ObjectInputStreamWithLoader
+- ^<java.beans.ObjectInputStreamWithLoader:<init>>
+- {target: 'DIE', sig: '<java.beans.ObjectInputStreamWithLoader: java.lang.Class resolveClass(java.io.ObjectStreamClass)>'}
+- parents: [java.io.ObjectInputStream, java.io.InputStream]
+  extend: javax.management.remote.rmi.RMIConnector$ObjectInputStreamWithLoader
+- ^<javax.management.remote.rmi.RMIConnector$ObjectInputStreamWithLoader:<init>>
+- {target: 'DIE', sig: '<javax.management.remote.rmi.RMIConnector$ObjectInputStreamWithLoader: java.lang.Class resolveClass(java.io.ObjectStreamClass)>'}
+- parents: [java.io.FileInputStream, java.io.InputStream]
+  extend: java.net.SocketInputStream
+- =<java.net.SocketInputStream:read*>
+- =<java.net.SocketInputStream:skip*>
+- =<java.net.SocketInputStream:close*>
+- =<java.net.SocketInputStream:available*>
+- ^<java.net.SocketInputStream:<init>>
+- {target: 'IDENTITY', sig: '<java.net.SocketInputStream: void setEOF(boolean)>'}
+- {target: 'IDENTITY', sig: '<java.net.SocketInputStream: void finalize()>'}
+- parents: [java.io.InputStream, java.io.FilterInputStream]
+  extend: javax.crypto.CipherInputStream
+- =<javax.crypto.CipherInputStream:read*>
+- =<javax.crypto.CipherInputStream:skip*>
+- =<javax.crypto.CipherInputStream:close*>
+- =<javax.crypto.CipherInputStream:available*>
+- =<javax.crypto.CipherInputStream:markSupported*>
+- =<javax.crypto.CipherInputStream:mark*>
+- ^<javax.crypto.CipherInputStream:<init>>
+- parents: [java.io.InputStream, java.io.FilterInputStream]
+  extend: java.io.LineNumberInputStream
+- =<java.io.LineNumberInputStream:read*>
+- =<java.io.LineNumberInputStream:skip*>
+- =<java.io.LineNumberInputStream:available*>
+- =<java.io.LineNumberInputStream:reset*>
+- =<java.io.LineNumberInputStream:mark*>
+- ^<java.io.LineNumberInputStream:<init>>
+- {target: 'IDENTITY', sig: '<java.io.LineNumberInputStream: void setLineNumber(int)>'}
+- {target: 'IDENTITY', sig: '<java.io.LineNumberInputStream: int getLineNumber()>'}
+- parents: [java.io.InputStream, java.io.FilterInputStream]
+  extend: java.security.DigestInputStream
+- =<java.security.DigestInputStream:read*>
+- ^<java.security.DigestInputStream:<init>>
+- {target: 'DIE', sig: '<java.security.DigestInputStream: java.security.MessageDigest getMessageDigest()>'}
+- {target: 'DIE', sig: '<java.security.DigestInputStream: void setMessageDigest(java.security.MessageDigest)>'}
+- {target: 'DIE', sig: '<java.security.DigestInputStream: void on(boolean)>'}
+- {target: 'DIE', sig: '<java.security.DigestInputStream: java.lang.String toString()>'}
+- parents: [java.io.InputStream, java.io.FilterInputStream]
+  extend: java.util.jar.Manifest$FastInputStream
+- =<java.util.jar.Manifest$FastInputStream:read*>
+- =<java.util.jar.Manifest$FastInputStream:skip*>
+- =<java.util.jar.Manifest$FastInputStream:close*>
+- =<java.util.jar.Manifest$FastInputStream:available*>
+- ^<java.util.jar.Manifest$FastInputStream:<init>>
+- {target: 'IDENTITY', sig: '<java.util.jar.Manifest$FastInputStream: byte peek()>'}
+- parents: [java.io.InputStream, java.io.FilterInputStream]
+  extend: java.util.zip.CheckedInputStream
+- =<java.util.zip.CheckedInputStream:read*>
+- =<java.util.zip.CheckedInputStream:skip*>
+- ^<java.util.zip.CheckedInputStream:<init>>
+- {target: 'DIE', sig: '<java.util.zip.CheckedInputStream: java.util.zip.Checksum getChecksum()>'}
+- parents: [java.io.InputStream, java.io.FilterInputStream]
+  extend: java.util.zip.DeflaterInputStream
+- =<java.util.zip.DeflaterInputStream:read*>
+- =<java.util.zip.DeflaterInputStream:skip*>
+- =<java.util.zip.DeflaterInputStream:close*>
+- =<java.util.zip.DeflaterInputStream:available*>
+- =<java.util.zip.DeflaterInputStream:reset*>
+- =<java.util.zip.DeflaterInputStream:markSupported*>
+- =<java.util.zip.DeflaterInputStream:mark*>
+- ^<java.util.zip.DeflaterInputStream:<init>>
+- parents: [java.io.InputStream, java.io.FilterInputStream]
+  extend: java.io.DataInputStream
+- =<java.io.DataInputStream:read*>
+- =<java.io.DataInputStream:skip*>
+- ^<java.io.DataInputStream:<init>>
+- parents: [java.io.InputStream, java.io.FilterInputStream]
+  extend: java.io.PushbackInputStream
+- =<java.io.PushbackInputStream:read*>
+- =<java.io.PushbackInputStream:skip*>
+- =<java.io.PushbackInputStream:close*>
+- =<java.io.PushbackInputStream:available*>
+- =<java.io.PushbackInputStream:reset*>
+- =<java.io.PushbackInputStream:markSupported*>
+- =<java.io.PushbackInputStream:mark*>
+- ^<java.io.PushbackInputStream:<init>>
+- {target: 'DIE', sig: '<java.io.PushbackInputStream: void unread(int)>'}
+- {target: 'DIE', sig: '<java.io.PushbackInputStream: void unread(byte[],int,int)>'}
+- {target: 'DIE', sig: '<java.io.PushbackInputStream: void unread(byte[])>'}
+- parents: [java.io.InputStream, java.io.FilterInputStream]
+  extend: java.util.zip.InflaterInputStream
+- =<java.util.zip.InflaterInputStream:read*>
+- =<java.util.zip.InflaterInputStream:skip*>
+- =<java.util.zip.InflaterInputStream:close*>
+- =<java.util.zip.InflaterInputStream:available*>
+- =<java.util.zip.InflaterInputStream:reset*>
+- =<java.util.zip.InflaterInputStream:markSupported*>
+- =<java.util.zip.InflaterInputStream:mark*>
+- ^<java.util.zip.InflaterInputStream:<init>>
+- {target: 'IDENTITY', sig: '<java.util.zip.InflaterInputStream: void fill()>'}
+- parents: [java.io.InputStream, java.io.FilterInputStream]
+  extend: java.io.BufferedInputStream
+- =<java.io.BufferedInputStream:read*>
+- =<java.io.BufferedInputStream:skip*>
+- =<java.io.BufferedInputStream:close*>
+- =<java.io.BufferedInputStream:available*>
+- =<java.io.BufferedInputStream:reset*>
+- =<java.io.BufferedInputStream:markSupported*>
+- =<java.io.BufferedInputStream:mark*>
+- ^<java.io.BufferedInputStream:<init>>
+- parents: [java.util.zip.InflaterInputStream, java.io.InputStream, java.io.FilterInputStream]
+  extend: java.util.zip.GZIPInputStream
+- =<java.util.zip.GZIPInputStream:read*>
+- =<java.util.zip.GZIPInputStream:close*>
+- ^<java.util.zip.GZIPInputStream:<init>>
+- parents: [java.util.zip.InflaterInputStream, java.io.InputStream, java.io.FilterInputStream]
+  extend: java.util.zip.ZipInputStream
+- =<java.util.zip.ZipInputStream:read*>
+- =<java.util.zip.ZipInputStream:skip*>
+- =<java.util.zip.ZipInputStream:close*>
+- =<java.util.zip.ZipInputStream:available*>
+- ^<java.util.zip.ZipInputStream:<init>>
+- {target: 'IDENTITY', sig: '<java.util.zip.ZipInputStream: java.util.zip.ZipEntry getNextEntry()>'}
+- {target: 'IDENTITY', sig: '<java.util.zip.ZipInputStream: java.util.zip.ZipEntry createZipEntry(java.lang.String)>'}
+- parents: [java.util.zip.InflaterInputStream, java.io.InputStream, java.io.FilterInputStream]
+  extend: java.util.zip.ZipFile$ZipFileInflaterInputStream
+- =<java.util.zip.ZipFile$ZipFileInflaterInputStream:close*>
+- =<java.util.zip.ZipFile$ZipFileInflaterInputStream:available*>
+- ^<java.util.zip.ZipFile$ZipFileInflaterInputStream:<init>>
+- {target: 'IDENTITY', sig: '<java.util.zip.ZipFile$ZipFileInflaterInputStream: void fill()>'}
+- {target: 'IDENTITY', sig: '<java.util.zip.ZipFile$ZipFileInflaterInputStream: void finalize()>'}
+- parents: [java.io.BufferedInputStream, java.io.InputStream, java.io.FilterInputStream]
+  extend: java.lang.UNIXProcess$ProcessPipeInputStream
+- =<java.lang.UNIXProcess$ProcessPipeInputStream:close*>
+- ^<java.lang.UNIXProcess$ProcessPipeInputStream:<init>>
+- {target: 'IDENTITY', sig: '<java.lang.UNIXProcess$ProcessPipeInputStream: void processExited()>'}
+- parents: [java.util.zip.InflaterInputStream, java.io.InputStream, java.io.FilterInputStream, java.util.zip.ZipInputStream]
+  extend: java.util.jar.JarInputStream
+- =<java.util.jar.JarInputStream:read*>
+- ^<java.util.jar.JarInputStream:<init>>
+- {target: 'IDENTITY', sig: '<java.util.jar.JarInputStream: java.util.jar.Manifest getManifest()>'}
+- {target: 'IDENTITY', sig: '<java.util.jar.JarInputStream: java.util.jar.JarEntry getNextJarEntry()>'}
+- {target: 'IDENTITY', sig: '<java.util.jar.JarInputStream: java.util.zip.ZipEntry createZipEntry(java.lang.String)>'}

@@ -1,0 +1,6 @@
+web_xml: ${source_dir}/ginp-code/src/main/webapp/WEB-INF/web.xml
+app_classes: ${source_dir}/ginp-code/target/classes
+output_package: net.sf.ginp
+jsp_dir: ${source_dir}/ginp-code/target/classes
+
+app_source_dir: [ "${source_dir}/ginp-code/src/main/java", "${source_dir}/ginp-code/target/jsp-source" ]

@@ -1,0 +1,195 @@
+- access-sigs: ['<com.mvnforum.MVNForumConfig: int getMaxAttachDays()>', '<com.mvnforum.MVNForumConfig: boolean getEnableShowLastLogin()>', '<com.mvnforum.MVNForumConfig: int getMaxLoginsPerHour()>', '<com.mvnforum.MVNForumConfig: int getMaxDeleteDays()>', '<com.mvnforum.MVNForumConfig: java.lang.String getAvatarDir()>', '<com.mvnforum.MVNForumConfig: java.lang.String getDefaultGuestName()>', '<com.mvnforum.MVNForumConfig: java.lang.String getLogDir()>', '<com.mvnforum.MVNForumConfig: java.lang.String getBackupDir()>', '<com.mvnforum.MVNForumConfig: java.lang.String getPmAttachmentDir()>', '<com.mvnforum.MVNForumConfig: boolean getEnableLogin()>', '<com.mvnforum.MVNForumConfig: int getSearchCompanyIndexType()>', '<com.mvnforum.MVNForumConfig: boolean getEnableOnlineUsers()>', '<com.mvnforum.MVNForumConfig: boolean getEnableListMembers()>', '<com.mvnforum.MVNForumConfig: boolean getEnableMostActiveMembers()>', '<com.mvnforum.MVNForumConfig: int getDefaultModerationOption()>', '<com.mvnforum.MVNForumConfig: java.lang.String getSearchPostIndexDirName()>', '<com.mvnforum.MVNForumConfig: int getMaxCharsInRss()>', '<com.mvnforum.MVNForumConfig: org.apache.lucene.store.Directory getSearchCompanyIndexDir()>', '<com.mvnforum.MVNForumConfig: boolean getEnableSearch()>', '<com.mvnforum.MVNForumConfig: boolean getEnableAvatar()>', '<com.mvnforum.MVNForumConfig: int getMaxPostsPerHour()>', '<com.mvnforum.MVNForumConfig: int getMaxPrivateMessage()>', '<com.mvnforum.MVNForumConfig: boolean getEnablePublicMessage()>', '<com.mvnforum.MVNForumConfig: java.lang.String getMVNForumHome()>', '<com.mvnforum.MVNForumConfig: boolean getEnableAutoForumOwner()>', '<com.mvnforum.MVNForumConfig: boolean getEnableListCompanies()>', '<com.mvnforum.MVNForumConfig: freemarker.template.Configuration getFreeMarkerConfiguration()>', '<com.mvnforum.MVNForumConfig: boolean getEnableLoginInfoInCookie()>', '<com.mvnforum.MVNForumConfig: boolean getEnableNewMember()>', '<com.mvnforum.MVNForumConfig: int getMaxMessageAttachmentSize()>', '<com.mvnforum.MVNForumConfig: boolean getEnableCachePost()>', '<com.mvnforum.MVNForumConfig: int getMaxActiveMembers()>', '<com.mvnforum.MVNForumConfig: java.lang.String getSearchCompanyIndexDirName()>', '<com.mvnforum.MVNForumConfig: boolean getEnableLoginInfoInRealm()>', '<com.mvnforum.MVNForumConfig: int getMaxEditDays()>', '<com.mvnforum.MVNForumConfig: java.util.Locale[] getSupportedLocales()>', '<com.mvnforum.MVNForumConfig: boolean getEnableCaptcha()>', '<com.mvnforum.MVNForumConfig: boolean getEnableCacheCategory()>', '<com.mvnforum.MVNForumConfig: boolean getEnableCacheThread()>', '<com.mvnforum.MVNForumConfig: java.lang.String getLogoUrl()>', '<com.mvnforum.MVNForumConfig: java.lang.String getTemplateDir()>', '<com.mvnforum.MVNForumConfig: boolean getEnableAdminCanChangePassword()>', '<com.mvnforum.MVNForumConfig: int getHotTopicThreshold()>', '<com.mvnforum.MVNForumConfig: org.apache.lucene.store.Directory getSearchMemberIndexDir(boolean)>', '<com.mvnforum.MVNForumConfig: org.apache.lucene.store.Directory getSearchPostIndexDir()>', '<com.mvnforum.MVNForumConfig: java.lang.String getAttachmentDir()>', '<com.mvnforum.MVNForumConfig: int getMaxImportSize()>', '<com.mvnforum.MVNForumConfig: org.apache.lucene.store.Directory getSearchMemberIndexDir()>', '<com.mvnforum.MVNForumConfig: double getDefaultGuestTimeZone()>', '<com.mvnforum.MVNForumConfig: java.lang.String[] getSupportedLocaleNames()>', '<com.mvnforum.MVNForumConfig: int getMaxCharsInLongSummary()>', '<com.mvnforum.MVNForumConfig: int getSearchMemberIndexType()>', '<com.mvnforum.MVNForumConfig: java.lang.String getLocaleParameterName()>', '<com.mvnforum.MVNForumConfig: boolean getEnableRSS()>', '<com.mvnforum.MVNForumConfig: java.lang.String getLogFile()>', '<com.mvnforum.MVNForumConfig: int getMaxMessagesPerHour()>', '<com.mvnforum.MVNForumConfig: boolean getEnableWatch()>', '<com.mvnforum.MVNForumConfig: boolean getEnablePortalLikeIndexPage()>', '<com.mvnforum.MVNForumConfig: boolean getEnableCompany()>', '<com.mvnforum.MVNForumConfig: int getMaxMembersPerHour()>', '<com.mvnforum.MVNForumConfig: int getRowsPerRSS()>', '<com.mvnforum.MVNForumConfig: java.lang.String getReason()>', '<com.mvnforum.MVNForumConfig: boolean getEnableLoginInfoInCustomization()>', '<com.mvnforum.MVNForumConfig: java.lang.String getTempDir()>', '<com.mvnforum.MVNForumConfig: int getDefaultWatchOption()>', '<com.mvnforum.MVNForumConfig: boolean getEnableNewPost()>', '<com.mvnforum.MVNForumConfig: int getMaxAttachmentSize()>', '<com.mvnforum.MVNForumConfig: int getMaxActiveThreads()>', '<com.mvnforum.MVNForumConfig: java.lang.String getDefaultLocaleName()>', '<com.mvnforum.MVNForumConfig: boolean getEnableMostActiveThreads()>', '<com.mvnforum.MVNForumConfig: boolean getShouldShowUserArea()>', '<com.mvnforum.MVNForumConfig: boolean getEnableSiteStatisticsOverview()>', '<com.mvnforum.MVNForumConfig: boolean getEnableInvisibleUsers()>', '<com.mvnforum.MVNForumConfig: boolean getEnableMessageAttachment()>', '<com.mvnforum.MVNForumConfig: boolean getEnableCacheMember()>', '<com.mvnforum.MVNForumConfig: boolean getEnableEmoticon()>', '<com.mvnforum.MVNForumConfig: boolean getEnableAttachment()>', '<com.mvnforum.MVNForumConfig: int getMaxCharsInShortSummary()>', '<com.mvnforum.MVNForumConfig: java.lang.String getSearchMemberIndexDirName()>', '<com.mvnforum.MVNForumConfig: int getMaxFavoriteThread()>', '<com.mvnforum.MVNForumConfig: boolean getEnablePrivateMessage()>', '<com.mvnforum.MVNForumConfig: org.apache.lucene.store.Directory getSearchCompanyIndexDir(boolean)>', '<com.mvnforum.MVNForumConfig: org.apache.lucene.store.Directory getSearchPostIndexDir(boolean)>', '<com.mvnforum.MVNForumConfig: int getSearchPostIndexType()>', '<com.mvnforum.MVNForumConfig: boolean getRequireActivation()>', '<com.mvnforum.MVNForumConfig: int getUserTutorExpireSoonDate()>', '<com.mvnforum.MVNForumConfig: boolean getEnablePasswordlessAuth()>', '<com.mvnforum.MVNForumConfig: java.util.Locale getDefaultLocale()>', '<com.mvnforum.MVNForumConfig: boolean getEnableCacheForum()>', '<com.mvnforum.MVNForumConfig: int getRowsPerPage()>', '<com.mvnforum.MVNForumConfig: boolean getEnableLoginInfoInSession()>', '<com.mvnforum.MVNForumConfig: int getExpireDateTutor()>', '<com.mvnforum.MVNForumConfig: java.lang.String getRedirectLoginURL()>', '<com.mvnforum.MVNForumConfig: boolean getEnableGuestViewImageAttachment()>', '<com.mvnforum.MVNForumConfig: java.lang.String getWebMasterEmail()>', '<com.mvnforum.MVNForumConfig: boolean getEnablePortlet()>', '<com.mvnforum.MVNForumConfig: boolean getEnableDuplicateOnlineUsers()>']
+- resources: [reason]
+  sig: '<com.mvnforum.MVNForumConfig: java.lang.String getReason()>'
+- resources: [shouldShowUserArea]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getShouldShowUserArea()>'
+- resources: [freeMarkerConfiguration]
+  sig: '<com.mvnforum.MVNForumConfig: freemarker.template.Configuration getFreeMarkerConfiguration()>'
+- resources: [mVNForumHome]
+  sig: '<com.mvnforum.MVNForumConfig: java.lang.String getMVNForumHome()>'
+- resources: [tempDir]
+  sig: '<com.mvnforum.MVNForumConfig: java.lang.String getTempDir()>'
+- resources: [searchPostIndexType]
+  sig: '<com.mvnforum.MVNForumConfig: int getSearchPostIndexType()>'
+- resources: [searchPostIndexDirName]
+  sig: '<com.mvnforum.MVNForumConfig: java.lang.String getSearchPostIndexDirName()>'
+- resources: [searchPostIndexDir]
+  sig: '<com.mvnforum.MVNForumConfig: org.apache.lucene.store.Directory getSearchPostIndexDir(boolean)>'
+- resources: [searchPostIndexDir]
+  sig: '<com.mvnforum.MVNForumConfig: org.apache.lucene.store.Directory getSearchPostIndexDir()>'
+- resources: [searchMemberIndexType]
+  sig: '<com.mvnforum.MVNForumConfig: int getSearchMemberIndexType()>'
+- resources: [searchMemberIndexDirName]
+  sig: '<com.mvnforum.MVNForumConfig: java.lang.String getSearchMemberIndexDirName()>'
+- resources: [searchMemberIndexDir]
+  sig: '<com.mvnforum.MVNForumConfig: org.apache.lucene.store.Directory getSearchMemberIndexDir(boolean)>'
+- resources: [searchMemberIndexDir]
+  sig: '<com.mvnforum.MVNForumConfig: org.apache.lucene.store.Directory getSearchMemberIndexDir()>'
+- resources: [searchCompanyIndexType]
+  sig: '<com.mvnforum.MVNForumConfig: int getSearchCompanyIndexType()>'
+- resources: [searchCompanyIndexDirName]
+  sig: '<com.mvnforum.MVNForumConfig: java.lang.String getSearchCompanyIndexDirName()>'
+- resources: [searchCompanyIndexDir]
+  sig: '<com.mvnforum.MVNForumConfig: org.apache.lucene.store.Directory getSearchCompanyIndexDir(boolean)>'
+- resources: [searchCompanyIndexDir]
+  sig: '<com.mvnforum.MVNForumConfig: org.apache.lucene.store.Directory getSearchCompanyIndexDir()>'
+- resources: [attachmentDir]
+  sig: '<com.mvnforum.MVNForumConfig: java.lang.String getAttachmentDir()>'
+- resources: [pmAttachmentDir]
+  sig: '<com.mvnforum.MVNForumConfig: java.lang.String getPmAttachmentDir()>'
+- resources: [templateDir]
+  sig: '<com.mvnforum.MVNForumConfig: java.lang.String getTemplateDir()>'
+- resources: [backupDir]
+  sig: '<com.mvnforum.MVNForumConfig: java.lang.String getBackupDir()>'
+- resources: [logDir]
+  sig: '<com.mvnforum.MVNForumConfig: java.lang.String getLogDir()>'
+- resources: [logFile]
+  sig: '<com.mvnforum.MVNForumConfig: java.lang.String getLogFile()>'
+- resources: [avatarDir]
+  sig: '<com.mvnforum.MVNForumConfig: java.lang.String getAvatarDir()>'
+- resources: [redirectLoginURL]
+  sig: '<com.mvnforum.MVNForumConfig: java.lang.String getRedirectLoginURL()>'
+- resources: [webMasterEmail]
+  sig: '<com.mvnforum.MVNForumConfig: java.lang.String getWebMasterEmail()>'
+- resources: [logoUrl]
+  sig: '<com.mvnforum.MVNForumConfig: java.lang.String getLogoUrl()>'
+- resources: [supportedLocaleNames]
+  sig: '<com.mvnforum.MVNForumConfig: java.lang.String[] getSupportedLocaleNames()>'
+- resources: [supportedLocales]
+  sig: '<com.mvnforum.MVNForumConfig: java.util.Locale[] getSupportedLocales()>'
+- resources: [defaultLocaleName]
+  sig: '<com.mvnforum.MVNForumConfig: java.lang.String getDefaultLocaleName()>'
+- resources: [defaultLocale]
+  sig: '<com.mvnforum.MVNForumConfig: java.util.Locale getDefaultLocale()>'
+- resources: [localeParameterName]
+  sig: '<com.mvnforum.MVNForumConfig: java.lang.String getLocaleParameterName()>'
+- resources: [defaultGuestName]
+  sig: '<com.mvnforum.MVNForumConfig: java.lang.String getDefaultGuestName()>'
+- resources: [defaultGuestTimeZone]
+  sig: '<com.mvnforum.MVNForumConfig: double getDefaultGuestTimeZone()>'
+- resources: [enablePortlet]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getEnablePortlet()>'
+- resources: [enablePasswordlessAuth]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getEnablePasswordlessAuth()>'
+- resources: [requireActivation]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getRequireActivation()>'
+- resources: [enableLoginInfoInCookie]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getEnableLoginInfoInCookie()>'
+- resources: [enableLoginInfoInSession]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getEnableLoginInfoInSession()>'
+- resources: [enableLoginInfoInRealm]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getEnableLoginInfoInRealm()>'
+- resources: [enableLoginInfoInCustomization]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getEnableLoginInfoInCustomization()>'
+- resources: [enableLogin]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getEnableLogin()>'
+- resources: [enableCacheMember]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getEnableCacheMember()>'
+- resources: [enableCachePost]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getEnableCachePost()>'
+- resources: [enableCacheThread]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getEnableCacheThread()>'
+- resources: [enableCacheForum]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getEnableCacheForum()>'
+- resources: [enableCacheCategory]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getEnableCacheCategory()>'
+- resources: [enableGuestViewImageAttachment]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getEnableGuestViewImageAttachment()>'
+- resources: [enableNewMember]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getEnableNewMember()>'
+- resources: [enableNewPost]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getEnableNewPost()>'
+- resources: [enableAvatar]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getEnableAvatar()>'
+- resources: [enableEmoticon]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getEnableEmoticon()>'
+- resources: [enableRSS]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getEnableRSS()>'
+- resources: [enableSearch]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getEnableSearch()>'
+- resources: [enableWatch]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getEnableWatch()>'
+- resources: [enableAttachment]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getEnableAttachment()>'
+- resources: [enableMessageAttachment]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getEnableMessageAttachment()>'
+- resources: [enableMostActiveThreads]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getEnableMostActiveThreads()>'
+- resources: [enableMostActiveMembers]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getEnableMostActiveMembers()>'
+- resources: [enableSiteStatisticsOverview]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getEnableSiteStatisticsOverview()>'
+- resources: [maxAttachmentSize]
+  sig: '<com.mvnforum.MVNForumConfig: int getMaxAttachmentSize()>'
+- resources: [maxMessageAttachmentSize]
+  sig: '<com.mvnforum.MVNForumConfig: int getMaxMessageAttachmentSize()>'
+- resources: [enableAutoForumOwner]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getEnableAutoForumOwner()>'
+- resources: [enableCaptcha]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getEnableCaptcha()>'
+- resources: [enablePortalLikeIndexPage]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getEnablePortalLikeIndexPage()>'
+- resources: [enableAdminCanChangePassword]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getEnableAdminCanChangePassword()>'
+- resources: [enableShowLastLogin]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getEnableShowLastLogin()>'
+- resources: [enableOnlineUsers]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getEnableOnlineUsers()>'
+- resources: [enableDuplicateOnlineUsers]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getEnableDuplicateOnlineUsers()>'
+- resources: [enableInvisibleUsers]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getEnableInvisibleUsers()>'
+- resources: [enableListMembers]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getEnableListMembers()>'
+- resources: [enablePrivateMessage]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getEnablePrivateMessage()>'
+- resources: [enablePublicMessage]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getEnablePublicMessage()>'
+- resources: [enableCompany]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getEnableCompany()>'
+- resources: [enableListCompanies]
+  sig: '<com.mvnforum.MVNForumConfig: boolean getEnableListCompanies()>'
+- resources: [expireDateTutor]
+  sig: '<com.mvnforum.MVNForumConfig: int getExpireDateTutor()>'
+- resources: [userTutorExpireSoonDate]
+  sig: '<com.mvnforum.MVNForumConfig: int getUserTutorExpireSoonDate()>'
+- resources: [maxFavoriteThread]
+  sig: '<com.mvnforum.MVNForumConfig: int getMaxFavoriteThread()>'
+- resources: [maxPrivateMessage]
+  sig: '<com.mvnforum.MVNForumConfig: int getMaxPrivateMessage()>'
+- resources: [hotTopicThreshold]
+  sig: '<com.mvnforum.MVNForumConfig: int getHotTopicThreshold()>'
+- resources: [maxPostsPerHour]
+  sig: '<com.mvnforum.MVNForumConfig: int getMaxPostsPerHour()>'
+- resources: [maxMembersPerHour]
+  sig: '<com.mvnforum.MVNForumConfig: int getMaxMembersPerHour()>'
+- resources: [maxLoginsPerHour]
+  sig: '<com.mvnforum.MVNForumConfig: int getMaxLoginsPerHour()>'
+- resources: [maxMessagesPerHour]
+  sig: '<com.mvnforum.MVNForumConfig: int getMaxMessagesPerHour()>'
+- resources: [maxActiveThreads]
+  sig: '<com.mvnforum.MVNForumConfig: int getMaxActiveThreads()>'
+- resources: [maxActiveMembers]
+  sig: '<com.mvnforum.MVNForumConfig: int getMaxActiveMembers()>'
+- resources: [maxImportSize]
+  sig: '<com.mvnforum.MVNForumConfig: int getMaxImportSize()>'
+- resources: [maxEditDays]
+  sig: '<com.mvnforum.MVNForumConfig: int getMaxEditDays()>'
+- resources: [maxAttachDays]
+  sig: '<com.mvnforum.MVNForumConfig: int getMaxAttachDays()>'
+- resources: [maxDeleteDays]
+  sig: '<com.mvnforum.MVNForumConfig: int getMaxDeleteDays()>'
+- resources: [rowsPerPage]
+  sig: '<com.mvnforum.MVNForumConfig: int getRowsPerPage()>'
+- resources: [rowsPerRSS]
+  sig: '<com.mvnforum.MVNForumConfig: int getRowsPerRSS()>'
+- resources: [defaultWatchOption]
+  sig: '<com.mvnforum.MVNForumConfig: int getDefaultWatchOption()>'
+- resources: [defaultModerationOption]
+  sig: '<com.mvnforum.MVNForumConfig: int getDefaultModerationOption()>'
+- resources: [maxCharsInShortSummary]
+  sig: '<com.mvnforum.MVNForumConfig: int getMaxCharsInShortSummary()>'
+- resources: [maxCharsInLongSummary]
+  sig: '<com.mvnforum.MVNForumConfig: int getMaxCharsInLongSummary()>'
+- resources: [maxCharsInRss]
+  sig: '<com.mvnforum.MVNForumConfig: int getMaxCharsInRss()>'

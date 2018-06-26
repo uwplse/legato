@@ -1,0 +1,93 @@
+- access-sigs: ['<org.snipsnap.config.Configuration: java.lang.String getUrl()>', '<org.snipsnap.config.Configuration: java.lang.String getGeoCoordinates()>', '<org.snipsnap.config.Configuration: java.lang.String getAdminEmail()>', '<org.snipsnap.config.Configuration: java.io.File getFilePath(java.lang.String)>', '<org.snipsnap.config.Configuration: java.lang.String getConfigured()>', '<org.snipsnap.config.Configuration: java.lang.String getPermExternalImages()>', '<org.snipsnap.config.Configuration: java.lang.String getRealHost()>', '<org.snipsnap.config.Configuration: java.lang.String getTheme()>', '<org.snipsnap.config.Configuration: java.lang.String getPermMultiplePosts()>', '<org.snipsnap.config.Configuration: java.io.File getFileStore(java.lang.String)>', '<org.snipsnap.config.Configuration: java.lang.String getAdminLogin()>', '<org.snipsnap.config.Configuration: java.util.Locale getLocale()>', '<org.snipsnap.config.Configuration: java.lang.String getRealProtocol()>', '<org.snipsnap.config.Configuration: java.lang.String getFeatureSniplinksShow()>', '<org.snipsnap.config.Configuration: java.lang.String getPrefix()>', '<org.snipsnap.config.Configuration: java.lang.String getMailHost()>', '<org.snipsnap.config.Configuration: java.lang.String getSnipUrl(java.lang.String)>', '<org.snipsnap.config.Configuration: java.lang.String getUrl(java.lang.String)>', '<org.snipsnap.config.Configuration: java.lang.String getMailPop3User()>', '<org.snipsnap.config.Configuration: java.io.File getFilePath()>', '<org.snipsnap.config.Configuration: java.lang.String getTimezone()>', '<org.snipsnap.config.Configuration: java.lang.String getMailDomain()>', '<org.snipsnap.config.Configuration: java.lang.String getRealAutodetect()>', '<org.snipsnap.config.Configuration: java.io.File getUserPath(java.lang.String)>', '<org.snipsnap.config.Configuration: java.lang.String getMailPop3Interval()>', '<org.snipsnap.config.Configuration: java.lang.String getLanguage()>', '<org.snipsnap.config.Configuration: java.lang.String getMailPop3Host()>', '<org.snipsnap.config.Configuration: java.io.File getIndexPath()>', '<org.snipsnap.config.Configuration: java.lang.String getStartSnip()>', '<org.snipsnap.config.Configuration: java.lang.String getCountry()>', '<org.snipsnap.config.Configuration: java.lang.String getPermNotification()>', '<org.snipsnap.config.Configuration: java.lang.String getWeblogDateFormat()>', '<org.snipsnap.config.Configuration: java.lang.String getTagline()>', '<org.snipsnap.config.Configuration: java.lang.String getAdminPassword()>', '<org.snipsnap.config.Configuration: java.lang.String getLogo()>', '<org.snipsnap.config.Configuration: java.lang.String getMailPop3Password()>', '<org.snipsnap.config.Configuration: java.lang.String getPermRegister()>', '<org.snipsnap.config.Configuration: java.lang.String getFeatureReferrerShow()>', '<org.snipsnap.config.Configuration: boolean getAllowRegister()>', '<org.snipsnap.config.Configuration: java.lang.String getRealPort()>', '<org.snipsnap.config.Configuration: java.lang.String getRealPath()>', '<org.snipsnap.config.Configuration: java.lang.String getPermWeblogsPing()>', '<org.snipsnap.config.Configuration: java.lang.String getName()>', '<org.snipsnap.config.Configuration: java.lang.String getEncodedSpace()>', '<org.snipsnap.config.Configuration: java.lang.String getMailBlogPassword()>', '<org.snipsnap.config.Configuration: java.lang.String getPermCreateSnip()>']
+- resources: [fileStore]
+  sig: '<org.snipsnap.config.Configuration: java.io.File getFileStore(java.lang.String)>'
+- resources: [filePath]
+  sig: '<org.snipsnap.config.Configuration: java.io.File getFilePath(java.lang.String)>'
+- resources: [userPath]
+  sig: '<org.snipsnap.config.Configuration: java.io.File getUserPath(java.lang.String)>'
+- resources: [filePath]
+  sig: '<org.snipsnap.config.Configuration: java.io.File getFilePath()>'
+- resources: [indexPath]
+  sig: '<org.snipsnap.config.Configuration: java.io.File getIndexPath()>'
+- resources: [locale]
+  sig: '<org.snipsnap.config.Configuration: java.util.Locale getLocale()>'
+- resources: [url]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getUrl()>'
+- resources: [url]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getUrl(java.lang.String)>'
+- resources: [snipUrl]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getSnipUrl(java.lang.String)>'
+- resources: [allowRegister]
+  sig: '<org.snipsnap.config.Configuration: boolean getAllowRegister()>'
+- resources: [adminEmail]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getAdminEmail()>'
+- resources: [adminLogin]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getAdminLogin()>'
+- resources: [adminPassword]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getAdminPassword()>'
+- resources: [configured]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getConfigured()>'
+- resources: [country]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getCountry()>'
+- resources: [encodedSpace]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getEncodedSpace()>'
+- resources: [featureReferrerShow]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getFeatureReferrerShow()>'
+- resources: [featureSniplinksShow]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getFeatureSniplinksShow()>'
+- resources: [geoCoordinates]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getGeoCoordinates()>'
+- resources: [language]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getLanguage()>'
+- resources: [logo]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getLogo()>'
+- resources: [mailBlogPassword]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getMailBlogPassword()>'
+- resources: [mailDomain]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getMailDomain()>'
+- resources: [mailHost]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getMailHost()>'
+- resources: [mailPop3Host]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getMailPop3Host()>'
+- resources: [mailPop3Interval]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getMailPop3Interval()>'
+- resources: [mailPop3Password]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getMailPop3Password()>'
+- resources: [mailPop3User]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getMailPop3User()>'
+- resources: [name]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getName()>'
+- resources: [permCreateSnip]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getPermCreateSnip()>'
+- resources: [permExternalImages]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getPermExternalImages()>'
+- resources: [permMultiplePosts]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getPermMultiplePosts()>'
+- resources: [permNotification]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getPermNotification()>'
+- resources: [permRegister]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getPermRegister()>'
+- resources: [permWeblogsPing]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getPermWeblogsPing()>'
+- resources: [prefix]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getPrefix()>'
+- resources: [realAutodetect]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getRealAutodetect()>'
+- resources: [realHost]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getRealHost()>'
+- resources: [realPath]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getRealPath()>'
+- resources: [realPort]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getRealPort()>'
+- resources: [realProtocol]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getRealProtocol()>'
+- resources: [startSnip]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getStartSnip()>'
+- resources: [tagline]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getTagline()>'
+- resources: [theme]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getTheme()>'
+- resources: [timezone]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getTimezone()>'
+- resources: [weblogDateFormat]
+  sig: '<org.snipsnap.config.Configuration: java.lang.String getWeblogDateFormat()>'

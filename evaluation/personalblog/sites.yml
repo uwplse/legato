@@ -1,0 +1,63 @@
+- {containing-method: '<net.eyde.personalblog.struts.action.CommentAction$LegatoCollapse$20:
+    org.apache.struts.action.ActionForward executeFinish(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.eyde.personalblog.struts.action.CommentAction$LegatoCollapse$20,
+  line: null, method: '<net.eyde.personalblog.service.PropertyManager: java.lang.String
+    getProperty(java.lang.String)>', tag: 512, unit-string: 'r32 = virtualinvoke $r21.<net.eyde.personalblog.service.PropertyManager:
+    java.lang.String getProperty(java.lang.String)>("weblog.email")'}
+- {containing-method: '<net.eyde.personalblog.struts.action.CommentAction$LegatoCollapse$0:
+    org.apache.struts.action.ActionForward executeFinish(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.eyde.personalblog.struts.action.CommentAction$LegatoCollapse$0,
+  line: null, method: '<net.eyde.personalblog.service.Email: void sendMessage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>',
+  tag: 410, unit-string: 'staticinvoke <net.eyde.personalblog.service.Email: void
+    sendMessage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>($r26,
+    $r27, r32, r33)'}
+- {containing-method: '<net.eyde.personalblog.PseudoMain$LegatoForward$_19: void doForwardNow(javax.servlet.ServletContext,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.eyde.personalblog.PseudoMain$LegatoForward$_19, line: '2477',
+  method: '<javax.servlet.RequestDispatcher: void forward(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>',
+  source-file: PseudoMain.java, tag: 1260, unit-string: 'interfaceinvoke $r6.<javax.servlet.RequestDispatcher:
+    void forward(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>(r2,
+    r3)'}
+- {containing-method: '<net.eyde.personalblog.service.Email: void sendMessage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>',
+  containing-type: net.eyde.personalblog.service.Email, line: '49', method: '<net.eyde.personalblog.service.PropertyManager:
+    java.lang.String getProperty(java.lang.String)>', source-file: Email.java, tag: 407,
+  unit-string: '$r18 = virtualinvoke $r19.<net.eyde.personalblog.service.PropertyManager:
+    java.lang.String getProperty(java.lang.String)>("weblog.email")'}
+- {containing-method: '<net.eyde.personalblog.service.Email: void sendMessage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>',
+  containing-type: net.eyde.personalblog.service.Email, line: '34', method: '<net.eyde.personalblog.service.PropertyManager:
+    java.lang.String getProperty(java.lang.String)>', source-file: Email.java, tag: 406,
+  unit-string: '$r12 = virtualinvoke $r11.<net.eyde.personalblog.service.PropertyManager:
+    java.lang.String getProperty(java.lang.String)>("mail.smtp.host")'}
+- {containing-method: '<net.eyde.personalblog.struts.action.CommentAction$LegatoCollapse$0:
+    org.apache.struts.action.ActionForward executeFinish(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.eyde.personalblog.struts.action.CommentAction$LegatoCollapse$0,
+  line: null, method: '<net.eyde.personalblog.service.PropertyManager: java.lang.String
+    getProperty(java.lang.String)>', tag: 404, unit-string: 'r32 = virtualinvoke $r21.<net.eyde.personalblog.service.PropertyManager:
+    java.lang.String getProperty(java.lang.String)>("weblog.email")'}
+- {containing-method: '<net.eyde.personalblog.struts.action.CommentAction$LegatoCollapse$3:
+    org.apache.struts.action.ActionForward executeFinish(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.eyde.personalblog.struts.action.CommentAction$LegatoCollapse$3,
+  line: null, method: '<net.eyde.personalblog.service.Email: void sendMessage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>',
+  tag: 469, unit-string: 'staticinvoke <net.eyde.personalblog.service.Email: void
+    sendMessage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>($r26,
+    $r27, r32, r33)'}
+- {containing-method: '<net.eyde.personalblog.service.Email: void sendMessage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>',
+  containing-type: net.eyde.personalblog.service.Email, line: '57', method: '<net.eyde.personalblog.service.PersonalBlogService:
+    net.eyde.personalblog.service.PersonalBlogService getInstance()>', source-file: Email.java,
+  tag: 1547, unit-string: '$r23 = staticinvoke <net.eyde.personalblog.service.PersonalBlogService:
+    net.eyde.personalblog.service.PersonalBlogService getInstance()>()'}
+- {containing-method: '<net.eyde.personalblog.PseudoMain$Dispatcher_49: void forward(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>',
+  containing-type: net.eyde.personalblog.PseudoMain$Dispatcher_49, line: '1160', source-file: PseudoMain.java,
+  tag: 1546, unit-string: nop}
+- {containing-method: '<net.eyde.personalblog.struts.action.CommentAction$LegatoCollapse$20:
+    org.apache.struts.action.ActionForward executeFinish(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.eyde.personalblog.struts.action.CommentAction$LegatoCollapse$20,
+  line: null, method: '<net.eyde.personalblog.service.Email: void sendMessage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>',
+  tag: 1474, unit-string: 'staticinvoke <net.eyde.personalblog.service.Email: void
+    sendMessage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>($r26,
+    $r27, r32, r33)'}
+- {containing-method: '<net.eyde.personalblog.struts.action.CommentAction$LegatoCollapse$3:
+    org.apache.struts.action.ActionForward executeFinish(org.apache.struts.action.ActionMapping,org.apache.struts.action.ActionForm,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+  containing-type: net.eyde.personalblog.struts.action.CommentAction$LegatoCollapse$3,
+  line: null, method: '<net.eyde.personalblog.service.PropertyManager: java.lang.String
+    getProperty(java.lang.String)>', tag: 466, unit-string: 'r32 = virtualinvoke $r21.<net.eyde.personalblog.service.PropertyManager:
+    java.lang.String getProperty(java.lang.String)>("weblog.email")'}

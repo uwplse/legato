@@ -1,0 +1,27 @@
+app_classes: "${source_dir}/subsonic-orig/subsonic-main/target/classes"
+web_xml: ${source_dir}/subsonic-orig/subsonic-main/target/subsonic/WEB-INF/web.xml
+jsp_dir: ${this_dir}/generated-jsp
+
+jsp-mapping: ${this_dir}/generated-jsp/jsp-mapping.xml
+
+output_package: net.sourceforge.subsonic
+
+error_pages: [ "/error.jsp" ]
+
+lib_dir: "${source_dir}/subsonic-orig/subsonic-main/target/subsonic/WEB-INF/lib"
+
+custom_compile:
+  - "mkdir -p ${this_dir}/generated/net/sourceforge/subsonic"
+  - "mkdir -p ${jsp_dir}"
+
+  - "cp ${this_dir}/PseudoMain.java ${this_dir}/generated/net/sourceforge/subsonic"
+
+  - "java -cp ${tomcat_path}/*:${tomcat_bin}/*:/usr/share/ant/lib/* org.apache.jasper.JspC -p net.sourceforge.subsonic -d ${jsp_dir} -webinc ${jsp_mapping} -compile -webapp ${source_dir}/subsonic-orig/subsonic-main/target/subsonic/"
+
+  - "python ${util_dir}/generate_servlet_model.py ${servlet_file} > /dev/null 2> ${this_dir}/generated/net/sourceforge/subsonic/routing.yml"
+
+  - "javac -classpath ${lib_dir}/*:${class_path} -sourcepath ${this_dir}/generated -d ${this_dir}/generated ${this_dir}/generated/net/sourceforge/subsonic/PseudoMain.java"
+
+app_source_dir:
+  - "${source_dir}/subsonic-orig/subsonic-main/src/main/java"
+  - "${this_dir}/generated-jsp"

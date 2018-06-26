@@ -1,0 +1,128 @@
+# primitive wrappers
+
+- "<java.lang.Integer,java.lang.Integer>"
+- "<java.lang.Integer,java.lang.String>"
+- "<java.lang.Integer:valueOf>"
+- "<java.lang.Integer:parseInt>"
+- "<java.lang.Long,java.lang.Long>"
+- "<java.lang.Long,java.lang.String>"
+- "<java.lang.Long:valueOf>"
+- "<java.lang.Long:parseLong>"
+- "<java.lang.Byte,java.lang.Byte>"
+- "<java.lang.Byte,java.lang.String>"
+- "<java.lang.Byte:valueOf>"
+- "<java.lang.Byte:parseByte>"
+- "<java.lang.Short,java.lang.Short>"
+- "<java.lang.Short,java.lang.String>"
+- "<java.lang.Short:valueOf>"
+- "<java.lang.Short:parseShort>"
+- "<java.lang.Character,java.lang.Character>"
+- "<java.lang.Character,java.lang.String>"
+- "<java.lang.Character:valueOf>"
+- "<java.lang.Boolean,java.lang.Boolean>"
+- "<java.lang.Boolean,java.lang.String>"
+- "<java.lang.Boolean:valueOf>"
+- "<java.lang.Boolean:parseBoolean>"
+- "<java.lang.Double,java.lang.Double>"
+- "<java.lang.Double,java.lang.String>"
+- "<java.lang.Double:valueOf>"
+- "<java.lang.Double:parseDouble>"
+- "<java.lang.Float,java.lang.Float>"
+- "<java.lang.Float,java.lang.String>"
+- "<java.lang.Float:valueOf>"
+- "<java.lang.Float:parseFloat>"
+
+- "^<java.lang.Float:<init>>"
+- "^<java.lang.Double:<init>>"
+- "^<java.lang.Integer:<init>>"
+- "^<java.lang.Short:<init>>"
+- "^<java.lang.Long:<init>>"
+- "^<java.lang.Boolean:<init>>"
+- "^<java.lang.Character:<init>>"
+- "^<java.lang.Byte:<init>>"
+
+# strings
+- rule: <java.lang.String,java.lang.String>
+- rule: <java.lang.StringBuilder,java.lang.String>
+- rule: ~<java.lang.StringBuilder,java.lang.StringBuilder>
+- rule: ~<java.lang.StringBuffer,java.lang.StringBuffer>
+- rule: <java.lang.StringBuffer,java.lang.String>
+- "^<java.lang.StringBuffer:<init>>"
+- "^<java.lang.StringBuilder:<init>>"
+
+- "=<java.lang.String,int>"
+- "=<java.lang.String,boolean>"
+- "<java.lang.String,char>"
+- sig: '<java.lang.String: java.lang.String[] split(java.lang.String)>'
+  target: GRAPH
+  resolver: ret-graph
+  fields: [ARRAY_FIELD]
+- sig: '<java.lang.String: byte[] getBytes()>'
+  target: GRAPH
+  resolver: ret-graph
+  fields: [ARRAY_FIELD]
+- sig: '<java.lang.String: byte[] getBytes(java.lang.String)>'
+  target: GRAPH
+  resolver: ret-graph
+  fields: [ARRAY_FIELD]
+- sig: '<java.lang.String: void <init>(byte[],java.lang.String)>'
+  target: RECEIVER
+  subfields: [2]
+
+# jdbc
+- <java.sql.DriverManager,java.sql.Connection>
+- <java.sql.Connection,java.sql.PreparedStatement>
+- <java.sql.Connection,java.sql.Statement>
+- ^<java.sql.PreparedStatement:set*>
+- "=<java.sql.PreparedStatement,int>"
+
+- ^<java.sql.Statement:set*>
+
+- "=<java.sql.Statement,java.sql.ResultSet>"
+- "=<java.sql.PreparedStatement,java.sql.ResultSet>"
+
+- "=<java.sql.ResultSet:get*>"
+- "=<java.sql.Connection,void>"
+
+- "^<java.io.File:<init>>"
+- "<java.io.File,boolean>"
+
+- "^<java.util.Date:<init>>"
+- "^<java.util.Date:set*>"
+- "<java.util.Date,int>"
+- "<java.util.Date,boolean>"
+- "<java.util.Date,long>"
+
+- sig: "<java.text.SimpleDateFormat: java.lang.String format(java.util.Date)>"
+  target: RETURN
+
+# Collections utility class...
+# TODO
+
+# thread local
+- sig: '<java.lang.ThreadLocal: void set(java.lang.Object)>'
+  target: CONTAINER_PUT
+- sig: '<java.lang.ThreadLocal: java.lang.Object get()>'
+  target: CONTAINER_GET
+
+- "=<java.lang.Thread:sleep>"
+
+# properties
+- sig: '<java.util.Properties: java.lang.String getProperty(java.lang.String)>'
+  target: CONTAINER_GET
+- sig: '<java.util.Properties: java.lang.String getProperty(java.lang.String,java.lang.String)>'
+  target: CONTAINER_GET
+- sig: '<java.util.Properties: java.lang.Object setProperty(java.lang.String,java.lang.String)>'
+  target: CONTAINER_PUT
+- sig: '<java.util.Properties: java.lang.Object put(java.lang.Object,java.lang.Object)>'
+  target: CONTAINER_REPLACE
+- sig: '<java.util.Properties: void load(java.io.InputStream)>'
+  target: CONTAINER_PUT
+- sig: '<java.util.Properties: void store(java.io.OutputStream,java.lang.String)>'
+  target: IDENTITY
+
+# math utils
+- "<java.lang.Math,int>"
+- "<java.lang.Math,double>"
+- "<java.lang.Math,long>"
+- "<java.lang.Math,float>"

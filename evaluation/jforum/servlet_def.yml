@@ -1,0 +1,7 @@
+app_classes: ${source_dir}/jforum-legato/build/classes
+web_xml: ${source_dir}/jforum-legato/WEB-INF/web.xml
+output_package: net.jforum
+
+ignore_serv: [ "install" ]
+
+app_source_dir: [ "${source_dir}/jforum-legato/src" ]

@@ -1,0 +1,4 @@
+- sig: "<net.eyde.personalblog.service.PropertyManager: java.lang.String getProperty(java.lang.String)>"
+  pos: 0
+- sig: "<net.eyde.personalblog.service.PropertyManager: java.lang.String getProperty(java.lang.String,boolean)>"
+  pos: 0

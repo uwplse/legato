@@ -1,0 +1,24 @@
+? !!python/tuple
+- <<zero>>(null_type)
+- '<pebble.AllServletsHandlers: void doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse)>'
+- !!python/tuple [CharacterEncoding]
+- return
+: !!python/tuple [fp, path]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<pebble.controller.FrontController: void processRequest(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+- !!python/tuple [CharacterEncoding]
+- $r := @caughtexception
+: !!python/tuple [fp, path]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<pebble.controller.FrontController: void processRequest(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+- !!python/tuple [CharacterEncoding]
+- nop
+: !!python/tuple [fp, path]
+? !!python/tuple
+- <<zero>>(null_type)
+- '<pebble.controller.FrontController: void processRequest(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>'
+- !!python/tuple [Name]
+- 'r = virtualinvoke $r.<java.lang.StringBuffer: java.lang.String toString()>()'
+: !!python/tuple [fp, servlet]

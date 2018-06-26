@@ -1,0 +1,321 @@
+- classification: fp
+  fields:
+    collectionPageName: !!set {? '[$INSTANCE(edu.washington.cse.servlet.SessionAttributes),
+        <<contents>>(net.sf.ginp.GinpModel), currentPage(java.lang.String)]' : null,
+      '[$INSTANCE(edu.washington.cse.servlet.SessionAttributes), <<contents>>(net.sf.ginp.GinpModel)]': null}
+    filmStripThumbSize: !!set {'[$INSTANCE(edu.washington.cse.servlet.SessionAttributes), <<contents>>(net.sf.ginp.GinpModel), pagePosition(int)]': null}
+    forcelocale: !!set {? '[$INSTANCE(edu.washington.cse.servlet.SessionAttributes),
+        <<contents>>(net.sf.ginp.GinpModel), *(Any_subtype_of_java.lang.Object)]'
+      : null, '[$INSTANCE(edu.washington.cse.servlet.SessionAttributes), <<contents>>(net.sf.ginp.GinpModel)]': null}
+  key: !!python/tuple [$INSTANCE, edu.washington.cse.servlet.SessionAttributes]
+  props: !!set {collectionPageName: null, filmStripThumbSize: null, forcelocale: null}
+  tag: static
+- classification: tp
+  f1:
+    filmStripThumbSize:
+    - !!python/tuple [CR, 346, 0, 0]
+    - !!python/tuple [CR, 346, 0, 0]
+    - !!python/tuple [C, 349, 0]
+  f2:
+    filmStripThumbSize:
+    - !!python/tuple [CR, 346, 0, 0]
+    - !!python/tuple [C, 349, 0]
+  key: !!python/tuple ['<jsp.styles.w2k4.picture_jsp: void _jspService(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>',
+    <<zero>>(null_type), '$r60 = virtualinvoke r125.<javax.servlet.jsp.PageContext:
+      java.lang.Object findAttribute(java.lang.String)>("maxsize")|0', 'r151(net.sf.ginp.tags.NavFilmStrip)[pageContext(edu.washington.cse.servlet.jsp.SimplePageContext),
+      attributes(java.util.HashMap), <<contents>>(java.lang.String)]']
+- classification: fp
+  key: !!python/tuple
+  - '<net.sf.ginp.GinpModel: void setUserName(java.lang.String)>'
+  - !!python/tuple ['virtualinvoke $r29.<net.sf.ginp.GinpModel: void setUserName(java.lang.String)>("admin")|0']
+  - r0(net.sf.ginp.GinpModel)[currentPage(java.lang.String)]
+  tag: path
+  units: ['$r7 := @caughtexception|0']
+  value:
+    $r7 := @caughtexception|0:
+      collectionPageName:
+        '[virtualinvoke $r29.<net.sf.ginp.GinpModel: void setUserName(java.lang.String)>("admin")]|<<zero>>(null_type)':
+        - !!python/tuple [C, 26, 0]
+        ? '[virtualinvoke $r29.<net.sf.ginp.GinpModel: void setUserName(java.lang.String)>("admin")]|r0(net.sf.ginp.GinpModel)[currentPage(java.lang.String)]'
+        : - !!python/tuple [CR, 157, 1, 0]
+          - !!python/tuple [CR, 34, 0, 0]
+          - !!python/tuple [CR, 31, 0, 0]
+          - !!python/tuple [C, 26, 0]
+- classification: fp
+  f1:
+    collectionPageName:
+    - !!python/tuple [CR, 181, 0, 0]
+    - !!python/tuple [C, 26, 0]
+  f2:
+    collectionPageName:
+    - !!python/tuple [CR, 157, 1, 0]
+    - !!python/tuple [CR, 34, 0, 0]
+    - !!python/tuple [CR, 31, 0, 0]
+    - !!python/tuple [C, 26, 0]
+  key: !!python/tuple ['<net.sf.ginp.tags.ConfigSettings: int doStartTag()>', <<zero>>(null_type),
+    '$r5 = r0.<net.sf.ginp.tags.ConfigSettings: net.sf.ginp.GinpModel model>|0', 'r0(net.sf.ginp.tags.ConfigSettings)[model(net.sf.ginp.GinpModel),
+      currentPage(java.lang.String)]']
+  tag: path
+- classification: tp
+  key: !!python/tuple
+  - '<net.sf.ginp.tags.GetPictures: int doAfterBody()>'
+  - !!python/tuple ['i1 = virtualinvoke r126.<net.sf.ginp.tags.GetPictures: int doAfterBody()>()|0']
+  - $i10(int)
+  units: ['if $i14 < $i10 goto $i15 = r0.<net.sf.ginp.tags.GetPictures: int count>|0']
+  value:
+    'if $i14 < $i10 goto $i15 = r0.<net.sf.ginp.tags.GetPictures: int count>|0':
+      thumbSize:
+        ? '[i1 = virtualinvoke r126.<net.sf.ginp.tags.GetPictures: int doAfterBody()>()]|r0(net.sf.ginp.tags.GetPictures)[columbs(int)]'
+        : - !!python/tuple [CR, 261, 0, 0]
+          - !!python/tuple [C, 64, 0]
+        '[i1 = virtualinvoke r126.<net.sf.ginp.tags.GetPictures: int doAfterBody()>()]|r0(net.sf.ginp.tags.GetPictures)[rows(int)]':
+        - !!python/tuple [CR, 261, 0, 0]
+        - !!python/tuple [C, 70, 0]
+- classification: tp
+  key: !!python/tuple
+  - '<net.sf.ginp.tags.GetPictures: int doAfterBody()>'
+  - !!python/tuple ['i1 = virtualinvoke r135.<net.sf.ginp.tags.GetPictures: int doAfterBody()>()|0']
+  - $i10(int)
+  units: ['if $i14 < $i10 goto $i15 = r0.<net.sf.ginp.tags.GetPictures: int count>|0',
+    'if $i14 < $i10 goto $i15 = r0.<net.sf.ginp.tags.GetPictures: int count>|0']
+  value:
+    'if $i14 < $i10 goto $i15 = r0.<net.sf.ginp.tags.GetPictures: int count>|0':
+      thumbSize:
+        ? '[i1 = virtualinvoke r135.<net.sf.ginp.tags.GetPictures: int doAfterBody()>()]|r0(net.sf.ginp.tags.GetPictures)[columbs(int)]'
+        : - !!python/tuple [CR, 270, 0, 0]
+          - !!python/tuple [C, 64, 0]
+        '[i1 = virtualinvoke r135.<net.sf.ginp.tags.GetPictures: int doAfterBody()>()]|r0(net.sf.ginp.tags.GetPictures)[rows(int)]':
+        - !!python/tuple [CR, 270, 0, 0]
+        - !!python/tuple [C, 70, 0]
+- classification: tp
+  key: !!python/tuple
+  - '<net.sf.ginp.tags.GetPictures: int doAfterBody()>'
+  - !!python/tuple ['i1 = virtualinvoke r77.<net.sf.ginp.tags.GetPictures: int doAfterBody()>()|0']
+  - $i10(int)
+  units: ['if $i14 < $i10 goto $i15 = r0.<net.sf.ginp.tags.GetPictures: int count>|0']
+  value:
+    'if $i14 < $i10 goto $i15 = r0.<net.sf.ginp.tags.GetPictures: int count>|0':
+      thumbSize:
+        ? '[i1 = virtualinvoke r77.<net.sf.ginp.tags.GetPictures: int doAfterBody()>()]|r0(net.sf.ginp.tags.GetPictures)[columbs(int)]'
+        : - !!python/tuple [CR, 72, 0, 0]
+          - !!python/tuple [C, 64, 0]
+        '[i1 = virtualinvoke r77.<net.sf.ginp.tags.GetPictures: int doAfterBody()>()]|r0(net.sf.ginp.tags.GetPictures)[rows(int)]':
+        - !!python/tuple [CR, 72, 0, 0]
+        - !!python/tuple [C, 70, 0]
+- classification: tp
+  f1:
+    thumbSize:
+    - !!python/tuple [C, 64, 0]
+  f2:
+    thumbSize:
+    - !!python/tuple [C, 70, 0]
+  key: !!python/tuple ['<net.sf.ginp.tags.GetPictures: int doStartTag()>', <<zero>>(null_type),
+    $i24 = $i28 - $i29|0, $i29(int)]
+- classification: tp
+  f1:
+    thumbSize:
+    - !!python/tuple [C, 64, 0]
+  f2:
+    thumbSize:
+    - !!python/tuple [C, 70, 0]
+  key: !!python/tuple ['<net.sf.ginp.tags.GetPictures: int doStartTag()>', <<zero>>(null_type),
+    $i31 = $i32 * 2|0, $i32(int)]
+- classification: tp
+  f1:
+    filmStripThumbSize:
+    - !!python/tuple [C, 307, 0]
+  f2:
+    filmStripThumbSize:
+    - !!python/tuple [C, 337, 0]
+  key: !!python/tuple ['<net.sf.ginp.tags.NavFilmStrip: int doStartTag()>', <<zero>>(null_type),
+    '$r52 = r0.<javax.servlet.jsp.tagext.TagSupport: javax.servlet.jsp.PageContext
+      pageContext>|0', 'r0(net.sf.ginp.tags.NavFilmStrip)[pageContext(edu.washington.cse.servlet.jsp.SimplePageContext),
+      attributes(java.util.HashMap), <<contents>>(java.lang.String)]']
+- classification: fp
+  key: !!python/tuple
+  - '<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>'
+  - !!python/tuple ['virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r24)|0',
+    'virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r49)|0']
+  - r0(net.sf.ginp.tags.TreeMenu)[parent(javax.servlet.jsp.tagext.Tag), model(net.sf.ginp.GinpModel),
+    currentPage(java.lang.String)]
+  tag: cs
+  units: [nop|0]
+  value:
+    nop|0:
+      collectionPageName:
+        ? '[$i0 = virtualinvoke r3.<net.sf.ginp.tags.TreeMenu: int doStartTag()>(),
+          virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r24)]|r0(net.sf.ginp.tags.TreeMenu)[parent(javax.servlet.jsp.tagext.Tag),
+          model(net.sf.ginp.GinpModel), currentPage(java.lang.String)]'
+        : - !!python/tuple [CR, 79, 0, 0]
+          - !!python/tuple [CR, 67, 1, 0]
+          - !!python/tuple [CR, 34, 0, 0]
+          - !!python/tuple [CR, 31, 0, 0]
+          - !!python/tuple [C, 26, 0]
+- classification: fp
+  key: !!python/tuple
+  - '<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>'
+  - !!python/tuple ['virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r24)|0',
+    'virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r49)|0']
+  - r0(net.sf.ginp.tags.TreeMenu)[parent(javax.servlet.jsp.tagext.Tag), model(net.sf.ginp.GinpModel),
+    locale(java.util.Locale), *(Any_subtype_of_java.lang.Object)]
+  tag: cs
+  units: [nop|0]
+  value:
+    nop|0:
+      forcelocale:
+        ? '[$i0 = virtualinvoke r3.<net.sf.ginp.tags.TreeMenu: int doStartTag()>(),
+          virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r24)]|r0(net.sf.ginp.tags.TreeMenu)[parent(javax.servlet.jsp.tagext.Tag),
+          model(net.sf.ginp.GinpModel), locale(java.util.Locale), *(Any_subtype_of_java.lang.Object)]'
+        : - !!python/tuple [CR, 79, 0, 0]
+          - !!python/tuple [CR, 67, 1, 0]
+          - !!python/tuple [CR, 23, 0, 0]
+          - !!python/tuple [C, 22, 0]
+- classification: fp
+  key: !!python/tuple
+  - '<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>'
+  - !!python/tuple ['virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r24)|0',
+    'virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r49)|0',
+    'virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r49)|0',
+    'virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r49)|0',
+    'virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r49)|0',
+    'virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r49)|0']
+  - r0(net.sf.ginp.tags.TreeMenu)[parent(javax.servlet.jsp.tagext.Tag), model(net.sf.ginp.GinpModel),
+    currentPage(java.lang.String)]
+  tag: cs
+  units: [nop|0]
+  value:
+    nop|0:
+      collectionPageName:
+        ? '[$i0 = virtualinvoke r3.<net.sf.ginp.tags.TreeMenu: int doStartTag()>(),
+          virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r24),
+          virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r49),
+          virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r49),
+          virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r49),
+          virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r49)]|r0(net.sf.ginp.tags.TreeMenu)[parent(javax.servlet.jsp.tagext.Tag),
+          model(net.sf.ginp.GinpModel), currentPage(java.lang.String)]'
+        : - !!python/tuple [CR, 66, 0, 0]
+          - !!python/tuple [CR, 67, 1, 0]
+          - !!python/tuple [CR, 34, 0, 0]
+          - !!python/tuple [CR, 31, 0, 0]
+          - !!python/tuple [C, 26, 0]
+- classification: fp
+  key: !!python/tuple
+  - '<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>'
+  - !!python/tuple ['virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r24)|0',
+    'virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r49)|0',
+    'virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r49)|0',
+    'virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r49)|0',
+    'virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r49)|0',
+    'virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r49)|0']
+  - r0(net.sf.ginp.tags.TreeMenu)[parent(javax.servlet.jsp.tagext.Tag), model(net.sf.ginp.GinpModel),
+    locale(java.util.Locale), *(Any_subtype_of_java.lang.Object)]
+  tag: cs
+  units: [nop|0]
+  value:
+    nop|0:
+      forcelocale:
+        ? '[$i0 = virtualinvoke r3.<net.sf.ginp.tags.TreeMenu: int doStartTag()>(),
+          virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r24),
+          virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r49),
+          virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r49),
+          virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r49),
+          virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r49)]|r0(net.sf.ginp.tags.TreeMenu)[parent(javax.servlet.jsp.tagext.Tag),
+          model(net.sf.ginp.GinpModel), locale(java.util.Locale), *(Any_subtype_of_java.lang.Object)]'
+        : - !!python/tuple [CR, 66, 0, 0]
+          - !!python/tuple [CR, 67, 1, 0]
+          - !!python/tuple [CR, 23, 0, 0]
+          - !!python/tuple [C, 22, 0]
+- classification: fp
+  key: !!python/tuple
+  - '<net.sf.ginp.tags.TreeMenu: void doNodes(java.lang.String)>'
+  - !!python/tuple ['virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r24)|0',
+    'virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r49)|0',
+    'virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r49)|0',
+    'virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r49)|0',
+    'virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r49)|0',
+    'virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doNodes(java.lang.String)>($r61)|0']
+  - r0(net.sf.ginp.tags.TreeMenu)[parent(javax.servlet.jsp.tagext.Tag), model(net.sf.ginp.GinpModel),
+    currentPage(java.lang.String)]
+  tag: cs
+  units: [nop|0]
+  value:
+    nop|0:
+      collectionPageName:
+        ? '[$i0 = virtualinvoke r3.<net.sf.ginp.tags.TreeMenu: int doStartTag()>(),
+          virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r24),
+          virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r49),
+          virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r49),
+          virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r49),
+          virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r49)]|r0(net.sf.ginp.tags.TreeMenu)[parent(javax.servlet.jsp.tagext.Tag),
+          model(net.sf.ginp.GinpModel), currentPage(java.lang.String)]'
+        : - !!python/tuple [CR, 66, 0, 0]
+          - !!python/tuple [CR, 67, 1, 0]
+          - !!python/tuple [CR, 34, 0, 0]
+          - !!python/tuple [CR, 31, 0, 0]
+          - !!python/tuple [C, 26, 0]
+- classification: fp
+  key: !!python/tuple
+  - '<net.sf.ginp.tags.TreeMenu: void doNodes(java.lang.String)>'
+  - !!python/tuple ['virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r24)|0',
+    'virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r49)|0',
+    'virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r49)|0',
+    'virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r49)|0',
+    'virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r49)|0',
+    'virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doNodes(java.lang.String)>($r61)|0']
+  - r0(net.sf.ginp.tags.TreeMenu)[parent(javax.servlet.jsp.tagext.Tag), model(net.sf.ginp.GinpModel),
+    locale(java.util.Locale), *(Any_subtype_of_java.lang.Object)]
+  tag: cs
+  units: [nop|0]
+  value:
+    nop|0:
+      forcelocale:
+        ? '[$i0 = virtualinvoke r3.<net.sf.ginp.tags.TreeMenu: int doStartTag()>(),
+          virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r24),
+          virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r49),
+          virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r49),
+          virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r49),
+          virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r49)]|r0(net.sf.ginp.tags.TreeMenu)[parent(javax.servlet.jsp.tagext.Tag),
+          model(net.sf.ginp.GinpModel), locale(java.util.Locale), *(Any_subtype_of_java.lang.Object)]'
+        : - !!python/tuple [CR, 66, 0, 0]
+          - !!python/tuple [CR, 67, 1, 0]
+          - !!python/tuple [CR, 23, 0, 0]
+          - !!python/tuple [C, 22, 0]
+- classification: fp
+  key: !!python/tuple
+  - '<net.sf.ginp.tags.TreeMenu: void doNodes(java.lang.String)>'
+  - !!python/tuple ['virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r24)|0',
+    'virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doNodes(java.lang.String)>($r61)|0']
+  - r0(net.sf.ginp.tags.TreeMenu)[parent(javax.servlet.jsp.tagext.Tag), model(net.sf.ginp.GinpModel),
+    currentPage(java.lang.String)]
+  tag: cs
+  units: [nop|0]
+  value:
+    nop|0:
+      collectionPageName:
+        ? '[$i0 = virtualinvoke r3.<net.sf.ginp.tags.TreeMenu: int doStartTag()>(),
+          virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r24)]|r0(net.sf.ginp.tags.TreeMenu)[parent(javax.servlet.jsp.tagext.Tag),
+          model(net.sf.ginp.GinpModel), currentPage(java.lang.String)]'
+        : - !!python/tuple [CR, 79, 0, 0]
+          - !!python/tuple [CR, 67, 1, 0]
+          - !!python/tuple [CR, 34, 0, 0]
+          - !!python/tuple [CR, 31, 0, 0]
+          - !!python/tuple [C, 26, 0]
+- classification: fp
+  key: !!python/tuple
+  - '<net.sf.ginp.tags.TreeMenu: void doNodes(java.lang.String)>'
+  - !!python/tuple ['virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r24)|0',
+    'virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doNodes(java.lang.String)>($r61)|0']
+  - r0(net.sf.ginp.tags.TreeMenu)[parent(javax.servlet.jsp.tagext.Tag), model(net.sf.ginp.GinpModel),
+    locale(java.util.Locale), *(Any_subtype_of_java.lang.Object)]
+  tag: cs
+  units: [nop|0]
+  value:
+    nop|0:
+      forcelocale:
+        ? '[$i0 = virtualinvoke r3.<net.sf.ginp.tags.TreeMenu: int doStartTag()>(),
+          virtualinvoke r0.<net.sf.ginp.tags.TreeMenu: void doFolders(java.lang.String[])>($r24)]|r0(net.sf.ginp.tags.TreeMenu)[parent(javax.servlet.jsp.tagext.Tag),
+          model(net.sf.ginp.GinpModel), locale(java.util.Locale), *(Any_subtype_of_java.lang.Object)]'
+        : - !!python/tuple [CR, 79, 0, 0]
+          - !!python/tuple [CR, 67, 1, 0]
+          - !!python/tuple [CR, 23, 0, 0]
+          - !!python/tuple [C, 22, 0]
