@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/uwplse/legato.svg?branch=master)](https://travis-ci.com/uwplse/legato)
+
 # Legato User Guide
 
 ## Requirements
